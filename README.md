@@ -11,6 +11,16 @@ A unified research workspace for three quantitative models and one financial tec
 | `quantlibra` | 量衡 QuantLibra | ETF dual momentum, allocation and static backtest checks | Offline signals, preserved Web prototype and JoinQuant research version; formerly QuantBalance |
 | `quantpyxis` | 量枢 QuantPyxis | Cross-sectional A-share momentum and regime risk budgets | Frozen-A target snapshot, original local engines and SuperMind historical backtest sources |
 
+## Contributors and AI acknowledgements
+
+| Name | Role |
+| --- | --- |
+| [@kayzhou07](https://github.com/kayzhou07) | Project owner and maintainer |
+| [OpenAI — Codex / ChatGPT](https://github.com/openai) | AI-assisted code organization, documentation and development support |
+| [DeepSeek](https://github.com/deepseek-ai) | AI tooling acknowledged for the project's research and report workflows |
+
+AI acknowledgements identify tools used; they do not imply that the official organizations contributed commits, maintain this project or endorse it. [Contribution details](CONTRIBUTORS.md).
+
 ## Quick start
 
 Python 3.11+; the unified core has **no third-party runtime dependencies**.
@@ -48,7 +58,7 @@ apps/                        # Web/mobile integration contracts
 config/                      # Model and portfolio policy documentation
 scripts/                     # Reproducibility and release checks
 tests/                      # Offline regression and boundary tests
- docs/                       # Architecture, migration, business plans, operations
+docs/                       # Architecture, migration, business plans, operations
 ```
 
 ## Shared Web / mobile API
