@@ -1,0 +1,14 @@
+[Unit]
+Description=QuantLibra ETF Rotation Web
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/quant_web
+Environment=TUSHARE_TOKEN=在这里填入你的Tushare令牌
+ExecStart=/usr/bin/python3 -u server.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

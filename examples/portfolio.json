@@ -1,0 +1,93 @@
+{
+  "signals": [
+    {
+      "model": "quantorion",
+      "version": "1.0.0",
+      "signal_date": "2026-10-15",
+      "execute_after": "2026-10-16",
+      "status": "ok",
+      "targets": {
+        "600001.SH": 1.0
+      },
+      "risk_state": "baseline",
+      "reason": "离线研究目标；未提交交易；执行日期须由市场日历核对",
+      "diagnostics": {},
+      "cash_weight": 0.0,
+      "schema_version": "1.0"
+    },
+    {
+      "model": "quantlibra",
+      "version": "1.0.0",
+      "signal_date": "2026-10-15",
+      "execute_after": "2026-10-16",
+      "status": "ok",
+      "targets": {
+        "513100.SH": 1.0
+      },
+      "risk_state": "rotation",
+      "reason": "离线研究目标；未提交交易；执行日期须由市场日历核对",
+      "diagnostics": {
+        "slope_m": {
+          "510880": 0.0012781221033408782,
+          "159915": 0.002402495923948537,
+          "513100": 0.003514716818063448,
+          "518880": 0.0007079799217558024
+        },
+        "eff_m": {
+          "510880": 0.024981480161317966,
+          "159915": 0.060052468328439045,
+          "513100": 0.08866166261662436,
+          "518880": 0.010321203795009316
+        },
+        "composite": {
+          "510880": 3.0,
+          "159915": 2.0,
+          "513100": 1.0,
+          "518880": 4.0
+        },
+        "best": "513100",
+        "current": null,
+        "target": "513100",
+        "days_held": 0
+      },
+      "cash_weight": 0.0,
+      "schema_version": "1.0"
+    },
+    {
+      "model": "quantpyxis",
+      "version": "1.0.0",
+      "signal_date": "2026-10-15",
+      "execute_after": "2026-10-16",
+      "status": "ok",
+      "targets": {
+        "600001.SH": 0.15,
+        "300001.SZ": 0.15
+      },
+      "risk_state": "N",
+      "reason": "离线研究目标；未提交交易；执行日期须由市场日历核对",
+      "diagnostics": {
+        "state": "N",
+        "scores": {
+          "600001.SH": 0.9,
+          "300001.SZ": 0.6000000000000001
+        },
+        "regime_source": "frozen",
+        "scope": "target_snapshot",
+        "selected": [
+          "600001.SH",
+          "300001.SZ"
+        ]
+      },
+      "cash_weight": 0.7,
+      "schema_version": "1.0"
+    }
+  ],
+  "budgets": {
+    "quantorion": 0.3,
+    "quantlibra": 0.3,
+    "quantpyxis": 0.3
+  },
+  "limits": {
+    "max_asset": 0.35
+  }
+}

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>QuantOrion - A股智能量化交易系统</title>
+<style>
+:root{
+  --bg-primary:#0F2447;--bg-secondary:#0a1a35;--bg-card:#112850;--bg-input:#0d1f3d;
+  --text-primary:#E8EDF5;--text-secondary:#8899b4;--text-muted:#55607a;
+  --accent:#22B573;--accent-glow:rgba(34,181,115,0.25);--accent2:#00D1FF;--accent2-glow:rgba(0,209,255,0.2);
+  --warn:#E54949;--warn-glow:rgba(229,73,73,0.2);
+  --border:#1a1a2e;--border-light:#252540;--border-glow:rgba(34,181,115,0.12);
+  --shadow:0 4px 24px rgba(0,0,0,0.6);
+  --radius:12px;--radius-sm:8px;--font-mono:'SF Mono','JetBrains Mono','Consolas',monospace;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+[data-theme="light"]{
+  --bg-primary:#FFFFFF;--bg-secondary:#F7F8FA;--bg-card:#FFFFFF;--bg-input:#F5F6F8;
+  --text-primary:#2D343E;--text-secondary:#5A6676;--text-muted:#8E99A8;
+  --accent:#36C888;--accent-glow:rgba(54,200,136,0.12);--accent2:#4A90D9;--accent2-glow:rgba(74,144,217,0.08);
+  --warn:#E5534B;--warn-glow:rgba(229,83,75,0.08);
+  --border:#E4E8EC;--border-light:#EFF1F4;--border-glow:rgba(54,200,136,0.06);
+  --shadow:0 2px 16px rgba(0,0,0,0.05);--radius:14px;--radius-sm:10px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-sans);background:var(--bg-primary);color:var(--text-primary);line-height:1.7;overflow-x:hidden;transition:background .3s,color .3s}
+body::before{content:'';position:fixed;inset:0;opacity:.025;background:radial-gradient(ellipse at 50% 0%,var(--accent-glow) 0%,transparent 60%);pointer-events:none;z-index:0}
+[data-theme="dark"] body::before{opacity:.04;background-image:repeating-linear-gradient(0deg,transparent,transparent 1px,rgba(0,209,255,.012) 1px,rgba(0,209,255,.012) 2px),repeating-linear-gradient(90deg,transparent,transparent 1px,rgba(34,181,115,.008) 1px,rgba(34,181,115,.008) 2px),linear-gradient(135deg,transparent 49.5%,rgba(34,181,115,.012) 49.5%,rgba(34,181,115,.012) 50.5%,transparent 50.5%);background-size:40px 40px,40px 40px,80px 80px}
+::selection{background:var(--accent);color:#fff}
+[data-theme="dark"] ::selection{color:#0D0D11}
+
+/* Light mode overrides */
+[data-theme="light"] .nav{background:rgba(255,255,255,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+[data-theme="light"] .nav-logo span{text-shadow:none}
+[data-theme="light"] .card{border:1px solid var(--border);box-shadow:0 2px 16px rgba(0,0,0,.04);transition:all .3s ease}
+[data-theme="light"] .card:hover{box-shadow:0 8px 32px rgba(0,0,0,.08);border-color:var(--accent);transform:translateY(-3px)}
+[data-theme="light"] .card::before{display:none}
+[data-theme="light"] .dash-card{border:1px solid var(--border);box-shadow:0 2px 12px rgba(0,0,0,.03)}
+[data-theme="light"] .dash-card::after{background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.3;height:3px}
+[data-theme="light"] .dash-val{text-shadow:none}
+[data-theme="light"] .btn-primary{background:var(--accent);color:#fff;box-shadow:0 2px 8px rgba(54,200,136,.2)}.btn-primary:hover{box-shadow:0 4px 20px rgba(54,200,136,.3)}
+[data-theme="light"] .btn-outline{border-color:var(--border);color:var(--text-secondary)}.btn-outline:hover{border-color:var(--accent);color:var(--accent);box-shadow:0 2px 8px rgba(54,200,136,.1)}
+[data-theme="light"] .hero-bg{opacity:.06;background:radial-gradient(ellipse at 40% 20%,rgba(74,144,217,.06) 0%,transparent 50%),radial-gradient(ellipse at 60% 60%,rgba(54,200,136,.06) 0%,transparent 50%)}
+[data-theme="light"] .hero-lines{opacity:.04}
+[data-theme="light"] .chart-area{box-shadow:inset 0 0 40px rgba(0,0,0,.02)}
+[data-theme="light"] .form-card{border-color:var(--border);box-shadow:0 2px 20px rgba(0,0,0,.04)}
+[data-theme="light"] .stock-row{box-shadow:none;border-left-color:var(--accent)}
+[data-theme="light"] .section{padding:96px 0}
+[data-theme="light"] .nav .nav-links a:hover{color:var(--accent)}
+[data-theme="light"] body::after{display:none}
+[data-theme="light"] .card,.dash-card{animation:none}
+[data-theme="light"] .card:hover,.dash-card:hover{animation:none;box-shadow:0 8px 32px rgba(0,0,0,.08)}
+[data-theme="light"] .hero-metric .val{color:var(--accent);text-shadow:none}
+[data-theme="light"] .tag-bull{background:rgba(54,200,136,.1);color:#2a9d6e;text-shadow:none}
+[data-theme="light"] .tag-bear{background:rgba(229,83,75,.08);color:#c0392b;text-shadow:none}
+[data-theme="light"] .tag-neutral{background:rgba(74,144,217,.08);color:#3b7dd8}
+[data-theme="light"] .fill-green{background:var(--accent)}.fill-blue{background:var(--accent2)}.fill-yellow{background:#f0b840}
+[data-theme="light"] .val-green{color:#2a9d6e}.val-red{color:#c0392b}.val-blue{color:#3b7dd8}
+[data-theme="light"] .nav-logo span{color:var(--accent)}
+[data-theme="light"] .news-item{border-bottom-color:var(--border)}
+
+/* Animations */
+@keyframes floatUp{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+@keyframes countUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes bgFlow{0%{background-position:0 0}100%{background-position:0 100px}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.card{animation:floatUp 6s ease-in-out infinite}.card:nth-child(2){animation-delay:.5s}.card:nth-child(3){animation-delay:1s}.card:nth-child(4){animation-delay:1.5s}
+.dash-card{animation:floatUp 5s ease-in-out infinite}.dash-card:nth-child(2){animation-delay:.3s}.dash-card:nth-child(3){animation-delay:.6s}.dash-card:nth-child(4){animation-delay:.9s}
+.hero-metric{animation:countUp .8s ease-out}
+.hero-metric:nth-child(2){animation-delay:.2s}.hero-metric:nth-child(3){animation-delay:.4s}
+.count-up{display:inline-block;animation:countUp .6s ease-out}
+body::after{content:'';position:fixed;inset:0;background:linear-gradient(180deg,transparent 0%,rgba(34,181,115,.008) 50%,transparent 100%);background-size:100% 200px;animation:bgFlow 8s linear infinite;pointer-events:none;z-index:0}
+.card:hover,.dash-card:hover{animation-play-state:paused;transform:translateY(-6px);box-shadow:0 0 40px var(--accent-glow),0 8px 32px rgba(0,0,0,.5)}
+.card,.dash-card{transition:all .35s cubic-bezier(.25,.8,.25,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-sans);background:var(--bg-primary);color:var(--text-primary);line-height:1.6;overflow-x:hidden;transition:background .3s,color .3s}
+::selection{background:var(--accent);color:#fff}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg-secondary)}::-webkit-scrollbar-thumb{background:var(--border-light);border-radius:3px}
+
+/* Nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(10,26,53,.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-glow);padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;transition:background .3s}
+.nav-logo{display:flex;align-items:center;gap:10px;font-size:1.2em;font-weight:700;color:var(--text-primary);text-decoration:none}
+.nav-logo span{color:var(--accent);text-shadow:0 0 12px var(--accent-glow)}.nav-logo .brand{font-family:var(--font-mono);letter-spacing:-.5px}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a{color:var(--text-secondary);text-decoration:none;font-size:.9em;transition:color .2s;font-weight:500}
+.nav-links a:hover{color:var(--accent)}
+.nav-actions{display:flex;gap:12px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:var(--radius-sm);font-size:.88em;font-weight:600;cursor:pointer;border:none;transition:all .2s;text-decoration:none}
+.btn-primary{background:var(--accent);color:#0D0D11;text-shadow:0 0 8px rgba(0,0,0,.3)}.btn-primary:hover{box-shadow:0 0 30px var(--accent-glow),0 0 60px var(--accent-glow);transform:translateY(-2px)}
+.btn-outline{background:transparent;border:1px solid var(--accent);color:var(--accent)}.btn-outline:hover{box-shadow:0 0 20px var(--accent-glow);color:var(--accent2)}
+.btn-sm{padding:6px 14px;font-size:.82em}
+.theme-toggle{width:36px;height:36px;border-radius:50%;border:1px solid var(--border-light);background:var(--bg-input);color:var(--text-secondary);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.1em;transition:all .2s}
+.theme-toggle:hover{border-color:var(--accent);color:var(--accent)}
+
+/* Hero */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:100px 24px 80px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;opacity:.15;background:radial-gradient(ellipse at 30% 20%,var(--accent2-glow) 0%,transparent 50%),radial-gradient(ellipse at 70% 60%,var(--accent-glow) 0%,transparent 50%),radial-gradient(ellipse at 50% 80%,rgba(0,209,255,.06) 0%,transparent 40%)}
+.hero-lines{position:absolute;inset:0;opacity:.1}
+.hero-lines canvas{width:100%;height:100%}
+.hero-content{position:relative;z-index:1;max-width:900px}
+.hero h1{font-size:clamp(2em,5vw,3.6em);font-weight:800;letter-spacing:-1px;margin-bottom:16px}
+.hero h1 .accent{color:var(--accent)}
+.hero .subtitle{font-size:1.15em;color:var(--text-secondary);margin-bottom:32px;font-weight:400;max-width:600px;margin-left:auto;margin-right:auto}
+.hero .metrics{display:flex;gap:32px;justify-content:center;margin-top:40px;flex-wrap:wrap}
+.hero-metric{text-align:center;min-width:120px}
+.hero-metric .val{font-size:2em;font-weight:800;font-family:var(--font-mono);color:var(--accent);text-shadow:0 0 30px var(--accent-glow)}
+.hero-metric .lbl{font-size:.82em;color:var(--text-muted);margin-top:4px}
+
+/* Container */
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.section{padding:80px 0;position:relative}
+.section::after{content:'';position:absolute;bottom:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);opacity:.4;pointer-events:none}
+.section:nth-child(even)::after{display:none}
+.section-title{text-align:center;margin-bottom:48px}
+.section-title h2{font-size:2em;font-weight:700;margin-bottom:8px}
+.section-title p{color:var(--text-secondary);font-size:1.05em}
+
+/* Cards */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:28px;transition:all .3s;box-shadow:var(--shadow);position:relative}
+.card::before{content:'';position:absolute;inset:-1px;border-radius:var(--radius);background:linear-gradient(135deg,var(--accent),var(--accent2),var(--accent));opacity:0;transition:opacity .4s;z-index:-1}
+.card:hover{border-color:transparent;transform:translateY(-3px);box-shadow:0 0 30px var(--accent-glow)}
+.card:hover::before{opacity:.15}
+.card h3{font-size:1.2em;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.card h3 .icon{font-size:1.4em}
+.card p{color:var(--text-secondary);font-size:.92em;line-height:1.7}
+
+/* Dashboard */
+.dashboard{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.dash-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;position:relative;overflow:hidden}
+.dash-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--accent),var(--accent2),transparent);opacity:.5}
+.dash-card .dash-title{color:var(--text-secondary);font-size:.82em;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.dash-card .dash-val{font-size:2.2em;font-weight:800;font-family:var(--font-mono);text-shadow:0 0 20px var(--accent-glow)}
+.dash-card .dash-sub{font-size:.85em;color:var(--text-muted);margin-top:4px}
+.val-green{color:var(--accent)}.val-red{color:var(--warn)}.val-blue{color:#5b9cf5}
+
+/* Factor & Signal */
+.factor-bar{display:flex;align-items:center;gap:12px;margin:10px 0}
+.factor-bar .label{min-width:100px;font-size:.85em;color:var(--text-secondary)}
+.factor-bar .bar{flex:1;height:6px;background:var(--bg-input);border-radius:3px;overflow:hidden}
+.factor-bar .bar .fill{height:100%;border-radius:3px;transition:width .8s ease}
+.fill-green{background:var(--accent)}.fill-blue{background:#5b9cf5}.fill-yellow{background:#f0c040}
+
+/* Form */
+.form-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:32px;max-width:600px;margin:0 auto}
+.form-row{display:flex;gap:16px;flex-wrap:wrap;align-items:end}
+.form-group{flex:1;min-width:180px}
+.form-group label{display:block;font-size:.85em;color:var(--text-secondary);margin-bottom:6px}
+.form-group input{width:100%;padding:12px 16px;background:var(--bg-input);border:1px solid var(--border-light);border-radius:var(--radius-sm);color:var(--text-primary);font-size:1em;font-family:var(--font-mono);transition:border .2s}
+.form-group input:focus{outline:none;border-color:var(--accent)}
+.result-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-top:24px;display:none}
+.result-card.show{display:block}
+.stock-row{display:flex;align-items:center;gap:16px;padding:14px;background:var(--bg-secondary);border-radius:var(--radius-sm);margin:8px 0;border-left:3px solid var(--accent);box-shadow:0 0 12px var(--accent-glow)}
+.stock-row .code{font-family:var(--font-mono);font-weight:700;color:var(--accent);min-width:70px}
+.stock-row .name{flex:1;font-weight:600}
+.stock-row .vol{font-family:var(--font-mono);color:var(--accent);font-weight:700}.stock-row .vol span{color:var(--text-muted);font-size:.8em}
+.tag{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.78em;font-weight:600;margin:2px}
+.tag-bull{background:rgba(34,181,115,.12);color:var(--accent);text-shadow:0 0 8px var(--accent-glow)}.tag-bear{background:rgba(229,73,73,.12);color:var(--warn);text-shadow:0 0 8px var(--warn-glow)}.tag-neutral{background:rgba(0,209,255,.1);color:var(--accent2)}
+.news-item{padding:8px 0;border-bottom:1px solid var(--border);font-size:.88em;color:var(--text-secondary)}
+.news-item .ntime{color:var(--text-muted);margin-right:10px;font-family:var(--font-mono);font-size:.82em}
+.loading{display:flex;align-items:center;gap:10px;color:var(--text-muted);padding:20px}
+.spinner{width:18px;height:18px;border:2px solid var(--border);border-top:2px solid var(--accent);border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Footer */
+.footer{background:var(--bg-secondary);border-top:1px solid var(--border);padding:48px 24px 24px;text-align:center}
+.footer p{color:var(--text-muted);font-size:.85em;margin:4px 0}
+.footer .disclaimer{max-width:700px;margin:12px auto;line-height:1.7;font-size:.8em}
+
+/* Chart placeholder */
+.chart-area{background:var(--bg-card);border:1px solid var(--border-glow);border-radius:var(--radius);padding:20px;height:300px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);position:relative;overflow:hidden;box-shadow:inset 0 0 60px rgba(0,209,255,.03)}
+.chart-area canvas{display:block}
+
+/* Responsive */
+@media(max-width:768px){
+  .nav{padding:0 16px}.nav-links{display:none}
+  .hero h1{font-size:1.8em}.hero .metrics{gap:16px}
+  .card-grid{grid-template-columns:1fr}.dashboard{grid-template-columns:1fr}
+  .section{padding:48px 0}.form-row{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <a href="#" class="nav-logo">
+    <span>&#9651;</span><span class="brand">QuantOrion</span>
+  </a>
+  <div class="nav-links">
+    <a href="#models">量化模型</a><a href="/backtest">回测详情</a><a href="/factors">因子库</a><a href="#trade">实盘模拟</a><a href="#features">功能优势</a>
+  </div>
+  <div class="nav-actions">
+    <button class="theme-toggle" onclick="toggleTheme()" title="切换主题">&#9789;</button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"><canvas id="heroCanvas"></canvas></div>
+  <div class="hero-content">
+    <h1>QuantOrion <span class="accent">A股智能量化交易系统</span></h1>
+    <p class="subtitle">基于缩量连板因子模型的短线量化策略，专业级数据回测验证，合规券商级风险管控</p>
+    <div class="metrics">
+      <div class="hero-metric"><div class="val" id="mWinRate">95.2%</div><div class="lbl">2026年周胜率</div></div>
+      <div class="hero-metric"><div class="val" id="mReturn">+3,733%</div><div class="lbl">累计收益</div></div>
+      <div class="hero-metric"><div class="val" id="mSharpe">19.55%</div><div class="lbl">平均周收益</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Market Overview -->
+<section class="section" id="market" style="background:var(--bg-secondary);padding:48px 0">
+  <div class="container">
+    <div class="section-title"><h2>市场全景</h2><p>实时指数 · 涨跌分布 · 市场环境</p></div>
+    <div class="dashboard" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+      <div class="dash-card"><div class="dash-title">上证指数</div><div class="dash-val" id="idxSH" style="font-size:1.6em">--</div><div class="dash-sub" id="idxSHchg">--</div></div>
+      <div class="dash-card"><div class="dash-title">深证成指</div><div class="dash-val" id="idxSZ" style="font-size:1.6em">--</div><div class="dash-sub" id="idxSZchg">--</div></div>
+      <div class="dash-card"><div class="dash-title">创业板指</div><div class="dash-val" id="idxCY" style="font-size:1.6em">--</div><div class="dash-sub" id="idxCYchg">--</div></div>
+      <div class="dash-card"><div class="dash-title">科创50</div><div class="dash-val" id="idxKC" style="font-size:1.6em">--</div><div class="dash-sub" id="idxKCchg">--</div></div>
+      <div class="dash-card"><div class="dash-title">市场环境</div><div class="dash-val" id="regimeTag" style="font-size:1.3em">--</div><div class="dash-sub">MA10/MA20判断</div></div>
+    </div>
+    <div class="dashboard" style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr));margin-top:16px">
+      <div class="dash-card"><div class="dash-title">上涨家数</div><div class="dash-val val-green" id="mktUp" style="font-size:1.4em">--</div></div>
+      <div class="dash-card"><div class="dash-title">下跌家数</div><div class="dash-val val-red" id="mktDown" style="font-size:1.4em">--</div></div>
+      <div class="dash-card"><div class="dash-title">平盘</div><div class="dash-val" id="mktFlat" style="font-size:1.4em;color:var(--text-muted)">--</div></div>
+      <div class="dash-card"><div class="dash-title">涨停家数</div><div class="dash-val val-green" id="mktLimit" style="font-size:1.4em">--</div></div>
+      <div class="dash-card"><div class="dash-title">全市场</div><div class="dash-val" id="mktTotal" style="font-size:1.4em;color:#5b9cf5">--</div></div>
+    </div>
+    <div style="text-align:center;margin-top:12px;font-size:.78em;color:var(--text-muted)">数据来源: Tushare | 前一交易日收盘 | <span id="mktDate">--</span></div>
+    <div id="aiSummaryBox" class="card" style="margin-top:20px;display:none;border-left:3px solid var(--accent)">
+      <h3 style="font-size:1em;margin-bottom:8px">&#129504; AI市场收盘简报</h3>
+      <p id="aiSummaryText" style="color:var(--text-secondary);line-height:1.8;font-size:.95em"></p>
+    </div>
+    <div id="newsBox" style="margin-top:20px;display:none">
+      <h3 style="font-size:1em;margin-bottom:12px;color:var(--text-secondary)">&#128240; 今日财经要闻 (<span id="newsCount">0</span>条)</h3>
+      <div id="newsList" style="max-height:400px;overflow-y:auto"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Quant Models -->
+<section class="section" id="models">
+  <div class="container">
+    <div class="section-title"><h2>量化策略模型</h2><p>多维度因子筛选，AI情绪辅助分析</p></div>
+    <div class="card-grid">
+      <div class="card"><h3><span class="icon">&#9889;</span>缩量连板模型</h3><p>核心策略。筛选连续两日涨停且成交量递减的A股，捕捉主力锁仓后的加速上涨信号。仅保留主板/创业板/科创板标的，排除北交所。</p></div>
+      <div class="card"><h3><span class="icon">&#128200;</span>动量因子引擎</h3><p>多因子综合评分：3日动量、换手率区间、北向资金流向、成交量趋势。实时计算全市场超5000只A股得分排名。</p></div>
+      <div class="card"><h3><span class="icon">&#129504;</span>AI情绪分析</h3><p>DeepSeek大模型实时分析当日涨停股的市场情绪、板块热度和资金博弈态势，输出结构化情绪标签，辅助投研判断。</p></div>
+      <div class="card"><h3><span class="icon">&#128274;</span>市场环境判断</h3><p>基于上证指数MA10/MA20均线系统，自动识别牛/熊/震荡市态，动态调整仓位策略。连续确认机制避免假信号切换。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Backtest Dashboard -->
+<section class="section" id="backtest" style="background:var(--bg-secondary)">
+  <div class="container">
+    <div class="section-title"><h2>回测数据看板</h2><p>2026年1月-6月，按周独立重置，初始资金50万元</p></div>
+    <div class="dashboard">
+      <div class="dash-card"><div class="dash-title">累计收益</div><div class="dash-val val-green">+3,733%</div><div class="dash-sub">复利累计 | 21周</div></div>
+      <div class="dash-card"><div class="dash-title">周胜率</div><div class="dash-val val-blue">95.2%</div><div class="dash-sub">20/21 周盈利</div></div>
+      <div class="dash-card"><div class="dash-title">平均周收益</div><div class="dash-val val-green">+19.55%</div><div class="dash-sub">最佳周 +40.62%</div></div>
+      <div class="dash-card"><div class="dash-title">最大回撤</div><div class="dash-val val-red">-5.42%</div><div class="dash-sub">仅1周亏损</div></div>
+    </div>
+    <div class="chart-area" style="margin-top:24px"><canvas id="weeklyChart"></canvas></div>
+  </div>
+</section>
+
+<!-- Factor Library -->
+<section class="section" id="factors">
+  <div class="container">
+    <div class="section-title"><h2>因子库</h2><p>核心筛选因子实时状态</p></div>
+    <div style="max-width:700px;margin:0 auto">
+      <div class="factor-bar"><span class="label">涨停连续性</span><div class="bar"><div class="fill fill-green" style="width:100%"></div></div><span style="font-family:var(--font-mono);font-size:.85em">2日连板</span></div>
+      <div class="factor-bar"><span class="label">成交量缩量</span><div class="bar"><div class="fill fill-blue" style="width:75%"></div></div><span style="font-family:var(--font-mono);font-size:.85em">&lt;前日量</span></div>
+      <div class="factor-bar"><span class="label">3日动量</span><div class="bar"><div class="fill fill-yellow" style="width:60%"></div></div><span style="font-family:var(--font-mono);font-size:.85em">3-6%区间</span></div>
+      <div class="factor-bar"><span class="label">换手率</span><div class="bar"><div class="fill fill-green" style="width:55%"></div></div><span style="font-family:var(--font-mono);font-size:.85em">3%-10%</span></div>
+      <div class="factor-bar"><span class="label">北向资金</span><div class="bar"><div class="fill fill-blue" style="width:45%"></div></div><span style="font-family:var(--font-mono);font-size:.85em">净流入</span></div>
+      <div class="factor-bar"><span class="label">A股过滤</span><div class="bar"><div class="fill fill-green" style="width:100%"></div></div><span style="font-family:var(--font-mono);font-size:.85em">00/60/30/68</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Live Trading -->
+<section class="section" id="trade" style="background:var(--bg-secondary)">
+  <div class="container">
+    <div class="section-title"><h2>实盘模拟</h2><p>前日收盘买入 · 当日收盘卖出 · 日频交易</p></div>
+    <div class="form-card">
+      <div class="form-row">
+        <div class="form-group"><label>资金 (元)</label><input type="number" id="cash" value="500000" step="10000"></div>
+        <div class="form-group"><label>目标日期</label><input type="date" id="date" value="2026-06-05"></div>
+        <div class="form-group" style="flex:0"><label>&nbsp;</label><button class="btn btn-primary" id="runBtn" onclick="runStrategy()" style="width:100%">&#9654; 运行策略</button></div>
+      </div>
+      <div id="result" class="result-card"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px">
+      <div class="card" style="border:1px solid var(--accent);border-left:3px solid var(--accent);box-shadow:0 0 20px var(--accent-glow)">
+        <h3 style="color:var(--accent);margin-bottom:8px">&#127919; 模拟盘开户入口</h3>
+        <p style="color:var(--text-secondary);font-size:.88em;margin-bottom:12px">一键开通模拟交易账户，体验缩量连板策略实盘效果。50万虚拟资金，真实行情撮合。</p>
+        <div style="display:flex;gap:10px">
+          <button class="btn btn-primary btn-sm" onclick="alert('模拟账户已开通！初始资金50万元，策略已就绪。')">&#9889; 立即开户</button>
+          <button class="btn btn-outline btn-sm">&#128196; 查看协议</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:8px">&#128202; 近期选股记录</h3>
+        <div style="max-height:200px;overflow-y:auto;font-size:.82em">
+          <table style="width:100%;border-collapse:collapse;color:var(--text-secondary)">
+            <tr style="border-bottom:1px solid var(--border)"><th style="text-align:left;padding:6px">日期</th><th style="text-align:left">股票</th><th style="text-align:right">收益</th></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,.03)"><td style="padding:5px 0">06-04</td><td>天洋新材/红星发展/实益达/亨通光电</td><td style="text-align:right;color:var(--accent)">+6.8%</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,.03)"><td style="padding:5px 0">06-03</td><td>大有能源/春秋电子/中京电子/福达合金</td><td style="text-align:right;color:var(--accent)">+2.2%</td></tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,.03)"><td style="padding:5px 0">05-29</td><td>凯龙高科/思瑞浦/多浦乐</td><td style="text-align:right;color:var(--accent)">+4.9%</td></tr>
+            <tr><td style="padding:5px 0">05-28</td><td>联检科技/延江股份/苏州天脉</td><td style="text-align:right;color:var(--warn)">-1.8%</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="section-title"><h2>功能优势</h2><p>专业量化投研工具链</p></div>
+    <div class="card-grid">
+      <div class="card"><h3>&#128640; 极速响应</h3><p>单次全市场扫描仅需3-5秒，Tushare数据直连，内存缓存优化，支持7x24小时无人值守运行。</p></div>
+      <div class="card"><h3>&#128187; 全平台兼容</h3><p>Python 3.9+开发，支持Windows/macOS/Linux。提供CLI命令行、HTTP API和Web界面三种交互方式。</p></div>
+      <div class="card"><h3>&#128221; 合规设计</h3><p>无虚假盈利宣传，回测数据可复现验证。严格杜绝前视偏差，输出标准JSON格式对接券商系统。</p></div>
+      <div class="card"><h3>&#128225; 实时快讯</h3><p>接入财联社财经电报，DeepSeek AI情绪分析，市场环境自动判断，多维信息辅助决策。</p></div>
+      <div class="card"><h3>&#128273; 数据安全</h3><p>全部代码本地运行，API Key加密存储，无数据外传。开源架构，代码透明可审计。</p></div>
+      <div class="card"><h3>&#9881; 高度可扩展</h3><p>数据层/策略层/回测层模块化解耦。支持自定义因子、自定义ETF池、自定义风控规则。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section class="section" style="background:var(--bg-secondary)">
+  <div class="container">
+    <div class="section-title"><h2>量化知识科普</h2><p>从零开始学习量化投资</p></div>
+    <div class="card-grid">
+      <div class="card">
+        <h3>&#128214; 什么是缩量连板</h3>
+        <p style="color:var(--text-secondary);font-size:.88em;line-height:1.7">连续涨停伴随成交量递减，反映主力资金锁仓惜售。这是A股特有的短线强势信号，适用于日频轮动策略。了解涨停板制度（主板10%/双创20%）是入门第一步。</p>
+        <a href="#" style="color:var(--accent);font-size:.82em;text-decoration:none">阅读全文 &#8594;</a>
+      </div>
+      <div class="card">
+        <h3>&#128200; 因子模型入门</h3>
+        <p style="color:var(--text-secondary);font-size:.88em;line-height:1.7">因子投资将选股逻辑量化为可计算的指标。动量因子捕捉趋势、成交量因子反映资金博弈、基本面因子评估估值水平。多因子组合比单因子更稳健。</p>
+        <a href="#" style="color:var(--accent);font-size:.82em;text-decoration:none">阅读全文 &#8594;</a>
+      </div>
+      <div class="card">
+        <h3>&#128187; 系统架构解析</h3>
+        <p style="color:var(--text-secondary);font-size:.88em;line-height:1.7">QuantOrion采用Python+FastAPI技术栈，数据层接入Tushare Pro，AI层集成DeepSeek大模型。模块化架构支持策略热插拔，回测引擎独立可复现。</p>
+        <a href="#" style="color:var(--accent);font-size:.82em;text-decoration:none">阅读全文 &#8594;</a>
+      </div>
+      <div class="card">
+        <h3>&#128202; 回测方法论</h3>
+        <p style="color:var(--text-secondary);font-size:.88em;line-height:1.7">正确回测需避免前视偏差、幸存者偏差和过度拟合。本系统按周独立重置、使用当日及以前数据、无手续费假设，确保回测结果可复现且贴近实盘。</p>
+        <a href="#" style="color:var(--accent);font-size:.82em;text-decoration:none">阅读全文 &#8594;</a>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:32px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+      <button class="btn btn-outline" onclick="alert('策略白皮书下载链接：docs/QuantOrion_Strategy_Whitepaper.pdf')">&#128196; 下载策略白皮书</button>
+      <button class="btn btn-outline" onclick="alert('API文档：docs/QuantOrion_API_Reference.pdf')">&#128295; 下载API文档</button>
+      <button class="btn btn-outline" onclick="alert('回测报告：docs/QuantOrion_Backtest_Report_2026H1.pdf')">&#128202; 下载回测报告</button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div style="font-family:var(--font-mono);font-size:1.1em;font-weight:700;margin-bottom:8px"><span style="color:var(--accent)">&#9651;</span> QuantOrion</div>
+  <p>A股智能量化交易系统 v2.0 | Python + FastAPI + Tushare + DeepSeek</p>
+  <p class="disclaimer"><strong>风险提示：</strong>本系统仅供量化研究和技术学习使用，不构成任何投资建议。回测收益不代表未来表现。股市有风险，投资需谨慎。所有数据来源于Tushare金融开放平台，策略输出仅供参考，使用者需自行承担交易风险。</p>
+  <p style="margin-top:16px;font-size:.78em">&copy; 2026 QuantOrion Quant Research. All rights reserved.</p>
+</footer>
+
+<script>
+// Theme persistence
+(function(){
+  const saved=localStorage.getItem('quantorion-theme')||'dark';
+  document.documentElement.setAttribute('data-theme',saved);
+})();
+function toggleTheme(){
+  const html=document.documentElement;
+  const cur=html.getAttribute('data-theme');
+  const next=cur==='dark'?'light':'dark';
+  html.setAttribute('data-theme',next);
+  localStorage.setItem('quantorion-theme',next);
+  document.querySelector('.theme-toggle').innerHTML=cur==='dark'?'&#9788;':'&#9789;';
+  if(window._chart) drawChart(window._chart);
+  const hc=document.getElementById('heroCanvas');if(hc){const ctx=hc.getContext('2d');ctx.clearRect(0,0,hc.width,hc.height)}
+}
+
+// Hero K-line background
+(function(){
+  const c=document.getElementById('heroCanvas');
+  const ctx=c.getContext('2d');
+  function resize(){c.width=c.parentElement.offsetWidth;c.height=c.parentElement.offsetHeight}
+  resize();window.addEventListener('resize',resize);
+  const lines=[];for(let i=0;i<60;i++)lines.push({x:Math.random()*c.width,y:Math.random()*c.height,l:40+Math.random()*120,s:.2+Math.random()*.6,o:.15+Math.random()*.3});
+  const prices=[];let px=0;for(let i=0;i<200;i++){px+= (Math.random()-.48)*8;prices.push({x:i*(c.width/200),y:c.height*.5+px});}
+  function draw(){
+    ctx.clearRect(0,0,c.width,c.height);
+    // K-line
+    const isDark=document.documentElement.getAttribute('data-theme')==='dark';
+    ctx.strokeStyle=isDark?'rgba(34,181,115,.15)':'rgba(54,200,136,.12)';ctx.lineWidth=1.5;ctx.shadowColor=isDark?'rgba(34,181,115,.3)':'rgba(54,200,136,.15)';ctx.shadowBlur=isDark?4:1;ctx.beginPath();
+    prices.forEach((p,i)=>{if(i===0)ctx.moveTo(p.x,p.y);else ctx.lineTo(p.x,p.y)});ctx.stroke();
+    // Flow lines
+    lines.forEach((l,i)=>{const dk=document.documentElement.getAttribute('data-theme')==='dark';const neon=i%2===0?`rgba(${dk?'0,209,255':'74,144,217'},${l.o})`:`rgba(${dk?'57,255,153':'54,200,136'},${l.o})`;ctx.strokeStyle=neon;ctx.lineWidth=.6;ctx.shadowColor=neon;ctx.shadowBlur=dk?3:0;ctx.beginPath();ctx.moveTo(l.x,l.y);ctx.lineTo(l.x+l.l*Math.cos(l.s*2),l.y+l.l*Math.sin(l.s*2));ctx.stroke();l.y-=l.s;if(l.y<-20){l.y=c.height+20;l.x=Math.random()*c.width}});
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+// Weekly chart
+function drawChart(canvas){
+  const ctx=canvas.getContext('2d');
+  const parent=canvas.parentElement;
+
+  // 精确读取父容器内容区尺寸（排除padding和border）
+  const pr=parent.getBoundingClientRect();
+  const cs=getComputedStyle(parent);
+  const cw=pr.width-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight);
+  const ch=pr.height-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom);
+  if(cw<=0||ch<=0) return;
+
+  // 内部分辨率 = CSS显示尺寸，杜绝错位
+  canvas.width=cw;
+  canvas.height=ch;
+  canvas.style.width=cw+'px';
+  canvas.style.height=ch+'px';
+
+  // 图表内边距
+  const m={top:16,right:12,bottom:28,left:12};
+  const w=cw-m.left-m.right;
+  const h=ch-m.top-m.bottom;
+  if(w<=0||h<=0) return;
+
+  const dk=document.documentElement.getAttribute('data-theme')==='dark';
+  // 2026年21周实际回测周收益(%)
+  const data=[34.18,20.19,34.39,22.27,26.88,25.04,27.58,14.84,17.32,26.06,40.62,1.03,29.77,22.50,22.68,-5.42,11.19,16.74,17.75,3.90,2.24];
+  const max=Math.max(...data),min=Math.min(...data),range=max-min||1;
+  const hasNeg=min<0, hasPos=max>0;
+  const barW=(w/data.length)*0.65;
+  const gap=(w/data.length)*0.35;
+
+  // 背景
+  ctx.fillStyle=dk?'#112850':'#ffffff';
+  ctx.fillRect(0,0,cw,ch);
+
+  // 网格线
+  ctx.strokeStyle=dk?'rgba(128,128,160,.1)':'rgba(0,0,0,.05)';
+  ctx.lineWidth=1;
+  for(let i=0;i<5;i++){
+    const y=m.top+h*i/4;
+    ctx.beginPath();ctx.moveTo(m.left,y);ctx.lineTo(m.left+w,y);ctx.stroke();
+  }
+
+  // 零刻度线（虚线）: zeroY = 顶部留白 + 零轴在数值空间中的位置
+  // 0 在 [min, max] 区间的位置比例 = (0-min)/(max-min) = -min/range
+  // 从顶部算 = max/range
+  const zeroY=m.top+h*(max/range);
+  if(hasNeg && hasPos){
+    ctx.strokeStyle=dk?'rgba(255,255,255,.35)':'rgba(0,0,0,.22)';
+    ctx.setLineDash([6,4]);
+    ctx.lineWidth=1.5;
+    ctx.beginPath();ctx.moveTo(m.left,zeroY);ctx.lineTo(m.left+w,zeroY);ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.lineWidth=1;
+  }
+
+  // 柱状图：正值从零轴向上画，负值从零轴向下画
+  const baseY=zeroY;
+  data.forEach((v,i)=>{
+    const x=m.left+i*(w/data.length)+gap/2;
+    const barH=Math.abs(v)/range*h;
+    const y=v>0?baseY-barH:baseY;
+    ctx.fillStyle=v>0?(dk?'rgba(34,181,115,.75)':'rgba(54,200,136,.65)'):(dk?'rgba(229,73,73,.55)':'rgba(229,83,75,.45)');
+    ctx.fillRect(Math.round(x),Math.round(y),Math.max(Math.round(barW),2),Math.max(Math.round(barH),2));
+  });
+
+  // 均值线（虚线）
+  const avg=data.reduce((a,b)=>a+b,0)/data.length;
+  const ay=m.top+h-((avg-min)/range)*h;
+  ctx.strokeStyle=dk?'rgba(255,255,255,.25)':'rgba(0,0,0,.15)';
+  ctx.setLineDash([4,4]);
+  ctx.lineWidth=1;
+  ctx.beginPath();ctx.moveTo(m.left,Math.round(ay));ctx.lineTo(m.left+w,Math.round(ay));ctx.stroke();
+  ctx.setLineDash([]);
+}
+window._chart={};
+
+// Strategy runner
+async function runStrategy(){
+  const btn=document.getElementById('runBtn');
+  const result=document.getElementById('result');
+  btn.disabled=true;btn.innerHTML='<span class="spinner"></span> 分析中...';
+  result.className='result-card show';
+  result.innerHTML='<div class="loading"><span class="spinner"></span>正在扫描全市场A股...</div>';
+
+  try{
+    const cash=document.getElementById('cash').value;
+    const dt=document.getElementById('date').value;
+    const d=new Date(dt);
+    const q=`你目前的资金为${cash}元，请给出${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日的投资建议。`;
+    const r=await fetch('/investment_advice',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({input:q})});
+    const data=await r.json();
+    renderResult(data);
+  }catch(e){
+    result.innerHTML=`<div style="color:var(--warn);padding:20px">请求失败: ${e.message}</div>`;
+  }
+  btn.disabled=false;btn.innerHTML='&#9654; 运行策略';
+}
+
+function renderResult(d){
+  const r=document.getElementById('result');
+  let h='';
+  if(!d.stocks||d.stocks.length===0){
+    h='<div style="text-align:center;padding:24px;color:var(--text-muted)"><div style="font-size:2em;margin-bottom:8px">&#128269;</div>今日无符合条件的缩量连板A股<br><small>可能原因：市场情绪谨慎，连板股稀少</small></div>';
+  }else{
+    h+=`<div style="font-weight:700;margin-bottom:12px;color:var(--accent)">&#9989; 筛选到 ${d.stocks.length} 只缩量连板股</div>`;
+    d.stocks.forEach(s=>{
+      h+=`<div class="stock-row"><span class="code">${s.symbol}</span><span class="name">${s.symbol_name}</span><span class="vol">${s.volume.toLocaleString()}<span> 股</span></span></div>`;
+    });
+  }
+  if(d.sentiment&&d.sentiment.overall_sentiment){
+    const t=d.sentiment.overall_sentiment;
+    let cls='tag-neutral';if(t.includes('乐观'))cls='tag-bull';if(t.includes('谨慎'))cls='tag-bear';
+    h+=`<div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)"><span class="tag ${cls}">${t}</span> <span style="color:var(--text-secondary);margin-left:8px">${d.sentiment.market_note||''}</span>`;
+    if(d.sentiment.stocks){d.sentiment.stocks.forEach(s=>{h+=`<div style="margin-top:6px;font-size:.88em;color:var(--text-secondary)"><b>${s.symbol}</b>: ${s.note}</div>`;});}
+    h+='</div>';
+  }
+  if(d.news&&d.news.length>0){
+    h+='<div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)"><div style="font-weight:700;margin-bottom:8px;font-size:.9em">&#128240; 今日财经快讯</div>';
+    d.news.forEach(n=>{const link=n.url?`<a href="${n.url}" target="_blank" style="color:var(--text-primary);text-decoration:none" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-primary)'">${n.title}</a>`:n.title;h+=`<div class="news-item"><span class="ntime">${n.time||''}</span>${link} <span style="color:var(--text-muted);margin-left:6px">${n.source||''}</span></div>`;});
+    h+='</div>';
+  }
+  r.innerHTML=h;
+}
+
+// Load market overview
+async function loadMarketOverview(){
+  try{
+    const r=await fetch('/market_overview');
+    const d=await r.json();
+    if(d.error)return;
+    document.getElementById('mktDate').textContent=d.date||'--';
+    const idx=d.indices||{};
+    function setIdx(id,val,chg){
+      const el=document.getElementById(id);if(!el)return;
+      el.textContent=val!=null?val.toLocaleString():'--';
+      el.className='dash-val'+(chg>0?' val-green':chg<0?' val-red':'');
+      const cel=document.getElementById(id+'chg');if(cel)cel.textContent=chg!=null?(chg>0?'+':'')+chg+'%':'--';
+    }
+    setIdx('idxSH',idx['上证指数']?.close,idx['上证指数']?.pct_chg);
+    setIdx('idxSZ',idx['深证成指']?.close,idx['深证成指']?.pct_chg);
+    setIdx('idxCY',idx['创业板指']?.close,idx['创业板指']?.pct_chg);
+    setIdx('idxKC',idx['科创50']?.close,idx['科创50']?.pct_chg);
+    const regime=d.regime||'';
+    const rt=document.getElementById('regimeTag');
+    if(rt){
+      const map={normal:'正常',weak:'弱势',oscillation:'震荡'};
+      rt.textContent=map[regime]||regime||'--';
+      rt.className='dash-val'+(regime==='normal'?' val-green':regime==='weak'?' val-red':'');
+    }
+    const ms=d.market_stat||{};
+    document.getElementById('mktUp').textContent=ms.up!=null?ms.up:'--';
+    document.getElementById('mktDown').textContent=ms.down!=null?ms.down:'--';
+    document.getElementById('mktFlat').textContent=ms.flat!=null?ms.flat:'--';
+    document.getElementById('mktLimit').textContent=ms.limit_up!=null?ms.limit_up:'--';
+    document.getElementById('mktTotal').textContent=ms.total!=null?ms.total:'--';
+    // AI摘要
+    if(d.ai_summary){
+      document.getElementById('aiSummaryBox').style.display='block';
+      document.getElementById('aiSummaryText').textContent=d.ai_summary;
+    }
+    // 新闻
+    if(d.news&&d.news.length>0){
+      document.getElementById('newsBox').style.display='block';
+      document.getElementById('newsCount').textContent=d.news.length;
+      let nh='';
+      d.news.forEach(n=>{const link=n.url?`<a href="${n.url}" target="_blank" style="color:var(--text-primary);text-decoration:none" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-primary)'">${n.title}</a>`:n.title;nh+=`<div class="news-item"><span class="ntime">${n.time||''}</span>${link}<span style="color:var(--text-muted);margin-left:6px">${n.source||''}</span></div>`;});
+      document.getElementById('newsList').innerHTML=nh;
+    }
+  }catch(e){console.error('Market overview failed:',e)}
+}
+
+// Init chart on load
+document.addEventListener('DOMContentLoaded',()=>{
+  const chartCanvas=document.getElementById('weeklyChart');
+  if(chartCanvas){chartCanvas.parentElement.style.position='relative';drawChart(chartCanvas)}
+  loadMarketOverview();
+});
+window.addEventListener('resize',()=>{const cc=document.getElementById('weeklyChart');if(cc)drawChart(cc)});
+</script>
+</body>
+</html>

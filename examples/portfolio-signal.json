@@ -1,0 +1,23 @@
+{
+  "model": "portfolio",
+  "version": "1.0.0",
+  "signal_date": "2026-10-15",
+  "execute_after": "2026-10-16",
+  "status": "ok",
+  "targets": {
+    "600001.SH": 0.345,
+    "513100.SH": 0.3,
+    "300001.SZ": 0.045
+  },
+  "risk_state": "allocated",
+  "reason": "预算加权目标；成本、流动性与成交回执仍需平台复核",
+  "diagnostics": {
+    "budgets": {
+      "quantorion": 0.3,
+      "quantlibra": 0.3,
+      "quantpyxis": 0.3
+    }
+  },
+  "cash_weight": 0.31000000000000005,
+  "schema_version": "1.0"
+}

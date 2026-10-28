@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantscope-research"
+version = "1.0.0"
+description = "QuantScope unified research signals and portfolio target tooling"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary - no open-source license granted"}
+authors = [{name = "QuantScope"}]
+dependencies = []
+
+[project.optional-dependencies]
+prototype-orion = ["fastapi>=0.110", "uvicorn>=0.29", "pandas>=2.2", "tushare>=1.4", "openai>=1.30", "python-dotenv>=1.0", "pydantic>=2.0", "httpx>=0.27"]
+legacy-research = ["numpy>=1.26", "pandas>=2.2"]
+
+[project.scripts]
+quantscope = "quantscope.interfaces.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"quantscope.models.quantpyxis" = ["frozen_regimes.json"]

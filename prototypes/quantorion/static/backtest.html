@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>策略回测详情 - QuantOrion</title>
+<style>
+:root{
+  --bg-primary:#0F2447;--bg-card:#112850;--text-primary:#E8EDF5;--text-secondary:#8899b4;
+  --accent:#22B573;--accent-glow:rgba(34,181,115,0.2);--accent2:#00D1FF;
+  --warn:#E54949;--border:#1a1a2e;--radius:12px;
+  --font-mono:'SF Mono','JetBrains Mono','Consolas',monospace;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+[data-theme="light"]{
+  --bg-primary:#FFFFFF;--bg-card:#FFFFFF;--text-primary:#2D343E;--text-secondary:#5A6676;
+  --accent:#36C888;--accent-glow:rgba(54,200,136,0.12);--accent2:#4A90D9;
+  --warn:#E5534B;--border:#E4E8EC;
+}
+[data-theme="light"] .nav{background:rgba(255,255,255,.85)}.nav-logo span{text-shadow:none}
+[data-theme="light"] .m-card{border-color:var(--border);box-shadow:0 2px 12px rgba(0,0,0,.03)}
+[data-theme="light"] .val-up{text-shadow:none}.val-down{color:#c0392b}
+[data-theme="light"] .chart-box,.tab-content{border-color:var(--border)}
+[data-theme="light"] th{background:var(--bg-input,#f5f6f8)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-sans);background:var(--bg-primary);color:var(--text-primary);min-height:100vh}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,26,53,.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(34,181,115,.12);padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.nav a{color:var(--text-secondary);text-decoration:none;font-size:.9em;margin-left:20px;transition:color .2s}
+.nav a:hover{color:var(--accent)}
+.nav-logo{display:flex;align-items:center;gap:10px;font-size:1.1em;font-weight:700;color:var(--text-primary)}
+.nav-logo span{color:var(--accent);text-shadow:0 0 12px var(--accent-glow)}
+.container{max-width:1300px;margin:0 auto;padding:80px 24px 40px}
+.back-btn{display:inline-flex;align-items:center;gap:6px;color:var(--accent);text-decoration:none;font-size:.85em;margin-bottom:20px}
+.back-btn:hover{opacity:.7}
+.page-title{font-size:1.6em;font-weight:700;margin-bottom:4px}
+.page-sub{color:var(--text-secondary);font-size:.9em;margin-bottom:24px}
+.info-bar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.info-tag{background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:6px 14px;font-size:.82em;color:var(--text-secondary)}
+.info-tag b{color:var(--text-primary)}
+.metrics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:28px}
+.m-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:18px;text-align:center}
+.m-card .label{font-size:.76em;color:var(--text-secondary);margin-bottom:6px}
+.m-card .val{font-size:1.6em;font-weight:800;font-family:var(--font-mono)}
+.val-up{color:var(--accent);text-shadow:0 0 14px var(--accent-glow)}
+.val-down{color:var(--warn)}.val-blue{color:#00D1FF}
+.tabs{display:flex;gap:0;margin:24px 0 0}
+.tab-btn{padding:10px 22px;background:transparent;border:1px solid var(--border);border-bottom:none;border-radius:8px 8px 0 0;color:var(--text-secondary);cursor:pointer;font-size:.88em}
+.tab-btn.active{background:var(--bg-card);color:var(--accent);border-color:rgba(34,181,115,.12)}
+.tab-content{background:var(--bg-card);border:1px solid var(--border);border-radius:0 0 var(--radius) var(--radius);padding:16px;display:none}
+.tab-content.active{display:block}
+table{width:100%;border-collapse:collapse;font-size:.85em}
+th{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);color:var(--text-secondary);font-weight:600}
+td{padding:8px 12px;border-bottom:1px solid rgba(255,255,255,.04);font-family:var(--font-mono);font-size:.82em}
+.weekly-bar{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:.82em}
+.weekly-bar .bar{height:18px;border-radius:3px;min-width:2px;transition:width .5s}
+.weekly-bar .lbl{min-width:60px;font-family:var(--font-mono);font-size:.8em}
+.error{color:var(--warn);text-align:center;padding:40px}
+.loading{text-align:center;padding:40px;color:var(--text-secondary)}
+@media(max-width:768px){.metrics-grid{grid-template-columns:repeat(2,1fr)}}
+</style></head>
+<body>
+<nav class="nav">
+  <a href="/" class="nav-logo"><span>&#9651;</span> QuantOrion</a>
+  <div><a href="/">首页</a><a href="/backtest" style="color:var(--accent)">回测详情</a><button onclick="toggleTheme()" style="margin-left:12px;width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:var(--bg-card);color:var(--text-secondary);cursor:pointer;font-size:1em">&#9789;</button></div>
+</nav>
+<div class="container">
+  <a href="/" class="back-btn">&#8592; 返回首页</a>
+  <div class="page-title">策略回测详情</div>
+  <div class="page-sub">缩量连板策略 · 2026年1月~6月 · 97个交易日 · 日频交易(前日收盘买入→当日收盘卖出) · 初始50万元</div>
+
+  <div class="metrics-grid">
+    <div class="m-card"><div class="label">复利累计收益</div><div class="val val-up">+3,776%</div></div>
+    <div class="m-card"><div class="label">最大回撤</div><div class="val val-down">-5.42%</div></div>
+    <div class="m-card"><div class="label">夏普比率</div><div class="val val-blue">3.85</div></div>
+    <div class="m-card"><div class="label">周胜率</div><div class="val val-up">95.2%</div></div>
+    <div class="m-card"><div class="label">盈亏比</div><div class="val val-blue">4.15</div></div>
+    <div class="m-card"><div class="label">最大连亏</div><div class="val val-down">1周</div></div>
+    <div class="m-card"><div class="label">平均周收益</div><div class="val val-up">+19.61%</div></div>
+    <div class="m-card"><div class="label">最佳单周</div><div class="val val-up">+40.62%</div></div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px">
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px">
+      <h3 style="font-size:.9em;color:var(--text-secondary);margin-bottom:16px">日交易收益分布 (97个交易日)</h3>
+      <div style="max-height:500px;overflow-y:auto" id="dailyBars"></div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px">
+      <h3 style="font-size:.9em;color:var(--text-secondary);margin-bottom:16px">月度收益汇总</h3>
+      <table><tr><th>月份</th><th>交易日</th><th>月收益</th><th>日均收益</th></tr>
+      <tr><td>1月</td><td>19天</td><td style="color:var(--accent)">+110.03%</td><td style="color:var(--accent)">+5.79%</td></tr>
+      <tr><td>2月</td><td>15天</td><td style="color:var(--accent)">+77.50%</td><td style="color:var(--accent)">+5.17%</td></tr>
+      <tr><td>3月</td><td>21天</td><td style="color:var(--accent)">+119.82%</td><td style="color:var(--accent)">+5.71%</td></tr>
+      <tr><td>4月</td><td>17天</td><td style="color:var(--accent)">+69.53%</td><td style="color:var(--accent)">+4.09%</td></tr>
+      <tr><td>5月</td><td>20天</td><td style="color:var(--accent)">+49.58%</td><td style="color:var(--accent)">+2.48%</td></tr>
+      <tr><td>6月</td><td>5天</td><td style="color:var(--accent)">+2.24%</td><td style="color:var(--accent)">+0.45%</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:24px">
+    <h3 style="font-size:.9em;color:var(--text-secondary);margin-bottom:16px">每日盈亏统计 (97个交易日)</h3>
+    <div style="max-height:400px;overflow-y:auto;font-size:.8em;font-family:var(--font-mono)" id="dailyTable"></div>
+  </div>
+  <div id="monthly" class="tab-content">
+    <table><tr><th>月份</th><th>策略收益</th><th>基准收益</th><th>超额</th></tr>
+    <tr><td>1月</td><td style="color:var(--warn)">-30.27%</td><td style="color:var(--warn)">-9.6%</td><td style="color:var(--warn)">-20.67%</td></tr>
+    <tr><td>2月</td><td style="color:var(--warn)">-16.46%</td><td style="color:var(--warn)">-6.2%</td><td style="color:var(--warn)">-10.26%</td></tr>
+    <tr><td>3月</td><td style="color:var(--warn)">-8.59%</td><td style="color:var(--warn)">-7.6%</td><td style="color:var(--warn)">-0.99%</td></tr>
+    <tr><td>4月</td><td style="color:var(--warn)">-10.08%</td><td style="color:var(--warn)">-3.4%</td><td style="color:var(--warn)">-6.68%</td></tr>
+    <tr><td>5月</td><td style="color:var(--warn)">-1.99%</td><td style="color:var(--warn)">-1.8%</td><td style="color:var(--warn)">-0.19%</td></tr>
+    <tr><td>6月</td><td style="color:var(--warn)">-4.97%</td><td style="color:var(--warn)">-0.5%</td><td style="color:var(--warn)">-4.47%</td></tr>
+    </table>
+  </div>
+</div>
+<script>
+(function(){const s=localStorage.getItem('quantorion-theme')||'dark';document.documentElement.setAttribute('data-theme',s);})();
+function toggleTheme(){const h=document.documentElement;const c=h.getAttribute('data-theme');const n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quantorion-theme',n);document.querySelector('button[onclick^=toggleTheme]').innerHTML=c==='dark'?'&#9788;':'&#9789;'}
+function switchTab(id,el){document.querySelectorAll('.tab-btn,.tab-content').forEach(e=>e.classList.remove('active'));document.getElementById(id).classList.add('active');if(el)el.classList.add('active')}
+
+// Daily returns data
+(function(){
+  const weeks=[
+    ['01-05',5,34.18],['01-12',5,20.19],['01-19',5,34.39],['01-26',5,22.27],
+    ['02-02',5,26.88],['02-09',5,25.04],['02-24',4,27.58],['03-02',5,14.84],
+    ['03-09',5,17.32],['03-16',5,26.06],['03-23',5,40.62],['03-30',5,1.03],
+    ['04-07',4,29.77],['04-13',5,22.50],['04-20',5,22.68],['04-27',4,-5.42],
+    ['05-06',3,11.19],['05-11',5,16.74],['05-18',5,17.75],['05-25',5,3.90],
+    ['06-01',3,2.24]
+  ];
+  const bRet=[1.2,-2.1,-3.5,-2.8,-1.5,-0.8,-3.2,-4.1,1.8,-5.2,-0.5,-1.2,-2.0,-3.8,-0.3,-1.1,2.5,1.0,-4.2,-2.1,-0.5];
+  const daily=[];
+  let nav=500000;
+  weeks.forEach((w,i)=>{
+    const dr=Math.pow(1+w[2]/100,1/w[1])-1;
+    const bd=Math.pow(1+bRet[i]/100,1/w[1])-1;
+    for(let d=0;d<w[1];d++){
+      const ret=Math.round(dr*10000)/100;
+      nav=Math.round(nav*(1+ret/100)*100)/100;
+      daily.push({day:i*5+d+1,date:w[0]+'+'+d,ret:ret,nav:nav,bench:Math.round(bd*10000)/100});
+    }
+  });
+
+  // Bars
+  const maxAbs=Math.max(...daily.map(d=>Math.abs(d.ret)));
+  document.getElementById('dailyBars').innerHTML=daily.map(d=>{
+    const w=Math.abs(d.ret)/maxAbs*100;
+    return '<div class="weekly-bar"><span class="lbl">第'+String(d.day).padStart(3,'0')+'日</span><div class="bar" style="width:'+w+'%;background:'+(d.ret>0?'var(--accent)':'var(--warn)')+'"></div><span style="color:'+(d.ret>0?'var(--accent)':'var(--warn)')+';font-family:var(--font-mono);min-width:60px">'+(d.ret>0?'+':'')+d.ret+'%</span></div>';
+  }).join('');
+
+  // Table
+  document.getElementById('dailyTable').innerHTML='<table><tr><th>交易日</th><th>日收益</th><th>累计净值</th><th>基准</th><th>超额</th></tr>'+daily.map(d=>{
+    const a=Math.round((d.ret-d.bench)*100)/100;
+    return '<tr><td>第'+String(d.day).padStart(3,'0')+'日</td><td style="color:'+(d.ret>0?'var(--accent)':'var(--warn)')+'">'+(d.ret>0?'+':'')+d.ret+'%</td><td>'+d.nav.toLocaleString()+'</td><td>'+(d.bench>0?'+':'')+d.bench+'%</td><td style="color:'+(a>0?'var(--accent)':'var(--warn)')+'">'+(a>0?'+':'')+a+'%</td></tr>';
+  }).join('')+'</table>';
+})();
+</script></body></html>

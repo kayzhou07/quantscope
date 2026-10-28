@@ -1,0 +1,26 @@
+[
+  {
+    "origin": "quantorion/holdings.json",
+    "reason": "runtime_cache_or_credentials_or_os_file"
+  },
+  {
+    "origin": "quantorion/test_json.json",
+    "reason": "runtime_cache_or_credentials_or_os_file"
+  },
+  {
+    "origin": "quantorion/backtest_cache.json",
+    "reason": "runtime_cache_or_credentials_or_os_file"
+  },
+  {
+    "origin": "quantorion/output.json",
+    "reason": "runtime_cache_or_credentials_or_os_file"
+  },
+  {
+    "origin": "quantorion/pip-backup.txt",
+    "reason": "runtime_cache_or_credentials_or_os_file"
+  },
+  {
+    "origin": "quantlibra/auditor/__pycache__/backtest_auditor.cpython-312.pyc",
+    "reason": "runtime_cache_or_credentials_or_os_file"
+  }
+]
