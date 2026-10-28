@@ -1,0 +1,39 @@
+{
+ "n_days": 2989,
+ "n_days_with_positions": 1704,
+ "hhi_mean": 0.1332870571942548,
+ "hhi_median": 0.08506883215140043,
+ "eff_n_mean": 10.720106916691522,
+ "eff_n_median": 11.755186691422121,
+ "eff_n_p10": 3.992830842276499,
+ "eff_n_p90": 14.826691053420115,
+ "avg_pair_corr_mean": 0.29482945532990246,
+ "avg_pair_corr_median": 0.2692677019996561,
+ "avg_pair_corr_p10": 0.1789219325592024,
+ "avg_pair_corr_p90": 0.444107946938785,
+ "avg_pair_corr_ex_susp_mean": 0.2969017624870977,
+ "n_days_with_susp_holding": 246,
+ "susp_flagged_codes": [
+  "000518",
+  "000592",
+  "601198",
+  "600019",
+  "000503",
+  "600887",
+  "601899",
+  "000100",
+  "000659",
+  "001331",
+  "600104",
+  "600399",
+  "600741",
+  "600687"
+ ],
+ "min_eff_n": 1.0,
+ "max_eff_n": 16.805976481134362,
+ "max_hhi": 1.0,
+ "industry_csv_rows": 2989,
+ "industry_unique_values": [
+  "UNKNOWN"
+ ]
+}

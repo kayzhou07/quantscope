@@ -1,0 +1,795 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 量化一-2015季度压力B":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad6c79264849a00b6aec87b
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad6c79264849a00b6aec87b
+    - paragraph:
+      - generic: 回测日期：2015-01-01 至 2015-12-31
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：32秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad6e54064849a00b6aec8e4
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad6e54064849a00b6aec8e4
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad6e54064849a00b6aec8e4
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad6e54064849a00b6aec8e4
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad6e54064849a00b6aec8e4
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad6e54064849a00b6aec8e4
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad6e54064849a00b6aec8e4
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad6e54064849a00b6aec8e4
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad6e54064849a00b6aec8e4
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad6e54064849a00b6aec8e4
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad6e54064849a00b6aec8e4
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad6e54064849a00b6aec8e4
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad6e54064849a00b6aec8e4
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad6e54064849a00b6aec8e4
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2015-01-01 至 2015-12-31 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2015-01-01 至 2015-12-31 查询":
+            - combobox: 2015-01-01
+            - generic: 至
+            - combobox: 2015-12-31
+            - button "查询"
+      - rowgroup:
+        - row "2015-11-30 09:30:00 600021.SH 上海电力 卖出 15.475 -1600 -24,759.22 -- 30.95 889.41":
+          - cell "2015-11-30":
+            - generic: 2015-11-30
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600021.SH 上海电力":
+            - paragraph: 600021.SH
+            - paragraph: 上海电力
+          - cell "卖出":
+            - generic: 卖出
+          - cell "15.475":
+            - generic: "15.475"
+          - cell "-1600":
+            - generic: "-1600"
+          - cell "-24,759.22":
+            - generic: "-24,759.22"
+          - cell "--":
+            - generic: "--"
+          - cell "30.95":
+            - generic: "30.95"
+          - cell "889.41":
+            - generic: "889.41"
+          - cell
+        - row "2015-11-19 09:30:00 300033.SZ 同花顺 卖出 79.940 -600 -47,963.99 -- 59.95 23,032.86":
+          - cell "2015-11-19":
+            - generic: 2015-11-19
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300033.SZ 同花顺":
+            - paragraph: 300033.SZ
+            - paragraph: 同花顺
+          - cell "卖出":
+            - generic: 卖出
+          - cell "79.940":
+            - generic: "79.940"
+          - cell "-600":
+            - generic: "-600"
+          - cell "-47,963.99":
+            - generic: "-47,963.99"
+          - cell "--":
+            - generic: "--"
+          - cell "59.95":
+            - generic: "59.95"
+          - cell "23,032.86":
+            - generic: 23,032.86
+          - cell
+        - row "2015-11-03 09:30:00 002625.SZ 光启技术 卖出 42.857 -700 -29,999.97 -- 37.50 5,469.34":
+          - cell "2015-11-03":
+            - generic: 2015-11-03
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "002625.SZ 光启技术":
+            - paragraph: 002625.SZ
+            - paragraph: 光启技术
+          - cell "卖出":
+            - generic: 卖出
+          - cell "42.857":
+            - generic: "42.857"
+          - cell "-700":
+            - generic: "-700"
+          - cell "-29,999.97":
+            - generic: "-29,999.97"
+          - cell "--":
+            - generic: "--"
+          - cell "37.50":
+            - generic: "37.50"
+          - cell "5,469.34":
+            - generic: 5,469.34
+          - cell
+        - row "2015-10-08 09:30:00 600021.SH 上海电力 买入 14.915 1600 23,863.84 -- 5.97 --":
+          - cell "2015-10-08":
+            - generic: 2015-10-08
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600021.SH 上海电力":
+            - paragraph: 600021.SH
+            - paragraph: 上海电力
+          - cell "买入":
+            - generic: 买入
+          - cell "14.915":
+            - generic: "14.915"
+          - cell "1600":
+            - generic: "1600"
+          - cell "23,863.84":
+            - generic: 23,863.84
+          - cell "--":
+            - generic: "--"
+          - cell "5.97":
+            - generic: "5.97"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-10-08 09:30:00 002625.SZ 光启技术 买入 35.035 700 24,524.50 -- 6.13 --":
+          - cell "2015-10-08":
+            - generic: 2015-10-08
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "002625.SZ 光启技术":
+            - paragraph: 002625.SZ
+            - paragraph: 光启技术
+          - cell "买入":
+            - generic: 买入
+          - cell "35.035":
+            - generic: "35.035"
+          - cell "700":
+            - generic: "700"
+          - cell "24,524.50":
+            - generic: 24,524.50
+          - cell "--":
+            - generic: "--"
+          - cell "6.13":
+            - generic: "6.13"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-10-08 09:30:00 300033.SZ 同花顺 买入 41.541 600 24,924.90 -- 6.23 --":
+          - cell "2015-10-08":
+            - generic: 2015-10-08
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300033.SZ 同花顺":
+            - paragraph: 300033.SZ
+            - paragraph: 同花顺
+          - cell "买入":
+            - generic: 买入
+          - cell "41.541":
+            - generic: "41.541"
+          - cell "600":
+            - generic: "600"
+          - cell "24,924.90":
+            - generic: 24,924.90
+          - cell "--":
+            - generic: "--"
+          - cell "6.23":
+            - generic: "6.23"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-07-14 09:30:00 002568.SZ 百润股份 卖出 108.052 -200 -21,610.37 -- 27.01 -5,563.56":
+          - cell "2015-07-14":
+            - generic: 2015-07-14
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "002568.SZ 百润股份":
+            - paragraph: 002568.SZ
+            - paragraph: 百润股份
+          - cell "卖出":
+            - generic: 卖出
+          - cell "108.052":
+            - generic: "108.052"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-21,610.37":
+            - generic: "-21,610.37"
+          - cell "--":
+            - generic: "--"
+          - cell "27.01":
+            - generic: "27.01"
+          - cell "-5,563.56":
+            - generic: "-5,563.56"
+          - cell
+        - row "2015-07-07 09:30:00 300059.SZ 东方财富 卖出 47.962 -400 -19,184.80 -- 24.18 -5,646.21":
+          - cell "2015-07-07":
+            - generic: 2015-07-07
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300059.SZ 东方财富":
+            - paragraph: 300059.SZ
+            - paragraph: 东方财富
+          - cell "卖出":
+            - generic: 卖出
+          - cell "47.962":
+            - generic: "47.962"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-19,184.80":
+            - generic: "-19,184.80"
+          - cell "--":
+            - generic: "--"
+          - cell "24.18":
+            - generic: "24.18"
+          - cell "-5,646.21":
+            - generic: "-5,646.21"
+          - cell
+        - row "2015-07-06 09:30:00 300085.SZ 银之杰 卖出 56.943 -400 -22,777.20 -- 28.47 -5,209.75":
+          - cell "2015-07-06":
+            - generic: 2015-07-06
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300085.SZ 银之杰":
+            - paragraph: 300085.SZ
+            - paragraph: 银之杰
+          - cell "卖出":
+            - generic: 卖出
+          - cell "56.943":
+            - generic: "56.943"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-22,777.20":
+            - generic: "-22,777.20"
+          - cell "--":
+            - generic: "--"
+          - cell "28.47":
+            - generic: "28.47"
+          - cell "-5,209.75":
+            - generic: "-5,209.75"
+          - cell
+        - row "2015-07-03 09:30:00 300033.SZ 同花顺 卖出 67.952 -300 -20,385.59 -- 25.48 -4,930.02":
+          - cell "2015-07-03":
+            - generic: 2015-07-03
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300033.SZ 同花顺":
+            - paragraph: 300033.SZ
+            - paragraph: 同花顺
+          - cell "卖出":
+            - generic: 卖出
+          - cell "67.952":
+            - generic: "67.952"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-20,385.59":
+            - generic: "-20,385.59"
+          - cell "--":
+            - generic: "--"
+          - cell "25.48":
+            - generic: "25.48"
+          - cell "-4,930.02":
+            - generic: "-4,930.02"
+          - cell
+        - row "2015-07-03 09:30:00 601106.SH 中国一重 卖出 9.730 -2500 -24,325.65 -- 30.41 -5,661.79":
+          - cell "2015-07-03":
+            - generic: 2015-07-03
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "601106.SH 中国一重":
+            - paragraph: 601106.SH
+            - paragraph: 中国一重
+          - cell "卖出":
+            - generic: 卖出
+          - cell "9.730":
+            - generic: "9.730"
+          - cell "-2500":
+            - generic: "-2500"
+          - cell "-24,325.65":
+            - generic: "-24,325.65"
+          - cell "--":
+            - generic: "--"
+          - cell "30.41":
+            - generic: "30.41"
+          - cell "-5,661.79":
+            - generic: "-5,661.79"
+          - cell
+        - row "2015-07-01 09:30:00 002568.SZ 百润股份 买入 135.836 200 27,167.14 -- 6.79 --":
+          - cell "2015-07-01":
+            - generic: 2015-07-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "002568.SZ 百润股份":
+            - paragraph: 002568.SZ
+            - paragraph: 百润股份
+          - cell "买入":
+            - generic: 买入
+          - cell "135.836":
+            - generic: "135.836"
+          - cell "200":
+            - generic: "200"
+          - cell "27,167.14":
+            - generic: 27,167.14
+          - cell "--":
+            - generic: "--"
+          - cell "6.79":
+            - generic: "6.79"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-07-01 09:30:00 300085.SZ 银之杰 买入 69.950 400 27,979.95 -- 6.99 --":
+          - cell "2015-07-01":
+            - generic: 2015-07-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300085.SZ 银之杰":
+            - paragraph: 300085.SZ
+            - paragraph: 银之杰
+          - cell "买入":
+            - generic: 买入
+          - cell "69.950":
+            - generic: "69.950"
+          - cell "400":
+            - generic: "400"
+          - cell "27,979.95":
+            - generic: 27,979.95
+          - cell "--":
+            - generic: "--"
+          - cell "6.99":
+            - generic: "6.99"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-07-01 09:30:00 601106.SH 中国一重 买入 11.992 2500 29,979.95 -- 7.49 --":
+          - cell "2015-07-01":
+            - generic: 2015-07-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "601106.SH 中国一重":
+            - paragraph: 601106.SH
+            - paragraph: 中国一重
+          - cell "买入":
+            - generic: 买入
+          - cell "11.992":
+            - generic: "11.992"
+          - cell "2500":
+            - generic: "2500"
+          - cell "29,979.95":
+            - generic: 29,979.95
+          - cell "--":
+            - generic: "--"
+          - cell "7.49":
+            - generic: "7.49"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-07-01 09:30:00 300059.SZ 东方财富 买入 62.062 400 24,824.80 -- 6.21 --":
+          - cell "2015-07-01":
+            - generic: 2015-07-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300059.SZ 东方财富":
+            - paragraph: 300059.SZ
+            - paragraph: 东方财富
+          - cell "买入":
+            - generic: 买入
+          - cell "62.062":
+            - generic: "62.062"
+          - cell "400":
+            - generic: "400"
+          - cell "24,824.80":
+            - generic: 24,824.80
+          - cell "--":
+            - generic: "--"
+          - cell "6.21":
+            - generic: "6.21"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-07-01 09:30:00 300033.SZ 同花顺 买入 84.364 300 25,309.28 -- 6.33 --":
+          - cell "2015-07-01":
+            - generic: 2015-07-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300033.SZ 同花顺":
+            - paragraph: 300033.SZ
+            - paragraph: 同花顺
+          - cell "买入":
+            - generic: 买入
+          - cell "84.364":
+            - generic: "84.364"
+          - cell "300":
+            - generic: "300"
+          - cell "25,309.28":
+            - generic: 25,309.28
+          - cell "--":
+            - generic: "--"
+          - cell "6.33":
+            - generic: "6.33"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-05-07 09:30:00 600528.SH 中铁工业 卖出 22.867 -1200 -27,440.53 -- 34.30 -674.58":
+          - cell "2015-05-07":
+            - generic: 2015-05-07
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600528.SH 中铁工业":
+            - paragraph: 600528.SH
+            - paragraph: 中铁工业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "22.867":
+            - generic: "22.867"
+          - cell "-1200":
+            - generic: "-1200"
+          - cell "-27,440.53":
+            - generic: "-27,440.53"
+          - cell "--":
+            - generic: "--"
+          - cell "34.30":
+            - generic: "34.30"
+          - cell "-674.58":
+            - generic: "-674.58"
+          - cell
+        - row "2015-05-06 09:30:00 601800.SH 中国交建 卖出 19.930 -1500 -29,895.07 -- 37.37 1,599.74":
+          - cell "2015-05-06":
+            - generic: 2015-05-06
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "601800.SH 中国交建":
+            - paragraph: 601800.SH
+            - paragraph: 中国交建
+          - cell "卖出":
+            - generic: 卖出
+          - cell "19.930":
+            - generic: "19.930"
+          - cell "-1500":
+            - generic: "-1500"
+          - cell "-29,895.07":
+            - generic: "-29,895.07"
+          - cell "--":
+            - generic: "--"
+          - cell "37.37":
+            - generic: "37.37"
+          - cell "1,599.74":
+            - generic: 1,599.74
+          - cell
+        - row "2015-05-06 09:30:00 600399.SH 抚顺特钢 卖出 29.960 -800 -23,968.01 -- 29.96 -2,785.40":
+          - cell "2015-05-06":
+            - generic: 2015-05-06
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600399.SH 抚顺特钢":
+            - paragraph: 600399.SH
+            - paragraph: 抚顺特钢
+          - cell "卖出":
+            - generic: 卖出
+          - cell "29.960":
+            - generic: "29.960"
+          - cell "-800":
+            - generic: "-800"
+          - cell "-23,968.01":
+            - generic: "-23,968.01"
+          - cell "--":
+            - generic: "--"
+          - cell "29.96":
+            - generic: "29.96"
+          - cell "-2,785.40":
+            - generic: "-2,785.40"
+          - cell
+        - row "2015-04-16 09:30:00 002183.SZ 怡亚通 卖出 31.518 -900 -28,366.61 -- 35.46 -18.84":
+          - cell "2015-04-16":
+            - generic: 2015-04-16
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "002183.SZ 怡亚通":
+            - paragraph: 002183.SZ
+            - paragraph: 怡亚通
+          - cell "卖出":
+            - generic: 卖出
+          - cell "31.518":
+            - generic: "31.518"
+          - cell "-900":
+            - generic: "-900"
+          - cell "-28,366.61":
+            - generic: "-28,366.61"
+          - cell "--":
+            - generic: "--"
+          - cell "35.46":
+            - generic: "35.46"
+          - cell "-18.84":
+            - generic: "-18.84"
+          - cell
+        - row "2015-04-16 09:30:00 300033.SZ 同花顺 卖出 134.645 -200 -26,929.04 -- 33.66 3,099.29":
+          - cell "2015-04-16":
+            - generic: 2015-04-16
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300033.SZ 同花顺":
+            - paragraph: 300033.SZ
+            - paragraph: 同花顺
+          - cell "卖出":
+            - generic: 卖出
+          - cell "134.645":
+            - generic: "134.645"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-26,929.04":
+            - generic: "-26,929.04"
+          - cell "--":
+            - generic: "--"
+          - cell "33.66":
+            - generic: "33.66"
+          - cell "3,099.29":
+            - generic: 3,099.29
+          - cell
+        - row "2015-04-01 09:30:00 300033.SZ 同花顺 买入 119.119 200 23,823.80 -- 5.96 --":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300033.SZ 同花顺":
+            - paragraph: 300033.SZ
+            - paragraph: 同花顺
+          - cell "买入":
+            - generic: 买入
+          - cell "119.119":
+            - generic: "119.119"
+          - cell "200":
+            - generic: "200"
+          - cell "23,823.80":
+            - generic: 23,823.80
+          - cell "--":
+            - generic: "--"
+          - cell "5.96":
+            - generic: "5.96"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-04-01 09:30:00 600528.SH 中铁工业 买入 23.423 1200 28,108.08 -- 7.03 --":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600528.SH 中铁工业":
+            - paragraph: 600528.SH
+            - paragraph: 中铁工业
+          - cell "买入":
+            - generic: 买入
+          - cell "23.423":
+            - generic: "23.423"
+          - cell "1200":
+            - generic: "1200"
+          - cell "28,108.08":
+            - generic: 28,108.08
+          - cell "--":
+            - generic: "--"
+          - cell "7.03":
+            - generic: "7.03"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-04-01 09:30:00 600446.SH 金证股份 卖出 124.865 -400 -49,946.00 -- 62.43 31,202.28":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600446.SH 金证股份":
+            - paragraph: 600446.SH
+            - paragraph: 金证股份
+          - cell "卖出":
+            - generic: 卖出
+          - cell "124.865":
+            - generic: "124.865"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-49,946.00":
+            - generic: "-49,946.00"
+          - cell "--":
+            - generic: "--"
+          - cell "62.43":
+            - generic: "62.43"
+          - cell "31,202.28":
+            - generic: 31,202.28
+          - cell
+        - row "2015-04-01 09:30:00 601800.SH 中国交建 买入 18.859 1500 28,288.26 -- 7.07 --":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "601800.SH 中国交建":
+            - paragraph: 601800.SH
+            - paragraph: 中国交建
+          - cell "买入":
+            - generic: 买入
+          - cell "18.859":
+            - generic: "18.859"
+          - cell "1500":
+            - generic: "1500"
+          - cell "28,288.26":
+            - generic: 28,288.26
+          - cell "--":
+            - generic: "--"
+          - cell "7.07":
+            - generic: "7.07"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-04-01 09:30:00 300134.SZ 大富科技 卖出 54.146 -500 -27,072.90 -- 33.84 8,499.35":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "300134.SZ 大富科技":
+            - paragraph: 300134.SZ
+            - paragraph: 大富科技
+          - cell "卖出":
+            - generic: 卖出
+          - cell "54.146":
+            - generic: "54.146"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-27,072.90":
+            - generic: "-27,072.90"
+          - cell "--":
+            - generic: "--"
+          - cell "33.84":
+            - generic: "33.84"
+          - cell "8,499.35":
+            - generic: 8,499.35
+          - cell
+        - row "2015-04-01 09:30:00 600862.SH 中航高科 卖出 17.672 -2000 -35,344.62 -- 44.18 16,721.02":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600862.SH 中航高科":
+            - paragraph: 600862.SH
+            - paragraph: 中航高科
+          - cell "卖出":
+            - generic: 卖出
+          - cell "17.672":
+            - generic: "17.672"
+          - cell "-2000":
+            - generic: "-2000"
+          - cell "-35,344.62":
+            - generic: "-35,344.62"
+          - cell "--":
+            - generic: "--"
+          - cell "44.18":
+            - generic: "44.18"
+          - cell "16,721.02":
+            - generic: 16,721.02
+          - cell
+        - row "2015-04-01 09:30:00 002183.SZ 怡亚通 买入 31.532 900 28,378.35 -- 7.09 --":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "002183.SZ 怡亚通":
+            - paragraph: 002183.SZ
+            - paragraph: 怡亚通
+          - cell "买入":
+            - generic: 买入
+          - cell "31.532":
+            - generic: "31.532"
+          - cell "900":
+            - generic: "900"
+          - cell "28,378.35":
+            - generic: 28,378.35
+          - cell "--":
+            - generic: "--"
+          - cell "7.09":
+            - generic: "7.09"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-04-01 09:30:00 600399.SH 抚顺特钢 买入 33.433 800 26,746.72 -- 6.69 --":
+          - cell "2015-04-01":
+            - generic: 2015-04-01
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600399.SH 抚顺特钢":
+            - paragraph: 600399.SH
+            - paragraph: 抚顺特钢
+          - cell "买入":
+            - generic: 买入
+          - cell "33.433":
+            - generic: "33.433"
+          - cell "800":
+            - generic: "800"
+          - cell "26,746.72":
+            - generic: 26,746.72
+          - cell "--":
+            - generic: "--"
+          - cell "6.69":
+            - generic: "6.69"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2015-02-10 09:30:00 600556.SH 天下秀 卖出 12.418 -1300 -16,142.84 -- 21.14 -2,093.37":
+          - cell "2015-02-10":
+            - generic: 2015-02-10
+          - cell "09:30:00":
+            - generic: 09:30:00
+          - cell "600556.SH 天下秀":
+            - paragraph: 600556.SH
+            - paragraph: 天下秀
+          - cell "卖出":
+            - generic: 卖出
+          - cell "12.418":
+            - generic: "12.418"
+          - cell "-1300":
+            - generic: "-1300"
+          - cell "-16,142.84":
+            - generic: "-16,142.84"
+          - cell "--":
+            - generic: "--"
+          - cell "21.14":
+            - generic: "21.14"
+          - cell "-2,093.37":
+            - generic: "-2,093.37"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "2"
+    - button "下一页": ">"
+    - textbox: "1"
+    - button "前往"

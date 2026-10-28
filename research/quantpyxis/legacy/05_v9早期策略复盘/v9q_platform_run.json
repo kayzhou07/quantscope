@@ -1,0 +1,93 @@
+{
+  "strategy_id": "6ad62b5522686300b6eeafb5",
+  "task_id": "6ad62f02f5be1600b606ab6a",
+  "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result?id=6ad62f02f5be1600b606ab6a",
+  "status": "completed",
+  "window": [
+    "2026-04-01",
+    "2026-09-30"
+  ],
+  "initial": 100000,
+  "final": 131823.1767105,
+  "return_": 0.3182317671050001,
+  "max_drawdown": 0.17346456400750998,
+  "dd_window": [
+    "20260622",
+    "20260708"
+  ],
+  "mean_exposure": 0.23112391683370972,
+  "trades": 16,
+  "trade_dates": [
+    "2026-04-01",
+    "2026-05-19",
+    "2026-05-20",
+    "2026-06-30",
+    "2026-07-01",
+    "2026-07-03",
+    "2026-07-07",
+    "2026-07-09"
+  ],
+  "fees_displayed": 315.84,
+  "trade_cashflow": 31763.15,
+  "cash_adjustment_residual": 60.02671050000208,
+  "july_new_lots_net": -16667.52,
+  "attribution": [
+    {
+      "code": "301377.SZ",
+      "name": "鼎泰高科",
+      "trade_net_pnl": 35734.87,
+      "fees": 74.58
+    },
+    {
+      "code": "603256.SH",
+      "name": "宏和科技",
+      "trade_net_pnl": 7551.78,
+      "fees": 73.69
+    },
+    {
+      "code": "000657.SZ",
+      "name": "中钨高新",
+      "trade_net_pnl": 1526.99,
+      "fees": 26.19
+    },
+    {
+      "code": "301217.SZ",
+      "name": "铜冠铜箔",
+      "trade_net_pnl": -2175.55,
+      "fees": 24.47
+    },
+    {
+      "code": "301526.SZ",
+      "name": "国际复材",
+      "trade_net_pnl": -3341.63,
+      "fees": 31.9
+    },
+    {
+      "code": "001267.SZ",
+      "name": "汇绿生态",
+      "trade_net_pnl": -3351.25,
+      "fees": 36.02
+    },
+    {
+      "code": "301200.SZ",
+      "name": "大族数控",
+      "trade_net_pnl": -4182.06,
+      "fees": 48.99
+    }
+  ],
+  "local_comparison": {
+    "final": 131925.85,
+    "nav_delta": -102.67328950000228,
+    "fees": 213.6,
+    "fee_delta": 102.23999999999998
+  },
+  "submitted_source_sha256": "9ca40da0ed88a973868ce20fd44864f0326bf4a4014cfe6b5a2f968be800b103",
+  "notes": [
+    "Platform cost_basis includes buy fees; local stop cost omitted fees.",
+    "Platform displayed sell fee approximately 0.125% or minimum buy commission plus 0.1% sell tax, unlike local 0.076%; report actual differences, do not claim current real broker taxes.",
+    "Gross dividends logged: 50 CNY on 20260428 for 100 shares 301377.SZ, 10 CNY on 20260702 for 500 shares 301526.SZ; after adding 60 CNY, displayed trade precision leaves 0.0267105 CNY residual."
+  ],
+  "submitted_source": "reports/v9-platform-editor-readback.py",
+  "screenshot": "deliverables/SuperMind_v9季度纠错版_实际回测_20261019.jpg",
+  "original_B_preserved": true
+}

@@ -1,0 +1,1522 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 量化一-2015季度压力B":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad6c79264849a00b6aec87b
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad6c79264849a00b6aec87b
+    - paragraph:
+      - generic: 回测日期：2015-01-01 至 2015-12-31
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：32秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad6e54064849a00b6aec8e4
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad6e54064849a00b6aec8e4
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad6e54064849a00b6aec8e4
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad6e54064849a00b6aec8e4
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad6e54064849a00b6aec8e4
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad6e54064849a00b6aec8e4
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad6e54064849a00b6aec8e4
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad6e54064849a00b6aec8e4
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad6e54064849a00b6aec8e4
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad6e54064849a00b6aec8e4
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad6e54064849a00b6aec8e4
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad6e54064849a00b6aec8e4
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad6e54064849a00b6aec8e4
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad6e54064849a00b6aec8e4
+    - paragraph: 2026-10-20 11:51:59 - INFO
+    - generic: 回测结束
+    - paragraph: 2015-12-31 15:30:00 - INFO
+    - generic: "AUDIT_FINAL nav=160614.44819149998 return=0.6061444819149997 maxdd=0.25233987493531473 mean_exposure=0.331111656906669 order_attempts=36 counters={'submitted': 36, 'limit_sell': 2, 'paused_or_st_sell': 3}"
+    - paragraph: 2015-12-31 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151231 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151230 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151229 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151228 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151225 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151224 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151223 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151222 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151221 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151218 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151217 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151216 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151215 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151214 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151211 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151210 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151209 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151208 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151207 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151204 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151203 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151202 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-12-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151201 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-11-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151130 nav=160614.44819149998 cash=160614.44819149998 market=0 held=[]
+    - paragraph: 2015-11-30 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20151130 600021.SH target=0 reason=stop signal=20151127 order=632dfce2b5654d779da699bb8163e4be
+    - paragraph: 2015-11-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151127 nav=160062.1812115 cash=135886.1812115 market=24176.0 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151127 600021.SH qty=1600 cost=14.918628725000001 close=15.11 peak=17.23 line=15.1624
+    - paragraph: 2015-11-27 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20151127 600021.SH close=15.11 cost=14.918628725000001 peak=17.23 line=15.1624 next_open=True
+    - paragraph: 2015-11-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151126 nav=161742.1812115 cash=135886.1812115 market=25856.0 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151126 600021.SH qty=1600 cost=14.918628725000001 close=16.16 peak=17.23 line=15.1624
+    - paragraph: 2015-11-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151125 nav=161998.1812115 cash=135886.1812115 market=26112.0 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151125 600021.SH qty=1600 cost=14.918628725000001 close=16.32 peak=17.23 line=15.1624
+    - paragraph: 2015-11-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151124 nav=161838.1812115 cash=135886.1812115 market=25952.0 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151124 600021.SH qty=1600 cost=14.918628725000001 close=16.22 peak=17.23 line=15.1624
+    - paragraph: 2015-11-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151123 nav=162094.1812115 cash=135886.1812115 market=26208.0 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151123 600021.SH qty=1600 cost=14.918628725000001 close=16.38 peak=17.23 line=15.1624
+    - paragraph: 2015-11-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151120 nav=162446.1812115 cash=135886.1812115 market=26560.000000000004 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151120 600021.SH qty=1600 cost=14.918628725000001 close=16.6 peak=17.23 line=15.1624
+    - paragraph: 2015-11-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151119 nav=162510.1812115 cash=135886.1812115 market=26624.0 held=[('600021.SH', 1600)]
+    - paragraph: 2015-11-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151119 600021.SH qty=1600 cost=14.918628725000001 close=16.64 peak=17.23 line=15.1624
+    - paragraph: 2015-11-19 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20151119 300033.SZ target=0 reason=stop signal=20151118 order=12e352a940e143b18da44ff3324c0817
+    - paragraph: 2015-11-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151118 nav=162228.1481965 cash=87982.1481965 market=74246.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151118 300033.SZ qty=600 cost=41.551885375 close=80.01 peak=93.5 line=82.28
+    - paragraph: 2015-11-18 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20151118 300033.SZ close=80.01 cost=41.551885375 peak=93.5 line=82.28 next_open=True
+    - paragraph: 2015-11-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151118 600021.SH qty=1600 cost=14.918628725000001 close=16.4 peak=17.23 line=15.1624
+    - paragraph: 2015-11-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151117 nav=164662.1481965 cash=87982.1481965 market=76680.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151117 300033.SZ qty=600 cost=41.551885375 close=83.0 peak=93.5 line=82.28
+    - paragraph: 2015-11-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151117 600021.SH qty=1600 cost=14.918628725000001 close=16.8 peak=17.23 line=15.1624
+    - paragraph: 2015-11-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151116 nav=167700.1481965 cash=87982.1481965 market=79718.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151116 300033.SZ qty=600 cost=41.551885375 close=88.17 peak=93.50000000000001 line=82.28000000000002
+    - paragraph: 2015-11-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151116 600021.SH qty=1600 cost=14.918628725000001 close=16.76 peak=17.23 line=15.1624
+    - paragraph: 2015-11-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151113 nav=166084.1481965 cash=87982.1481965 market=78102.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151113 300033.SZ qty=600 cost=41.551885375 close=85.21 peak=93.5 line=82.28
+    - paragraph: 2015-11-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151113 600021.SH qty=1600 cost=14.918628725000001 close=16.86 peak=17.23 line=15.1624
+    - paragraph: 2015-11-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151112 nav=169772.1481965 cash=87982.1481965 market=81790.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151112 300033.SZ qty=600 cost=41.551885375 close=91.25 peak=93.5 line=82.28
+    - paragraph: 2015-11-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151112 600021.SH qty=1600 cost=14.918628725000001 close=16.9 peak=17.23 line=15.1624
+    - paragraph: 2015-11-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151111 nav=169772.1481965 cash=87982.1481965 market=81790.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151111 300033.SZ qty=600 cost=41.551885375 close=90.37 peak=93.5 line=82.28
+    - paragraph: 2015-11-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151111 600021.SH qty=1600 cost=14.918628725000001 close=17.23 peak=17.23 line=15.1624
+    - paragraph: 2015-11-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151110 nav=169748.1481965 cash=87982.1481965 market=81766.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151110 300033.SZ qty=600 cost=41.551885375 close=91.45 peak=93.5 line=82.28
+    - paragraph: 2015-11-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151110 600021.SH qty=1600 cost=14.918628725000001 close=16.81 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151109 nav=170664.1481965 cash=87982.1481965 market=82682.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151109 300033.SZ qty=600 cost=41.551885375 close=92.71 peak=93.5 line=82.28
+    - paragraph: 2015-11-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151109 600021.SH qty=1600 cost=14.918628725000001 close=16.91 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151106 nav=170930.1481965 cash=87982.1481965 market=82948.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151106 300033.SZ qty=600 cost=41.551885375 close=93.5 peak=93.5 line=82.28
+    - paragraph: 2015-11-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151106 600021.SH qty=1600 cost=14.918628725000001 close=16.78 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151105 nav=168464.1481965 cash=87982.1481965 market=80482.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151105 300033.SZ qty=600 cost=41.551885375 close=89.71 peak=90.09 line=79.2792
+    - paragraph: 2015-11-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151105 600021.SH qty=1600 cost=14.918628725000001 close=16.66 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151104 nav=167492.1481965 cash=87982.1481965 market=79510.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151104 300033.SZ qty=600 cost=41.551885375 close=90.09 peak=90.09 line=79.2792
+    - paragraph: 2015-11-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151104 600021.SH qty=1600 cost=14.918628725000001 close=15.91 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151103 nav=161490.1481965 cash=87982.1481965 market=73508.0 held=[('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151103 300033.SZ qty=600 cost=41.551885375 close=81.9 peak=89.7 line=78.936
+    - paragraph: 2015-11-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151103 600021.SH qty=1600 cost=14.918628725000001 close=15.23 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-03 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20151103 002625.SZ target=0 reason=stop signal=20151102 order=eac4e8da04d243a4abddafc57c506d1e
+    - paragraph: 2015-11-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151102 nav=161383.678159 cash=58019.678159 market=103364.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-11-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151102 300033.SZ qty=600 cost=41.551885375 close=81.8 peak=89.7 line=78.936
+    - paragraph: 2015-11-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151102 600021.SH qty=1600 cost=14.918628725000001 close=15.29 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-11-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151102 002625.SZ qty=700 cost=35.043758749999995 close=42.6 peak=49.88 line=43.894400000000005
+    - paragraph: 2015-11-02 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20151102 002625.SZ close=42.6 cost=35.043758749999995 peak=49.88 line=43.894400000000005 next_open=True
+    - paragraph: 2015-10-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151030 nav=166514.678159 cash=58019.678159 market=108495.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151030 300033.SZ qty=600 cost=41.551885375 close=86.65 peak=89.7 line=78.936
+    - paragraph: 2015-10-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151030 600021.SH qty=1600 cost=14.918628725000001 close=15.65 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151030 002625.SZ qty=700 cost=35.043758749999995 close=44.95 peak=49.88 line=43.894400000000005
+    - paragraph: 2015-10-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151029 nav=169526.678159 cash=58019.678159 market=111507.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151029 300033.SZ qty=600 cost=41.551885375 close=89.7 peak=89.7 line=78.936
+    - paragraph: 2015-10-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151029 600021.SH qty=1600 cost=14.918628725000001 close=15.89 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151029 002625.SZ qty=700 cost=35.043758749999995 close=46.09 peak=49.88000000000001 line=43.89440000000001
+    - paragraph: 2015-10-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151028 nav=167691.678159 cash=58019.678159 market=109672.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151028 300033.SZ qty=600 cost=41.551885375 close=85.8 peak=85.8 line=75.504
+    - paragraph: 2015-10-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151028 600021.SH qty=1600 cost=14.918628725000001 close=15.93 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151028 002625.SZ qty=700 cost=35.043758749999995 close=46.72 peak=49.88 line=43.894400000000005
+    - paragraph: 2015-10-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151027 nav=167240.678159 cash=58019.678159 market=109221.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151027 300033.SZ qty=600 cost=41.551885375 close=82.61 peak=82.61 line=72.6968
+    - paragraph: 2015-10-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151027 600021.SH qty=1600 cost=14.918628725000001 close=15.93 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151027 002625.SZ qty=700 cost=35.043758749999995 close=48.81 peak=49.88000000000001 line=43.89440000000001
+    - paragraph: 2015-10-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151026 nav=163489.678159 cash=58019.678159 market=105470.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151026 300033.SZ qty=600 cost=41.551885375 close=75.1 peak=82.36 line=72.4768
+    - paragraph: 2015-10-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151026 600021.SH qty=1600 cost=14.918628725000001 close=16.03 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151026 002625.SZ qty=700 cost=35.043758749999995 close=49.66 peak=49.88 line=43.894400000000005
+    - paragraph: 2015-10-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151023 nav=166135.678159 cash=58019.678159 market=108116.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151023 300033.SZ qty=600 cost=41.551885375 close=79.76 peak=82.35999999999999 line=72.47679999999998
+    - paragraph: 2015-10-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151023 600021.SH qty=1600 cost=14.918628725000001 close=15.84 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151023 002625.SZ qty=700 cost=35.043758749999995 close=49.88 peak=49.88 line=43.894400000000005
+    - paragraph: 2015-10-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151022 nav=166766.678159 cash=58019.678159 market=108747.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151022 300033.SZ qty=600 cost=41.551885375 close=82.36 peak=82.36 line=72.4768
+    - paragraph: 2015-10-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151022 600021.SH qty=1600 cost=14.918628725000001 close=15.71 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151022 002625.SZ qty=700 cost=35.043758749999995 close=48.85 peak=48.85 line=42.988
+    - paragraph: 2015-10-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151021 nav=159236.678159 cash=58019.678159 market=101217.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151021 300033.SZ qty=600 cost=41.551885375 close=75.7 peak=77.32 line=68.04159999999999
+    - paragraph: 2015-10-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151021 600021.SH qty=1600 cost=14.918628725000001 close=15.26 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151021 002625.SZ qty=700 cost=35.043758749999995 close=44.83 peak=47.089999999999996 line=41.4392
+    - paragraph: 2015-10-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151020 nav=164462.678159 cash=58019.678159 market=106443.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151020 300033.SZ qty=600 cost=41.551885375 close=77.32 peak=77.32 line=68.04159999999999
+    - paragraph: 2015-10-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151020 600021.SH qty=1600 cost=14.918628725000001 close=16.93 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151020 002625.SZ qty=700 cost=35.043758749999995 close=47.09 peak=47.09 line=41.43920000000001
+    - paragraph: 2015-10-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151019 nav=161385.678159 cash=58019.678159 market=103366.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151019 300033.SZ qty=600 cost=41.551885375 close=76.68 peak=76.68 line=67.47840000000001
+    - paragraph: 2015-10-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151019 600021.SH qty=1600 cost=14.918628725000001 close=16.66 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151019 002625.SZ qty=700 cost=35.043758749999995 close=43.86 peak=43.86 line=38.5968
+    - paragraph: 2015-10-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151016 nav=156582.678159 cash=58019.678159 market=98563.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151016 300033.SZ qty=600 cost=41.551885375 close=69.71 peak=69.71 line=61.34479999999999
+    - paragraph: 2015-10-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151016 600021.SH qty=1600 cost=14.918628725000001 close=17.02 peak=17.02 line=14.977599999999999
+    - paragraph: 2015-10-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151016 002625.SZ qty=700 cost=35.043758749999995 close=42.15 peak=42.15 line=37.092
+    - paragraph: 2015-10-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151015 nav=152096.678159 cash=58019.678159 market=94077.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151015 300033.SZ qty=600 cost=41.551885375 close=63.37 peak=63.37 line=55.7656
+    - paragraph: 2015-10-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151015 600021.SH qty=1600 cost=14.918628725000001 close=16.9 peak=16.9 line=14.871999999999998
+    - paragraph: 2015-10-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151015 002625.SZ qty=700 cost=35.043758749999995 close=41.45 peak=41.45 line=36.476000000000006
+    - paragraph: 2015-10-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151014 nav=145537.678159 cash=58019.678159 market=87518.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151014 300033.SZ qty=600 cost=41.551885375 close=57.61 peak=57.61 line=50.6968
+    - paragraph: 2015-10-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151014 600021.SH qty=1600 cost=14.918628725000001 close=16.05 peak=16.09 line=14.1592
+    - paragraph: 2015-10-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151014 002625.SZ qty=700 cost=35.043758749999995 close=38.96 peak=40.68999999999999 line=35.807199999999995
+    - paragraph: 2015-10-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151013 nav=143668.678159 cash=58019.678159 market=85649.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151013 300033.SZ qty=600 cost=41.551885375 close=52.37 peak=52.37 line=46.0856
+    - paragraph: 2015-10-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151013 600021.SH qty=1600 cost=14.918628725000001 close=16.09 peak=16.09 line=14.1592
+    - paragraph: 2015-10-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151013 002625.SZ qty=700 cost=35.043758749999995 close=40.69 peak=40.69 line=35.8072
+    - paragraph: 2015-10-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151012 nav=140293.678159 cash=58019.678159 market=82274.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151012 300033.SZ qty=600 cost=41.551885375 close=47.61 peak=47.61 line=41.8968
+    - paragraph: 2015-10-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151012 600021.SH qty=1600 cost=14.918628725000001 close=15.98 peak=15.98 line=14.0624
+    - paragraph: 2015-10-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151012 002625.SZ qty=700 cost=35.043758749999995 close=40.2 peak=40.2 line=35.376000000000005
+    - paragraph: 2015-10-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151009 nav=134923.678159 cash=58019.678159 market=76904.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151009 300033.SZ qty=600 cost=41.551885375 close=43.28 peak=43.46 line=38.2448
+    - paragraph: 2015-10-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151009 600021.SH qty=1600 cost=14.918628725000001 close=15.21 peak=15.21 line=13.3848
+    - paragraph: 2015-10-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151009 002625.SZ qty=700 cost=35.043758749999995 close=38.0 peak=38.0 line=33.44
+    - paragraph: 2015-10-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20151008 nav=133039.678159 cash=58019.678159 market=75020.0 held=[('002625.SZ', 700), ('600021.SH', 1600), ('300033.SZ', 600)]
+    - paragraph: 2015-10-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151008 300033.SZ qty=600 cost=41.551885375 close=43.46 peak=43.46 line=38.2448
+    - paragraph: 2015-10-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151008 600021.SH qty=1600 cost=14.918628725000001 close=15.12 peak=15.12 line=13.3056
+    - paragraph: 2015-10-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20151008 002625.SZ qty=700 cost=35.043758749999995 close=35.36 peak=35.36 line=31.1168
+    - paragraph: 2015-10-08 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20151008 300033.SZ target=600 reason=rebalance buy order=04a39b229db045b38ced3625b31f156e
+    - paragraph: 2015-10-08 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20151008 600021.SH target=1600 reason=rebalance buy order=076216eab62d4321a10bbf945f7e517c
+    - paragraph: 2015-10-08 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20151008 002625.SZ target=700 reason=rebalance buy order=2feb9e7285db4b1089a08e94108e6462
+    - paragraph: 2015-10-08 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION signal=20150930 execute=20151008 on=False n=3 equity=131351.246469 lot_cap=32837.81161725 eligible=616 rejected={'ineligible': 442, 'missing': 531} picks=['002625.SZ', '600021.SH', '300033.SZ'] top8=[('002625.SZ', 3.3766578249336874, 33.61), ('600021.SH', 2.4439834024896268, 14.38), ('300033.SZ', 2.385433715220949, 39.51), ('000930.SZ', 2.1832460732984287, 12.34), ('000875.SZ', 2.0466830466830466, 8.45), ('002517.SZ', 1.8679245283018866, 41.69), ('600737.SH', 1.8205128205128203, 13.58), ('601669.SH', 1.7624113475177308, 7.37)]"
+    - paragraph: 2015-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150930 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150929 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150928 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150925 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150924 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150923 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150922 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150921 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150918 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150917 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150916 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150915 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150914 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150911 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150910 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150909 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150908 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150907 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150902 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-09-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150901 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-31 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150831 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150828 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150827 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150826 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150825 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150824 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150821 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150820 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150819 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150818 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150817 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150814 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150813 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150812 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150811 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150810 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150807 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150806 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150805 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150804 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-08-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150803 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-31 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150731 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150730 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150729 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150728 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150727 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150724 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150723 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150722 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150721 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150720 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150717 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150716 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150715 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150714 nav=131351.246469 cash=131351.246469 market=0 held=[]
+    - paragraph: 2015-07-14 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150714 002568.SZ target=0 reason=stop signal=20150707 order=e1ce0e6bb33a4082a5b9b73619b32679
+    - paragraph: 2015-07-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150713 nav=129433.891429 cash=109767.891429 market=19666.0 held=[('002568.SZ', 200)]
+    - paragraph: 2015-07-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150713 002568.SZ qty=200 cost=135.869658925 close=98.33 peak=135.88 line=119.5744
+    - paragraph: 2015-07-13 09:30:00 - INFO
+    - generic: BLOCKED 002568.SZ sell paused_or_st
+    - paragraph: 2015-07-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150710 nav=129433.891429 cash=109767.891429 market=19666.0 held=[('002568.SZ', 200)]
+    - paragraph: 2015-07-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150710 002568.SZ qty=200 cost=135.869658925 close=98.33 peak=135.88 line=119.5744
+    - paragraph: 2015-07-10 09:30:00 - INFO
+    - generic: BLOCKED 002568.SZ sell paused_or_st
+    - paragraph: 2015-07-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150709 nav=129433.891429 cash=109767.891429 market=19666.0 held=[('002568.SZ', 200)]
+    - paragraph: 2015-07-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150709 002568.SZ qty=200 cost=135.869658925 close=98.33 peak=135.88 line=119.5744
+    - paragraph: 2015-07-09 09:30:00 - INFO
+    - generic: BLOCKED 002568.SZ sell paused_or_st
+    - paragraph: 2015-07-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150708 nav=129433.891429 cash=109767.891429 market=19666.0 held=[('002568.SZ', 200)]
+    - paragraph: 2015-07-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150708 002568.SZ qty=200 cost=135.869658925 close=98.33 peak=135.88 line=119.5744
+    - paragraph: 2015-07-08 09:30:00 - INFO
+    - generic: BLOCKED 002568.SZ sell open=98.33 limit=98.33
+    - paragraph: 2015-07-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150707 nav=131617.891429 cash=109767.891429 market=21850.0 held=[('002568.SZ', 200)]
+    - paragraph: 2015-07-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150707 002568.SZ qty=200 cost=135.869658925 close=109.25 peak=135.88 line=119.5744
+    - paragraph: 2015-07-07 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150707 002568.SZ close=109.25 cost=135.869658925 peak=135.88 line=119.5744 next_open=True
+    - paragraph: 2015-07-07 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150707 300059.SZ target=0 reason=stop signal=20150706 order=093b95cd96d440919751b04338ef1cfb
+    - paragraph: 2015-07-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150706 nav=135325.280225 cash=90607.280225 market=44718.0 held=[('002568.SZ', 200), ('300059.SZ', 400)]
+    - paragraph: 2015-07-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150706 300059.SZ qty=400 cost=62.0775155 close=51.1 peak=59.01 line=54.62821364
+    - paragraph: 2015-07-06 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150706 300059.SZ close=51.1 cost=62.0775155 peak=59.01 line=54.62821364 next_open=True
+    - paragraph: 2015-07-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150706 002568.SZ qty=200 cost=135.869658925 close=121.39 peak=135.88 line=119.5744
+    - paragraph: 2015-07-06 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150706 300085.SZ target=0 reason=stop signal=20150702 order=0b64ab6cf850451f89b5a522b1c5b736
+    - paragraph: 2015-07-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150703 nav=136600.551725 cash=67858.551725 market=68742.0 held=[('300085.SZ', 400), ('002568.SZ', 200), ('300059.SZ', 400)]
+    - paragraph: 2015-07-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150703 300059.SZ qty=400 cost=62.0775155 close=55.62 peak=59.00999999999999 line=54.62821364
+    - paragraph: 2015-07-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150703 002568.SZ qty=200 cost=135.869658925 close=127.89 peak=135.88 line=119.5744
+    - paragraph: 2015-07-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150703 300085.SZ qty=400 cost=69.96736746999999 close=52.29 peak=64.56 line=61.57128337359999
+    - paragraph: 2015-07-03 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150703 601106.SH target=0 reason=stop signal=20150702 order=ea62e9ae90284059bd3a092579cebfa1
+    - paragraph: 2015-07-03 09:30:00 - INFO
+    - generic: BLOCKED 300085.SZ sell open=52.29 limit=52.29
+    - paragraph: 2015-07-03 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150703 300033.SZ target=0 reason=stop signal=20150702 order=7593e7a33b8a4919b7c152a907679222
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150702 nav=140227.19678 cash=23203.196780000002 market=117024.0 held=[('300085.SZ', 400), ('300033.SZ', 300), ('601106.SH', 2500), ('002568.SZ', 200), ('300059.SZ', 400)]
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150702 300059.SZ qty=400 cost=62.0775155 close=56.79 peak=59.01 line=54.62821364
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150702 002568.SZ qty=200 cost=135.869658925 close=122.29 peak=135.88 line=119.5744
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150702 601106.SH qty=2500 cost=11.994977995 close=10.1 peak=11.22 line=10.5555806356
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150702 601106.SH close=10.1 cost=11.994977995 peak=11.22 line=10.5555806356 next_open=True
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150702 300033.SZ qty=300 cost=84.38537107000002 close=71.2 peak=77.39 line=74.25912654160001
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150702 300033.SZ close=71.2 cost=84.38537107000002 peak=77.39 line=74.25912654160001 next_open=True
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150702 300085.SZ qty=400 cost=69.96736746999999 close=58.1 peak=64.56 line=61.57128337359999
+    - paragraph: 2015-07-02 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150702 300085.SZ close=58.1 cost=69.96736746999999 peak=64.56 line=61.57128337359999 next_open=True
+    - paragraph: 2015-07-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150701 nav=151074.19678 cash=23203.196780000002 market=127871.0 held=[('300085.SZ', 400), ('300033.SZ', 300), ('601106.SH', 2500), ('002568.SZ', 200), ('300059.SZ', 400)]
+    - paragraph: 2015-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150701 300059.SZ qty=400 cost=62.0775155 close=59.01 peak=59.01 line=54.62821364
+    - paragraph: 2015-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150701 002568.SZ qty=200 cost=135.869658925 close=135.88 peak=135.88 line=119.5744
+    - paragraph: 2015-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150701 601106.SH qty=2500 cost=11.994977995 close=11.22 peak=11.22 line=10.5555806356
+    - paragraph: 2015-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150701 300033.SZ qty=300 cost=84.38537107000002 close=77.39 peak=77.39 line=74.25912654160001
+    - paragraph: 2015-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150701 300085.SZ qty=400 cost=69.96736746999999 close=64.56 peak=64.56 line=61.57128337359999
+    - paragraph: 2015-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150701 300059.SZ target=400 reason=rebalance buy order=bd72fbc5c4554029954d8d08aeebc5ec
+    - paragraph: 2015-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150701 002568.SZ target=200 reason=rebalance buy order=f2bfc644e19b4f939bf70ecc45c2ce6b
+    - paragraph: 2015-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150701 601106.SH target=2500 reason=rebalance buy order=9fbacde7cf2b40cfb3f584b4a8ab1872
+    - paragraph: 2015-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150701 300033.SZ target=300 reason=rebalance buy order=c88e9c60f9c048e390ef53468bd5b0a4
+    - paragraph: 2015-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150701 300085.SZ target=400 reason=rebalance buy order=43c1144287ed4bfa8f1d76b3e20ea7c1
+    - paragraph: 2015-07-01 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION signal=20150630 execute=20150701 on=True n=5 equity=158498.REDACTED_PHONE lot_cap=39624.534515374995 eligible=735 rejected={'missing': 532, 'ineligible': 322} picks=['300085.SZ', '300033.SZ', '601106.SH', '002568.SZ', '300059.SZ'] top8=[('300085.SZ', 12.943287037037036, 71.73), ('300033.SZ', 12.671469740634004, 85.99), ('601106.SH', 9.192708333333334, 12.11), ('002568.SZ', 8.101129943502825, 131.53), ('300059.SZ', 7.688888888888888, 63.09), ('601608.SH', 7.566775244299675, 16.3), ('600986.SH', 6.5966386554621845, 24.07), ('601390.SH', 6.337448559670781, 13.69)]"
+    - paragraph: 2015-06-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150630 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150629 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150626 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150625 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150624 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150623 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150619 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150618 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150617 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150616 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150615 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150612 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150611 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150610 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150609 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150608 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150605 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150604 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150603 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150602 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-06-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150601 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150529 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150528 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150527 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150526 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150525 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150522 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150521 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150520 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150519 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150518 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150515 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150514 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150513 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150512 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150511 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150508 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150507 nav=158498.REDACTED_PHONE cash=158498.REDACTED_PHONE market=0 held=[]
+    - paragraph: 2015-05-07 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150507 600528.SH target=0 reason=stop signal=20150506 order=02d5e69be93f43409254f57499fb31ce
+    - paragraph: 2015-05-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150506 nav=158511.9067265 cash=131091.9067265 market=27420.0 held=[('600528.SH', 1200)]
+    - paragraph: 2015-05-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150506 600528.SH qty=1200 cost=23.42925585 close=22.85 peak=27.12 line=23.8656
+    - paragraph: 2015-05-06 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150506 600528.SH close=22.85 cost=23.42925585 peak=27.12 line=23.8656 next_open=True
+    - paragraph: 2015-05-06 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150506 601800.SH target=0 reason=stop signal=20150505 order=75aff9f846ce4569aa216ef38c7a704c
+    - paragraph: 2015-05-06 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150506 600399.SH target=0 reason=stop signal=20150505 order=15fb34d1032f4a2db337e313d982affe
+    - paragraph: 2015-05-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150505 nav=159797.15258025 cash=77296.REDACTED_PHONE market=82501.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-05-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150505 601800.SH qty=1500 cost=18.863554710000003 close=20.03 peak=23.37 line=20.5656
+    - paragraph: 2015-05-05 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150505 601800.SH close=20.03 cost=18.863554710000003 peak=23.37 line=20.5656 next_open=True
+    - paragraph: 2015-05-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150505 600399.SH qty=800 cost=33.44175834999999 close=29.66 peak=35.96 line=31.6448
+    - paragraph: 2015-05-05 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150505 600399.SH close=29.66 cost=33.44175834999999 peak=35.96 line=31.6448 next_open=True
+    - paragraph: 2015-05-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150505 600528.SH qty=1200 cost=23.42925585 close=23.94 peak=27.12 line=23.8656
+    - paragraph: 2015-05-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150504 nav=166659.15258025 cash=77296.REDACTED_PHONE market=89363.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-05-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150504 601800.SH qty=1500 cost=18.863554710000003 close=21.89 peak=23.37 line=20.5656
+    - paragraph: 2015-05-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150504 600399.SH qty=800 cost=33.44175834999999 close=31.96 peak=35.96 line=31.6448
+    - paragraph: 2015-05-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150504 600528.SH qty=1200 cost=23.42925585 close=25.8 peak=27.12 line=23.8656
+    - paragraph: 2015-04-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150430 nav=164225.15258025 cash=77296.REDACTED_PHONE market=86929.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150430 601800.SH qty=1500 cost=18.863554710000003 close=21.59 peak=23.37 line=20.5656
+    - paragraph: 2015-04-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150430 600399.SH qty=800 cost=33.44175834999999 close=31.97 peak=35.96 line=31.6448
+    - paragraph: 2015-04-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150430 600528.SH qty=1200 cost=23.42925585 close=24.14 peak=27.12 line=23.8656
+    - paragraph: 2015-04-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150429 nav=164787.15258025 cash=77296.REDACTED_PHONE market=87491.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150429 601800.SH qty=1500 cost=18.863554710000003 close=21.49 peak=23.37 line=20.5656
+    - paragraph: 2015-04-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150429 600399.SH qty=800 cost=33.44175834999999 close=32.32 peak=35.96 line=31.6448
+    - paragraph: 2015-04-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150429 600528.SH qty=1200 cost=23.42925585 close=24.5 peak=27.119999999999997 line=23.865599999999997
+    - paragraph: 2015-04-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150428 nav=167523.15258025 cash=77296.REDACTED_PHONE market=90227.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150428 601800.SH qty=1500 cost=18.863554710000003 close=22.61 peak=23.37 line=20.5656
+    - paragraph: 2015-04-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150428 600399.SH qty=800 cost=33.44175834999999 close=31.9 peak=35.96 line=31.6448
+    - paragraph: 2015-04-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150428 600528.SH qty=1200 cost=23.42925585 close=25.66 peak=27.12 line=23.8656
+    - paragraph: 2015-04-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150427 nav=171586.15258025 cash=77296.REDACTED_PHONE market=94290.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150427 601800.SH qty=1500 cost=18.863554710000003 close=23.22 peak=23.37 line=20.5656
+    - paragraph: 2015-04-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150427 600399.SH qty=800 cost=33.44175834999999 close=33.99 peak=35.96 line=31.6448
+    - paragraph: 2015-04-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150427 600528.SH qty=1200 cost=23.42925585 close=26.89 peak=27.12 line=23.8656
+    - paragraph: 2015-04-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150424 nav=169071.15258025 cash=77296.REDACTED_PHONE market=91775.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150424 601800.SH qty=1500 cost=18.863554710000003 close=22.05 peak=23.37 line=20.5656
+    - paragraph: 2015-04-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150424 600399.SH qty=800 cost=33.44175834999999 close=35.14 peak=35.96 line=31.6448
+    - paragraph: 2015-04-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150424 600528.SH qty=1200 cost=23.42925585 close=25.49 peak=27.120000000000005 line=23.865600000000004
+    - paragraph: 2015-04-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150423 nav=168044.15258025 cash=77296.REDACTED_PHONE market=90748.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150423 601800.SH qty=1500 cost=18.863554710000003 close=21.44 peak=23.37 line=20.5656
+    - paragraph: 2015-04-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150423 600399.SH qty=800 cost=33.44175834999999 close=35.96 peak=35.96 line=31.6448
+    - paragraph: 2015-04-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150423 600528.SH qty=1200 cost=23.42925585 close=24.85 peak=27.12 line=23.8656
+    - paragraph: 2015-04-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150422 nav=167526.15258025 cash=77296.REDACTED_PHONE market=90230.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150422 601800.SH qty=1500 cost=18.863554710000003 close=21.62 peak=23.370000000000005 line=20.565600000000003
+    - paragraph: 2015-04-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150422 600399.SH qty=800 cost=33.44175834999999 close=34.96 peak=34.96 line=30.7648
+    - paragraph: 2015-04-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150422 600528.SH qty=1200 cost=23.42925585 close=24.86 peak=27.120000000000005 line=23.865600000000004
+    - paragraph: 2015-04-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150421 nav=167599.15258025 cash=77296.REDACTED_PHONE market=90303.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150421 601800.SH qty=1500 cost=18.863554710000003 close=21.65 peak=23.370000000000005 line=20.565600000000003
+    - paragraph: 2015-04-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150421 600399.SH qty=800 cost=33.44175834999999 close=34.65 peak=34.8 line=30.624
+    - paragraph: 2015-04-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150421 600528.SH qty=1200 cost=23.42925585 close=25.09 peak=27.12 line=23.8656
+    - paragraph: 2015-04-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150420 nav=170511.15258025 cash=77296.REDACTED_PHONE market=93215.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150420 601800.SH qty=1500 cost=18.863554710000003 close=23.37 peak=23.37 line=20.5656
+    - paragraph: 2015-04-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150420 600399.SH qty=800 cost=33.44175834999999 close=32.32 peak=34.8 line=30.624
+    - paragraph: 2015-04-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150420 600528.SH qty=1200 cost=23.42925585 close=26.92 peak=27.12 line=23.8656
+    - paragraph: 2015-04-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150417 nav=168828.15258025 cash=77296.REDACTED_PHONE market=91532.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150417 601800.SH qty=1500 cost=18.863554710000003 close=22.2 peak=22.2 line=19.535999999999998
+    - paragraph: 2015-04-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150417 600399.SH qty=800 cost=33.44175834999999 close=32.23 peak=34.8 line=30.624
+    - paragraph: 2015-04-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150417 600528.SH qty=1200 cost=23.42925585 close=27.04 peak=27.12 line=23.8656
+    - paragraph: 2015-04-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150416 nav=164070.15258025 cash=77296.REDACTED_PHONE market=86774.0 held=[('600528.SH', 1200), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150416 601800.SH qty=1500 cost=18.863554710000003 close=20.38 peak=21.06 line=18.532799999999998
+    - paragraph: 2015-04-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150416 600399.SH qty=800 cost=33.44175834999999 close=32.02 peak=34.8 line=30.624
+    - paragraph: 2015-04-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150416 600528.SH qty=1200 cost=23.42925585 close=25.49 peak=27.120000000000005 line=23.865600000000004
+    - paragraph: 2015-04-16 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150416 300033.SZ target=0 reason=stop signal=20150415 order=09385396b21045ccbd3417a45c7fde8d
+    - paragraph: 2015-04-16 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150416 002183.SZ target=0 reason=stop signal=20150415 order=8f284525923d4526ad5378c27a500518
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150415 nav=167859.6231415 cash=22069.623141499986 market=145790.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150415 601800.SH qty=1500 cost=18.863554710000003 close=21.06 peak=21.06 line=18.532799999999998
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150415 600399.SH qty=800 cost=33.44175834999999 close=31.56 peak=34.8 line=30.624
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150415 002183.SZ qty=900 cost=31.539382875 close=32.5 peak=37.32 line=32.8416
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150415 002183.SZ close=32.5 cost=31.539382875 peak=37.32 line=32.8416 next_open=True
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150415 600528.SH qty=1200 cost=23.42925585 close=27.12 peak=27.12 line=23.8656
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150415 300033.SZ qty=200 cost=119.14877974999999 close=135.79 peak=157.0 line=138.16
+    - paragraph: 2015-04-15 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150415 300033.SZ close=135.79 cost=119.14877974999999 peak=157.0 line=138.16 next_open=True
+    - paragraph: 2015-04-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150414 nav=173118.6231415 cash=22069.623141499986 market=151049.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150414 601800.SH qty=1500 cost=18.863554710000003 close=20.66 peak=20.66 line=18.1808
+    - paragraph: 2015-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150414 600399.SH qty=800 cost=33.44175834999999 close=32.91 peak=34.8 line=30.624
+    - paragraph: 2015-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150414 002183.SZ qty=900 cost=31.539382875 close=35.27 peak=37.32 line=32.8416
+    - paragraph: 2015-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150414 600528.SH qty=1200 cost=23.42925585 close=26.51 peak=26.51 line=23.3288
+    - paragraph: 2015-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150414 300033.SZ qty=200 cost=119.14877974999999 close=150.88 peak=157.00000000000003 line=138.16000000000003
+    - paragraph: 2015-04-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150413 nav=172555.6231415 cash=22069.623141499986 market=150486.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150413 601800.SH qty=1500 cost=18.863554710000003 close=19.91 peak=19.91 line=17.5208
+    - paragraph: 2015-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150413 600399.SH qty=800 cost=33.44175834999999 close=34.37 peak=34.8 line=30.624
+    - paragraph: 2015-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150413 002183.SZ qty=900 cost=31.539382875 close=36.41 peak=37.32 line=32.8416
+    - paragraph: 2015-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150413 600528.SH qty=1200 cost=23.42925585 close=24.13 peak=24.309999999999995 line=21.392799999999998
+    - paragraph: 2015-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150413 300033.SZ qty=200 cost=119.14877974999999 close=157.0 peak=157.0 line=138.16
+    - paragraph: 2015-04-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150410 nav=167605.6231415 cash=22069.623141499986 market=145536.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150410 601800.SH qty=1500 cost=18.863554710000003 close=19.2 peak=19.55 line=17.204
+    - paragraph: 2015-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150410 600399.SH qty=800 cost=33.44175834999999 close=34.07 peak=34.8 line=30.624
+    - paragraph: 2015-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150410 002183.SZ qty=900 cost=31.539382875 close=36.4 peak=37.32 line=32.8416
+    - paragraph: 2015-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150410 600528.SH qty=1200 cost=23.42925585 close=22.95 peak=24.310000000000002 line=21.3928
+    - paragraph: 2015-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150410 300033.SZ qty=200 cost=119.14877974999999 close=145.9 peak=145.9 line=128.392
+    - paragraph: 2015-04-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150409 nav=165449.6231415 cash=22069.623141499986 market=143380.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150409 601800.SH qty=1500 cost=18.863554710000003 close=18.56 peak=19.55 line=17.204
+    - paragraph: 2015-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150409 600399.SH qty=800 cost=33.44175834999999 close=33.36 peak=34.8 line=30.624
+    - paragraph: 2015-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150409 002183.SZ qty=900 cost=31.539382875 close=35.82 peak=37.32 line=32.8416
+    - paragraph: 2015-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150409 600528.SH qty=1200 cost=23.42925585 close=22.92 peak=24.31 line=21.392799999999998
+    - paragraph: 2015-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150409 300033.SZ qty=200 cost=119.14877974999999 close=145.55 peak=145.55 line=128.084
+    - paragraph: 2015-04-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150408 nav=168393.6231415 cash=22069.623141499986 market=146324.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150408 601800.SH qty=1500 cost=18.863554710000003 close=19.55 peak=19.55 line=17.204
+    - paragraph: 2015-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150408 600399.SH qty=800 cost=33.44175834999999 close=34.8 peak=34.8 line=30.624
+    - paragraph: 2015-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150408 002183.SZ qty=900 cost=31.539382875 close=36.43 peak=37.32 line=32.8416
+    - paragraph: 2015-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150408 600528.SH qty=1200 cost=23.42925585 close=24.31 peak=24.31 line=21.392799999999998
+    - paragraph: 2015-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150408 300033.SZ qty=200 cost=119.14877974999999 close=136.0 peak=136.0 line=119.68
+    - paragraph: 2015-04-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150407 nav=164730.6231415 cash=22069.623141499986 market=142661.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150407 601800.SH qty=1500 cost=18.863554710000003 close=18.01 peak=18.68 line=16.599928144800003
+    - paragraph: 2015-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150407 600399.SH qty=800 cost=33.44175834999999 close=34.45 peak=34.51 line=30.368799999999997
+    - paragraph: 2015-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150407 002183.SZ qty=900 cost=31.539382875 close=37.32 peak=37.32 line=32.8416
+    - paragraph: 2015-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150407 600528.SH qty=1200 cost=23.42925585 close=23.35 peak=23.58 line=20.7504
+    - paragraph: 2015-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150407 300033.SZ qty=200 cost=119.14877974999999 close=132.39 peak=132.39 line=116.50319999999999
+    - paragraph: 2015-04-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150403 nav=158647.6231415 cash=22069.623141499986 market=136578.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150403 601800.SH qty=1500 cost=18.863554710000003 close=17.85 peak=18.68 line=16.599928144800003
+    - paragraph: 2015-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150403 600399.SH qty=800 cost=33.44175834999999 close=34.51 peak=34.51 line=30.368799999999997
+    - paragraph: 2015-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150403 002183.SZ qty=900 cost=31.539382875 close=33.93 peak=33.93 line=29.8584
+    - paragraph: 2015-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150403 600528.SH qty=1200 cost=23.42925585 close=22.99 peak=23.58 line=20.7504
+    - paragraph: 2015-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150403 300033.SZ qty=200 cost=119.14877974999999 close=120.35 peak=124.15 line=109.25200000000001
+    - paragraph: 2015-04-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150402 nav=158516.6231415 cash=22069.623141499986 market=136447.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150402 601800.SH qty=1500 cost=18.863554710000003 close=18.3 peak=18.68 line=16.599928144800003
+    - paragraph: 2015-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150402 600399.SH qty=800 cost=33.44175834999999 close=32.89 peak=32.89 line=29.428747347999995
+    - paragraph: 2015-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150402 002183.SZ qty=900 cost=31.539382875 close=33.19 peak=33.19 line=29.207199999999997
+    - paragraph: 2015-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150402 600528.SH qty=1200 cost=23.42925585 close=23.32 peak=23.579999999999995 line=20.750399999999996
+    - paragraph: 2015-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150402 300033.SZ qty=200 cost=119.14877974999999 close=124.15 peak=124.15 line=109.25200000000001
+    - paragraph: 2015-04-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150401 nav=158517.6231415 cash=22069.623141499986 market=136448.0 held=[('300033.SZ', 200), ('600528.SH', 1200), ('002183.SZ', 900), ('600399.SH', 800), ('601800.SH', 1500)]
+    - paragraph: 2015-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150401 601800.SH qty=1500 cost=18.863554710000003 close=18.68 peak=18.68 line=16.599928144800003
+    - paragraph: 2015-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150401 600399.SH qty=800 cost=33.44175834999999 close=32.83 peak=32.83 line=29.428747347999995
+    - paragraph: 2015-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150401 002183.SZ qty=900 cost=31.539382875 close=32.52 peak=32.52 line=28.617600000000003
+    - paragraph: 2015-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150401 600528.SH qty=1200 cost=23.42925585 close=23.58 peak=23.58 line=20.7504
+    - paragraph: 2015-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150401 300033.SZ qty=200 cost=119.14877974999999 close=123.0 peak=123.0 line=108.24
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 601800.SH target=1500 reason=rebalance buy order=9f70156df56b4cf6bb74eb504178d1bb
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 600399.SH target=800 reason=rebalance buy order=6ecb9823feb1468ba1a3eae2bba3e468
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 002183.SZ target=900 reason=rebalance buy order=f73c9a3cec9e461c833b91d925c50e65
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 600528.SH target=1200 reason=rebalance buy order=dae67b35807945059d925e67f4c0d92b
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 300033.SZ target=200 reason=rebalance buy order=eb0d1716c012401688dfc1a22a1c84f8
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 600862.SH target=0 reason=leave target order=3b858399cbe94a119d76e6ab7e930a4e
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 600446.SH target=0 reason=leave target order=b03a5325948c48cb891451552f152123
+    - paragraph: 2015-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150401 300134.SZ target=0 reason=leave target order=7318a1ff7eff40948110f013a35f14b8
+    - paragraph: 2015-04-01 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION signal=20150331 execute=20150401 on=True n=5 equity=156245.599849 lot_cap=39061.39996225 eligible=752 rejected={'ineligible': 271, 'missing': 566} picks=['300033.SZ', '600528.SH', '002183.SZ', '600399.SH', '601800.SH'] top8=[('300033.SZ', 6.963888888888889, 121.0), ('600528.SH', 3.6024844720496896, 23.39), ('002183.SZ', 3.0098314606741576, 31.52), ('600399.SH', 2.9383259911894277, 32.81), ('601800.SH', 2.876750700280112, 18.49), ('601519.SH', 2.731825525040388, 29.56), ('000783.SZ', 2.695214105793451, 15.88), ('600570.SH', 2.632566870014078, 108.88)]"
+    - paragraph: 2015-03-31 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150331 nav=156245.599849 cash=45225.59984899999 market=111020.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-31 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150331 600862.SH qty=2000 cost=9.311800000000002 close=17.7 peak=17.7 line=15.575999999999999
+    - paragraph: 2015-03-31 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150331 600446.SH qty=400 cost=46.85929999999999 close=121.8 peak=132.87 line=116.9256
+    - paragraph: 2015-03-31 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150331 300134.SZ qty=500 cost=37.14710000000001 close=53.8 peak=54.63 line=48.074400000000004
+    - paragraph: 2015-03-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150330 nav=151788.599849 cash=45225.59984899999 market=106563.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150330 600862.SH qty=2000 cost=9.311800000000002 close=16.72 peak=16.72 line=14.7136
+    - paragraph: 2015-03-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150330 600446.SH qty=400 cost=46.85929999999999 close=120.52 peak=132.87 line=116.9256
+    - paragraph: 2015-03-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150330 300134.SZ qty=500 cost=37.14710000000001 close=49.83 peak=54.63 line=48.074400000000004
+    - paragraph: 2015-03-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150327 nav=155252.599849 cash=45225.59984899999 market=110027.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150327 600862.SH qty=2000 cost=9.311800000000002 close=16.38 peak=16.38 line=14.414399999999999
+    - paragraph: 2015-03-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150327 600446.SH qty=400 cost=46.85929999999999 close=129.18 peak=132.87 line=116.9256
+    - paragraph: 2015-03-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150327 300134.SZ qty=500 cost=37.14710000000001 close=51.19 peak=54.63 line=48.074400000000004
+    - paragraph: 2015-03-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150326 nav=154339.599849 cash=45225.59984899999 market=109114.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150326 600862.SH qty=2000 cost=9.311800000000002 close=15.99 peak=16.29 line=14.335199999999999
+    - paragraph: 2015-03-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150326 600446.SH qty=400 cost=46.85929999999999 close=129.56 peak=132.87 line=116.9256
+    - paragraph: 2015-03-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150326 300134.SZ qty=500 cost=37.14710000000001 close=50.62 peak=54.629999999999995 line=48.0744
+    - paragraph: 2015-03-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150325 nav=157112.599849 cash=45225.59984899999 market=111887.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150325 600862.SH qty=2000 cost=9.311800000000002 close=16.01 peak=16.29 line=14.335199999999999
+    - paragraph: 2015-03-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150325 600446.SH qty=400 cost=46.85929999999999 close=131.38 peak=132.87 line=116.9256
+    - paragraph: 2015-03-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150325 300134.SZ qty=500 cost=37.14710000000001 close=54.63 peak=54.63 line=48.074400000000004
+    - paragraph: 2015-03-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150324 nav=156118.599849 cash=45225.59984899999 market=110893.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150324 600862.SH qty=2000 cost=9.311800000000002 close=16.18 peak=16.29 line=14.335199999999999
+    - paragraph: 2015-03-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150324 600446.SH qty=400 cost=46.85929999999999 close=132.87 peak=132.87 line=116.9256
+    - paragraph: 2015-03-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150324 300134.SZ qty=500 cost=37.14710000000001 close=50.77 peak=50.77 line=44.677600000000005
+    - paragraph: 2015-03-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150323 nav=152563.599849 cash=45225.59984899999 market=107338.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150323 600862.SH qty=2000 cost=9.311800000000002 close=16.29 peak=16.29 line=14.335199999999999
+    - paragraph: 2015-03-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150323 600446.SH qty=400 cost=46.85929999999999 close=128.92 peak=128.92 line=113.44959999999999
+    - paragraph: 2015-03-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150323 300134.SZ qty=500 cost=37.14710000000001 close=46.38 peak=46.38 line=40.8144
+    - paragraph: 2015-03-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150320 nav=147246.599849 cash=45225.59984899999 market=102021.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150320 600862.SH qty=2000 cost=9.311800000000002 close=16.21 peak=16.21 line=14.264800000000001
+    - paragraph: 2015-03-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150320 600446.SH qty=400 cost=46.85929999999999 close=117.89 peak=117.89 line=103.7432
+    - paragraph: 2015-03-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150320 300134.SZ qty=500 cost=37.14710000000001 close=44.89 peak=45.33 line=39.8904
+    - paragraph: 2015-03-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150319 nav=143570.599849 cash=45225.59984899999 market=98345.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150319 600862.SH qty=2000 cost=9.311800000000002 close=16.05 peak=16.05 line=14.124
+    - paragraph: 2015-03-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150319 600446.SH qty=400 cost=46.85929999999999 close=108.95 peak=109.65999999999998 line=96.50079999999998
+    - paragraph: 2015-03-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150319 300134.SZ qty=500 cost=37.14710000000001 close=45.33 peak=45.33 line=39.8904
+    - paragraph: 2015-03-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150318 nav=140171.599849 cash=45225.59984899999 market=94946.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150318 600862.SH qty=2000 cost=9.311800000000002 close=14.94 peak=15.130000000000003 line=13.314400000000003
+    - paragraph: 2015-03-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150318 600446.SH qty=400 cost=46.85929999999999 close=108.29 peak=109.65999999999998 line=96.50079999999998
+    - paragraph: 2015-03-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150318 300134.SZ qty=500 cost=37.14710000000001 close=43.5 peak=43.5 line=38.28
+    - paragraph: 2015-03-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150317 nav=139854.599849 cash=45225.59984899999 market=94629.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150317 600862.SH qty=2000 cost=9.311800000000002 close=15.01 peak=15.13 line=13.314400000000001
+    - paragraph: 2015-03-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150317 600446.SH qty=400 cost=46.85929999999999 close=107.96 peak=109.66 line=96.5008
+    - paragraph: 2015-03-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150317 300134.SZ qty=500 cost=37.14710000000001 close=42.85 peak=43.10999999999999 line=37.93679999999999
+    - paragraph: 2015-03-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150316 nav=140544.599849 cash=45225.59984899999 market=95319.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150316 600862.SH qty=2000 cost=9.311800000000002 close=14.95 peak=15.130000000000003 line=13.314400000000003
+    - paragraph: 2015-03-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150316 600446.SH qty=400 cost=46.85929999999999 close=109.66 peak=109.66 line=96.5008
+    - paragraph: 2015-03-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150316 300134.SZ qty=500 cost=37.14710000000001 close=43.11 peak=43.11 line=37.9368
+    - paragraph: 2015-03-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150313 nav=135628.599849 cash=45225.59984899999 market=90403.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150313 600862.SH qty=2000 cost=9.311800000000002 close=14.7 peak=15.13 line=13.314400000000001
+    - paragraph: 2015-03-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150313 600446.SH qty=400 cost=46.85929999999999 close=99.77 peak=99.77 line=87.7976
+    - paragraph: 2015-03-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150313 300134.SZ qty=500 cost=37.14710000000001 close=42.19 peak=42.19 line=37.127199999999995
+    - paragraph: 2015-03-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150312 nav=130271.59984899999 cash=45225.59984899999 market=85046.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150312 600862.SH qty=2000 cost=9.311800000000002 close=14.57 peak=15.13 line=13.314400000000001
+    - paragraph: 2015-03-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150312 600446.SH qty=400 cost=46.85929999999999 close=90.84 peak=90.84 line=79.9392
+    - paragraph: 2015-03-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150312 300134.SZ qty=500 cost=37.14710000000001 close=39.14 peak=41.7 line=36.696000000000005
+    - paragraph: 2015-03-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150311 nav=129997.59984899999 cash=45225.59984899999 market=84772.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150311 600862.SH qty=2000 cost=9.311800000000002 close=14.55 peak=15.130000000000003 line=13.314400000000003
+    - paragraph: 2015-03-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150311 600446.SH qty=400 cost=46.85929999999999 close=89.93 peak=89.93 line=79.1384
+    - paragraph: 2015-03-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150311 300134.SZ qty=500 cost=37.14710000000001 close=39.4 peak=41.7 line=36.696000000000005
+    - paragraph: 2015-03-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150310 nav=130535.59984899999 cash=45225.59984899999 market=85310.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150310 600862.SH qty=2000 cost=9.311800000000002 close=15.06 peak=15.13 line=13.314400000000001
+    - paragraph: 2015-03-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150310 600446.SH qty=400 cost=46.85929999999999 close=87.9 peak=88.02 line=77.4576
+    - paragraph: 2015-03-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150310 300134.SZ qty=500 cost=37.14710000000001 close=40.06 peak=41.70000000000001 line=36.69600000000001
+    - paragraph: 2015-03-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150309 nav=129716.59984899999 cash=45225.59984899999 market=84491.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150309 600862.SH qty=2000 cost=9.311800000000002 close=14.97 peak=15.129999999999999 line=13.3144
+    - paragraph: 2015-03-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150309 600446.SH qty=400 cost=46.85929999999999 close=86.09 peak=88.02000000000001 line=77.45760000000001
+    - paragraph: 2015-03-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150309 300134.SZ qty=500 cost=37.14710000000001 close=40.23 peak=41.7 line=36.696000000000005
+    - paragraph: 2015-03-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150306 nav=128468.59984899999 cash=45225.59984899999 market=83243.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150306 600862.SH qty=2000 cost=9.311800000000002 close=15.13 peak=15.13 line=13.314400000000001
+    - paragraph: 2015-03-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150306 600446.SH qty=400 cost=46.85929999999999 close=82.82 peak=88.02 line=77.4576
+    - paragraph: 2015-03-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150306 300134.SZ qty=500 cost=37.14710000000001 close=39.71 peak=41.7 line=36.696000000000005
+    - paragraph: 2015-03-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150305 nav=129683.59984899999 cash=45225.59984899999 market=84458.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150305 600862.SH qty=2000 cost=9.311800000000002 close=14.61 peak=14.61 line=12.8568
+    - paragraph: 2015-03-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150305 600446.SH qty=400 cost=46.85929999999999 close=88.02 peak=88.02 line=77.4576
+    - paragraph: 2015-03-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150305 300134.SZ qty=500 cost=37.14710000000001 close=40.06 peak=41.70000000000001 line=36.69600000000001
+    - paragraph: 2015-03-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150304 nav=129457.59984899999 cash=45225.59984899999 market=84232.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150304 600862.SH qty=2000 cost=9.311800000000002 close=14.5 peak=14.5 line=12.76
+    - paragraph: 2015-03-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150304 600446.SH qty=400 cost=46.85929999999999 close=86.83 peak=86.83 line=76.4104
+    - paragraph: 2015-03-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150304 300134.SZ qty=500 cost=37.14710000000001 close=41.0 peak=41.7 line=36.696000000000005
+    - paragraph: 2015-03-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150303 nav=129379.59984899999 cash=45225.59984899999 market=84154.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150303 600862.SH qty=2000 cost=9.311800000000002 close=14.31 peak=14.31 line=12.5928
+    - paragraph: 2015-03-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150303 600446.SH qty=400 cost=46.85929999999999 close=86.71 peak=86.71 line=76.3048
+    - paragraph: 2015-03-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150303 300134.SZ qty=500 cost=37.14710000000001 close=41.7 peak=41.7 line=36.696000000000005
+    - paragraph: 2015-03-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150302 nav=127110.59984899999 cash=45225.59984899999 market=81885.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-03-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150302 600862.SH qty=2000 cost=9.311800000000002 close=13.39 peak=13.420000000000002 line=11.809600000000001
+    - paragraph: 2015-03-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150302 600446.SH qty=400 cost=46.85929999999999 close=85.7 peak=85.7 line=75.416
+    - paragraph: 2015-03-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150302 300134.SZ qty=500 cost=37.14710000000001 close=41.65 peak=41.65 line=36.652
+    - paragraph: 2015-02-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150227 nav=123544.59984899999 cash=45225.59984899999 market=78319.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150227 600862.SH qty=2000 cost=9.311800000000002 close=13.3 peak=13.42 line=11.8096
+    - paragraph: 2015-02-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150227 600446.SH qty=400 cost=46.85929999999999 close=77.91 peak=79.49 line=69.9512
+    - paragraph: 2015-02-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150227 300134.SZ qty=500 cost=37.14710000000001 close=41.11 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150226 nav=122784.59984899999 cash=45225.59984899999 market=77559.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150226 600862.SH qty=2000 cost=9.311800000000002 close=13.42 peak=13.42 line=11.8096
+    - paragraph: 2015-02-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150226 600446.SH qty=400 cost=46.85929999999999 close=76.31 peak=79.49 line=69.9512
+    - paragraph: 2015-02-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150226 300134.SZ qty=500 cost=37.14710000000001 close=40.39 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150225 nav=121541.59984899999 cash=45225.59984899999 market=76316.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150225 600862.SH qty=2000 cost=9.311800000000002 close=12.88 peak=13.11 line=11.5368
+    - paragraph: 2015-02-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150225 600446.SH qty=400 cost=46.85929999999999 close=75.64 peak=79.49 line=69.9512
+    - paragraph: 2015-02-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150225 300134.SZ qty=500 cost=37.14710000000001 close=40.6 peak=41.519999999999996 line=36.5376
+    - paragraph: 2015-02-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150217 nav=123211.59984899999 cash=45225.59984899999 market=77986.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150217 600862.SH qty=2000 cost=9.311800000000002 close=13.11 peak=13.11 line=11.5368
+    - paragraph: 2015-02-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150217 600446.SH qty=400 cost=46.85929999999999 close=79.49 peak=79.49 line=69.9512
+    - paragraph: 2015-02-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150217 300134.SZ qty=500 cost=37.14710000000001 close=39.94 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150216 nav=119183.59984899999 cash=45225.59984899999 market=73958.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150216 600862.SH qty=2000 cost=9.311800000000002 close=11.92 peak=11.92 line=10.4896
+    - paragraph: 2015-02-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150216 600446.SH qty=400 cost=46.85929999999999 close=75.17 peak=75.54 line=66.4752
+    - paragraph: 2015-02-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150216 300134.SZ qty=500 cost=37.14710000000001 close=40.1 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150213 nav=115924.59984899999 cash=45225.59984899999 market=70699.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150213 600862.SH qty=2000 cost=9.311800000000002 close=11.45 peak=11.66 line=10.2608
+    - paragraph: 2015-02-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150213 600446.SH qty=400 cost=46.85929999999999 close=70.26 peak=75.54 line=66.4752
+    - paragraph: 2015-02-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150213 300134.SZ qty=500 cost=37.14710000000001 close=39.39 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150212 nav=115317.59984899999 cash=45225.59984899999 market=70092.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150212 600862.SH qty=2000 cost=9.311800000000002 close=11.04 peak=11.66 line=10.2608
+    - paragraph: 2015-02-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150212 600446.SH qty=400 cost=46.85929999999999 close=71.53 peak=75.54 line=66.4752
+    - paragraph: 2015-02-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150212 300134.SZ qty=500 cost=37.14710000000001 close=38.8 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150211 nav=116514.59984899999 cash=45225.59984899999 market=71289.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150211 600862.SH qty=2000 cost=9.311800000000002 close=10.91 peak=11.66 line=10.2608
+    - paragraph: 2015-02-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150211 600446.SH qty=400 cost=46.85929999999999 close=74.66 peak=75.54 line=66.4752
+    - paragraph: 2015-02-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150211 300134.SZ qty=500 cost=37.14710000000001 close=39.21 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150210 nav=113183.59984899999 cash=45225.59984899999 market=67958.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600862.SH', 2000)]
+    - paragraph: 2015-02-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150210 600862.SH qty=2000 cost=9.311800000000002 close=10.83 peak=11.66 line=10.2608
+    - paragraph: 2015-02-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150210 600446.SH qty=400 cost=46.85929999999999 close=68.62 peak=75.54 line=66.4752
+    - paragraph: 2015-02-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150210 300134.SZ qty=500 cost=37.14710000000001 close=37.7 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-10 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150210 600556.SH target=0 reason=stop signal=20150209 order=2f2742dec4974438b94d134ee454429d
+    - paragraph: 2015-02-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150209 nav=112303.90169 cash=29103.901689999995 market=83200.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-02-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150209 600862.SH qty=2000 cost=9.311800000000002 close=10.75 peak=11.66 line=10.2608
+    - paragraph: 2015-02-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150209 600556.SH qty=1300 cost=14.027856153846153 close=12.43 peak=14.36 line=12.6368
+    - paragraph: 2015-02-09 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150209 600556.SH close=12.43 cost=14.027856153846153 peak=14.36 line=12.6368 next_open=True
+    - paragraph: 2015-02-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150209 600446.SH qty=400 cost=46.85929999999999 close=67.29 peak=75.54 line=66.4752
+    - paragraph: 2015-02-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150209 300134.SZ qty=500 cost=37.14710000000001 close=37.25 peak=41.519999999999996 line=36.5376
+    - paragraph: 2015-02-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150206 nav=113499.90169 cash=29103.901689999995 market=84396.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-02-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150206 600862.SH qty=2000 cost=9.311800000000002 close=10.94 peak=11.66 line=10.2608
+    - paragraph: 2015-02-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150206 600556.SH qty=1300 cost=14.027856153846153 close=12.79 peak=14.360000000000001 line=12.636800000000001
+    - paragraph: 2015-02-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150206 600446.SH qty=400 cost=46.85929999999999 close=68.11 peak=75.54 line=66.4752
+    - paragraph: 2015-02-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150206 300134.SZ qty=500 cost=37.14710000000001 close=37.29 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150205 nav=116718.90169 cash=29103.901689999995 market=87615.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-02-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150205 600862.SH qty=2000 cost=9.311800000000002 close=11.29 peak=11.66 line=10.2608
+    - paragraph: 2015-02-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150205 600556.SH qty=1300 cost=14.027856153846153 close=12.85 peak=14.36 line=12.6368
+    - paragraph: 2015-02-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150205 600446.SH qty=400 cost=46.85929999999999 close=72.7 peak=75.54 line=66.4752
+    - paragraph: 2015-02-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150205 300134.SZ qty=500 cost=37.14710000000001 close=38.5 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150204 nav=117531.90169 cash=29103.901689999995 market=88428.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-02-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150204 600862.SH qty=2000 cost=9.311800000000002 close=11.66 peak=11.66 line=10.2608
+    - paragraph: 2015-02-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150204 600556.SH qty=1300 cost=14.027856153846153 close=13.5 peak=14.36 line=12.6368
+    - paragraph: 2015-02-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150204 600446.SH qty=400 cost=46.85929999999999 close=70.82 peak=75.54 line=66.4752
+    - paragraph: 2015-02-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150204 300134.SZ qty=500 cost=37.14710000000001 close=38.46 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150203 nav=118726.90169 cash=29103.901689999995 market=89623.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-02-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150203 600862.SH qty=2000 cost=9.311800000000002 close=11.54 peak=11.54 line=10.155199999999999
+    - paragraph: 2015-02-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150203 600556.SH qty=1300 cost=14.027856153846153 close=13.61 peak=14.359999999999998 line=12.636799999999997
+    - paragraph: 2015-02-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150203 600446.SH qty=400 cost=46.85929999999999 close=72.75 peak=75.54 line=66.4752
+    - paragraph: 2015-02-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150203 300134.SZ qty=500 cost=37.14710000000001 close=39.5 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150202 nav=116120.90169 cash=29103.901689999995 market=87017.0 held=[('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-02-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150202 600862.SH qty=2000 cost=9.311800000000002 close=11.3 peak=11.3 line=9.944
+    - paragraph: 2015-02-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150202 600556.SH qty=1300 cost=14.027856153846153 close=13.17 peak=14.359999999999998 line=12.636799999999997
+    - paragraph: 2015-02-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150202 600446.SH qty=400 cost=46.85929999999999 close=69.74 peak=75.54 line=66.4752
+    - paragraph: 2015-02-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150202 300134.SZ qty=500 cost=37.14710000000001 close=38.8 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-02-02 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150202 300033.SZ target=0 reason=stop signal=20150130 order=4f1016e93e30439aa235327044183aa4
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150130 nav=116112.91699999999 cash=7799.916999999994 market=108313.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150130 600862.SH qty=2000 cost=9.311800000000002 close=11.14 peak=11.18 line=9.8384
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150130 600556.SH qty=1300 cost=14.027856153846153 close=13.62 peak=14.36 line=12.6368
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150130 600446.SH qty=400 cost=46.85929999999999 close=67.55 peak=75.54 line=66.4752
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150130 300134.SZ qty=500 cost=37.14710000000001 close=38.75 peak=41.52000000000001 line=36.53760000000001
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150130 300033.SZ qty=400 cost=45.0575 close=54.83 peak=63.29 line=55.6952
+    - paragraph: 2015-01-30 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20150130 300033.SZ close=54.83 cost=45.0575 peak=63.29 line=55.6952 next_open=True
+    - paragraph: 2015-01-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150129 nav=118385.91699999999 cash=7799.916999999994 market=110586.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150129 600862.SH qty=2000 cost=9.311800000000002 close=11.18 peak=11.18 line=9.8384
+    - paragraph: 2015-01-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150129 600556.SH qty=1300 cost=14.027856153846153 close=13.73 peak=14.359999999999998 line=12.636799999999997
+    - paragraph: 2015-01-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150129 600446.SH qty=400 cost=46.85929999999999 close=69.5 peak=75.54 line=66.4752
+    - paragraph: 2015-01-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150129 300134.SZ qty=500 cost=37.14710000000001 close=39.53 peak=41.519999999999996 line=36.5376
+    - paragraph: 2015-01-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150129 300033.SZ qty=400 cost=45.0575 close=57.03 peak=63.28999999999999 line=55.69519999999999
+    - paragraph: 2015-01-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150128 nav=119637.91699999999 cash=7799.916999999994 market=111838.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150128 600862.SH qty=2000 cost=9.311800000000002 close=11.15 peak=11.17 line=9.8296
+    - paragraph: 2015-01-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150128 600556.SH qty=1300 cost=14.027856153846153 close=13.71 peak=14.36 line=12.6368
+    - paragraph: 2015-01-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150128 600446.SH qty=400 cost=46.85929999999999 close=72.05 peak=75.54 line=66.4752
+    - paragraph: 2015-01-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150128 300134.SZ qty=500 cost=37.14710000000001 close=39.51 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-01-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150128 300033.SZ qty=400 cost=45.0575 close=57.85 peak=63.29 line=55.6952
+    - paragraph: 2015-01-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150127 nav=122573.91699999999 cash=7799.916999999994 market=114774.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150127 600862.SH qty=2000 cost=9.311800000000002 close=11.17 peak=11.17 line=9.8296
+    - paragraph: 2015-01-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150127 600556.SH qty=1300 cost=14.027856153846153 close=14.07 peak=14.36 line=12.6368
+    - paragraph: 2015-01-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150127 600446.SH qty=400 cost=46.85929999999999 close=75.54 peak=75.54 line=66.4752
+    - paragraph: 2015-01-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150127 300134.SZ qty=500 cost=37.14710000000001 close=39.79 peak=41.52000000000001 line=36.53760000000001
+    - paragraph: 2015-01-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150127 300033.SZ qty=400 cost=45.0575 close=60.08 peak=63.28999999999999 line=55.69519999999999
+    - paragraph: 2015-01-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150126 nav=122746.91699999999 cash=7799.916999999994 market=114947.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150126 600862.SH qty=2000 cost=9.311800000000002 close=11.1 peak=11.1 line=9.767999999999999
+    - paragraph: 2015-01-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150126 600556.SH qty=1300 cost=14.027856153846153 close=14.36 peak=14.36 line=12.6368
+    - paragraph: 2015-01-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150126 600446.SH qty=400 cost=46.85929999999999 close=73.76 peak=73.76 line=64.9088
+    - paragraph: 2015-01-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150126 300134.SZ qty=500 cost=37.14710000000001 close=40.59 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-01-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150126 300033.SZ qty=400 cost=45.0575 close=60.7 peak=63.28999999999999 line=55.69519999999999
+    - paragraph: 2015-01-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150123 nav=117620.91699999999 cash=7799.916999999994 market=109821.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150123 600862.SH qty=2000 cost=9.311800000000002 close=10.62 peak=11.019999999999998 line=9.697599999999998
+    - paragraph: 2015-01-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150123 600556.SH qty=1300 cost=14.027856153846153 close=14.27 peak=14.27 line=12.557599999999999
+    - paragraph: 2015-01-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150123 600446.SH qty=400 cost=46.85929999999999 close=67.05 peak=71.89 line=63.2632
+    - paragraph: 2015-01-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150123 300134.SZ qty=500 cost=37.14710000000001 close=40.3 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-01-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150123 300033.SZ qty=400 cost=45.0575 close=57.65 peak=63.29 line=55.6952
+    - paragraph: 2015-01-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150122 nav=121282.91699999999 cash=7799.916999999994 market=113483.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150122 600862.SH qty=2000 cost=9.311800000000002 close=11.02 peak=11.02 line=9.6976
+    - paragraph: 2015-01-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150122 600556.SH qty=1300 cost=14.027856153846153 close=14.23 peak=14.23 line=12.522400000000001
+    - paragraph: 2015-01-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150122 600446.SH qty=400 cost=46.85929999999999 close=69.49 peak=71.89 line=63.2632
+    - paragraph: 2015-01-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150122 300134.SZ qty=500 cost=37.14710000000001 close=41.52 peak=41.52 line=36.537600000000005
+    - paragraph: 2015-01-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150122 300033.SZ qty=400 cost=45.0575 close=60.97 peak=63.29 line=55.6952
+    - paragraph: 2015-01-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150121 nav=120271.91699999999 cash=7799.916999999994 market=112472.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150121 600862.SH qty=2000 cost=9.311800000000002 close=10.58 peak=10.58 line=9.3104
+    - paragraph: 2015-01-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150121 600556.SH qty=1300 cost=14.027856153846153 close=13.19 peak=14.16 line=12.4608
+    - paragraph: 2015-01-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150121 600446.SH qty=400 cost=46.85929999999999 close=71.59 peak=71.89 line=63.2632
+    - paragraph: 2015-01-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150121 300134.SZ qty=500 cost=37.14710000000001 close=40.93 peak=41.14 line=36.2032
+    - paragraph: 2015-01-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150121 300033.SZ qty=400 cost=45.0575 close=62.66 peak=63.28999999999999 line=55.69519999999999
+    - paragraph: 2015-01-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150120 nav=118762.91699999999 cash=7799.916999999994 market=110963.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150120 600862.SH qty=2000 cost=9.311800000000002 close=9.74 peak=9.979999999999999 line=8.782399999999999
+    - paragraph: 2015-01-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150120 600556.SH qty=1300 cost=14.027856153846153 close=13.13 peak=14.16 line=12.4608
+    - paragraph: 2015-01-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150120 600446.SH qty=400 cost=46.85929999999999 close=71.89 peak=71.89 line=63.2632
+    - paragraph: 2015-01-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150120 300134.SZ qty=500 cost=37.14710000000001 close=41.14 peak=41.14 line=36.2032
+    - paragraph: 2015-01-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150120 300033.SZ qty=400 cost=45.0575 close=62.72 peak=63.28999999999999 line=55.69519999999999
+    - paragraph: 2015-01-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150119 nav=113108.91699999999 cash=7799.916999999994 market=105309.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150119 600862.SH qty=2000 cost=9.311800000000002 close=9.25 peak=9.98 line=8.7824
+    - paragraph: 2015-01-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150119 600556.SH qty=1300 cost=14.027856153846153 close=12.85 peak=14.16 line=12.4608
+    - paragraph: 2015-01-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150119 600446.SH qty=400 cost=46.85929999999999 close=66.02 peak=66.02 line=58.0976
+    - paragraph: 2015-01-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150119 300134.SZ qty=500 cost=37.14710000000001 close=39.72 peak=39.72 line=34.9536
+    - paragraph: 2015-01-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150119 300033.SZ qty=400 cost=45.0575 close=59.59 peak=63.29 line=55.6952
+    - paragraph: 2015-01-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150116 nav=115216.91699999999 cash=7799.916999999994 market=107417.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150116 600862.SH qty=2000 cost=9.311800000000002 close=9.57 peak=9.98 line=8.7824
+    - paragraph: 2015-01-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150116 600556.SH qty=1300 cost=14.027856153846153 close=12.88 peak=14.16 line=12.4608
+    - paragraph: 2015-01-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150116 600446.SH qty=400 cost=46.85929999999999 close=65.98 peak=65.98 line=58.062400000000004
+    - paragraph: 2015-01-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150116 300134.SZ qty=500 cost=37.14710000000001 close=39.65 peak=39.65 line=34.891999999999996
+    - paragraph: 2015-01-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150116 300033.SZ qty=400 cost=45.0575 close=63.29 peak=63.29 line=55.6952
+    - paragraph: 2015-01-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150115 nav=109828.91699999999 cash=7799.916999999994 market=102029.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150115 600862.SH qty=2000 cost=9.311800000000002 close=9.53 peak=9.98 line=8.7824
+    - paragraph: 2015-01-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150115 600556.SH qty=1300 cost=14.027856153846153 close=12.72 peak=14.16 line=12.4608
+    - paragraph: 2015-01-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150115 600446.SH qty=400 cost=46.85929999999999 close=59.98 peak=63.09000000000001 line=55.51920000000001
+    - paragraph: 2015-01-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150115 300134.SZ qty=500 cost=37.14710000000001 close=38.85 peak=39.22999999999999 line=34.52239999999999
+    - paragraph: 2015-01-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150115 300033.SZ qty=400 cost=45.0575 close=57.54 peak=59.65 line=52.492
+    - paragraph: 2015-01-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150114 nav=110066.91699999999 cash=7799.916999999994 market=102267.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150114 600862.SH qty=2000 cost=9.311800000000002 close=9.51 peak=9.98 line=8.7824
+    - paragraph: 2015-01-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150114 600556.SH qty=1300 cost=14.027856153846153 close=12.67 peak=14.160000000000002 line=12.460800000000003
+    - paragraph: 2015-01-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150114 600446.SH qty=400 cost=46.85929999999999 close=62.17 peak=63.089999999999996 line=55.5192
+    - paragraph: 2015-01-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150114 300134.SZ qty=500 cost=37.14710000000001 close=38.6 peak=39.23 line=34.5224
+    - paragraph: 2015-01-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150114 300033.SZ qty=400 cost=45.0575 close=56.52 peak=59.65 line=52.492
+    - paragraph: 2015-01-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150113 nav=112002.91699999999 cash=7799.916999999994 market=104203.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150113 600862.SH qty=2000 cost=9.311800000000002 close=9.52 peak=9.98 line=8.7824
+    - paragraph: 2015-01-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150113 600556.SH qty=1300 cost=14.027856153846153 close=12.89 peak=14.159999999999998 line=12.460799999999999
+    - paragraph: 2015-01-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150113 600446.SH qty=400 cost=46.85929999999999 close=63.09 peak=63.09 line=55.519200000000005
+    - paragraph: 2015-01-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150113 300134.SZ qty=500 cost=37.14710000000001 close=38.62 peak=39.23 line=34.5224
+    - paragraph: 2015-01-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150113 300033.SZ qty=400 cost=45.0575 close=59.65 peak=59.65 line=52.492
+    - paragraph: 2015-01-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150112 nav=110548.91699999999 cash=7799.916999999994 market=102749.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150112 600862.SH qty=2000 cost=9.311800000000002 close=9.51 peak=9.98 line=8.7824
+    - paragraph: 2015-01-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150112 600556.SH qty=1300 cost=14.027856153846153 close=13.71 peak=14.16 line=12.4608
+    - paragraph: 2015-01-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150112 600446.SH qty=400 cost=46.85929999999999 close=60.22 peak=60.22 line=52.9936
+    - paragraph: 2015-01-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150112 300134.SZ qty=500 cost=37.14710000000001 close=37.82 peak=39.23 line=34.5224
+    - paragraph: 2015-01-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150112 300033.SZ qty=400 cost=45.0575 close=57.27 peak=57.27 line=50.397600000000004
+    - paragraph: 2015-01-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150109 nav=108039.91699999999 cash=7799.916999999994 market=100240.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150109 600862.SH qty=2000 cost=9.311800000000002 close=9.75 peak=9.98 line=8.7824
+    - paragraph: 2015-01-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150109 600556.SH qty=1300 cost=14.027856153846153 close=14.16 peak=14.16 line=12.4608
+    - paragraph: 2015-01-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150109 600446.SH qty=400 cost=46.85929999999999 close=54.87 peak=54.87 line=48.285599999999995
+    - paragraph: 2015-01-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150109 300134.SZ qty=500 cost=37.14710000000001 close=39.12 peak=39.23 line=34.5224
+    - paragraph: 2015-01-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150109 300033.SZ qty=400 cost=45.0575 close=52.06 peak=52.3 line=46.024
+    - paragraph: 2015-01-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150108 nav=107214.91699999999 cash=7799.916999999994 market=99415.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150108 600862.SH qty=2000 cost=9.311800000000002 close=9.9 peak=9.98 line=8.7824
+    - paragraph: 2015-01-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150108 600556.SH qty=1300 cost=14.027856153846153 close=13.8 peak=14.050000000000002 line=12.364000000000003
+    - paragraph: 2015-01-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150108 600446.SH qty=400 cost=46.85929999999999 close=53.78 peak=53.78 line=47.3264
+    - paragraph: 2015-01-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150108 300134.SZ qty=500 cost=37.14710000000001 close=38.75 peak=39.23 line=34.5224
+    - paragraph: 2015-01-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150108 300033.SZ qty=400 cost=45.0575 close=51.97 peak=52.3 line=46.024
+    - paragraph: 2015-01-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150107 nav=106579.91699999999 cash=7799.916999999994 market=98780.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150107 600862.SH qty=2000 cost=9.311800000000002 close=9.96 peak=9.98 line=8.7824
+    - paragraph: 2015-01-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150107 600556.SH qty=1300 cost=14.027856153846153 close=14.0 peak=14.05 line=12.364
+    - paragraph: 2015-01-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150107 600446.SH qty=400 cost=46.85929999999999 close=51.3 peak=51.3 line=45.144
+    - paragraph: 2015-01-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150107 300134.SZ qty=500 cost=37.14710000000001 close=38.44 peak=39.22999999999999 line=34.52239999999999
+    - paragraph: 2015-01-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150107 300033.SZ qty=400 cost=45.0575 close=52.3 peak=52.3 line=46.024
+    - paragraph: 2015-01-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150106 nav=105339.91699999999 cash=7799.916999999994 market=97540.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150106 600862.SH qty=2000 cost=9.311800000000002 close=9.98 peak=9.98 line=8.7824
+    - paragraph: 2015-01-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150106 600556.SH qty=1300 cost=14.027856153846153 close=14.05 peak=14.05 line=12.364
+    - paragraph: 2015-01-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150106 600446.SH qty=400 cost=46.85929999999999 close=49.09 peak=49.09 line=43.199200000000005
+    - paragraph: 2015-01-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150106 300134.SZ qty=500 cost=37.14710000000001 close=39.23 peak=39.23 line=34.5224
+    - paragraph: 2015-01-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150106 300033.SZ qty=400 cost=45.0575 close=50.16 peak=50.16 line=44.1408
+    - paragraph: 2015-01-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20150105 nav=100205.91699999999 cash=7799.916999999994 market=92406.0 held=[('300033.SZ', 400), ('300134.SZ', 500), ('600446.SH', 400), ('600556.SH', 1300), ('600862.SH', 2000)]
+    - paragraph: 2015-01-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150105 600862.SH qty=2000 cost=9.311800000000002 close=9.68 peak=9.68 line=8.5184
+    - paragraph: 2015-01-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150105 600556.SH qty=1300 cost=14.027856153846153 close=13.98 peak=13.98 line=12.344513415384615
+    - paragraph: 2015-01-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150105 600446.SH qty=400 cost=46.85929999999999 close=44.63 peak=44.63 line=41.236183999999994
+    - paragraph: 2015-01-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150105 300134.SZ qty=500 cost=37.14710000000001 close=37.56 peak=37.56 line=33.052800000000005
+    - paragraph: 2015-01-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20150105 300033.SZ qty=400 cost=45.0575 close=45.6 peak=45.6 line=40.128
+    - paragraph: 2015-01-05 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150105 600862.SH target=2000 reason=rebalance buy order=f96b015125cd47a6846361195ef89aab
+    - paragraph: 2015-01-05 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150105 600556.SH target=1300 reason=rebalance buy order=f63ccbe3a84e452cbdd0e9d8b74361e2
+    - paragraph: 2015-01-05 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150105 600446.SH target=400 reason=rebalance buy order=826c4b03051345aa945b56de5f38d701
+    - paragraph: 2015-01-05 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150105 300134.SZ target=500 reason=rebalance buy order=0dcdc75b93164b498f077729d36456cd
+    - paragraph: 2015-01-05 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20150105 300033.SZ target=400 reason=rebalance buy order=f9f66facbdd94130b2b9d5cfdfeaffe3
+    - paragraph: 2015-01-05 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION signal=20141231 execute=20150105 on=True n=5 equity=100000.0 lot_cap=25000.0 eligible=613 rejected={'ineligible': 386, 'missing': 590} picks=['300033.SZ', '300134.SZ', '600446.SH', '600556.SH', '600862.SH'] top8=[('300033.SZ', 3.533333333333333, 45.36), ('300134.SZ', 2.973321067157314, 37.03), ('600446.SH', 2.845152895250488, 46.88), ('600556.SH', 2.6592178770949717, 14.0), ('600862.SH', 2.531645569620253, 9.28), ('300131.SZ', 2.3281249999999996, 28.61), ('300085.SZ', 2.209585121602289, 36.4), ('600155.SH', 2.20708446866485, 11.92)]"
+    - paragraph: 2015-01-05 00:00:00 - INFO
+    - generic: V9Q_R4_PLATFORM universe=1589 quarterly=Q next_open stop=max(cost,peak)*0.88; platform raw fills/corporate actions; fixed convenience pool, NOT PIT universe
+    - paragraph: 2026-10-20 11:51:28 - INFO
+    - generic: 回测开始
+    - paragraph: 2026-10-20 11:51:28 - INFO
+    - generic: INFO :回测开始运行

@@ -1,0 +1,378 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2025-10-17 至 2026-10-16
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：8秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad5eec4693b8e00b5b93fbb
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad5eec4693b8e00b5b93fbb
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad5eec4693b8e00b5b93fbb
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad5eec4693b8e00b5b93fbb
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad5eec4693b8e00b5b93fbb
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad5eec4693b8e00b5b93fbb
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad5eec4693b8e00b5b93fbb
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad5eec4693b8e00b5b93fbb
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad5eec4693b8e00b5b93fbb
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad5eec4693b8e00b5b93fbb
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad5eec4693b8e00b5b93fbb
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad5eec4693b8e00b5b93fbb
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad5eec4693b8e00b5b93fbb
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad5eec4693b8e00b5b93fbb
+    - table:
+      - rowgroup:
+        - row "展开/收起 收起全部 日期(时间) 代码/名称 类型 方向 收盘价/结算价 数量 保证金 市值 开仓均价 累计盈亏":
+          - columnheader "展开/收起 收起全部":
+            - button "展开/收起"
+            - button "收起全部"
+          - columnheader "日期(时间)"
+          - columnheader "代码/名称"
+          - columnheader "类型"
+          - columnheader "方向"
+          - columnheader "收盘价/结算价"
+          - columnheader "数量"
+          - columnheader "保证金"
+          - columnheader "市值"
+          - columnheader "开仓均价"
+          - columnheader "累计盈亏"
+          - columnheader
+      - rowgroup:
+        - 'row "- 2026-10-16 持有3只证券 总资产: 94,008.10 现金: 74,771.10 累计盈亏: -5,991.90"':
+          - cell "-":
+            - button "-" [active]
+          - cell "2026-10-16":
+            - generic: 2026-10-16
+          - cell "持有3只证券":
+            - generic "持有3只证券"
+          - cell
+          - 'cell "总资产: 94,008.10"':
+            - generic "总资产:94,008.10": "总资产: 94,008.10"
+          - 'cell "现金: 74,771.10"':
+            - generic "现金:74,771.10": "现金: 74,771.10"
+          - 'cell "累计盈亏: -5,991.90"':
+            - generic "累计盈亏:-5,991.90": "累计盈亏: -5,991.90"
+          - cell
+        - row "15:15:00 601857.SH 中国石油 股票 -- 12.76 500 -- 6,380.00 12.51 126.88":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "601857.SH 中国石油":
+            - generic "601857.SH 中国石油":
+              - paragraph: 601857.SH
+              - paragraph: 中国石油
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "12.76":
+            - generic: "12.76"
+          - cell "500":
+            - generic: "500"
+          - cell "--":
+            - generic: "--"
+          - cell "6,380.00":
+            - generic: 6,380.00
+          - cell "12.51":
+            - generic: "12.51"
+          - cell "126.88":
+            - generic: "126.88"
+          - cell
+        - row "15:15:00 003816.SZ 中国广核 股票 -- 4.59 1500 -- 6,885.00 4.54 81.60":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "003816.SZ 中国广核":
+            - generic "003816.SZ 中国广核":
+              - paragraph: 003816.SZ
+              - paragraph: 中国广核
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "4.59":
+            - generic: "4.59"
+          - cell "1500":
+            - generic: "1500"
+          - cell "--":
+            - generic: "--"
+          - cell "6,885.00":
+            - generic: 6,885.00
+          - cell "4.54":
+            - generic: "4.54"
+          - cell "81.60":
+            - generic: "81.60"
+          - cell
+        - row "15:15:00 601898.SH 中煤能源 股票 -- 14.93 400 -- 5,972.00 14.88 20.03":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "601898.SH 中煤能源":
+            - generic "601898.SH 中煤能源":
+              - paragraph: 601898.SH
+              - paragraph: 中煤能源
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "14.93":
+            - generic: "14.93"
+          - cell "400":
+            - generic: "400"
+          - cell "--":
+            - generic: "--"
+          - cell "5,972.00":
+            - generic: 5,972.00
+          - cell "14.88":
+            - generic: "14.88"
+          - cell "20.03":
+            - generic: "20.03"
+          - cell
+        - 'row "+ 2026-10-15 持有4只证券 总资产: 93,874.79 现金: 68,320.79 累计盈亏: -6,125.21"':
+          - cell "+":
+            - button "+"
+          - cell "2026-10-15":
+            - generic: 2026-10-15
+          - cell "持有4只证券":
+            - generic "持有4只证券"
+          - cell
+          - 'cell "总资产: 93,874.79"':
+            - generic "总资产:93,874.79": "总资产: 93,874.79"
+          - 'cell "现金: 68,320.79"':
+            - generic "现金:68,320.79": "现金: 68,320.79"
+          - 'cell "累计盈亏: -6,125.21"':
+            - generic "累计盈亏:-6,125.21": "累计盈亏: -6,125.21"
+          - cell
+        - 'row "+ 2026-10-14 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-10-14":
+            - generic: 2026-10-14
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-10-13 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-10-13":
+            - generic: 2026-10-13
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-10-12 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-10-12":
+            - generic: 2026-10-12
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-10-09 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-10-09":
+            - generic: 2026-10-09
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-10-08 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-10-08":
+            - generic: 2026-10-08
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-09-30 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-30":
+            - generic: 2026-09-30
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-09-29 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-29":
+            - generic: 2026-09-29
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-09-28 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-28":
+            - generic: 2026-09-28
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-09-24 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-24":
+            - generic: 2026-09-24
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-09-23 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-23":
+            - generic: 2026-09-23
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+        - 'row "+ 2026-09-22 无交易数据 总资产: 94,177.70 现金: 94,177.70 累计盈亏: -5,822.30"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-22":
+            - generic: 2026-09-22
+          - cell "无交易数据":
+            - generic: 无交易数据
+          - cell
+          - 'cell "总资产: 94,177.70"':
+            - generic "总资产:94,177.70": "总资产: 94,177.70"
+          - 'cell "现金: 94,177.70"':
+            - generic "现金:94,177.70": "现金: 94,177.70"
+          - 'cell "累计盈亏: -5,822.30"':
+            - generic "累计盈亏:-5,822.30": "累计盈亏: -5,822.30"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "2"
+    - button "3"
+    - button "4"
+    - generic: ...
+    - button "19"
+    - button "下一页": ">"
+    - textbox: "1"
+    - button "前往"

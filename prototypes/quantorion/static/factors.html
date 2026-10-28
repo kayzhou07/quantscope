@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>因子库管理 - QuantOrion</title>
+<style>
+:root{
+  --bg:#0F2447;--bg-card:#112850;--bg-input:#0d1f3d;--text:#E8EDF5;--text2:#8899b4;--text3:#55607a;
+  --accent:#22B573;--accent-glow:rgba(34,181,115,0.2);--accent2:#00D1FF;
+  --warn:#E54949;--ok:#22B573;
+  --border:#1a2a4a;--border-light:#253550;--shadow:0 4px 24px rgba(0,0,0,0.5);
+  --radius:8px;--radius-sm:6px;
+  --font-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-mono:'SF Mono','JetBrains Mono','Consolas',monospace;
+}
+[data-theme="light"]{
+  --bg:#FFFFFF;--bg-card:#FFFFFF;--bg-input:#F5F6F8;--text:#2D343E;--text2:#5A6676;--text3:#8E99A8;
+  --accent:#36C888;--accent-glow:rgba(54,200,136,0.1);--accent2:#4A90D9;
+  --warn:#E5534B;--ok:#36C888;
+  --border:#E4E8EC;--border-light:#EFF1F4;--shadow:0 2px 12px rgba(0,0,0,0.04);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;transition:background .3s,color .3s}
+body::before{content:'';position:fixed;inset:0;opacity:.025;pointer-events:none;z-index:0;background:radial-gradient(ellipse at 50% 0%,var(--accent-glow) 0%,transparent 60%)}
+[data-theme="dark"] body::before{opacity:.04;background-image:repeating-linear-gradient(0deg,transparent,transparent 1px,rgba(0,209,255,.012) 1px,rgba(0,209,255,.012) 2px),repeating-linear-gradient(90deg,transparent,transparent 1px,rgba(34,181,115,.008) 1px,rgba(34,181,115,.008) 2px),linear-gradient(135deg,transparent 49.5%,rgba(34,181,115,.012) 49.5%,rgba(34,181,115,.012) 50.5%,transparent 50.5%);background-size:40px 40px,40px 40px,80px 80px}
+[data-theme="light"] .nav-back,.sidebar,.topbar,.table-wrap,.pagination,.modal{transition:background .3s,border-color .3s}
+[data-theme="light"] .btn-outline{border-color:var(--border);color:var(--text2)}.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+[data-theme="light"] .btn-primary{box-shadow:0 2px 8px rgba(54,200,136,.2)}.btn-primary:hover{box-shadow:0 4px 20px rgba(54,200,136,.3)}
+[data-theme="light"] th{background:var(--bg-input)}
+[data-theme="light"] tr:hover td{background:rgba(54,200,136,.03)}
+[data-theme="light"] .tag{background:rgba(54,200,136,.1);color:#2a9d6e}
+[data-theme="light"] .tag.inactive{background:rgba(229,83,75,.08);color:#c0392b}
+[data-theme="light"] .badge-up{background:rgba(54,200,136,.1);color:#2a9d6e}
+[data-theme="light"] .badge-down{background:rgba(229,83,75,.08);color:#c0392b}
+[data-theme="light"] .modal{box-shadow:0 4px 32px rgba(0,0,0,.1)}
+[data-theme="light"] .tree-parent::before{border-left-color:var(--accent)}
+[data-theme="light"] input:focus,[data-theme="light"] select:focus{box-shadow:0 0 0 2px rgba(54,200,136,.15)}
+.sidebar{width:240px;background:var(--bg-card);border-right:1px solid var(--border);padding:20px 0;flex-shrink:0;overflow-y:auto;height:100vh;position:sticky;top:0;z-index:1}
+.sidebar h3{padding:0 20px 12px;font-size:.82em;color:var(--text2);text-transform:uppercase;letter-spacing:1px}
+.tree-parent{cursor:pointer;padding:8px 20px;font-size:.88em;font-weight:500;display:flex;align-items:center;gap:8px;user-select:none;color:var(--text);transition:color .15s}
+.tree-parent:hover{color:var(--accent)}
+.tree-parent::before{content:'';display:inline-block;width:0;height:0;border-left:5px solid var(--accent);border-top:4px solid transparent;border-bottom:4px solid transparent;transition:transform .2s;flex-shrink:0}
+.tree-parent.open::before{transform:rotate(90deg)}
+.tree-children{display:none;padding-left:16px}.tree-children.open{display:block}
+.tree-child{display:flex;align-items:center;gap:6px;padding:5px 20px;font-size:.82em;color:var(--text2);cursor:pointer;transition:color .15s}
+.tree-child:hover{color:var(--accent)}.tree-child input{accent-color:var(--accent)}
+.main{flex:1;display:flex;flex-direction:column;min-width:0;position:relative;z-index:1}
+.topbar{background:var(--bg-card);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.topbar input,.topbar select{padding:9px 14px;border:1px solid var(--border-light);border-radius:var(--radius-sm);font-size:.85em;font-family:var(--font-sans);background:var(--bg-input);color:var(--text);transition:border .2s}
+.topbar input{width:200px}.topbar select{min-width:120px;color:var(--text)}
+.topbar input:focus,.topbar select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 10px var(--accent-glow)}
+.btn{padding:9px 18px;border-radius:var(--radius-sm);font-size:.85em;cursor:pointer;border:none;font-family:var(--font-sans);transition:all .15s;display:inline-flex;align-items:center;gap:5px;font-weight:500}
+.btn-primary{background:var(--accent);color:#0D0D11}.btn-primary:hover{box-shadow:0 0 20px var(--accent-glow)}
+.btn-outline{background:transparent;border:1px solid var(--border-light);color:var(--text)}.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+.btn-sm{padding:5px 10px;font-size:.78em}.btn-xs{padding:3px 8px;font-size:.72em}
+.content{padding:20px 24px;flex:1;overflow-y:auto}
+.table-wrap{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;font-size:.84em}
+th{background:rgba(0,0,0,.2);text-align:left;padding:11px 14px;border-bottom:1px solid var(--border-light);color:var(--text2);font-weight:600;white-space:nowrap;cursor:pointer;user-select:none}
+th:hover{color:var(--accent)}
+td{padding:10px 14px;border-bottom:1px solid rgba(255,255,255,.03);font-size:.83em;color:var(--text)}
+tr:hover td{background:rgba(57,255,153,.03)}
+.status-dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px}
+.status-on{background:var(--ok);box-shadow:0 0 6px var(--accent-glow)}.status-off{background:#555}
+.pagination{display:flex;align-items:center;gap:6px;padding:12px 24px;background:var(--bg-card);border-top:1px solid var(--border)}
+.pagination button{padding:6px 12px;border:1px solid var(--border-light);border-radius:4px;background:var(--bg-input);color:var(--text);cursor:pointer;font-size:.82em;transition:all .15s}
+.pagination button.active{background:var(--accent);color:#0D0D11;border-color:var(--accent)}
+.pagination button:hover:not(.active){border-color:var(--accent)}
+.pagination span{font-size:.82em;color:var(--text2)}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;align-items:center;justify-content:center}
+.modal-overlay.show{display:flex}
+.modal{background:var(--bg-card);border:1px solid var(--border-light);border-radius:var(--radius);padding:28px;width:90%;max-width:600px;box-shadow:0 0 40px rgba(57,255,153,.1)}
+.modal h3{margin-bottom:16px;color:var(--accent)}
+.modal .form-row{display:flex;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.modal .form-row label{flex:1;min-width:160px;font-size:.85em}
+.modal .form-row label span{display:block;margin-bottom:4px;color:var(--text2)}
+.modal input,.modal select,.modal textarea{width:100%;padding:9px 14px;border:1px solid var(--border-light);border-radius:4px;font-size:.85em;font-family:var(--font-mono);background:var(--bg-input);color:var(--text)}
+.modal input:focus,.modal select:focus,.modal textarea:focus{outline:none;border-color:var(--accent)}
+.modal textarea{height:80px;resize:vertical}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
+.tag{display:inline-block;padding:2px 8px;border-radius:3px;font-size:.75em;background:rgba(57,255,153,.1);color:var(--accent);margin:1px}
+.tag.active{background:rgba(57,255,153,.12);color:var(--ok)}.tag.inactive{background:rgba(229,73,73,.1);color:var(--warn)}
+.badge{display:inline-block;padding:2px 6px;border-radius:3px;font-size:.7em;font-weight:600}
+.badge-up{background:rgba(57,255,153,.12);color:var(--ok)}.badge-down{background:rgba(229,73,73,.1);color:var(--warn)}
+.nav-back{display:flex;align-items:center;gap:4px;color:var(--text2);text-decoration:none;font-size:.82em;padding:12px 20px;border-bottom:1px solid var(--border);transition:color .2s}
+.nav-back:hover{color:var(--accent)}
+@media(max-width:900px){.sidebar{display:none}.topbar{flex-direction:column}}
+</style></head>
+<body>
+
+<div class="sidebar">
+  <a href="/" class="nav-back">&#8592; 返回首页</a>
+  <div style="padding:8px 20px 16px;font-weight:700;font-size:1.1em;display:flex;align-items:center;gap:8px">
+    <span style="color:var(--accent);font-size:1.2em;text-shadow:0 0 12px var(--accent-glow)">&#9651;</span>QuantOrion
+  </div>
+  <h3>因子分类</h3>
+  <div id="factorTree"></div>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    <input type="text" id="searchInput" placeholder="搜索因子名称/表达式..." oninput="filterData()">
+    <select id="typeFilter" onchange="filterData()">
+      <option value="">全部类型</option><option>基本面</option><option>量价</option><option>另类因子</option>
+    </select>
+    <select id="statusFilter" onchange="filterData()"><option value="">全部状态</option><option value="1">已启用</option><option value="0">已禁用</option></select>
+    <button class="btn btn-outline btn-sm" onclick="filterData()">&#128269; 筛选</button>
+    <div style="flex:1"></div>
+    <button class="btn btn-outline btn-sm" onclick="toggleTheme()" title="切换主题" style="width:36px;height:36px;border-radius:50%;padding:0;display:inline-flex;align-items:center;justify-content:center;font-size:1.1em;line-height:1">&#9789;</button>
+    <button class="btn btn-primary" onclick="showAddModal()">+ 新增因子</button>
+    <button class="btn btn-outline btn-sm">&#128229; 导出</button>
+  </div>
+
+  <div class="content">
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th style="width:30px"><input type="checkbox" onchange="toggleAll(this)"></th>
+          <th onclick="sortTable('id')">因子ID &#8645;</th>
+          <th onclick="sortTable('name')">因子名称 &#8645;</th>
+          <th>因子表达式</th>
+          <th>分类</th>
+          <th>数据来源</th>
+          <th>状态</th>
+          <th onclick="sortTable('ic')">IC均值 &#8645;</th>
+          <th>最大回撤</th>
+          <th>操作</th>
+        </tr></thead>
+        <tbody id="factorTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="pagination" id="pagination"></div>
+</div>
+
+<div class="modal-overlay" id="addModal">
+  <div class="modal">
+    <h3>新增因子</h3>
+    <div class="form-row">
+      <label><span>因子名称</span><input id="fName" placeholder="例如：动量因子"></label>
+      <label><span>因子分类</span><select id="fType"><option>基本面</option><option>量价</option><option>另类因子</option></select></label>
+    </div>
+    <div class="form-row">
+      <label><span>因子表达式</span><input id="fExpr" placeholder="例如：(close-ref(close,5))/ref(close,5)"></label>
+      <label><span>数据来源</span><select id="fSource"><option>Tushare</option><option>Wind</option><option>自定义</option></select></label>
+    </div>
+    <label style="display:block;margin-bottom:14px"><span style="display:block;margin-bottom:4px;font-size:.85em;color:var(--text2)">参数配置</span><textarea id="fParams" placeholder='{"window":5,"field":"close"}'></textarea></label>
+    <div class="modal-actions">
+      <button class="btn btn-outline" onclick="closeModal()">取消</button>
+      <button class="btn btn-primary" onclick="saveFactor()">保存</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){const s=localStorage.getItem('quantorion-theme')||'dark';document.documentElement.setAttribute('data-theme',s);})();
+function toggleTheme(){const h=document.documentElement;const c=h.getAttribute('data-theme');const n=c==='dark'?'light':'dark';h.setAttribute('data-theme',n);localStorage.setItem('quantorion-theme',n);document.querySelector('.btn-outline.btn-sm').innerHTML=c==='dark'?'&#9788;':'&#9789;'}
+// Factor data
+const factors=[
+  {id:'F001',name:'涨停连续性',expr:'pct_chg >= limit_pct * 0.995',type:'量价',source:'Tushare',status:1,ic:0.42,dd:'-8.2%',creator:'Admin'},
+  {id:'F002',name:'成交量缩量',expr:'vol < ref(vol,1)',type:'量价',source:'Tushare',status:1,ic:0.35,dd:'-5.1%',creator:'Admin'},
+  {id:'F003',name:'3日动量',expr:'(close-ref(close,3))/ref(close,3)*100',type:'量价',source:'Tushare',status:1,ic:0.28,dd:'-12.4%',creator:'Admin'},
+  {id:'F004',name:'换手率',expr:'turnover_rate > 3 AND turnover_rate < 10',type:'量价',source:'Tushare',status:1,ic:0.18,dd:'-7.8%',creator:'Admin'},
+  {id:'F005',name:'北向资金净流入',expr:'north_flow_change > 0',type:'基本面',source:'Tushare',status:0,ic:0.15,dd:'-9.3%',creator:'Admin'},
+  {id:'F006',name:'市值过滤',expr:'total_mv < 4e10',type:'基本面',source:'Tushare',status:1,ic:0.08,dd:'-3.2%',creator:'Admin'},
+  {id:'F007',name:'波动率因子',expr:'std(close,20)/mean(close,20)',type:'量价',source:'Tushare',status:0,ic:0.22,dd:'-6.5%',creator:'Admin'},
+  {id:'F008',name:'PE估值',expr:'pe_ttm > 0 AND pe_ttm < 50',type:'基本面',source:'Tushare',status:1,ic:0.12,dd:'-4.1%',creator:'Admin'},
+  {id:'F009',name:'舆情热度',expr:'news_count > 3',type:'另类因子',source:'Tushare',status:0,ic:0.09,dd:'-15.2%',creator:'Admin'},
+  {id:'F010',name:'行业动量',expr:'industry_ret_5d > 0',type:'另类因子',source:'自定义',status:0,ic:0.05,dd:'-18.7%',creator:'Admin'},
+  {id:'F011',name:'MACD金叉',expr:'diff > dea',type:'量价',source:'Tushare',status:1,ic:0.19,dd:'-11.3%',creator:'Admin'},
+  {id:'F012',name:'RSI超卖',expr:'rsi_14 < 30',type:'量价',source:'Tushare',status:0,ic:0.14,dd:'-8.9%',creator:'Admin'},
+];
+
+let filtered=[...factors];
+let sortKey='',sortDir=1;
+let page=1,pageSize=8;
+
+// Tree
+const treeData=[
+  {name:'基本面因子',children:[{name:'估值因子',tag:'PE/PB/PS'},{name:'成长因子',tag:'营收/利润增速'},{name:'质量因子',tag:'ROE/毛利率'}]},
+  {name:'量价因子',children:[{name:'动量因子',tag:'涨跌幅'},{name:'波动因子',tag:'振幅/标准差'},{name:'成交量因子',tag:'换手率/量比'},{name:'技术因子',tag:'MACD/RSI'}]},
+  {name:'舆情因子',children:[{name:'新闻情绪',tag:'NLP情感'},{name:'社交热度',tag:'讨论量'}]},
+  {name:'宏观因子',children:[{name:'利率因子',tag:'LPR/国债'},{name:'汇率因子',tag:'USD/CNY'},{name:'通胀因子',tag:'CPI/PPI'}]},
+];
+function buildTree(nodes,parent){
+  nodes.forEach(n=>{
+    const d=document.createElement('div');d.className='tree-parent';
+    d.innerHTML=n.name;
+    d.onclick=function(e){this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')};
+    parent.appendChild(d);
+    const c=document.createElement('div');c.className='tree-children';
+    (n.children||[]).forEach(ch=>{
+      const ci=document.createElement('div');ci.className='tree-child';
+      ci.innerHTML=`<input type="checkbox" onchange="filterByTree()" data-tag="${ch.name}"> ${ch.name} <span style="font-size:.7em;color:#aaa">${ch.tag||''}</span>`;
+      c.appendChild(ci);
+    });
+    parent.appendChild(c);
+  });
+}
+document.addEventListener('DOMContentLoaded',()=>{buildTree(treeData,document.getElementById('factorTree'))});
+
+// Table
+const typeMap={基本面:'tag',量价:'tag',另类因子:'tag'};
+function renderTable(data){
+  const start=(page-1)*pageSize,end=start+pageSize;
+  const pageData=data.slice(start,end);
+  document.getElementById('factorTable').innerHTML=pageData.map(f=>`<tr>
+    <td><input type="checkbox" value="${f.id}"></td>
+    <td style="font-family:var(--font-mono)">${f.id}</td>
+    <td><b>${f.name}</b></td>
+    <td style="font-family:var(--font-mono);font-size:.8em;max-width:250px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${f.expr}</td>
+    <td><span class="tag">${f.type}</span></td>
+    <td>${f.source}</td>
+    <td><span class="status-dot ${f.status?'status-on':'status-off'}"></span>${f.status?'已启用':'已禁用'}</td>
+    <td><span class="badge ${f.ic>0?'badge-up':'badge-down'}">${f.ic>0?'+':''}${f.ic}</span></td>
+    <td style="color:${f.dd.startsWith('-')?'var(--warn)':'var(--ok)'}">${f.dd}</td>
+    <td>
+      <button class="btn btn-outline btn-xs" onclick="alert('查看因子 ${f.id} 详情')">详情</button>
+      <button class="btn btn-outline btn-xs" onclick="toggleStatus('${f.id}')">${f.status?'禁用':'启用'}</button>
+    </td>
+  </tr>`).join('');
+  renderPagination(data.length);
+}
+
+function renderPagination(total){
+  const pages=Math.ceil(total/pageSize);
+  let h=`<span>共 ${total} 条</span>`;
+  for(let i=1;i<=pages;i++) h+=`<button class="${i===page?'active':''}" onclick="page=${i};renderTable(filtered)">${i}</button>`;
+  document.getElementById('pagination').innerHTML=h;
+}
+
+function filterData(){
+  const s=document.getElementById('searchInput').value.toLowerCase();
+  const t=document.getElementById('typeFilter').value;
+  const st=document.getElementById('statusFilter').value;
+  filtered=factors.filter(f=>(!s||f.name.includes(s)||f.expr.toLowerCase().includes(s)||f.id.toLowerCase().includes(s))&&(!t||f.type===t)&&(!st||f.status===parseInt(st)));
+  page=1;renderTable(filtered);
+}
+function sortTable(key){
+  if(sortKey===key){sortDir*=-1}else{sortKey=key;sortDir=1}
+  filtered.sort((a,b)=>(a[key]>b[key]?1:-1)*sortDir);
+  renderTable(filtered);
+}
+function toggleAll(el){document.querySelectorAll('#factorTable input[type=checkbox]').forEach(cb=>cb.checked=el.checked)}
+function toggleStatus(id){
+  const f=factors.find(f=>f.id===id);if(f){f.status=f.status?0:1;filterData()}
+}
+function showAddModal(){document.getElementById('addModal').classList.add('show')}
+function closeModal(){document.getElementById('addModal').classList.remove('show')}
+function saveFactor(){
+  const n=document.getElementById('fName').value,e=document.getElementById('fExpr').value,t=document.getElementById('fType').value,s=document.getElementById('fSource').value;
+  if(!n||!e)return alert('请填写因子名称和表达式');
+  factors.push({id:'F'+String(factors.length+1).padStart(3,'0'),name:n,expr:e,type:t,source:s,status:1,ic:'0.00',dd:'-',creator:'Admin'});
+  closeModal();filterData();document.getElementById('fName').value='';document.getElementById('fExpr').value='';
+}
+function filterByTree(){
+  const checked=[...document.querySelectorAll('.tree-child input:checked')].map(cb=>cb.dataset.tag);
+  if(!checked.length){filtered=[...factors]}else{
+    filtered=factors.filter(f=>checked.some(tag=>f.name.includes(tag)||f.type.includes(tag)));
+  }
+  page=1;renderTable(filtered);
+}
+
+renderTable(factors);
+</script></body></html>

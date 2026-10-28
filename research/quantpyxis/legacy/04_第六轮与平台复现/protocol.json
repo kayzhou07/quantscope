@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "start": "2014-07-01",
+  "end": "2026-10-19",
+  "capital": 100000,
+  "candidates": {
+    "A": 1.0,
+    "A80": 0.8
+  },
+  "change": "Only BULL target budget 1.0 -> .8; N=.30; top15 buffer20; existing seen history",
+  "source_sha256": "ee19328e231f74af782fb607a31de99393630994c8bf379c6d6659ba87d7b27b",
+  "acceptance": "Do not promote on winrate; require reproducible A, lower maxDD/worst day, assess return cost and full-year results; no further parameter search"
+}

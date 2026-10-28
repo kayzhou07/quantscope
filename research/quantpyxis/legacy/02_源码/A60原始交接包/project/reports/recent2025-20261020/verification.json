@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "daily_rows": 1728,
+  "stock_fills": 377,
+  "source_data_unchanged": true,
+  "frozen_code_unchanged": true,
+  "engine_tests_passed": 94,
+  "orders_table_empty_in_all": true,
+  "warning": "Target-book path has no individual orders table; events and fills are present. Corporate actions use implicit qfq reinvestment, not real dividend cash."
+}

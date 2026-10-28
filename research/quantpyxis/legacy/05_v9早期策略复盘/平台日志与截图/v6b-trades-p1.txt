@@ -1,0 +1,798 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2025-10-17 至 2026-10-16
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：8秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad5eec4693b8e00b5b93fbb
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad5eec4693b8e00b5b93fbb
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad5eec4693b8e00b5b93fbb
+      - link "交易明细" [active]:
+        - /url: /backtest-result/transactionDetail?id=6ad5eec4693b8e00b5b93fbb
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad5eec4693b8e00b5b93fbb
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad5eec4693b8e00b5b93fbb
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad5eec4693b8e00b5b93fbb
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad5eec4693b8e00b5b93fbb
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad5eec4693b8e00b5b93fbb
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad5eec4693b8e00b5b93fbb
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad5eec4693b8e00b5b93fbb
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad5eec4693b8e00b5b93fbb
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad5eec4693b8e00b5b93fbb
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad5eec4693b8e00b5b93fbb
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2025-10-17 至 2026-10-16 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2025-10-17 至 2026-10-16 查询":
+            - combobox: 2025-10-17
+            - generic: 至
+            - combobox: 2026-10-16
+            - button "查询"
+      - rowgroup:
+        - row "2026-10-16 09:31:00 600219.SH 南山铝业 卖出 4.308 -1500 -6,461.77 -- 11.46 -386.65":
+          - cell "2026-10-16":
+            - generic: 2026-10-16
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600219.SH 南山铝业":
+            - paragraph: 600219.SH
+            - paragraph: 南山铝业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "4.308":
+            - generic: "4.308"
+          - cell "-1500":
+            - generic: "-1500"
+          - cell "-6,461.77":
+            - generic: "-6,461.77"
+          - cell "--":
+            - generic: "--"
+          - cell "11.46":
+            - generic: "11.46"
+          - cell "-386.65":
+            - generic: "-386.65"
+          - cell
+        - row "2026-10-15 09:31:00 601898.SH 中煤能源 买入 14.867 400 5,946.97 -- 5.00 --":
+          - cell "2026-10-15":
+            - generic: 2026-10-15
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601898.SH 中煤能源":
+            - paragraph: 601898.SH
+            - paragraph: 中煤能源
+          - cell "买入":
+            - generic: 买入
+          - cell "14.867":
+            - generic: "14.867"
+          - cell "400":
+            - generic: "400"
+          - cell "5,946.97":
+            - generic: 5,946.97
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-10-15 09:31:00 601857.SH 中国石油 买入 12.496 500 6,248.12 -- 5.00 --":
+          - cell "2026-10-15":
+            - generic: 2026-10-15
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "买入":
+            - generic: 买入
+          - cell "12.496":
+            - generic: "12.496"
+          - cell "500":
+            - generic: "500"
+          - cell "6,248.12":
+            - generic: 6,248.12
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-10-15 09:31:00 003816.SZ 中国广核 买入 4.532 1500 6,798.40 -- 5.00 --":
+          - cell "2026-10-15":
+            - generic: 2026-10-15
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "003816.SZ 中国广核":
+            - paragraph: 003816.SZ
+            - paragraph: 中国广核
+          - cell "买入":
+            - generic: 买入
+          - cell "4.532":
+            - generic: "4.532"
+          - cell "1500":
+            - generic: "1500"
+          - cell "6,798.40":
+            - generic: 6,798.40
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-10-15 09:31:00 600219.SH 南山铝业 买入 4.562 1500 6,843.42 -- 5.00 --":
+          - cell "2026-10-15":
+            - generic: 2026-10-15
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600219.SH 南山铝业":
+            - paragraph: 600219.SH
+            - paragraph: 南山铝业
+          - cell "买入":
+            - generic: 买入
+          - cell "4.562":
+            - generic: "4.562"
+          - cell "1500":
+            - generic: "1500"
+          - cell "6,843.42":
+            - generic: 6,843.42
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-15 09:31:00 601857.SH 中国石油 卖出 11.074 -500 -5,537.23 -- 10.54 -135.60":
+          - cell "2026-09-15":
+            - generic: 2026-09-15
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "卖出":
+            - generic: 卖出
+          - cell "11.074":
+            - generic: "11.074"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-5,537.23":
+            - generic: "-5,537.23"
+          - cell "--":
+            - generic: "--"
+          - cell "10.54":
+            - generic: "10.54"
+          - cell "-135.60":
+            - generic: "-135.60"
+          - cell
+        - row "2026-09-14 09:31:00 002493.SZ 荣盛石化 卖出 13.513 -300 -4,053.97 -- 9.05 -256.93":
+          - cell "2026-09-14":
+            - generic: 2026-09-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.513":
+            - generic: "13.513"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-4,053.97":
+            - generic: "-4,053.97"
+          - cell "--":
+            - generic: "--"
+          - cell "9.05":
+            - generic: "9.05"
+          - cell "-256.93":
+            - generic: "-256.93"
+          - cell
+        - row "2026-09-14 09:31:00 600039.SH 四川路桥 卖出 8.966 -400 -3,586.21 -- 8.59 -106.97":
+          - cell "2026-09-14":
+            - generic: 2026-09-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600039.SH 四川路桥":
+            - paragraph: 600039.SH
+            - paragraph: 四川路桥
+          - cell "卖出":
+            - generic: 卖出
+          - cell "8.966":
+            - generic: "8.966"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-3,586.21":
+            - generic: "-3,586.21"
+          - cell "--":
+            - generic: "--"
+          - cell "8.59":
+            - generic: "8.59"
+          - cell "-106.97":
+            - generic: "-106.97"
+          - cell
+        - row "2026-09-11 09:31:00 000301.SZ 东方盛虹 卖出 13.773 -300 -4,131.93 -- 9.13 -79.92":
+          - cell "2026-09-11":
+            - generic: 2026-09-11
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000301.SZ 东方盛虹":
+            - paragraph: 000301.SZ
+            - paragraph: 东方盛虹
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.773":
+            - generic: "13.773"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-4,131.93":
+            - generic: "-4,131.93"
+          - cell "--":
+            - generic: "--"
+          - cell "9.13":
+            - generic: "9.13"
+          - cell "-79.92":
+            - generic: "-79.92"
+          - cell
+        - row "2026-09-11 09:31:00 002493.SZ 荣盛石化 卖出 14.293 -100 -1,429.29 -- 6.43 -7.68":
+          - cell "2026-09-11":
+            - generic: 2026-09-11
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "卖出":
+            - generic: 卖出
+          - cell "14.293":
+            - generic: "14.293"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,429.29":
+            - generic: "-1,429.29"
+          - cell "--":
+            - generic: "--"
+          - cell "6.43":
+            - generic: "6.43"
+          - cell "-7.68":
+            - generic: "-7.68"
+          - cell
+        - row "2026-09-11 09:31:00 600039.SH 四川路桥 卖出 9.225 -200 -1,845.08 -- 6.85 -1.51":
+          - cell "2026-09-11":
+            - generic: 2026-09-11
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600039.SH 四川路桥":
+            - paragraph: 600039.SH
+            - paragraph: 四川路桥
+          - cell "卖出":
+            - generic: 卖出
+          - cell "9.225":
+            - generic: "9.225"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-1,845.08":
+            - generic: "-1,845.08"
+          - cell "--":
+            - generic: "--"
+          - cell "6.85":
+            - generic: "6.85"
+          - cell "-1.51":
+            - generic: "-1.51"
+          - cell
+        - row "2026-09-10 09:31:00 000301.SZ 东方盛虹 卖出 14.183 -100 -1,418.29 -- 6.42 14.34":
+          - cell "2026-09-10":
+            - generic: 2026-09-10
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000301.SZ 东方盛虹":
+            - paragraph: 000301.SZ
+            - paragraph: 东方盛虹
+          - cell "卖出":
+            - generic: 卖出
+          - cell "14.183":
+            - generic: "14.183"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,418.29":
+            - generic: "-1,418.29"
+          - cell "--":
+            - generic: "--"
+          - cell "6.42":
+            - generic: "6.42"
+          - cell "14.34":
+            - generic: "14.34"
+          - cell
+        - row "2026-09-09 09:31:00 002493.SZ 荣盛石化 买入 14.357 400 5,742.87 -- 5.00 --":
+          - cell "2026-09-09":
+            - generic: 2026-09-09
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "买入":
+            - generic: 买入
+          - cell "14.357":
+            - generic: "14.357"
+          - cell "400":
+            - generic: "400"
+          - cell "5,742.87":
+            - generic: 5,742.87
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-09 09:31:00 601857.SH 中国石油 买入 11.336 500 5,667.83 -- 5.00 --":
+          - cell "2026-09-09":
+            - generic: 2026-09-09
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "买入":
+            - generic: 买入
+          - cell "11.336":
+            - generic: "11.336"
+          - cell "500":
+            - generic: "500"
+          - cell "5,667.83":
+            - generic: 5,667.83
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-09 09:31:00 600039.SH 四川路桥 买入 9.225 600 5,534.77 -- 5.00 --":
+          - cell "2026-09-09":
+            - generic: 2026-09-09
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600039.SH 四川路桥":
+            - paragraph: 600039.SH
+            - paragraph: 四川路桥
+          - cell "买入":
+            - generic: 买入
+          - cell "9.225":
+            - generic: "9.225"
+          - cell "600":
+            - generic: "600"
+          - cell "5,534.77":
+            - generic: 5,534.77
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-09 09:31:00 000301.SZ 东方盛虹 买入 14.027 400 5,610.80 -- 5.00 --":
+          - cell "2026-09-09":
+            - generic: 2026-09-09
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000301.SZ 东方盛虹":
+            - paragraph: 000301.SZ
+            - paragraph: 东方盛虹
+          - cell "买入":
+            - generic: 买入
+          - cell "14.027":
+            - generic: "14.027"
+          - cell "400":
+            - generic: "400"
+          - cell "5,610.80":
+            - generic: 5,610.80
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-08 09:31:00 601898.SH 中煤能源 卖出 14.533 -300 -4,359.82 -- 9.36 174.05":
+          - cell "2026-09-08":
+            - generic: 2026-09-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601898.SH 中煤能源":
+            - paragraph: 601898.SH
+            - paragraph: 中煤能源
+          - cell "卖出":
+            - generic: 卖出
+          - cell "14.533":
+            - generic: "14.533"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-4,359.82":
+            - generic: "-4,359.82"
+          - cell "--":
+            - generic: "--"
+          - cell "9.36":
+            - generic: "9.36"
+          - cell "174.05":
+            - generic: "174.05"
+          - cell
+        - row "2026-08-17 09:31:00 002493.SZ 荣盛石化 卖出 12.474 -300 -3,742.13 -- 8.74 -172.58":
+          - cell "2026-08-17":
+            - generic: 2026-08-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "卖出":
+            - generic: 卖出
+          - cell "12.474":
+            - generic: "12.474"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-3,742.13":
+            - generic: "-3,742.13"
+          - cell "--":
+            - generic: "--"
+          - cell "8.74":
+            - generic: "8.74"
+          - cell "-172.58":
+            - generic: "-172.58"
+          - cell
+        - row "2026-08-14 09:31:00 000630.SZ 铜陵有色 卖出 6.417 -500 -3,208.40 -- 8.21 -71.37":
+          - cell "2026-08-14":
+            - generic: 2026-08-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000630.SZ 铜陵有色":
+            - paragraph: 000630.SZ
+            - paragraph: 铜陵有色
+          - cell "卖出":
+            - generic: 卖出
+          - cell "6.417":
+            - generic: "6.417"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-3,208.40":
+            - generic: "-3,208.40"
+          - cell "--":
+            - generic: "--"
+          - cell "8.21":
+            - generic: "8.21"
+          - cell "-71.37":
+            - generic: "-71.37"
+          - cell
+        - row "2026-08-13 09:31:00 002493.SZ 荣盛石化 卖出 13.053 -100 -1,305.35 -- 6.31 0.45":
+          - cell "2026-08-13":
+            - generic: 2026-08-13
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.053":
+            - generic: "13.053"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,305.35":
+            - generic: "-1,305.35"
+          - cell "--":
+            - generic: "--"
+          - cell "6.31":
+            - generic: "6.31"
+          - cell "0.45":
+            - generic: "0.45"
+          - cell
+        - row "2026-08-13 09:31:00 601857.SH 中国石油 卖出 10.585 -500 -5,292.35 -- 10.29 -215.40":
+          - cell "2026-08-13":
+            - generic: 2026-08-13
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.585":
+            - generic: "10.585"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-5,292.35":
+            - generic: "-5,292.35"
+          - cell "--":
+            - generic: "--"
+          - cell "10.29":
+            - generic: "10.29"
+          - cell "-215.40":
+            - generic: "-215.40"
+          - cell
+        - row "2026-08-13 09:31:00 601898.SH 中煤能源 卖出 14.003 -100 -1,400.30 -- 6.40 -16.66":
+          - cell "2026-08-13":
+            - generic: 2026-08-13
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601898.SH 中煤能源":
+            - paragraph: 601898.SH
+            - paragraph: 中煤能源
+          - cell "卖出":
+            - generic: 卖出
+          - cell "14.003":
+            - generic: "14.003"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,400.30":
+            - generic: "-1,400.30"
+          - cell "--":
+            - generic: "--"
+          - cell "6.40":
+            - generic: "6.40"
+          - cell "-16.66":
+            - generic: "-16.66"
+          - cell
+        - row "2026-08-13 09:31:00 000630.SZ 铜陵有色 卖出 6.687 -300 -2,006.00 -- 7.01 38.14":
+          - cell "2026-08-13":
+            - generic: 2026-08-13
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000630.SZ 铜陵有色":
+            - paragraph: 000630.SZ
+            - paragraph: 铜陵有色
+          - cell "卖出":
+            - generic: 卖出
+          - cell "6.687":
+            - generic: "6.687"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-2,006.00":
+            - generic: "-2,006.00"
+          - cell "--":
+            - generic: "--"
+          - cell "7.01":
+            - generic: "7.01"
+          - cell "38.14":
+            - generic: "38.14"
+          - cell
+        - row "2026-08-12 09:31:00 601857.SH 中国石油 买入 11.005 500 5,502.75 -- 5.00 --":
+          - cell "2026-08-12":
+            - generic: 2026-08-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "买入":
+            - generic: 买入
+          - cell "11.005":
+            - generic: "11.005"
+          - cell "500":
+            - generic: "500"
+          - cell "5,502.75":
+            - generic: 5,502.75
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-12 09:31:00 000630.SZ 铜陵有色 买入 6.553 800 5,242.62 -- 5.00 --":
+          - cell "2026-08-12":
+            - generic: 2026-08-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000630.SZ 铜陵有色":
+            - paragraph: 000630.SZ
+            - paragraph: 铜陵有色
+          - cell "买入":
+            - generic: 买入
+          - cell "6.553":
+            - generic: "6.553"
+          - cell "800":
+            - generic: "800"
+          - cell "5,242.62":
+            - generic: 5,242.62
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-12 09:31:00 002493.SZ 荣盛石化 买入 13.037 400 5,214.61 -- 5.00 --":
+          - cell "2026-08-12":
+            - generic: 2026-08-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "买入":
+            - generic: 买入
+          - cell "13.037":
+            - generic: "13.037"
+          - cell "400":
+            - generic: "400"
+          - cell "5,214.61":
+            - generic: 5,214.61
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-12 09:31:00 601898.SH 中煤能源 买入 14.157 400 5,662.83 -- 5.00 --":
+          - cell "2026-08-12":
+            - generic: 2026-08-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601898.SH 中煤能源":
+            - paragraph: 601898.SH
+            - paragraph: 中煤能源
+          - cell "买入":
+            - generic: 买入
+          - cell "14.157":
+            - generic: "14.157"
+          - cell "400":
+            - generic: "400"
+          - cell "5,662.83":
+            - generic: 5,662.83
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-05 09:31:00 601857.SH 中国石油 卖出 10.735 -300 -3,220.39 -- 8.22 266.91":
+          - cell "2026-08-05":
+            - generic: 2026-08-05
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.735":
+            - generic: "10.735"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-3,220.39":
+            - generic: "-3,220.39"
+          - cell "--":
+            - generic: "--"
+          - cell "8.22":
+            - generic: "8.22"
+          - cell "266.91":
+            - generic: "266.91"
+          - cell
+        - row "2026-08-04 09:31:00 601857.SH 中国石油 卖出 10.975 -100 -1,097.45 -- 6.10 112.96":
+          - cell "2026-08-04":
+            - generic: 2026-08-04
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.975":
+            - generic: "10.975"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,097.45":
+            - generic: "-1,097.45"
+          - cell "--":
+            - generic: "--"
+          - cell "6.10":
+            - generic: "6.10"
+          - cell "112.96":
+            - generic: "112.96"
+          - cell
+        - row "2026-07-30 09:31:00 601857.SH 中国石油 卖出 10.935 -100 -1,093.45 -- 6.09 108.96":
+          - cell "2026-07-30":
+            - generic: 2026-07-30
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.935":
+            - generic: "10.935"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,093.45":
+            - generic: "-1,093.45"
+          - cell "--":
+            - generic: "--"
+          - cell "6.09":
+            - generic: "6.09"
+          - cell "108.96":
+            - generic: "108.96"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "2"
+    - button "3"
+    - button "4"
+    - button "5"
+    - button "下一页": ">"
+    - textbox: "1"
+    - button "前往"

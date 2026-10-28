@@ -1,0 +1,219 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2025-10-17 至 2026-10-16
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：16秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad5e2ec27352e00b66f433c
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad5e2ec27352e00b66f433c
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad5e2ec27352e00b66f433c
+      - link "交易明细" [active]:
+        - /url: /backtest-result/transactionDetail?id=6ad5e2ec27352e00b66f433c
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad5e2ec27352e00b66f433c
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad5e2ec27352e00b66f433c
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad5e2ec27352e00b66f433c
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad5e2ec27352e00b66f433c
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad5e2ec27352e00b66f433c
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad5e2ec27352e00b66f433c
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad5e2ec27352e00b66f433c
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad5e2ec27352e00b66f433c
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad5e2ec27352e00b66f433c
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad5e2ec27352e00b66f433c
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2025-10-17 至 2026-10-16 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2025-10-17 至 2026-10-16 查询":
+            - combobox: 2025-10-17
+            - generic: 至
+            - combobox: 2026-10-16
+            - button "查询"
+      - rowgroup:
+        - row "2026-05-15 09:31:00 002709.SZ 天赐材料 卖出 55.862 -100 -5,586.21 -- 10.59 -479.82":
+          - cell "2026-05-15":
+            - generic: 2026-05-15
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002709.SZ 天赐材料":
+            - paragraph: 002709.SZ
+            - paragraph: 天赐材料
+          - cell "卖出":
+            - generic: 卖出
+          - cell "55.862":
+            - generic: "55.862"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-5,586.21":
+            - generic: "-5,586.21"
+          - cell "--":
+            - generic: "--"
+          - cell "10.59":
+            - generic: "10.59"
+          - cell "-479.82":
+            - generic: "-479.82"
+          - cell
+        - row "2026-05-06 09:31:00 510880.SH 华泰柏瑞上证红利ETF 卖出 3.333 -7700 -25,666.66 -- 5.13 477.74":
+          - cell "2026-05-06":
+            - generic: 2026-05-06
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "510880.SH 华泰柏瑞上证红利ETF":
+            - paragraph: 510880.SH
+            - paragraph: 华泰柏瑞上证红利ETF
+          - cell "卖出":
+            - generic: 卖出
+          - cell "3.333":
+            - generic: "3.333"
+          - cell "-7700":
+            - generic: "-7700"
+          - cell "-25,666.66":
+            - generic: "-25,666.66"
+          - cell "--":
+            - generic: "--"
+          - cell "5.13":
+            - generic: "5.13"
+          - cell "477.74":
+            - generic: "477.74"
+          - cell
+        - row "2026-05-06 09:31:00 002709.SZ 天赐材料 买入 60.610 100 6,061.03 -- 5.00 --":
+          - cell "2026-05-06":
+            - generic: 2026-05-06
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002709.SZ 天赐材料":
+            - paragraph: 002709.SZ
+            - paragraph: 天赐材料
+          - cell "买入":
+            - generic: 买入
+          - cell "60.610":
+            - generic: "60.610"
+          - cell "100":
+            - generic: "100"
+          - cell "6,061.03":
+            - generic: 6,061.03
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-04-28 09:31:00 510880.SH 华泰柏瑞上证红利ETF 卖出 3.268 -7500 -24,512.74 -- 5.00 -21.93":
+          - cell "2026-04-28":
+            - generic: 2026-04-28
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "510880.SH 华泰柏瑞上证红利ETF":
+            - paragraph: 510880.SH
+            - paragraph: 华泰柏瑞上证红利ETF
+          - cell "卖出":
+            - generic: 卖出
+          - cell "3.268":
+            - generic: "3.268"
+          - cell "-7500":
+            - generic: "-7500"
+          - cell "-24,512.74":
+            - generic: "-24,512.74"
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "-21.93":
+            - generic: "-21.93"
+          - cell
+        - row "2026-04-23 09:31:00 510880.SH 华泰柏瑞上证红利ETF 买入 3.271 15200 49,713.64 -- 9.94 --":
+          - cell "2026-04-23":
+            - generic: 2026-04-23
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "510880.SH 华泰柏瑞上证红利ETF":
+            - paragraph: 510880.SH
+            - paragraph: 华泰柏瑞上证红利ETF
+          - cell "买入":
+            - generic: 买入
+          - cell "3.271":
+            - generic: "3.271"
+          - cell "15200":
+            - generic: "15200"
+          - cell "49,713.64":
+            - generic: 49,713.64
+          - cell "--":
+            - generic: "--"
+          - cell "9.94":
+            - generic: "9.94"
+          - cell "--":
+            - generic: "--"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "下一页" [disabled]: ">"
+    - textbox: "1"
+    - button "前往"

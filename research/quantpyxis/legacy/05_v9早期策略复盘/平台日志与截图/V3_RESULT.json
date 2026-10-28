@@ -1,0 +1,169 @@
+{
+  "experiment": "CN-MOM80-PV20-VOL20-DEF50-MICH4-v3",
+  "platform_status": "complete",
+  "strategy_id": "6ad4b79227352e00b66f40ee",
+  "task_id": "6ad4ea80eb421500b61311d4",
+  "url": "https://quant.10jqka.com.cn/view/study-index.html#/backtest-result?id=6ad4ea80eb421500b61311d4",
+  "start": "2026-05-01",
+  "end": "2026-10-16",
+  "simulation_capital": 100000,
+  "factor_weights": {
+    "price_momentum": 0.8,
+    "price_volume": 0.2,
+    "poll_sentiment": 0
+  },
+  "vol_target": 0.2,
+  "vol_window": 60,
+  "defense": {
+    "continuous_volume_declines": 3,
+    "volume_change_sessions": 10,
+    "threshold_trial": 0.5,
+    "instrument": "510880.SH",
+    "target_etf": 0.5,
+    "target_cash": 0.5,
+    "exits": "next monthly rebalance when signal absent"
+  },
+  "inflation": {
+    "metric": "Michigan median year-ahead inflation expectation",
+    "below_4": "maximum_equity_1.0; no mandatory floor",
+    "at_or_above_4": "maximum_equity_0.7",
+    "scope": "stocks plus equity ETFs",
+    "September_final_source_gap": true
+  },
+  "results": {
+    "return": -0.0505,
+    "benchmark_return": -0.1324,
+    "max_drawdown": 0.0595,
+    "sharpe": -2.5
+  },
+  "v2_comparison": {
+    "return": -0.005,
+    "max_drawdown": 0.0276
+  },
+  "latest_monthly_target": {
+    "stocks": 0.277462,
+    "cash": 0.722538,
+    "each_of_three": 0.092487
+  },
+  "calibration": {
+    "selection": "2020-2024 training utility only",
+    "validation": "2025-01-01/2026-04-30",
+    "columns": [
+      "utility",
+      "return",
+      "drawdown",
+      "signal_days",
+      "return_observations"
+    ],
+    "candidates": [
+      {
+        "threshold": 0.1,
+        "train": [
+          -0.07910184457653374,
+          -0.23706063139385436,
+          -0.4464832200625687,
+          61,
+          1211
+        ],
+        "validation": [
+          0.02262510914304192,
+          0.04420401233661342,
+          -0.08374192605972497,
+          21,
+          319
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "train": [
+          -0.04099143913549405,
+          -0.08276320890001931,
+          -0.37881361674452274,
+          39,
+          1211
+        ],
+        "validation": [
+          0.REDACTED_ID,
+          0.REDACTED_ID,
+          -0.08125077905929923,
+          15,
+          319
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "train": [
+          -0.REDACTED_ID,
+          -0.05475499102879633,
+          -0.3549526816716684,
+          17,
+          1211
+        ],
+        "validation": [
+          0.06662485405655016,
+          0.10435347887171709,
+          -0.07802510875504087,
+          6,
+          319
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "train": [
+          -0.REDACTED_ID,
+          -0.REDACTED_ID,
+          -0.3460837611273997,
+          8,
+          1211
+        ],
+        "validation": [
+          0.08637904755583248,
+          0.132431085195009,
+          -0.07802510875504087,
+          3,
+          319
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "train": [
+          -0.REDACTED_ID,
+          0.0019290939360971926,
+          -0.34878942978409044,
+          1,
+          1211
+        ],
+        "validation": [
+          0.09449219661587327,
+          0.14406042650645978,
+          -0.07450825855607013,
+          1,
+          319
+        ]
+      }
+    ],
+    "validation_no_defense": [
+      0.10228752402942584,
+      0.15546785043877942,
+      -0.07450825855607013,
+      0,
+      319
+    ]
+  },
+  "source_sha256": "f8b1ef4fd2b54c1b83db205f3efe4f7b6b7daeaca78362b931fa1f924603b74c",
+  "interpretation": "Worse than v2. Trial50 threshold weakly supported (one event each train/validation); no defense event in platform evaluation; not optimized stock-strategy threshold.",
+  "limitations": [
+    "lot rejects",
+    "fees and ETF corporate actions unaudited",
+    "simplified calibration proxy differs from stock strategy and defensive exit rule",
+    "all verified inflation inputs >=4; below4 branch untested",
+    "not untouched out of sample",
+    "September final missing original release",
+    "daily opening checks and retries added; intraday price gaps, suspension, limits and T+1 can still prevent actual cash floor"
+  ],
+  "initial_task_id": "6ad4e915a2096a00b6d5ee49",
+  "initial_source_sha256": "3180bb88073f0af7c5e3690a86ab43fc78131ad19b7930319ddc4b276aa37111",
+  "daily_opening_cash_guard": true,
+  "blocked_sale_retry": "each next session if above cap or holding non-ETF assets in defense",
+  "tests_passed": 5
+}

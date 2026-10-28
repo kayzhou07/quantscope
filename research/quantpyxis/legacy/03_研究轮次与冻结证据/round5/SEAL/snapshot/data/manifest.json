@@ -1,0 +1,1777 @@
+{
+ "dataset": "qrun_1416 A-share daily panel (main board + ChiNext)",
+ "version": "v1_final",
+ "generated_at": "2026-10-20T14:11:19",
+ "date_range": [
+  "2012-01-01",
+  "2026-10-19"
+ ],
+ "sources": {
+  "raw_prices": "Sina Finance KLC full-history kline (klc_kl.js, official JS decode) - unadjusted OHLCV + real amount + reference preclose",
+  "qfq_prices": "Sina qfq.js adjustment factors (Lead-built), forward-adjusted",
+  "calendar_universe_index": "Lead-published from baostock meta (calendar/universe/codes/index_daily)",
+  "adjust_factor_validation": "baostock 0.9.4 query_adjust_factor (single serialized session); used only for dividend-event QA"
+ },
+ "schema": {
+  "bars_{year}.csv.gz": [
+   "code",
+   "date",
+   "open",
+   "high",
+   "low",
+   "close",
+   "preclose",
+   "volume",
+   "amount",
+   "turn",
+   "pctchg",
+   "isst",
+   "tradestatus"
+  ],
+  "bars_qfq_{year}.csv.gz": [
+   "code",
+   "date",
+   "open",
+   "close",
+   "high",
+   "low"
+  ],
+  "index_daily.csv.gz": [
+   "index_code",
+   "date",
+   "open",
+   "high",
+   "low",
+   "close",
+   "preclose",
+   "volume",
+   "amount"
+  ]
+ },
+ "units_and_notes": {
+  "code": "6-digit without exchange prefix (600/601/603/605=SH; 000/001/002/003/300/301=SZ); exchange in meta/universe.csv",
+  "price": "CNY; bars_* = raw unadjusted real prices; bars_qfq_* = forward-adjusted (5 price columns only)",
+  "volume": "shares (股)",
+  "amount": "real turnover value in CNY (amount_source=real_sina)",
+  "amount_source": "real_sina",
+  "turn": "unavailable (empty/NaN)",
+  "isst": "unavailable -> constant 0 (NOT real ST flag; isst_source=unavailable_0)",
+  "tradestatus": "1 for all present rows; suspension = row missing",
+  "preclose": "preclose_source=mixed(reference/prev_close): Sina reference price on ex-div dates, previous available close carried otherwise; first row per code empty",
+  "pctchg": "DECIMAL fraction (0.0152 = +1.52%), not percent",
+  "qfq_note": "qfq file has price columns only; use raw file for volume/amount"
+ },
+ "counts": {
+  "files": 53,
+  "total_bytes": 472628818
+ },
+ "files": [
+  {
+   "path": "meta/calendar.csv",
+   "bytes": 75712,
+   "sha256": "dd422059e3b43aee7a5a03995c658a9a50641ca0148075032dea09bcffd4ec08",
+   "publisher": "lead",
+   "rows": 5407,
+   "columns": [
+    "date",
+    "is_open"
+   ],
+   "date_min": "2012-01-01",
+   "date_max": "2026-10-20",
+   "status": "ok"
+  },
+  {
+   "path": "meta/universe.csv",
+   "bytes": 217179,
+   "sha256": "1e3f9b560b1a480baf5bd2d666a7d6950f1feb1b484c29c235780f7a2e09155e",
+   "publisher": "lead",
+   "rows": 4941,
+   "columns": [
+    "code",
+    "exchange",
+    "board",
+    "name",
+    "ipo_date",
+    "out_date",
+    "status"
+   ],
+   "codes": 4941,
+   "status": "ok"
+  },
+  {
+   "path": "meta/codes.csv",
+   "bytes": 63132,
+   "sha256": "18e184736d18deba4d39d389b4fb2d661ddb3e089da8788b3f8eda942d063af7",
+   "publisher": "lead",
+   "rows": 4941,
+   "columns": [
+    "code",
+    "id"
+   ],
+   "codes": 4941,
+   "status": "ok"
+  },
+  {
+   "path": "meta/fetch_log.jsonl",
+   "bytes": 2466,
+   "rows": 8,
+   "sha256": "7f7c199174e7a6a9a085b30b2ed56e87e842e1e4a1bb342615b1802088fcf61c",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "panel/index_daily.csv.gz",
+   "bytes": 638817,
+   "sha256": "16f29ed888fa419c2e256b530d70bcf9b3a5903a5223ec7513ebeba1d82d8f1b",
+   "publisher": "lead",
+   "rows": 17945,
+   "index_codes": [
+    "sh000001",
+    "sh000300",
+    "sh000852",
+    "sh000905",
+    "sz399006"
+   ],
+   "date_min": "2012-01-04",
+   "date_max": "2026-10-19",
+   "status": "ok"
+  },
+  {
+   "path": "panel/bars_2012.csv.gz",
+   "bytes": 13867915,
+   "sha256": "919af847523e5a705be88233b2d71bc5c10f1d466b8e4c9259071025f8abebde",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 565912,
+   "codes": 2457,
+   "date_min": "2012-01-04",
+   "date_max": "2012-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2013.csv.gz",
+   "bytes": 13936667,
+   "sha256": "dfeaae9f7400a817e6296b5d0f32ba8059f30c10d83ce401ba4bdd660792eea6",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 564406,
+   "codes": 2471,
+   "date_min": "2013-01-04",
+   "date_max": "2013-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2014.csv.gz",
+   "bytes": 14239766,
+   "sha256": "8ce68d58dc356702a745ec0cfc16042d3cf63266d5d5d29fc62b772acbd41532",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 570193,
+   "codes": 2593,
+   "date_min": "2014-01-02",
+   "date_max": "2014-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2015.csv.gz",
+   "bytes": 15038356,
+   "sha256": "ce0440b51802ae6c28829ad2a8d0e5851e93396fb11f935ca37b94a0ffcc6c85",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 569943,
+   "codes": 2812,
+   "date_min": "2015-01-05",
+   "date_max": "2015-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2016.csv.gz",
+   "bytes": 16578077,
+   "sha256": "d423c510be19aa73ac8e93a869540ba73c2548f372681288a3fcd20f918770ae",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 641721,
+   "codes": 3034,
+   "date_min": "2016-01-04",
+   "date_max": "2016-12-30",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2017.csv.gz",
+   "bytes": 18853483,
+   "sha256": "2a4da9d230db50aeb3bc85928cd5811f51a01645e43fff414e43f4425519850e",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 743483,
+   "codes": 3466,
+   "date_min": "2017-01-03",
+   "date_max": "2017-12-29",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2018.csv.gz",
+   "bytes": 20447977,
+   "sha256": "63d6cd99f5911f0d3a4136538930f1ab0a80a5c55c35df405c49e48a98f61b8b",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 817231,
+   "codes": 3570,
+   "date_min": "2018-01-02",
+   "date_max": "2018-12-28",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2019.csv.gz",
+   "bytes": 21979247,
+   "sha256": "67061000a15b88832cfd8189e2beb594f00954d9c3d2cb950c79fd5cd2706d5c",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 880569,
+   "codes": 3697,
+   "date_min": "2019-01-02",
+   "date_max": "2019-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2020.csv.gz",
+   "bytes": 23168007,
+   "sha256": "bb5f21d92ed36b238d0e22f4b452fd14c6d7303bf347c5fafd298e2a571aa7b4",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 913206,
+   "codes": 3939,
+   "date_min": "2020-01-02",
+   "date_max": "2020-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2021.csv.gz",
+   "bytes": 25032519,
+   "sha256": "612b4f7b4fcb00ee4c5faede41a982f9acd817c250e3c49c3d636d0791f4034d",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 986444,
+   "codes": 4249,
+   "date_min": "2021-01-04",
+   "date_max": "2021-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2022.csv.gz",
+   "bytes": 26521648,
+   "sha256": "8f661e4f9836d236e9c04280f3853963fc4a59b92eea6518008e74412931d3ac",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1040394,
+   "codes": 4446,
+   "date_min": "2022-01-04",
+   "date_max": "2022-12-30",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2023.csv.gz",
+   "bytes": 27035593,
+   "sha256": "201b2c1a92f948e4c08e889c6af056fab2db05f2ba82200d0c5b6bb2b72a9f38",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1079591,
+   "codes": 4573,
+   "date_min": "2023-01-03",
+   "date_max": "2023-12-29",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2024.csv.gz",
+   "bytes": 27905996,
+   "sha256": "6eee2e04a5f2361b3a81523b37e7d7fdca1e7337eb5b6d738849434438deb2d0",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1094628,
+   "codes": 4589,
+   "date_min": "2024-01-02",
+   "date_max": "2024-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2025.csv.gz",
+   "bytes": 28306351,
+   "sha256": "bf0f3e7a51b7b2a54077e6d419ea769d541e775ce412af53a8231dc470b9a909",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1105269,
+   "codes": 4611,
+   "date_min": "2025-01-02",
+   "date_max": "2025-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_2026.csv.gz",
+   "bytes": 22641229,
+   "sha256": "15d29bdc47015cbdb98666ff9b24ace92eaf7401e5ec348c14952d26a6406f4f",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 865901,
+   "codes": 4625,
+   "date_min": "2026-01-05",
+   "date_max": "2026-10-19",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "preclose",
+    "volume",
+    "amount",
+    "turn",
+    "pctchg",
+    "isst",
+    "tradestatus"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2012.csv.gz",
+   "bytes": 6795505,
+   "sha256": "93a054b20942abb5f7c6fd72ccf4e19816e4d7fdfbb04a940c291d1b34f31864",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 565912,
+   "codes": 2457,
+   "date_min": "2012-01-04",
+   "date_max": "2012-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2013.csv.gz",
+   "bytes": 6803937,
+   "sha256": "a6c83e12b5da5e1a2a10c564b44abee2178dd4d64bef3101455f9effef1361cb",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 564406,
+   "codes": 2471,
+   "date_min": "2013-01-04",
+   "date_max": "2013-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2014.csv.gz",
+   "bytes": 7056221,
+   "sha256": "47c932ad8a5b7036e09f220354406f48caba9b041e4f9185c21de2279b6c7a8e",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 570193,
+   "codes": 2593,
+   "date_min": "2014-01-02",
+   "date_max": "2014-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2015.csv.gz",
+   "bytes": 8018250,
+   "sha256": "559f3004bdbf1b3e8b7331b9524d024f213bc316b52906d297151e0703289403",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 569943,
+   "codes": 2812,
+   "date_min": "2015-01-05",
+   "date_max": "2015-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2016.csv.gz",
+   "bytes": 8374875,
+   "sha256": "0e93fc9b15b58ad2104fb8aa7a4b515cb8d8377d9eea435e95083f480030bfec",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 641721,
+   "codes": 3034,
+   "date_min": "2016-01-04",
+   "date_max": "2016-12-30",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2017.csv.gz",
+   "bytes": 9525421,
+   "sha256": "8d2a7ba8cce4d73f990659dbdfbe1bec8a9e678f6b92b55b58df756a6a04bee3",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 743483,
+   "codes": 3466,
+   "date_min": "2017-01-03",
+   "date_max": "2017-12-29",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2018.csv.gz",
+   "bytes": 10251634,
+   "sha256": "43412ddc92fe939e1855cbbe2b053ddc9af8ef7f3db836b761624942f9ad62a8",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 817231,
+   "codes": 3570,
+   "date_min": "2018-01-02",
+   "date_max": "2018-12-28",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2019.csv.gz",
+   "bytes": 10714484,
+   "sha256": "18f87c9ea6a9ede693a3d9ba3d49511dff5c0c0ae13c77f14b21ccd92cc15f00",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 880569,
+   "codes": 3697,
+   "date_min": "2019-01-02",
+   "date_max": "2019-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2020.csv.gz",
+   "bytes": 11425084,
+   "sha256": "1c333330d58c4ce1bb9d61439eb3796d68787554ae7b95a309d04661919c22b0",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 913206,
+   "codes": 3939,
+   "date_min": "2020-01-02",
+   "date_max": "2020-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2021.csv.gz",
+   "bytes": 12408535,
+   "sha256": "8fab495be670520ad711211231d752baf941b56e7158ac922f8c06f516c22991",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 986444,
+   "codes": 4249,
+   "date_min": "2021-01-04",
+   "date_max": "2021-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2022.csv.gz",
+   "bytes": 13240649,
+   "sha256": "a31d184e9a299cc3826b18a527a06c723518422d032a6fade88153ecf9d6fd9f",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1040394,
+   "codes": 4446,
+   "date_min": "2022-01-04",
+   "date_max": "2022-12-30",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2023.csv.gz",
+   "bytes": 13246406,
+   "sha256": "312ca219ebe60a2d2c02076292edd90f57618b31fa4c4eecc117884f0f25df86",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1079591,
+   "codes": 4573,
+   "date_min": "2023-01-03",
+   "date_max": "2023-12-29",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2024.csv.gz",
+   "bytes": 13804229,
+   "sha256": "175a2ea79c0328ca0e7bf4dc62e3f8665766dfd05493d3f8259f3388cc392dc5",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1094628,
+   "codes": 4589,
+   "date_min": "2024-01-02",
+   "date_max": "2024-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2025.csv.gz",
+   "bytes": 13671907,
+   "sha256": "f59b1f498f0bf5d6c6627cbf6a9e78025b57d69feecf489a2699f8d7dfcd346d",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 1105269,
+   "codes": 4611,
+   "date_min": "2025-01-02",
+   "date_max": "2025-12-31",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "panel/bars_qfq_2026.csv.gz",
+   "bytes": 10368431,
+   "sha256": "5d28c64c585d6da0838f78fd672a81a237484b44a740e7d9fd6278801398bbaf",
+   "publisher": "lead",
+   "status": "ok",
+   "rows": 865901,
+   "codes": 4625,
+   "date_min": "2026-01-05",
+   "date_max": "2026-10-19",
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low"
+   ]
+  },
+  {
+   "path": "qa/DATA_QA.md",
+   "bytes": 18530,
+   "sha256": "c85a2cd1d5722d2c9ed1d80a5a2fed7ba186c6d515dba034a514edf36431c30b",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "qa/cross_validation_vs_baostock.csv.gz",
+   "bytes": 115227,
+   "sha256": "55de680bbfb270e05e66b9127dde42d8db84d34a068bbf7dcc291b3707d9d292",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "qa/cross_validation_vs_tencent.csv",
+   "bytes": 9412,
+   "sha256": "9b18589230e8fe79123025ea0975d22903cc62fa4c06f6d6d151e3362698ccc5",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "qa/panel_validation.json",
+   "bytes": 34967,
+   "sha256": "4c0f8cb5425323307ab2130198c379443663ce7256321a3ab07686f52c4844a2",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "qa/qfq_jump_classification.json",
+   "bytes": 5448,
+   "sha256": "95c9afa4e9327fa1cb4f517262da54d66830e6b438581189be5483b044b01031",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "qa/qfq_unmatched_jumps.csv",
+   "bytes": 76529,
+   "sha256": "a43cb4a9b19a230152e6e2536079bcda26f3f3c5b6e6e726cb1ad1655e66d410",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/build_manifest.py",
+   "bytes": 8710,
+   "sha256": "97fe0d67086454457128f292fa4ee3bfc98c9db8671bf4d15a1bcf902234186e",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/build_qa.py",
+   "bytes": 24562,
+   "sha256": "01afce4d5b10ee19799fbbabb69aab7f3ae870f837cd1aa5d2026dd136b9f6ea",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/classify_qfq_jumps.py",
+   "bytes": 6377,
+   "sha256": "e7e1e8cb8e1aad89c08728266ebe839f55dd31e08606896fea06138ecf7a52a2",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/cross_validate_baostock.py",
+   "bytes": 5199,
+   "sha256": "a5c58318f19a290eac8cc329053526fb1638a98496173d3bd65a541b81753a08",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/factor_worker.py",
+   "bytes": 4697,
+   "sha256": "25c190d2a7df1c4955f2947f1bbf7114ae1505b97b887520a80078fa3e96d5be",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/fetch_factors_serial.py",
+   "bytes": 5839,
+   "sha256": "5ec01625b6352e8edeb5ff3c1aaa6dccf35cc5dd8fb443df239ef71061c996d6",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/launch_factors.py",
+   "bytes": 1453,
+   "sha256": "8ea4a5209bf65674854b1d1e4045cd31fe9751f6be1535162d6caee31453fa23",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/launch_tx.py",
+   "bytes": 1804,
+   "sha256": "5cfe234ef0e3f0b8bae859b5491996a83848512b162d436276fc0e4c6be2e75b",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/merge_panel.py",
+   "bytes": 9426,
+   "sha256": "fa53579e9b8acdee45827c154af108efb3e8a34a8eb61dcccf7e22614a4c9573",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/panel_validation.py",
+   "bytes": 29036,
+   "sha256": "16a211356a22209916b7e7f83fafe0a73474785a7b00a16c8826828069f7ba54",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/sample_validation.py",
+   "bytes": 7896,
+   "sha256": "3225adb86914692714fc3ddaf53998cca2284b33ce5132f34009428e6fe14674",
+   "publisher": "data-runner",
+   "status": "ok"
+  },
+  {
+   "path": "scripts/tx_worker.py",
+   "bytes": 8001,
+   "sha256": "0d2fa51ad427b7af9a95df2dfbeac36780ac2946d8034effd28652e18927c46e",
+   "publisher": "data-runner",
+   "status": "ok"
+  }
+ ],
+ "validation_summary": {
+  "panel_validation_json": "qa/panel_validation.json",
+  "years_present": [
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025",
+   "2026"
+  ],
+  "years_missing": [],
+  "structural": {
+   "rows": 12438891,
+   "codes": 4867,
+   "date_min": "2012-01-04",
+   "date_max": "2026-10-19",
+   "dup_keys": 0,
+   "sorted_by_code_date": false,
+   "sorted_by_date_code": false,
+   "nan_ohlc": {
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "close": 0
+   },
+   "nan_volume": 0,
+   "neg_volume": 0,
+   "nan_amount": 0,
+   "nonpos_amount": 36,
+   "nonpos_amount_volume_zero": 36,
+   "nonpos_amount_sample": [
+    {
+     "code": "002015",
+     "date": "2019-03-19",
+     "open": 6.99,
+     "high": 7.39,
+     "low": 6.59,
+     "close": 6.93,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "002473",
+     "date": "2019-03-18",
+     "open": 8.63,
+     "high": 9.03,
+     "low": 8.63,
+     "close": 9.03,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "002682",
+     "date": "2019-03-18",
+     "open": 5.35,
+     "high": 5.41,
+     "low": 5.28,
+     "close": 5.36,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "002682",
+     "date": "2019-03-19",
+     "open": 5.35,
+     "high": 5.41,
+     "low": 5.28,
+     "close": 5.36,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "300359",
+     "date": "2019-03-18",
+     "open": 7.19,
+     "high": 7.31,
+     "low": 7.11,
+     "close": 7.22,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "300359",
+     "date": "2019-03-19",
+     "open": 7.19,
+     "high": 7.31,
+     "low": 7.11,
+     "close": 7.22,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "300746",
+     "date": "2019-03-19",
+     "open": 23.35,
+     "high": 24.53,
+     "low": 22.51,
+     "close": 23.92,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "000504",
+     "date": "2020-06-11",
+     "open": 9.94,
+     "high": 9.94,
+     "low": 9.94,
+     "close": 9.94,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "000687",
+     "date": "2020-06-15",
+     "open": 3.38,
+     "high": 3.41,
+     "low": 3.27,
+     "close": 3.36,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    },
+    {
+     "code": "000906",
+     "date": "2020-06-15",
+     "open": 5.55,
+     "high": 5.61,
+     "low": 5.49,
+     "close": 5.57,
+     "volume": 0,
+     "amount": 0,
+     "tradestatus": 1
+    }
+   ],
+   "high_lt_low": 0,
+   "close_out_of_range": 0,
+   "open_out_of_range": 0,
+   "nonpos_price": 0,
+   "preclose_first_row_nan": 2325,
+   "vwap_sanity": {
+    "rows": 12438855,
+    "median_implied_vwap_over_close": 0.9999609152565873,
+    "p01": 0.9645267615547855,
+    "p99": 1.0375921638162815
+   }
+  },
+  "completeness_ok": true,
+  "delisted_n": 336,
+  "delisted_with_data": 262,
+  "cross_validation_tencent": {
+   "available": true,
+   "rows": 1478089,
+   "codes": 443,
+   "close_max_abs_diff": 0.6000000000000014,
+   "close_p99_abs_diff": 0.0,
+   "close_n_gt_0.01": 507,
+   "close_n_gt_0.02": 284,
+   "volume_ratio_gt100_median": 100.000133386688,
+   "volume_ratio_p01": 99.99900655026535,
+   "volume_ratio_p99": 100.00700788768756,
+   "worst_sample": [
+    {
+     "code": "600038",
+     "date": "2016-01-04",
+     "close_p": 49.4,
+     "close_tx": 50.0
+    },
+    {
+     "code": "600498",
+     "date": "2016-01-04",
+     "close_p": 27.43,
+     "close_tx": 28.0
+    },
+    {
+     "code": "600519",
+     "date": "2017-02-27",
+     "close_p": 357.6,
+     "close_tx": 357.2
+    },
+    {
+     "code": "600211",
+     "date": "2016-01-04",
+     "close_p": 39.98,
+     "close_tx": 39.6
+    },
+    {
+     "code": "600535",
+     "date": "2014-04-23",
+     "close_p": 37.37,
+     "close_tx": 37.03
+    },
+    {
+     "code": "600150",
+     "date": "2016-01-04",
+     "close_p": 32.21,
+     "close_tx": 32.53
+    },
+    {
+     "code": "600519",
+     "date": "2015-12-03",
+     "close_p": 220.49,
+     "close_tx": 220.2
+    },
+    {
+     "code": "600118",
+     "date": "2016-01-04",
+     "close_p": 39.19,
+     "close_tx": 39.45
+    }
+   ]
+  },
+  "cross_validation_baostock": {
+   "attempted": true,
+   "skipped": false,
+   "n_sample": 32,
+   "sample_delisted": [
+    "000004",
+    "000018",
+    "000023"
+   ],
+   "rows": 3735,
+   "codes": 32,
+   "close_max_abs_diff": 0.0,
+   "close_p99_abs_diff": 0.0,
+   "close_n_gt_0.02": 0,
+   "preclose_max_abs_diff": 0.20000000000000284,
+   "preclose_n_gt_0.02": 2,
+   "volume_ratio_median": 1.0,
+   "amount_ratio_median": 1.0,
+   "pctchg_ratio_median(panel/bs; ~0.01 => panel in fraction)": 0.01,
+   "elapsed_s": 23.4,
+   "worst_sample": [
+    {
+     "code": "000895",
+     "date": "2015-01-05",
+     "close_panel": 32.72,
+     "close_bs": 32.72
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-06",
+     "close_panel": 33.97,
+     "close_bs": 33.97
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-07",
+     "close_panel": 34.14,
+     "close_bs": 34.14
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-08",
+     "close_panel": 33.64,
+     "close_bs": 33.64
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-09",
+     "close_panel": 32.88,
+     "close_bs": 32.88
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-12",
+     "close_panel": 33.35,
+     "close_bs": 33.35
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-13",
+     "close_panel": 32.91,
+     "close_bs": 32.91
+    },
+    {
+     "code": "000895",
+     "date": "2015-01-14",
+     "close_panel": 32.07,
+     "close_bs": 32.07
+    }
+   ]
+  },
+  "qfq_structural": {
+   "rows": 12438891,
+   "codes": 4867,
+   "dup_keys": 0,
+   "high_lt_low": 0,
+   "columns": [
+    "code",
+    "date",
+    "open",
+    "close",
+    "high",
+    "low",
+    "year"
+   ],
+   "columns_missing_vs_spec": [],
+   "anchor_n": 4867,
+   "anchor_max_abs_diff": 3.149700000000001,
+   "anchor_n_gt_0.02": 18,
+   "anchor_sample_bad": [
+    [
+     "000022",
+     16.46,
+     13.3103
+    ],
+    [
+     "000043",
+     20.25,
+     18.4991
+    ],
+    [
+     "300114",
+     72.18,
+     71.1884
+    ],
+    [
+     "600380",
+     10.09,
+     9.38
+    ],
+    [
+     "603699",
+     38.6,
+     38.18
+    ],
+    [
+     "002812",
+     45.63,
+     45.2209
+    ],
+    [
+     "603207",
+     22.57,
+     22.18
+    ],
+    [
+     "002756",
+     35.76,
+     35.4637
+    ]
+   ],
+   "last_ratio_median": 1.0,
+   "last_ratio_p01": 1.0,
+   "last_ratio_p99": 1.0,
+   "last_ratio_n_abs_dev_gt_0.01": 8,
+   "last_ratio_n_abs_dev_gt_0.05": 3,
+   "last_ratio_worst": [
+    [
+     "000022",
+     0.8086452004860267
+    ],
+    [
+     "000043",
+     0.9135358024691357
+    ],
+    [
+     "600380",
+     0.9296333002973242
+    ],
+    [
+     "601598",
+     0.9796806966618288
+    ],
+    [
+     "603207",
+     0.9827204253433761
+    ],
+    [
+     "300114",
+     0.9862621224715987
+    ],
+    [
+     "601898",
+     0.9880130293159609
+    ],
+    [
+     "603699",
+     0.9891191709844559
+    ],
+    [
+     "002812",
+     0.9910344071882533
+    ],
+    [
+     "301587",
+     0.9913900913900915
+    ]
+   ],
+   "anchor_n_different_last_date": 0,
+   "return_consistency_n": 12434024,
+   "return_consistency_max_abs_diff": 13.817839756459211,
+   "return_consistency_p99": 2.8025677109643176e-05,
+   "return_consistency_n_gt_1e-3": 41021,
+   "n_rows_checked": 12434024,
+   "n_ratio_change_gt_1e-7(rounding)": 9588468,
+   "n_ratio_jumps_gt_1e-3(real)": 41025,
+   "median_ratio_change": 1.7799443590149622e-06,
+   "p99_ratio_change": 2.7980207628520686e-05,
+   "max_ratio_jump": 4.050712071661061,
+   "jumps_gt_1e-3_on_baostock_event_date": 40087,
+   "jumps_gt_1e-3_not_on_event_date": 938,
+   "jumps_not_on_event_within5days": 113,
+   "jumps_not_on_event_gt5days": 825,
+   "jumps_gt5days_samples": [
+    [
+     "000007",
+     "2017-07-17",
+     0.5000031499436157
+    ],
+    [
+     "000008",
+     "2015-07-02",
+     0.4499991813118951
+    ],
+    [
+     "000008",
+     "2018-08-07",
+     0.REDACTED_ID
+    ],
+    [
+     "000009",
+     "2014-08-15",
+     0.20354938373026799
+    ],
+    [
+     "000009",
+     "2015-08-18",
+     0.0018726189316544684
+    ],
+    [
+     "000022",
+     "2015-10-21",
+     0.REDACTED_ID
+    ],
+    [
+     "000022",
+     "2018-07-10",
+     0.05779706044941624
+    ],
+    [
+     "000024",
+     "2015-09-24",
+     0.REDACTED_ID
+    ],
+    [
+     "000029",
+     "2020-11-09",
+     0.REDACTED_ID
+    ],
+    [
+     "000032",
+     "2014-11-18",
+     0.REDACTED_ID
+    ],
+    [
+     "000032",
+     "2017-09-12",
+     0.0012709609072543149
+    ],
+    [
+     "000034",
+     "2018-05-16",
+     0.0017642683250322921
+    ]
+   ],
+   "jumps_not_on_event_samples": [
+    [
+     "000007",
+     "2017-07-17",
+     0.5000031499436157
+    ],
+    [
+     "000008",
+     "2015-07-02",
+     0.4499991813118951
+    ],
+    [
+     "000008",
+     "2018-08-07",
+     0.REDACTED_ID
+    ],
+    [
+     "000009",
+     "2014-08-15",
+     0.20354938373026799
+    ],
+    [
+     "000009",
+     "2015-08-18",
+     0.0018726189316544684
+    ],
+    [
+     "000022",
+     "2015-10-21",
+     0.REDACTED_ID
+    ],
+    [
+     "000022",
+     "2018-07-10",
+     0.05779706044941624
+    ],
+    [
+     "000024",
+     "2015-09-24",
+     0.REDACTED_ID
+    ],
+    [
+     "000029",
+     "2020-11-09",
+     0.REDACTED_ID
+    ],
+    [
+     "000032",
+     "2014-11-18",
+     0.REDACTED_ID
+    ],
+    [
+     "000032",
+     "2017-09-12",
+     0.0012709609072543149
+    ],
+    [
+     "000034",
+     "2018-05-16",
+     0.0017642683250322921
+    ]
+   ],
+   "events_in_range_checked": 19391,
+   "events_with_ratio_jump": 18107,
+   "ret_judged_rows": 12434024,
+   "return_mismatch_gt_1e-3_nonevent": 937,
+   "return_mismatch_gt_1e-3_onevent": 40084,
+   "return_mismatch_nonevent_sample": [
+    [
+     "000007",
+     "2017-07-17",
+     -0.10037610326775159,
+     -0.4002519949601008
+    ],
+    [
+     "000008",
+     "2015-07-02",
+     0.10015338294608855,
+     -0.24127310061601648
+    ],
+    [
+     "000008",
+     "2018-08-07",
+     -0.10080318026934931,
+     -0.1097804391217565
+    ],
+    [
+     "000009",
+     "2014-08-15",
+     0.0998154505586093,
+     -0.08619000979431934
+    ],
+    [
+     "000009",
+     "2015-08-18",
+     0.10018722172401318,
+     0.0981308411214954
+    ],
+    [
+     "000022",
+     "2015-10-21",
+     -0.09998187796101177,
+     -0.1109029599100787
+    ],
+    [
+     "000022",
+     "2018-07-10",
+     -0.06533507459047039,
+     -0.1164043082021542
+    ],
+    [
+     "000024",
+     "2015-09-24",
+     -0.09987357774968397,
+     -0.1088861076345432
+    ],
+    [
+     "000029",
+     "2020-11-09",
+     0.10042357589226358,
+     0.0644583706356312
+    ],
+    [
+     "000032",
+     "2014-11-18",
+     0.10045505280329703,
+     0.09670079635949969
+    ]
+   ],
+   "codes_with_factor_data": 4941,
+   "codes_judged_for_qfq": 4867,
+   "unmatched_jump_classification": {
+    "n_unmatched_jumps": 938,
+    "raw_gap_confirmed": 269,
+    "near_event_5d": 113,
+    "near_event_120d": 797,
+    "explained_by_raw_gap_or_near_event": 351,
+    "unexplained": 587,
+    "unexplained_samples": [
+     {
+      "code": "000600",
+      "date": "2013-07-15",
+      "ratio_chg": 0.REDACTED_ID,
+      "raw_ret": -0.REDACTED_ID,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000608",
+      "date": "2013-06-26",
+      "ratio_chg": 0.REDACTED_ID,
+      "raw_ret": -0.10588235294117643,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000683",
+      "date": "2013-07-18",
+      "ratio_chg": 0.0041465814854968475,
+      "raw_ret": -0.05601659751037358,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000851",
+      "date": "2013-09-24",
+      "ratio_chg": 0.REDACTED_ID,
+      "raw_ret": 0.09160305343511443,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000938",
+      "date": "2013-07-26",
+      "ratio_chg": 0.0035626420207426346,
+      "raw_ret": 0.09615384615384626,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000997",
+      "date": "2013-08-23",
+      "ratio_chg": 0.0053160473153037735,
+      "raw_ret": -0.07147584381204497,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000998",
+      "date": "2013-07-08",
+      "ratio_chg": 0.REDACTED_ID,
+      "raw_ret": -0.02298850574712641,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "000999",
+      "date": "2013-08-19",
+      "ratio_chg": 0.REDACTED_ID,
+      "raw_ret": -0.10777027027027031,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "001914",
+      "date": "2013-06-17",
+      "ratio_chg": 0.01821986279541754,
+      "raw_ret": -0.REDACTED_ID,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": false,
+      "limit": 0.11
+     },
+     {
+      "code": "002252",
+      "date": "2013-07-02",
+      "ratio_chg": 0.0023850490106767097,
+      "raw_ret": -0.REDACTED_ID,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "002390",
+      "date": "2013-08-28",
+      "ratio_chg": 0.0035024713475049207,
+      "raw_ret": 0.09598603839441533,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "002473",
+      "date": "2013-10-18",
+      "ratio_chg": 0.REDACTED_ID,
+      "raw_ret": 0.08860759493670889,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "002616",
+      "date": "2013-06-24",
+      "ratio_chg": 0.02321842141356356,
+      "raw_ret": 0.07522697795071331,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "002639",
+      "date": "2013-08-30",
+      "ratio_chg": 0.00964268533005086,
+      "raw_ret": -0.07888446215139444,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "300071",
+      "date": "2013-05-14",
+      "ratio_chg": 0.0048984650450514255,
+      "raw_ret": 0.0943579766536966,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "300166",
+      "date": "2013-08-02",
+      "ratio_chg": 0.0029728685630874274,
+      "raw_ret": 0.09696969696969715,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "300223",
+      "date": "2013-05-13",
+      "ratio_chg": 0.02348356807654639,
+      "raw_ret": 0.07492354740061158,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "300263",
+      "date": "2013-06-28",
+      "ratio_chg": 0.00670480390581929,
+      "raw_ret": 0.09242021276595747,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     },
+     {
+      "code": "600006",
+      "date": "2013-06-17",
+      "ratio_chg": 0.0010667425239128114,
+      "raw_ret": 0.0,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": false,
+      "limit": 0.11
+     },
+     {
+      "code": "600088",
+      "date": "2013-09-02",
+      "ratio_chg": 0.00287715185641213,
+      "raw_ret": 0.09727081875437382,
+      "raw_gap_confirmed": false,
+      "nearest_event_within5d": false,
+      "nearest_event_within120d": true,
+      "limit": 0.11
+     }
+    ],
+    "unexplained_near120d": 482,
+    "unexplained_n_gt0.01": 125,
+    "unexplained_ratio_chg_median": 0.0041486693886538,
+    "unexplained_ratio_chg_p99": 0.1591286583444371,
+    "unexplained_ratio_chg_max": 0.2051340095079425,
+    "unexplained_gt2pct": 49,
+    "unexplained_gt5pct": 16,
+    "unexplained_gt10pct": 9,
+    "unexplained_gt2pct_with_event_within120d": 42,
+    "unexplained_without_event_120d": 105
+   }
+  }
+ }
+}

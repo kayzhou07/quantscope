@@ -1,0 +1,324 @@
+{
+  "fill_count": 14,
+  "buy_count": 8,
+  "sell_count": 6,
+  "fees": 296.94,
+  "trade_cash_flow": -45481.44,
+  "notional_turnover": 455015.48,
+  "securities": {
+    "600183.SH": {
+      "cash_flow": 4995.369999999995,
+      "fees": 50.42,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": 5039.45
+    },
+    "601138.SH": {
+      "cash_flow": -4192.709999999999,
+      "fees": 34.63,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": -4163.71
+    },
+    "300476.SZ": {
+      "cash_flow": -3244.6100000000006,
+      "fees": 37.019999999999996,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": -3213.43
+    },
+    "300394.SZ": {
+      "cash_flow": 14207.7,
+      "fees": 61.480000000000004,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": 14262.84
+    },
+    "002384.SZ": {
+      "cash_flow": -34372.770000000004,
+      "fees": 44.39,
+      "quantity": 200.0,
+      "fills": 3,
+      "closed_pnl": 5284.42
+    },
+    "000657.SZ": {
+      "cash_flow": 11230.440000000002,
+      "fees": 62.18,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": 11285.67
+    },
+    "301308.SZ": {
+      "cash_flow": -34104.86,
+      "fees": 6.82,
+      "quantity": 100.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    }
+  },
+  "rows": [
+    {
+      "date": "2025-11-03",
+      "time": "09:31:00",
+      "symbol": "600183.SH",
+      "name": "生益科技",
+      "side": "买入",
+      "price": 63.372,
+      "quantity": 500.0,
+      "amount": 31685.84,
+      "fee": 6.34,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2025-11-03",
+      "time": "09:31:00",
+      "symbol": "601138.SH",
+      "name": "工业富联",
+      "side": "买入",
+      "price": 70.395,
+      "quantity": 400.0,
+      "amount": 28158.07,
+      "fee": 5.63,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2025-12-01",
+      "time": "09:31:00",
+      "symbol": "601138.SH",
+      "name": "工业富联",
+      "side": "卖出",
+      "price": 60.0,
+      "quantity": -400.0,
+      "amount": -23999.99,
+      "fee": 29.0,
+      "platform_closed_pnl": -4163.71
+    },
+    {
+      "date": "2026-01-05",
+      "time": "09:31:00",
+      "symbol": "300476.SZ",
+      "name": "胜宏科技",
+      "side": "买入",
+      "price": 291.946,
+      "quantity": 100.0,
+      "amount": 29194.59,
+      "fee": 5.84,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-01-05",
+      "time": "09:31:00",
+      "symbol": "600183.SH",
+      "name": "生益科技",
+      "side": "卖出",
+      "price": 73.463,
+      "quantity": -500.0,
+      "amount": -36731.63,
+      "fee": 44.08,
+      "platform_closed_pnl": 5039.45
+    },
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "side": "买入",
+      "price": 316.828,
+      "quantity": 100.0,
+      "amount": 31682.83,
+      "fee": 6.34,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "300476.SZ",
+      "name": "胜宏科技",
+      "side": "卖出",
+      "price": 259.87,
+      "quantity": -100.0,
+      "amount": -25987.0,
+      "fee": 31.18,
+      "platform_closed_pnl": -3213.43
+    },
+    {
+      "date": "2026-06-01",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "买入",
+      "price": 209.325,
+      "quantity": 100.0,
+      "amount": 20932.46,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-06-01",
+      "time": "09:31:00",
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "side": "卖出",
+      "price": 459.52,
+      "quantity": -100.0,
+      "amount": -45952.01,
+      "fee": 55.14,
+      "platform_closed_pnl": 14262.84
+    },
+    {
+      "date": "2026-07-01",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "卖出",
+      "price": 262.219,
+      "quantity": -100.0,
+      "amount": -26221.88,
+      "fee": 31.47,
+      "platform_closed_pnl": 5284.42
+    },
+    {
+      "date": "2026-08-03",
+      "time": "09:31:00",
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "side": "买入",
+      "price": 49.615,
+      "quantity": 700.0,
+      "amount": 34730.36,
+      "fee": 6.95,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-08-03",
+      "time": "09:31:00",
+      "symbol": "301308.SZ",
+      "name": "江波龙",
+      "side": "买入",
+      "price": 340.98,
+      "quantity": 100.0,
+      "amount": 34098.04,
+      "fee": 6.82,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-09-01",
+      "time": "09:31:00",
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "side": "卖出",
+      "price": 65.747,
+      "quantity": -700.0,
+      "amount": -46022.98,
+      "fee": 55.23,
+      "platform_closed_pnl": 11285.67
+    },
+    {
+      "date": "2026-09-01",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "买入",
+      "price": 198.089,
+      "quantity": 200.0,
+      "amount": 39617.8,
+      "fee": 7.92,
+      "platform_closed_pnl": null
+    }
+  ],
+  "interpretation": "cash flow is not total PnL when quantities remain, dividends or corporate actions exist; verify page coverage separately",
+  "trade_dates": [
+    "2025-11-03",
+    "2025-12-01",
+    "2026-01-05",
+    "2026-04-01",
+    "2026-06-01",
+    "2026-07-01",
+    "2026-08-03",
+    "2026-09-01"
+  ],
+  "closed_cohorts": [
+    {
+      "symbol": "601138.SH",
+      "name": "工业富联",
+      "start": "2025-11-03",
+      "quantity": 0.0,
+      "cash_flow": -4192.709999999999,
+      "fees": 34.63,
+      "fills": 2,
+      "end": "2025-12-01"
+    },
+    {
+      "symbol": "300476.SZ",
+      "name": "胜宏科技",
+      "start": "2026-01-05",
+      "quantity": 0.0,
+      "cash_flow": -3244.6100000000006,
+      "fees": 37.019999999999996,
+      "fills": 2,
+      "end": "2026-04-01"
+    },
+    {
+      "symbol": "600183.SH",
+      "name": "生益科技",
+      "start": "2025-11-03",
+      "quantity": 0.0,
+      "cash_flow": 4995.369999999995,
+      "fees": 50.42,
+      "fills": 2,
+      "end": "2026-01-05"
+    },
+    {
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "start": "2026-06-01",
+      "quantity": 0.0,
+      "cash_flow": 5252.950000000001,
+      "fees": 36.47,
+      "fills": 2,
+      "end": "2026-07-01"
+    },
+    {
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "start": "2026-08-03",
+      "quantity": 0.0,
+      "cash_flow": 11230.440000000002,
+      "fees": 62.18,
+      "fills": 2,
+      "end": "2026-09-01"
+    },
+    {
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "start": "2026-04-01",
+      "quantity": 0.0,
+      "cash_flow": 14207.7,
+      "fees": 61.480000000000004,
+      "fills": 2,
+      "end": "2026-06-01"
+    }
+  ],
+  "open_cohorts": [
+    {
+      "symbol": "301308.SZ",
+      "name": "江波龙",
+      "start": "2026-08-03",
+      "quantity": 100.0,
+      "cash_flow": -34104.86,
+      "fees": 6.82,
+      "fills": 1,
+      "end": "2026-08-03"
+    },
+    {
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "start": "2026-09-01",
+      "quantity": 200.0,
+      "cash_flow": -39625.72,
+      "fees": 7.92,
+      "fills": 1,
+      "end": "2026-09-01"
+    }
+  ]
+}

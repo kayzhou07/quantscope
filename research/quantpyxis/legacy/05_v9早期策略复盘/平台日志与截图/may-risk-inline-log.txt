@@ -1,0 +1,310 @@
+首页
+我的策略
+我的研究
+实盘交易
+社区
+帮助
+数据
+HI！
+mx_1wgq0yqk1
+全局搜索
+
+需要帮助？
+
+试试AI小助手吧
+
+您有5条消息未读 
+<
+新建策略
+股票
+策略编辑
+回测列表
+编译运行
+beta
+保存
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+# 量化一 v2：A股价格动量 + 月度波动率目标 / SuperMind Python 3
+    .8
+# 仅用于平台历史回测研究。沪深300历史成分，单因子100%，前三等
+    权。
+# 信号以月初前一交易日为截止，不读取当日收盘价/全日量来下单。
+# 费用/成交/T+1/企业行动依赖平台实现，未经独立逐项对账。
+import math
+import pandas as pd
+def momentum_score(closes):
+    if len(closes) != 253:
+        raise ValueError('Need exactly 253 consecutive 
+            sessions')
+    values = [float(x) for x in closes]
+    if any(not math.isfinite(x) or x <= 0 for x in values):
+        raise ValueError('Invalid history')
+    return values[-22] / values[0] - 1.0
+def init(context):
+    set_benchmark('000300.SH')
+    # 研究假设：佣金2bps；平台另计税费，须在成交明细核实。
+    set_commission(PerShare(type='stock', cost=0.0002))
+    # 平台PriceSlippage按双边总比例：0.001约为每侧5bps。
+    set_slippage(PriceSlippage(0.001))
+    set_volume_limit(0.10, 0.10)
+    context.pending = None
+    context.signal_date = None
+    context.target_vol = 0.20
+    context.risk_exposure = 0.0
+    context.last_month = None
+    log.info('量化一 v2: MOM252-21; top3; vol target20%; 
+        past60d; leverage OFF')
+    log.info('Research only. Platform fees, matching and 
+        corporate actions require audit.')
+def before_trading(context):
+ 
+至
+￥
+每日
+python3.8
+进行回测
+策略收益	基准收益	Alpha	Beta	Sharpe	最大回撤
+-0.50%	-13.24%	-0.01	0.04	-0.80	2.76%
+日志
+错误
+∧
+
+2026-10-18 22:49:27 - INFO
+
+INFO :回测开始运行
+
+2026-10-18 22:49:27 - INFO
+
+回测开始
+
+2026-05-06 00:00:00 - INFO
+
+量化一 v2: MOM252-21; top3; vol target20%; past60d; leverage OFF
+
+2026-05-06 00:00:00 - INFO
+
+Research only. Platform fees, matching and corporate actions require audit.
+
+2026-05-06 09:00:00 - INFO
+
+RISK 20260430 estimated_vol=0.6374763089691775 exposure=0.313737 cash_target=0.686263
+
+2026-05-06 09:00:00 - INFO
+
+Signal=20260430 eligible=271 excluded=10 top=[('300502.SZ', 7.306884261864566), ('300308.SZ', 6.470232619266657), ('300394.SZ', 5.5295518510500115)]
+
+2026-05-06 09:31:00 - WARN
+
+300308.SZ 下单股数为0,订单无效.
+
+2026-05-06 09:31:00 - INFO
+
+TARGET buy 300308.SZ weight=0.104579 order=None
+
+2026-05-06 09:31:00 - WARN
+
+300394.SZ 下单股数为0,订单无效.
+
+2026-05-06 09:31:00 - INFO
+
+TARGET buy 300394.SZ weight=0.104579 order=None
+
+2026-05-06 09:31:00 - WARN
+
+300502.SZ 下单股数为0,订单无效.
+
+2026-05-06 09:31:00 - INFO
+
+TARGET buy 300502.SZ weight=0.104579 order=None
+
+2026-06-01 09:00:00 - INFO
+
+RISK 20260529 estimated_vol=0.5596083982073996 exposure=0.357393 cash_target=0.642607
+
+2026-06-01 09:00:00 - INFO
+
+Signal=20260529 eligible=271 excluded=10 top=[('300308.SZ', 8.282476686185209), ('002384.SZ', 5.781692698873955), ('300502.SZ', 5.524375454765948)]
+
+2026-06-01 09:31:00 - WARN
+
+002384.SZ 下单股数为0,订单无效.
+
+2026-06-01 09:31:00 - INFO
+
+TARGET buy 002384.SZ weight=0.119131 order=None
+
+2026-06-01 09:31:00 - WARN
+
+300308.SZ 下单股数为0,订单无效.
+
+2026-06-01 09:31:00 - INFO
+
+TARGET buy 300308.SZ weight=0.119131 order=None
+
+2026-06-01 09:31:00 - WARN
+
+300502.SZ 下单股数为0,订单无效.
+
+2026-06-01 09:31:00 - INFO
+
+TARGET buy 300502.SZ weight=0.119131 order=None
+
+2026-07-01 09:00:00 - INFO
+
+RISK 20260630 estimated_vol=0.5844516935996901 exposure=0.342201 cash_target=0.657799
+
+2026-07-01 09:00:00 - INFO
+
+Signal=20260630 eligible=269 excluded=11 top=[('300308.SZ', 8.784781326367238), ('301308.SZ', 6.7589122164294775), ('300502.SZ', 5.6740397350993375)]
+
+2026-07-01 09:31:00 - WARN
+
+300308.SZ 下单股数为0,订单无效.
+
+2026-07-01 09:31:00 - INFO
+
+TARGET buy 300308.SZ weight=0.114067 order=None
+
+2026-07-01 09:31:00 - WARN
+
+300502.SZ 下单股数为0,订单无效.
+
+2026-07-01 09:31:00 - INFO
+
+TARGET buy 300502.SZ weight=0.114067 order=None
+
+2026-07-01 09:31:00 - WARN
+
+301308.SZ 下单股数为0,订单无效.
+
+2026-07-01 09:31:00 - INFO
+
+TARGET buy 301308.SZ weight=0.114067 order=None
+
+2026-08-03 09:00:00 - INFO
+
+RISK 20260731 estimated_vol=0.7526268193408977 exposure=0.265736 cash_target=0.734264
+
+2026-08-03 09:00:00 - INFO
+
+Signal=20260731 eligible=270 excluded=10 top=[('000657.SZ', 6.46337702390131), ('301308.SZ', 6.256236376846695), ('300308.SZ', 5.514676546024509)]
+
+2026-08-03 09:31:00 - INFO
+
+TARGET buy 000657.SZ weight=0.088579 order=729ebffcba51418b800383be93c39031
+
+2026-08-03 09:31:00 - WARN
+
+300308.SZ 下单股数为0,订单无效.
+
+2026-08-03 09:31:00 - INFO
+
+TARGET buy 300308.SZ weight=0.088579 order=None
+
+2026-08-03 09:31:00 - WARN
+
+301308.SZ 下单股数为0,订单无效.
+
+2026-08-03 09:31:00 - INFO
+
+TARGET buy 301308.SZ weight=0.088579 order=None
+
+2026-09-01 09:00:00 - INFO
+
+RISK 20260831 estimated_vol=0.7572824915851312 exposure=0.264102 cash_target=0.735898
+
+2026-09-01 09:00:00 - INFO
+
+Signal=20260831 eligible=270 excluded=10 top=[('301308.SZ', 2.813915146185975), ('300308.SZ', 2.8115782801605746), ('002384.SZ', 2.2900997697620875)]
+
+2026-09-01 09:31:00 - INFO
+
+TARGET sell 000657.SZ weight=0.000000 order=57f8d31d857149a691bc87c9f0bcb8d7
+
+2026-09-01 09:31:00 - WARN
+
+002384.SZ 下单股数为0,订单无效.
+
+2026-09-01 09:31:00 - INFO
+
+TARGET buy 002384.SZ weight=0.088034 order=None
+
+2026-09-01 09:31:00 - WARN
+
+300308.SZ 下单股数为0,订单无效.
+
+2026-09-01 09:31:00 - INFO
+
+TARGET buy 300308.SZ weight=0.088034 order=None
+
+2026-09-01 09:31:00 - WARN
+
+301308.SZ 下单股数为0,订单无效.
+
+2026-09-01 09:31:00 - INFO
+
+TARGET buy 301308.SZ weight=0.088034 order=None
+
+2026-10-08 09:00:00 - INFO
+
+RISK 20260930 estimated_vol=0.7499279644036494 exposure=0.266692 cash_target=0.733308
+
+2026-10-08 09:00:00 - INFO
+
+Signal=20260930 eligible=271 excluded=9 top=[('000657.SZ', 2.485169491525424), ('301308.SZ', 2.449444293846571), ('600176.SH', 1.9286666666666665)]
+
+2026-10-08 09:31:00 - INFO
+
+TARGET buy 000657.SZ weight=0.088897 order=89dbc2bb209e41a3b7a64962cb2d2c92
+
+2026-10-08 09:31:00 - WARN
+
+301308.SZ 下单股数为0,订单无效.
+
+2026-10-08 09:31:00 - INFO
+
+TARGET buy 301308.SZ weight=0.088897 order=None
+
+2026-10-08 09:31:00 - INFO
+
+TARGET buy 600176.SH weight=0.088897 order=bf3eed394f1240d883410976e0469479
+
+2026-10-16 04:00:00 - INFO
+
+600176.SH在2026-10-16日发生了分红：每股税前分红0.33
+
+2026-10-18 22:49:39 - INFO
+
+回测结束

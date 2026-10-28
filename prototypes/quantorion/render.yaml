@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: quantorion
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    envVars:
+      - key: TUSHARE_TOKEN
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_BASE_URL
+        value: https://api.deepseek.com/v1
+      - key: OPENAI_MODEL
+        value: deepseek-chat
+      - key: OPENAI_PROXY
+        sync: false
+      - key: STRATEGY_MODE
+        value: limit_up

@@ -1,0 +1,70 @@
+{
+ "cutoffs": [
+  {
+   "cutoff": "2018-12-28",
+   "state": "CRASH",
+   "pending_direction": null,
+   "pending_confirm_days": 0,
+   "state_run_days": 60,
+   "last_available_bar": "2026-10-19",
+   "compared_rows": 1560,
+   "mismatch_rows": 0,
+   "mismatch_first": [],
+   "published_prefix_match": true,
+   "pass": true
+  },
+  {
+   "cutoff": "2021-06-30",
+   "state": "NEUTRAL",
+   "pending_direction": null,
+   "pending_confirm_days": 0,
+   "state_run_days": 9,
+   "last_available_bar": "2026-10-19",
+   "compared_rows": 2165,
+   "mismatch_rows": 0,
+   "mismatch_first": [],
+   "published_prefix_match": true,
+   "pass": true
+  },
+  {
+   "cutoff": "2023-12-29",
+   "state": "BEAR",
+   "pending_direction": null,
+   "pending_confirm_days": 0,
+   "state_run_days": 91,
+   "last_available_bar": "2026-10-19",
+   "compared_rows": 2774,
+   "mismatch_rows": 0,
+   "mismatch_first": [],
+   "published_prefix_match": true,
+   "pass": true
+  },
+  {
+   "cutoff": "2026-10-19",
+   "state": "BEAR",
+   "pending_direction": null,
+   "pending_confirm_days": 0,
+   "state_run_days": 2,
+   "last_available_bar": "2026-10-19",
+   "compared_rows": 3448,
+   "mismatch_rows": 0,
+   "mismatch_first": [],
+   "published_prefix_match": true,
+   "pass": true
+  }
+ ],
+ "all_pass": true,
+ "direct_vs_truncated": {
+  "cutoff": "2026-10-19",
+  "compared_rows": 3448,
+  "mismatch_rows": 0,
+  "pass": true,
+  "mismatch_first": []
+ },
+ "command": "state-check",
+ "asof": "2026-10-19",
+ "schema_generated_at": "2026-10-20T23:13:23+08:00",
+ "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+ "freeze_at": "2026-10-20T22:16:09+08:00",
+ "data_cutoff": "2026-10-19"
+}

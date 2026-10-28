@@ -1,0 +1,43 @@
+{
+ "schema": "round5-signal-1",
+ "signal_id": "sig-0000000000000000",
+ "generated_at": "2026-10-20T15:05:00+08:00",
+ "asof": "2026-10-20",
+ "available_at": "2026-10-20T15:00:00+08:00",
+ "planned_exec_date": "2026-10-21",
+ "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+ "freeze_at": "2026-10-20T22:16:09+08:00",
+ "kind": "scheduled",
+ "state": {
+  "asof": "2026-10-20",
+  "state": "NEUTRAL",
+  "letter": "N",
+  "state_prev": "BEAR",
+  "state_run_days": 3,
+  "candidate_today": "NEUTRAL",
+  "pending_direction": null,
+  "pending_confirm_days": 0,
+  "confirm_required_days": 5,
+  "last_available_bar": "2026-10-20"
+ },
+ "action": "target",
+ "reason": "scheduled",
+ "targets": {"600000": 0.02, "000001": 0.02},
+ "nav": 100000.0,
+ "exposure": 0.3,
+ "holdings_before": {},
+ "data": {
+  "data_manifest_sha256": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db",
+  "regime_csv_sha256": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+  "freeze_id": "R5-A-FREEZE-20261020T221609+0800"
+ },
+ "diagnostics": {
+  "n_candidates": 0,
+  "n_truncated": 0,
+  "n_selected": 2,
+  "n_dropped_unaffordable": 0,
+  "budget_per_name": 2000.0,
+  "dropped": [],
+  "chosen_detail": []
+ }
+}

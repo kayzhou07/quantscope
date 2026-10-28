@@ -1,0 +1,165 @@
+{
+ "schema": "round5-postfix-1",
+ "generated_at": "2026-10-20T23:16:36+08:00",
+ "checks": [
+  {
+   "name": "F1_stress_row_recomputed",
+   "pass": true,
+   "detail": {
+    "summary_row": {
+     "base_return": 1.7456069325168508,
+     "base_dd": -0.2397936474691945,
+     "total_return": 1.496727737698396,
+     "max_drawdown": -0.252261330224039,
+     "sharpe": 0.7468677639226583
+    },
+    "saved_stress_file": {
+     "base_return": 1.7456069325168508,
+     "stress_return": 1.496727737698396,
+     "stress_dd": -0.252261330224039,
+     "stress_sharpe": 0.7468677639226583
+    }
+   }
+  },
+  {
+   "name": "F2_freeze_peak_date",
+   "pass": true,
+   "detail": {
+    "has_peak_2017_11_22": true,
+    "has_wrong_peak": false
+   }
+  },
+  {
+   "name": "F6_report_disclosure",
+   "pass": true,
+   "detail": {
+    "mentions_F6": true,
+    "mentions_preregistered": true,
+    "removed_train_best_claim": true,
+    "states_A_used_OOS": true
+   }
+  },
+  {
+   "name": "F6_freeze_disclosure",
+   "pass": true,
+   "detail": {
+    "has_selection_disclosure": true
+   }
+  },
+  {
+   "name": "VERIFY4_retained_unchanged",
+   "pass": true,
+   "detail": {
+    "sha256": "613e3126fce274d9a3332422107c513f233aea76c9e3bb01f0c7e5593196879d",
+    "bytes": 33423
+   }
+  },
+  {
+   "name": "SEAL_snapshot_valid",
+   "pass": true,
+   "detail": {
+    "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+    "freeze_at": "2026-10-20T22:16:09+08:00",
+    "files": 17,
+    "bad": [],
+    "manifest_sha256": "94e3d974eafc85ca9c2d6ff300861937d7333623455368fd9afd0bffbd7f9710"
+   }
+  },
+  {
+   "name": "P1_validation_suite",
+   "pass": true,
+   "detail": {
+    "pass": true,
+    "summary": {
+     "freeze_snapshot": "PASS",
+     "no_future_input": "PASS",
+     "state_missing_fails": "PASS",
+     "signal_idempotent": "PASS",
+     "month_end_boundary": "PASS",
+     "initial_account": "PASS",
+     "fees_and_lots": "PASS",
+     "limit_block_then_fill": "PASS",
+     "suspension_retention": "PASS",
+     "corporate_action": "PASS",
+     "idempotent_orders": "PASS",
+     "capital_conservation": "PASS"
+    }
+   }
+  },
+  {
+   "name": "P1_state_check",
+   "pass": true,
+   "detail": {
+    "all_pass": true,
+    "cutoffs": [
+     {
+      "2018-12-28": true
+     },
+     {
+      "2021-06-30": true
+     },
+     {
+      "2023-12-29": true
+     },
+     {
+      "2026-10-19": true
+     }
+    ],
+    "direct_vs_truncated": {
+     "cutoff": "2026-10-19",
+     "compared_rows": 3448,
+     "mismatch_rows": 0,
+     "pass": true,
+     "mismatch_first": []
+    }
+   }
+  },
+  {
+   "name": "P1_first_record_pending_data",
+   "pass": true,
+   "detail": {
+    "status": "PENDING_DATA",
+    "reason": "close data for 2026-10-20 not ingested (panel last bar 2026-10-19); no signal is created and no fill is back-filled",
+    "no_signal_created": true,
+    "is_month_end": false,
+    "freeze_at": "2026-10-20T22:16:09+08:00",
+    "sha256": "1927da7e0e42064497d16e023ba13b0f27707c5c5af665dfcacdc13124736fbc"
+   }
+  }
+ ],
+ "pass": true,
+ "audited_versions": {
+  "ROUND4.md": "337900a4810e968300f39af67c71e87ad09eae9a284b8c99332c501935b57a19",
+  "CANDIDATE_A_FREEZE.md": "4128e5018b9796cbc051d648f8a447a0e38bd821ba55c5e527c6fd8e940c1513"
+ },
+ "current_hashes": {
+  "winrate_backtest_20261020\\round4\\ROUND4.md": {
+   "sha256": "e157de29aba7d0f525402ffdb51acbba9cd089e0687545d9cde4d1df761ee495",
+   "bytes": 18246
+  },
+  "winrate_backtest_20261020\\round4\\CANDIDATE_A_FREEZE.md": {
+   "sha256": "e260c82b045e9762e6b7fb536e77b5e549c040c9c39142a8533816d12655986e",
+   "bytes": 5309
+  },
+  "winrate_backtest_20261020\\round4\\verify\\VERIFY4.md": {
+   "sha256": "613e3126fce274d9a3332422107c513f233aea76c9e3bb01f0c7e5593196879d",
+   "bytes": 33423
+  },
+  "winrate_backtest_20261020\\round4\\out\\phase_stress_summary.csv": {
+   "sha256": "ebb26923e791094a1afdc0069a63c6eef0342080252383ddeb2ad5381ce4d0fd",
+   "bytes": 549
+  },
+  "winrate_backtest_20261020\\round5\\EVIDENCE_CHANGELOG.md": {
+   "sha256": "1d2710a70335465873affe75b3bca0c04a2251066bf037b67aa499a5a763d7ba",
+   "bytes": 4989
+  }
+ },
+ "not_covered": [
+  "平台复现（P2）：未提交，无任务回执",
+  "前向结果：首个 2026-10-20 记录为 PENDING_DATA（数据未入库），尚无纸面成交",
+  "行业暴露：本地无历史行业分类，UNKNOWN",
+  "滑点校准：需平台逐笔校准",
+  "Q0 169 个风险零收益日：需平台季度原规则诊断",
+  "修改前字节未保留（流程缺陷，见 EVIDENCE_CHANGELOG §1）"
+ ]
+}

@@ -1,0 +1,301 @@
+{
+  "experiment": "RECENT-20250101-20261020-2X2",
+  "requested_window": [
+    "2025-01-01",
+    "2026-10-20"
+  ],
+  "data_end": "2026-10-19",
+  "actual_end": "2026-10-19",
+  "initial_cash": 100000,
+  "initialize": "fresh cash, no inherited holdings",
+  "warmup_days": 400,
+  "cash_rate": 0,
+  "rebalance": "Q",
+  "bull_budgets": [
+    0.6,
+    0.8
+  ],
+  "neutral_budget": 0.25,
+  "neutral_trim": [
+    false,
+    true
+  ],
+  "trim_band": 0.03,
+  "fast_reentry": false,
+  "slippage_bps": 10,
+  "commission_bps": 2.5,
+  "min_commission": 5,
+  "max_tolerated_drawdown": 0.3,
+  "drawdown_definition": "1 - NAV / prior running peak; initial capital included",
+  "purpose": "predeclared comparison; no parameter search",
+  "new_platform_run": false,
+  "source_snapshot": [
+    {
+      "file": "qrun_1416\\os\\out\\regime_v1.csv",
+      "sha256": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+      "bytes": 557911
+    },
+    {
+      "file": "qrun_1416\\os\\strategy_final.py",
+      "sha256": "1aadf2f672ef3816f349d95248d11fe835843490db2ea448ff2d01d10f7ea701",
+      "bytes": 5469
+    },
+    {
+      "file": "qrun_1416\\os\\strategy_v1.py",
+      "sha256": "147d21be3e136253506a93747bbac7ad851c8755c7d006f0e89467eab7d0f7ac",
+      "bytes": 18769
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\__init__.py",
+      "sha256": "29c68fd1ae15591d31f589cee5a511f6b1c1e23b30cf51a579586f0642a40d3a",
+      "bytes": 340
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\API.md",
+      "sha256": "2816c69b0c785583cb96dc07dbf0b3ced6692976985652604a83419446ac338c",
+      "bytes": 22421
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\api.py",
+      "sha256": "3ed84b445501ed330765e09feca725a26e7105a33e8114341bab4735e315e75d",
+      "bytes": 19188
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\core.py",
+      "sha256": "94f944aed972114f0fcbb3067ab69d57225682f78618e329cb6eddf84523bf36",
+      "bytes": 90003
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\data.py",
+      "sha256": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+      "bytes": 44475
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\metrics.py",
+      "sha256": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+      "bytes": 25140
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\precompute.py",
+      "sha256": "b210a0862a32e560e0150df6baea9acbc1f09d7c63b2e436e1dbb0a806eaccd4",
+      "bytes": 3978
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\regime.py",
+      "sha256": "83ce69fc4030e94f2f18ada22b5cd946b6f75c359982844e59095e6771ad4acb",
+      "bytes": 19456
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\RULES.md",
+      "sha256": "04f829f1d1fd776dca96e32d9cd1915a68520d40004e8b571138c00124bc4188",
+      "bytes": 3717
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\run_api_smoke.py",
+      "sha256": "c64186762c8b03e4ffa25958e53a0f8d31cc68d403c502c37c7043691a2752dd",
+      "bytes": 7208
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixture_utils.py",
+      "sha256": "4acd9677251e72fd58a67ca459e7952928d70475bacbd0bbd1db60b68ca5ba35",
+      "bytes": 3383
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\fees2023\\meta\\calendar.csv",
+      "sha256": "343468d9fb2baf12145b3d12ca96aa65f3e432293250d0e2d035c79b7c403b8d",
+      "bytes": 1092
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\fees2023\\meta\\codes.csv",
+      "sha256": "70e1336b018b467d75a61e4b956078625515e75920f96371cb1938f24a9e60eb",
+      "bytes": 19
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\fees2023\\meta\\universe.csv",
+      "sha256": "3f49f488212ebfbd84d75bc3ffa1f0c5601248d4e61713135b8adc3c70bb513f",
+      "bytes": 93
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\fees2023\\panel\\bars_2023.csv",
+      "sha256": "2c543ccef6f07979462fcffd5fc31afe2efedcc4f7c81e4c997b16d1eb056186",
+      "bytes": 6799
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\fees2023\\panel\\bars_qfq_2023.csv",
+      "sha256": "eda90a1d76d4f3cca709148f3673abd36e566dea651cc75f6b4ac244475482ef",
+      "bytes": 6800
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\fees2023\\panel\\index_daily.csv",
+      "sha256": "1fce8cbfcf7b6f1108b01ed6c1c8169660f2c71077b7c04dc2535e8432d217fe",
+      "bytes": 6773
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\meta\\calendar.csv",
+      "sha256": "a7677eeded73a662b8b025bdc0dcb37ba90feefc62587fd1fa5e9b691aa2f0a9",
+      "bytes": 5824
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\meta\\codes.csv",
+      "sha256": "5c9bb416fa122fa10218495783b33b0a38aa13009f82a81663254ca82530ea2d",
+      "bytes": 120
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\meta\\manifest.json",
+      "sha256": "26e49465cb0db2f9466852f62857eb54761b8fb09897671aa1896a402c4ba8ef",
+      "bytes": 389
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\meta\\universe.csv",
+      "sha256": "10b98f470de0cdb4b2f0c457043c515893b7711e82aa0b03517fceba0823f37e",
+      "bytes": 526
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\panel\\bars_2020.csv",
+      "sha256": "5b043a3c07dc244fe4acebf53a24611e1d546e183b1240499cef5e7ca4d74f63",
+      "bytes": 129454
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\panel\\bars_2021.csv",
+      "sha256": "ed395b3c5d86cb977523c35a0913bddc6278eec0464016542fbf20b920a26e7f",
+      "bytes": 224234
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\panel\\bars_qfq_2020.csv",
+      "sha256": "8182262cd95a5bdfc12dbaf1d8de5a6008113b1f335ef1631a5f16458209b21f",
+      "bytes": 129905
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\panel\\bars_qfq_2021.csv",
+      "sha256": "526dffcee84657b1a3ffd773aa138ca05797110e64440b07c53b74dc2e3afa9a",
+      "bytes": 228691
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\fixtures\\toy\\panel\\index_daily.csv",
+      "sha256": "ea4a7013ce6e51e435dbea526f4b25b8e48919edcfcd5812dde30f7878b94289",
+      "bytes": 72692
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\make_fixtures.py",
+      "sha256": "c2de7fca13c8f96090b4f601af769585ddc097163b0548ad626f4706d5464a45",
+      "bytes": 14151
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_api.py",
+      "sha256": "c9502e2e34f7dd352d7d29edf62c526db545f99d899c6aae24673ad81915ac49",
+      "bytes": 8965
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_core_engine.py",
+      "sha256": "11c11a43186fba521864aa72bf8f67750a4fb7f1e108950ffbdbfb59a9391cfa",
+      "bytes": 11755
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_core_rules.py",
+      "sha256": "c41e69ae37bf9bc8b784a2d4d62b6f79aaf406bebd17b40b9d9149afe0207c4f",
+      "bytes": 4169
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_corporate_actions.py",
+      "sha256": "631c828c744e2fdc96de265f2ae5e037fc5f97f5dab8a6f46c72d21f6a7c58b5",
+      "bytes": 4910
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_data.py",
+      "sha256": "04d894f6ae009209f18990aeb076b2a5ef83b56fbd4dda172cab5f7a80cfa2aa",
+      "bytes": 5685
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_metrics.py",
+      "sha256": "5139b48e65f46edc5f83b9d6168bd908a494a88c949d5f477195d34557f62726",
+      "bytes": 7633
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_no_lookahead.py",
+      "sha256": "7745fd32cbf9bee1357f92880213041176a24690772441e266195b9c35d8f8f0",
+      "bytes": 4575
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\tests\\test_regime.py",
+      "sha256": "c32dae7018a126aab5fb424a616c176c3ae78849d584c021b570896d6bdf9ec5",
+      "bytes": 6887
+    },
+    {
+      "file": "run2\\engine_fix\\engine\\verify_data_integration.py",
+      "sha256": "0c904508015f50d3d244c9332e01e80ad2298f262ba080bb207ab08f95df9cb7",
+      "bytes": 22146
+    },
+    {
+      "file": "run2\\os\\strategy_v46.py",
+      "sha256": "1c153a12f78b0699c70fb8b9763a02da38e350ee1cb91d34a57b59e684d7592f",
+      "bytes": 4543
+    }
+  ],
+  "data_files_hashed": [
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\meta\\manifest.json",
+      "sha256": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db",
+      "bytes": 39153
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\meta\\calendar.csv",
+      "sha256": "dd422059e3b43aee7a5a03995c658a9a50641ca0148075032dea09bcffd4ec08",
+      "bytes": 75712
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\meta\\universe.csv",
+      "sha256": "1e3f9b560b1a480baf5bd2d666a7d6950f1feb1b484c29c235780f7a2e09155e",
+      "bytes": 217179
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\meta\\codes.csv",
+      "sha256": "18e184736d18deba4d39d389b4fb2d661ddb3e089da8788b3f8eda942d063af7",
+      "bytes": 63132
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_2023.csv.gz",
+      "sha256": "201b2c1a92f948e4c08e889c6af056fab2db05f2ba82200d0c5b6bb2b72a9f38",
+      "bytes": 27035593
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_qfq_2023.csv.gz",
+      "sha256": "312ca219ebe60a2d2c02076292edd90f57618b31fa4c4eecc117884f0f25df86",
+      "bytes": 13246406
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_2024.csv.gz",
+      "sha256": "6eee2e04a5f2361b3a81523b37e7d7fdca1e7337eb5b6d738849434438deb2d0",
+      "bytes": 27905996
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_qfq_2024.csv.gz",
+      "sha256": "175a2ea79c0328ca0e7bf4dc62e3f8665766dfd05493d3f8259f3388cc392dc5",
+      "bytes": 13804229
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_2025.csv.gz",
+      "sha256": "bf0f3e7a51b7b2a54077e6d419ea769d541e775ce412af53a8231dc470b9a909",
+      "bytes": 28306351
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_qfq_2025.csv.gz",
+      "sha256": "f59b1f498f0bf5d6c6627cbf6a9e78025b57d69feecf489a2699f8d7dfcd346d",
+      "bytes": 13671907
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_2026.csv.gz",
+      "sha256": "15d29bdc47015cbdb98666ff9b24ace92eaf7401e5ec348c14952d26a6406f4f",
+      "bytes": 22641229
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\bars_qfq_2026.csv.gz",
+      "sha256": "5d28c64c585d6da0838f78fd672a81a237484b44a740e7d9fd6278801398bbaf",
+      "bytes": 10368431
+    },
+    {
+      "file": "C:\\Users\\汤禹恒\\OneDrive\\文档\\deepseek-harness\\default-workspace\\qrun_1416\\data\\panel\\index_daily.csv.gz",
+      "sha256": "16f29ed888fa419c2e256b530d70bcf9b3a5903a5223ec7513ebeba1d82d8f1b",
+      "bytes": 638817
+    }
+  ]
+}

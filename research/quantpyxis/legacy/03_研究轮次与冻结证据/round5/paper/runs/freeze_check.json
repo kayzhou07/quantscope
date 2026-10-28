@@ -1,0 +1,10 @@
+{
+ "command": "freeze-check",
+ "checked": 18,
+ "mismatch": [],
+ "pass": true,
+ "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+ "schema_generated_at": "2026-10-20T22:18:25+08:00",
+ "freeze_at": "2026-10-20T22:16:09+08:00",
+ "data_cutoff": "2026-10-19"
+}

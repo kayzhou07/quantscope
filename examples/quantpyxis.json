@@ -1,0 +1,4177 @@
+{
+  "model": "quantpyxis",
+  "signal_date": "2026-10-15",
+  "execute_after": "2026-10-16",
+  "data": {
+    "history": {
+      "600001.SH": [
+        {
+          "date": "2025-10-17",
+          "close": 10.0,
+          "raw_close": 10.0,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-20",
+          "close": 10.029912,
+          "raw_close": 10.029912,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-21",
+          "close": 10.059116,
+          "raw_close": 10.059116,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-22",
+          "close": 10.086839,
+          "raw_close": 10.086839,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-23",
+          "close": 10.112362,
+          "raw_close": 10.112362,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-24",
+          "close": 10.135051,
+          "raw_close": 10.135051,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-27",
+          "close": 10.154383,
+          "raw_close": 10.154383,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-28",
+          "close": 10.169973,
+          "raw_close": 10.169973,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-29",
+          "close": 10.181586,
+          "raw_close": 10.181586,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-30",
+          "close": 10.189151,
+          "raw_close": 10.189151,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-31",
+          "close": 10.192764,
+          "raw_close": 10.192764,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-03",
+          "close": 10.192682,
+          "raw_close": 10.192682,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-04",
+          "close": 10.189316,
+          "raw_close": 10.189316,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-05",
+          "close": 10.183208,
+          "raw_close": 10.183208,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-06",
+          "close": 10.175013,
+          "raw_close": 10.175013,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-07",
+          "close": 10.165466,
+          "raw_close": 10.165466,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-10",
+          "close": 10.155357,
+          "raw_close": 10.155357,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-11",
+          "close": 10.145494,
+          "raw_close": 10.145494,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-12",
+          "close": 10.136674,
+          "raw_close": 10.136674,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-13",
+          "close": 10.129647,
+          "raw_close": 10.129647,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-14",
+          "close": 10.125096,
+          "raw_close": 10.125096,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-17",
+          "close": 10.1236,
+          "raw_close": 10.1236,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-18",
+          "close": 10.125622,
+          "raw_close": 10.125622,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-19",
+          "close": 10.131488,
+          "raw_close": 10.131488,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-20",
+          "close": 10.141374,
+          "raw_close": 10.141374,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-21",
+          "close": 10.155301,
+          "raw_close": 10.155301,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-24",
+          "close": 10.173136,
+          "raw_close": 10.173136,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-25",
+          "close": 10.194593,
+          "raw_close": 10.194593,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-26",
+          "close": 10.219242,
+          "raw_close": 10.219242,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-27",
+          "close": 10.24653,
+          "raw_close": 10.24653,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-28",
+          "close": 10.275793,
+          "raw_close": 10.275793,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-01",
+          "close": 10.306288,
+          "raw_close": 10.306288,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-02",
+          "close": 10.337216,
+          "raw_close": 10.337216,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-03",
+          "close": 10.367755,
+          "raw_close": 10.367755,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-04",
+          "close": 10.397093,
+          "raw_close": 10.397093,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-05",
+          "close": 10.42446,
+          "raw_close": 10.42446,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-08",
+          "close": 10.449162,
+          "raw_close": 10.449162,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-09",
+          "close": 10.470609,
+          "raw_close": 10.470609,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-10",
+          "close": 10.488341,
+          "raw_close": 10.488341,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-11",
+          "close": 10.502051,
+          "raw_close": 10.502051,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-12",
+          "close": 10.511592,
+          "raw_close": 10.511592,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-15",
+          "close": 10.516994,
+          "raw_close": 10.516994,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-16",
+          "close": 10.518452,
+          "raw_close": 10.518452,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-17",
+          "close": 10.516328,
+          "raw_close": 10.516328,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-18",
+          "close": 10.511125,
+          "raw_close": 10.511125,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-19",
+          "close": 10.503476,
+          "raw_close": 10.503476,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-22",
+          "close": 10.494108,
+          "raw_close": 10.494108,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-23",
+          "close": 10.483817,
+          "raw_close": 10.483817,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-24",
+          "close": 10.473433,
+          "raw_close": 10.473433,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-25",
+          "close": 10.463786,
+          "raw_close": 10.463786,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-26",
+          "close": 10.455675,
+          "raw_close": 10.455675,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-29",
+          "close": 10.449837,
+          "raw_close": 10.449837,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-30",
+          "close": 10.446916,
+          "raw_close": 10.446916,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-31",
+          "close": 10.447444,
+          "raw_close": 10.447444,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-01",
+          "close": 10.451816,
+          "raw_close": 10.451816,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-02",
+          "close": 10.46028,
+          "raw_close": 10.46028,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-05",
+          "close": 10.472925,
+          "raw_close": 10.472925,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-06",
+          "close": 10.489679,
+          "raw_close": 10.489679,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-07",
+          "close": 10.510311,
+          "raw_close": 10.510311,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-08",
+          "close": 10.534439,
+          "raw_close": 10.534439,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-09",
+          "close": 10.561543,
+          "raw_close": 10.561543,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-12",
+          "close": 10.590981,
+          "raw_close": 10.590981,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-13",
+          "close": 10.622018,
+          "raw_close": 10.622018,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-14",
+          "close": 10.65385,
+          "raw_close": 10.65385,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-15",
+          "close": 10.685634,
+          "raw_close": 10.685634,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-16",
+          "close": 10.716523,
+          "raw_close": 10.716523,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-19",
+          "close": 10.745702,
+          "raw_close": 10.745702,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-20",
+          "close": 10.772417,
+          "raw_close": 10.772417,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-21",
+          "close": 10.796011,
+          "raw_close": 10.796011,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-22",
+          "close": 10.815952,
+          "raw_close": 10.815952,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-23",
+          "close": 10.831853,
+          "raw_close": 10.831853,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-26",
+          "close": 10.843495,
+          "raw_close": 10.843495,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-27",
+          "close": 10.850831,
+          "raw_close": 10.850831,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-28",
+          "close": 10.853993,
+          "raw_close": 10.853993,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-29",
+          "close": 10.853283,
+          "raw_close": 10.853283,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-30",
+          "close": 10.849163,
+          "raw_close": 10.849163,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-02",
+          "close": 10.842234,
+          "raw_close": 10.842234,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-03",
+          "close": 10.833208,
+          "raw_close": 10.833208,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-04",
+          "close": 10.822882,
+          "raw_close": 10.822882,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-05",
+          "close": 10.812102,
+          "raw_close": 10.812102,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-06",
+          "close": 10.801727,
+          "raw_close": 10.801727,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-09",
+          "close": 10.792602,
+          "raw_close": 10.792602,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-10",
+          "close": 10.785515,
+          "raw_close": 10.785515,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-11",
+          "close": 10.781175,
+          "raw_close": 10.781175,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-12",
+          "close": 10.780182,
+          "raw_close": 10.780182,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-13",
+          "close": 10.783003,
+          "raw_close": 10.783003,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-16",
+          "close": 10.78996,
+          "raw_close": 10.78996,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-17",
+          "close": 10.801214,
+          "raw_close": 10.801214,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-18",
+          "close": 10.816759,
+          "raw_close": 10.816759,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-19",
+          "close": 10.836424,
+          "raw_close": 10.836424,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-20",
+          "close": 10.85988,
+          "raw_close": 10.85988,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-23",
+          "close": 10.886645,
+          "raw_close": 10.886645,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-24",
+          "close": 10.916107,
+          "raw_close": 10.916107,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-25",
+          "close": 10.947546,
+          "raw_close": 10.947546,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-26",
+          "close": 10.980157,
+          "raw_close": 10.980157,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-27",
+          "close": 11.013082,
+          "raw_close": 11.013082,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-02",
+          "close": 11.045446,
+          "raw_close": 11.045446,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-03",
+          "close": 11.076389,
+          "raw_close": 11.076389,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-04",
+          "close": 11.105103,
+          "raw_close": 11.105103,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-05",
+          "close": 11.130864,
+          "raw_close": 11.130864,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-06",
+          "close": 11.153067,
+          "raw_close": 11.153067,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-09",
+          "close": 11.171248,
+          "raw_close": 11.171248,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-10",
+          "close": 11.185105,
+          "raw_close": 11.185105,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-11",
+          "close": 11.194518,
+          "raw_close": 11.194518,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-12",
+          "close": 11.199544,
+          "raw_close": 11.199544,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-13",
+          "close": 11.200424,
+          "raw_close": 11.200424,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-16",
+          "close": 11.197569,
+          "raw_close": 11.197569,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-17",
+          "close": 11.191541,
+          "raw_close": 11.191541,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-18",
+          "close": 11.183032,
+          "raw_close": 11.183032,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-19",
+          "close": 11.17283,
+          "raw_close": 11.17283,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-20",
+          "close": 11.161793,
+          "raw_close": 11.161793,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-23",
+          "close": 11.150805,
+          "raw_close": 11.150805,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-24",
+          "close": 11.14075,
+          "raw_close": 11.14075,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-25",
+          "close": 11.132467,
+          "raw_close": 11.132467,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-26",
+          "close": 11.126728,
+          "raw_close": 11.126728,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-27",
+          "close": 11.1242,
+          "raw_close": 11.1242,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-30",
+          "close": 11.125425,
+          "raw_close": 11.125425,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-31",
+          "close": 11.130799,
+          "raw_close": 11.130799,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-01",
+          "close": 11.140558,
+          "raw_close": 11.140558,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-02",
+          "close": 11.154769,
+          "raw_close": 11.154769,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-03",
+          "close": 11.173326,
+          "raw_close": 11.173326,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-06",
+          "close": 11.195955,
+          "raw_close": 11.195955,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-07",
+          "close": 11.222223,
+          "raw_close": 11.222223,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-08",
+          "close": 11.251553,
+          "raw_close": 11.251553,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-09",
+          "close": 11.283243,
+          "raw_close": 11.283243,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-10",
+          "close": 11.316497,
+          "raw_close": 11.316497,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-13",
+          "close": 11.350448,
+          "raw_close": 11.350448,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-14",
+          "close": 11.384195,
+          "raw_close": 11.384195,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-15",
+          "close": 11.41684,
+          "raw_close": 11.41684,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-16",
+          "close": 11.447524,
+          "raw_close": 11.447524,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-17",
+          "close": 11.475458,
+          "raw_close": 11.475458,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-20",
+          "close": 11.499964,
+          "raw_close": 11.499964,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-21",
+          "close": 11.520499,
+          "raw_close": 11.520499,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-22",
+          "close": 11.53668,
+          "raw_close": 11.53668,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-23",
+          "close": 11.548304,
+          "raw_close": 11.548304,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-24",
+          "close": 11.555354,
+          "raw_close": 11.555354,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-27",
+          "close": 11.558,
+          "raw_close": 11.558,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-28",
+          "close": 11.556595,
+          "raw_close": 11.556595,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-29",
+          "close": 11.551657,
+          "raw_close": 11.551657,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-30",
+          "close": 11.543847,
+          "raw_close": 11.543847,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-01",
+          "close": 11.533942,
+          "raw_close": 11.533942,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-04",
+          "close": 11.522801,
+          "raw_close": 11.522801,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-05",
+          "close": 11.51133,
+          "raw_close": 11.51133,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-06",
+          "close": 11.500445,
+          "raw_close": 11.500445,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-07",
+          "close": 11.491035,
+          "raw_close": 11.491035,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-08",
+          "close": 11.483931,
+          "raw_close": 11.483931,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-11",
+          "close": 11.479868,
+          "raw_close": 11.479868,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-12",
+          "close": 11.479462,
+          "raw_close": 11.479462,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-13",
+          "close": 11.483188,
+          "raw_close": 11.483188,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-14",
+          "close": 11.491358,
+          "raw_close": 11.491358,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-15",
+          "close": 11.504115,
+          "raw_close": 11.504115,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-18",
+          "close": 11.521423,
+          "raw_close": 11.521423,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-19",
+          "close": 11.543072,
+          "raw_close": 11.543072,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-20",
+          "close": 11.56868,
+          "raw_close": 11.56868,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-21",
+          "close": 11.597713,
+          "raw_close": 11.597713,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-22",
+          "close": 11.629497,
+          "raw_close": 11.629497,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-25",
+          "close": 11.663246,
+          "raw_close": 11.663246,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-26",
+          "close": 11.698093,
+          "raw_close": 11.698093,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-27",
+          "close": 11.733118,
+          "raw_close": 11.733118,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-28",
+          "close": 11.767389,
+          "raw_close": 11.767389,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-29",
+          "close": 11.799998,
+          "raw_close": 11.799998,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-01",
+          "close": 11.830096,
+          "raw_close": 11.830096,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-02",
+          "close": 11.856932,
+          "raw_close": 11.856932,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-03",
+          "close": 11.879885,
+          "raw_close": 11.879885,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-04",
+          "close": 11.898487,
+          "raw_close": 11.898487,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-05",
+          "close": 11.912452,
+          "raw_close": 11.912452,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-08",
+          "close": 11.921679,
+          "raw_close": 11.921679,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-09",
+          "close": 11.926266,
+          "raw_close": 11.926266,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-10",
+          "close": 11.926499,
+          "raw_close": 11.926499,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-11",
+          "close": 11.922845,
+          "raw_close": 11.922845,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-12",
+          "close": 11.915927,
+          "raw_close": 11.915927,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-15",
+          "close": 11.906502,
+          "raw_close": 11.906502,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-16",
+          "close": 11.895424,
+          "raw_close": 11.895424,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-17",
+          "close": 11.883613,
+          "raw_close": 11.883613,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-18",
+          "close": 11.872015,
+          "raw_close": 11.872015,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-19",
+          "close": 11.861564,
+          "raw_close": 11.861564,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-22",
+          "close": 11.853145,
+          "raw_close": 11.853145,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-23",
+          "close": 11.847562,
+          "raw_close": 11.847562,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-24",
+          "close": 11.845506,
+          "raw_close": 11.845506,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-25",
+          "close": 11.847528,
+          "raw_close": 11.847528,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-26",
+          "close": 11.854023,
+          "raw_close": 11.854023,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-29",
+          "close": 11.865212,
+          "raw_close": 11.865212,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-30",
+          "close": 11.881136,
+          "raw_close": 11.881136,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-01",
+          "close": 11.90165,
+          "raw_close": 11.90165,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-02",
+          "close": 11.926435,
+          "raw_close": 11.926435,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-03",
+          "close": 11.955001,
+          "raw_close": 11.955001,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-06",
+          "close": 11.986711,
+          "raw_close": 11.986711,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-07",
+          "close": 12.020799,
+          "raw_close": 12.020799,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-08",
+          "close": 12.056399,
+          "raw_close": 12.056399,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-09",
+          "close": 12.092583,
+          "raw_close": 12.092583,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-10",
+          "close": 12.128387,
+          "raw_close": 12.128387,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-13",
+          "close": 12.162861,
+          "raw_close": 12.162861,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-14",
+          "close": 12.195098,
+          "raw_close": 12.195098,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-15",
+          "close": 12.224277,
+          "raw_close": 12.224277,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-16",
+          "close": 12.249697,
+          "raw_close": 12.249697,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-17",
+          "close": 12.270807,
+          "raw_close": 12.270807,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-20",
+          "close": 12.287232,
+          "raw_close": 12.287232,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-21",
+          "close": 12.298786,
+          "raw_close": 12.298786,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-22",
+          "close": 12.305486,
+          "raw_close": 12.305486,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-23",
+          "close": 12.307548,
+          "raw_close": 12.307548,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-24",
+          "close": 12.305376,
+          "raw_close": 12.305376,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-27",
+          "close": 12.29955,
+          "raw_close": 12.29955,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-28",
+          "close": 12.290798,
+          "raw_close": 12.290798,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-29",
+          "close": 12.279964,
+          "raw_close": 12.279964,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-30",
+          "close": 12.267973,
+          "raw_close": 12.267973,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-31",
+          "close": 12.255795,
+          "raw_close": 12.255795,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-03",
+          "close": 12.244403,
+          "raw_close": 12.244403,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-04",
+          "close": 12.234737,
+          "raw_close": 12.234737,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-05",
+          "close": 12.227665,
+          "raw_close": 12.227665,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-06",
+          "close": 12.223951,
+          "raw_close": 12.223951,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-07",
+          "close": 12.224228,
+          "raw_close": 12.224228,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-10",
+          "close": 12.228972,
+          "raw_close": 12.228972,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-11",
+          "close": 12.238488,
+          "raw_close": 12.238488,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-12",
+          "close": 12.252895,
+          "raw_close": 12.252895,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 12.272123,
+          "raw_close": 12.272123,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-14",
+          "close": 12.295918,
+          "raw_close": 12.295918,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-17",
+          "close": 12.323845,
+          "raw_close": 12.323845,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-18",
+          "close": 12.355307,
+          "raw_close": 12.355307,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-19",
+          "close": 12.389565,
+          "raw_close": 12.389565,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-20",
+          "close": 12.425766,
+          "raw_close": 12.425766,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-21",
+          "close": 12.462973,
+          "raw_close": 12.462973,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-24",
+          "close": 12.500204,
+          "raw_close": 12.500204,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-25",
+          "close": 12.536466,
+          "raw_close": 12.536466,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-26",
+          "close": 12.570801,
+          "raw_close": 12.570801,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.602319,
+          "raw_close": 12.602319,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-28",
+          "close": 12.630242,
+          "raw_close": 12.630242,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-31",
+          "close": 12.653934,
+          "raw_close": 12.653934,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-01",
+          "close": 12.672929,
+          "raw_close": 12.672929,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-02",
+          "close": 12.686952,
+          "raw_close": 12.686952,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-03",
+          "close": 12.695935,
+          "raw_close": 12.695935,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-04",
+          "close": 12.700012,
+          "raw_close": 12.700012,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-07",
+          "close": 12.699525,
+          "raw_close": 12.699525,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 12.694999,
+          "raw_close": 12.694999,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-09",
+          "close": 12.687124,
+          "raw_close": 12.687124,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-10",
+          "close": 12.676725,
+          "raw_close": 12.676725,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-11",
+          "close": 12.664728,
+          "raw_close": 12.664728,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-14",
+          "close": 12.652119,
+          "raw_close": 12.652119,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 12.639906,
+          "raw_close": 12.639906,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 12.629077,
+          "raw_close": 12.629077,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-17",
+          "close": 12.620563,
+          "raw_close": 12.620563,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 12.615201,
+          "raw_close": 12.615201,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-21",
+          "close": 12.613705,
+          "raw_close": 12.613705,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-22",
+          "close": 12.616635,
+          "raw_close": 12.616635,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 12.62438,
+          "raw_close": 12.62438,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 12.637145,
+          "raw_close": 12.637145,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-25",
+          "close": 12.654939,
+          "raw_close": 12.654939,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-28",
+          "close": 12.677577,
+          "raw_close": 12.677577,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-29",
+          "close": 12.704687,
+          "raw_close": 12.704687,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-30",
+          "close": 12.735721,
+          "raw_close": 12.735721,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-01",
+          "close": 12.769973,
+          "raw_close": 12.769973,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 12.806609,
+          "raw_close": 12.806609,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-05",
+          "close": 12.844693,
+          "raw_close": 12.844693,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-06",
+          "close": 12.883227,
+          "raw_close": 12.883227,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-07",
+          "close": 12.921185,
+          "raw_close": 12.921185,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-08",
+          "close": 12.957559,
+          "raw_close": 12.957559,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-09",
+          "close": 12.991397,
+          "raw_close": 12.991397,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-12",
+          "close": 13.021844,
+          "raw_close": 13.021844,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-13",
+          "close": 13.048177,
+          "raw_close": 13.048177,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 13.06984,
+          "raw_close": 13.06984,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-15",
+          "close": 13.086465,
+          "raw_close": 13.086465,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        }
+      ],
+      "300001.SZ": [
+        {
+          "date": "2025-10-17",
+          "close": 10.0,
+          "raw_close": 10.0,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-20",
+          "close": 10.027906,
+          "raw_close": 10.027906,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-21",
+          "close": 10.055093,
+          "raw_close": 10.055093,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-22",
+          "close": 10.080789,
+          "raw_close": 10.080789,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-23",
+          "close": 10.104276,
+          "raw_close": 10.104276,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-24",
+          "close": 10.124921,
+          "raw_close": 10.124921,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-27",
+          "close": 10.142206,
+          "raw_close": 10.142206,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-28",
+          "close": 10.155745,
+          "raw_close": 10.155745,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-29",
+          "close": 10.165309,
+          "raw_close": 10.165309,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-30",
+          "close": 10.170827,
+          "raw_close": 10.170827,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-10-31",
+          "close": 10.172399,
+          "raw_close": 10.172399,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-03",
+          "close": 10.170283,
+          "raw_close": 10.170283,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-04",
+          "close": 10.164891,
+          "raw_close": 10.164891,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-05",
+          "close": 10.156766,
+          "raw_close": 10.156766,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-06",
+          "close": 10.146562,
+          "raw_close": 10.146562,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-07",
+          "close": 10.135015,
+          "raw_close": 10.135015,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-10",
+          "close": 10.122912,
+          "raw_close": 10.122912,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-11",
+          "close": 10.111058,
+          "raw_close": 10.111058,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-12",
+          "close": 10.100247,
+          "raw_close": 10.100247,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-13",
+          "close": 10.091228,
+          "raw_close": 10.091228,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-14",
+          "close": 10.084676,
+          "raw_close": 10.084676,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-17",
+          "close": 10.08117,
+          "raw_close": 10.08117,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-18",
+          "close": 10.081167,
+          "raw_close": 10.081167,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-19",
+          "close": 10.08499,
+          "raw_close": 10.08499,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-20",
+          "close": 10.092812,
+          "raw_close": 10.092812,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-21",
+          "close": 10.104651,
+          "raw_close": 10.104651,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-24",
+          "close": 10.120373,
+          "raw_close": 10.120373,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-25",
+          "close": 10.13969,
+          "raw_close": 10.13969,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-26",
+          "close": 10.162174,
+          "raw_close": 10.162174,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-27",
+          "close": 10.187272,
+          "raw_close": 10.187272,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-11-28",
+          "close": 10.214323,
+          "raw_close": 10.214323,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-01",
+          "close": 10.242587,
+          "raw_close": 10.242587,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-02",
+          "close": 10.271269,
+          "raw_close": 10.271269,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-03",
+          "close": 10.299553,
+          "raw_close": 10.299553,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-04",
+          "close": 10.326632,
+          "raw_close": 10.326632,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-05",
+          "close": 10.351743,
+          "raw_close": 10.351743,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-08",
+          "close": 10.374198,
+          "raw_close": 10.374198,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-09",
+          "close": 10.393412,
+          "raw_close": 10.393412,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-10",
+          "close": 10.408932,
+          "raw_close": 10.408932,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-11",
+          "close": 10.420453,
+          "raw_close": 10.420453,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-12",
+          "close": 10.427835,
+          "raw_close": 10.427835,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-15",
+          "close": 10.431107,
+          "raw_close": 10.431107,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-16",
+          "close": 10.430467,
+          "raw_close": 10.430467,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-17",
+          "close": 10.426275,
+          "raw_close": 10.426275,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-18",
+          "close": 10.419033,
+          "raw_close": 10.419033,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-19",
+          "close": 10.409369,
+          "raw_close": 10.409369,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-22",
+          "close": 10.398005,
+          "raw_close": 10.398005,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-23",
+          "close": 10.385731,
+          "raw_close": 10.385731,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-24",
+          "close": 10.373369,
+          "raw_close": 10.373369,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-25",
+          "close": 10.361741,
+          "raw_close": 10.361741,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-26",
+          "close": 10.351639,
+          "raw_close": 10.351639,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-29",
+          "close": 10.34379,
+          "raw_close": 10.34379,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-30",
+          "close": 10.338831,
+          "raw_close": 10.338831,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2025-12-31",
+          "close": 10.337286,
+          "raw_close": 10.337286,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-01",
+          "close": 10.339544,
+          "raw_close": 10.339544,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-02",
+          "close": 10.345847,
+          "raw_close": 10.345847,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-05",
+          "close": 10.356282,
+          "raw_close": 10.356282,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-06",
+          "close": 10.370776,
+          "raw_close": 10.370776,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-07",
+          "close": 10.389096,
+          "raw_close": 10.389096,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-08",
+          "close": 10.410864,
+          "raw_close": 10.410864,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-09",
+          "close": 10.435562,
+          "raw_close": 10.435562,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-12",
+          "close": 10.462556,
+          "raw_close": 10.462556,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-13",
+          "close": 10.491119,
+          "raw_close": 10.491119,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-14",
+          "close": 10.520454,
+          "raw_close": 10.520454,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-15",
+          "close": 10.549729,
+          "raw_close": 10.549729,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-16",
+          "close": 10.57811,
+          "raw_close": 10.57811,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-19",
+          "close": 10.60479,
+          "raw_close": 10.60479,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-20",
+          "close": 10.629029,
+          "raw_close": 10.629029,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-21",
+          "close": 10.650179,
+          "raw_close": 10.650179,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-22",
+          "close": 10.667717,
+          "raw_close": 10.667717,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-23",
+          "close": 10.681264,
+          "raw_close": 10.681264,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-26",
+          "close": 10.690605,
+          "raw_close": 10.690605,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-27",
+          "close": 10.695699,
+          "raw_close": 10.695699,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-28",
+          "close": 10.696676,
+          "raw_close": 10.696676,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-29",
+          "close": 10.693837,
+          "raw_close": 10.693837,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-01-30",
+          "close": 10.68764,
+          "raw_close": 10.68764,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-02",
+          "close": 10.678678,
+          "raw_close": 10.678678,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-03",
+          "close": 10.667655,
+          "raw_close": 10.667655,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-04",
+          "close": 10.655355,
+          "raw_close": 10.655355,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-05",
+          "close": 10.642613,
+          "raw_close": 10.642613,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-06",
+          "close": 10.630275,
+          "raw_close": 10.630275,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-09",
+          "close": 10.61917,
+          "raw_close": 10.61917,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-10",
+          "close": 10.610075,
+          "raw_close": 10.610075,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-11",
+          "close": 10.603685,
+          "raw_close": 10.603685,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-12",
+          "close": 10.600587,
+          "raw_close": 10.600587,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-13",
+          "close": 10.601242,
+          "raw_close": 10.601242,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-16",
+          "close": 10.60596,
+          "raw_close": 10.60596,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-17",
+          "close": 10.614898,
+          "raw_close": 10.614898,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-18",
+          "close": 10.628049,
+          "raw_close": 10.628049,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-19",
+          "close": 10.645242,
+          "raw_close": 10.645242,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-20",
+          "close": 10.66615,
+          "raw_close": 10.66615,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-23",
+          "close": 10.6903,
+          "raw_close": 10.6903,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-24",
+          "close": 10.717088,
+          "raw_close": 10.717088,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-25",
+          "close": 10.745804,
+          "raw_close": 10.745804,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-26",
+          "close": 10.775658,
+          "raw_close": 10.775658,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-02-27",
+          "close": 10.805809,
+          "raw_close": 10.805809,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-02",
+          "close": 10.835397,
+          "raw_close": 10.835397,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-03",
+          "close": 10.863578,
+          "raw_close": 10.863578,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-04",
+          "close": 10.889562,
+          "raw_close": 10.889562,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-05",
+          "close": 10.912641,
+          "raw_close": 10.912641,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-06",
+          "close": 10.932222,
+          "raw_close": 10.932222,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-09",
+          "close": 10.947852,
+          "raw_close": 10.947852,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-10",
+          "close": 10.959241,
+          "raw_close": 10.959241,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-11",
+          "close": 10.96627,
+          "raw_close": 10.96627,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-12",
+          "close": 10.968999,
+          "raw_close": 10.968999,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-13",
+          "close": 10.967668,
+          "raw_close": 10.967668,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-16",
+          "close": 10.962679,
+          "raw_close": 10.962679,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-17",
+          "close": 10.954587,
+          "raw_close": 10.954587,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-18",
+          "close": 10.944068,
+          "raw_close": 10.944068,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-19",
+          "close": 10.931898,
+          "raw_close": 10.931898,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-20",
+          "close": 10.918915,
+          "raw_close": 10.918915,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-23",
+          "close": 10.905985,
+          "raw_close": 10.905985,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-24",
+          "close": 10.893971,
+          "raw_close": 10.893971,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-25",
+          "close": 10.883695,
+          "raw_close": 10.883695,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-26",
+          "close": 10.875909,
+          "raw_close": 10.875909,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-27",
+          "close": 10.871263,
+          "raw_close": 10.871263,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-30",
+          "close": 10.870286,
+          "raw_close": 10.870286,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-03-31",
+          "close": 10.873362,
+          "raw_close": 10.873362,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-01",
+          "close": 10.880719,
+          "raw_close": 10.880719,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-02",
+          "close": 10.89242,
+          "raw_close": 10.89242,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-03",
+          "close": 10.908358,
+          "raw_close": 10.908358,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-06",
+          "close": 10.928265,
+          "raw_close": 10.928265,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-07",
+          "close": 10.951714,
+          "raw_close": 10.951714,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-08",
+          "close": 10.978141,
+          "raw_close": 10.978141,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-09",
+          "close": 11.00686,
+          "raw_close": 11.00686,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-10",
+          "close": 11.037092,
+          "raw_close": 11.037092,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-13",
+          "close": 11.06799,
+          "raw_close": 11.06799,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-14",
+          "close": 11.098678,
+          "raw_close": 11.098678,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-15",
+          "close": 11.128279,
+          "raw_close": 11.128279,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-16",
+          "close": 11.155955,
+          "raw_close": 11.155955,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-17",
+          "close": 11.180942,
+          "raw_close": 11.180942,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-20",
+          "close": 11.202578,
+          "raw_close": 11.202578,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-21",
+          "close": 11.220337,
+          "raw_close": 11.220337,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-22",
+          "close": 11.23385,
+          "raw_close": 11.23385,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-23",
+          "close": 11.24292,
+          "raw_close": 11.24292,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-24",
+          "close": 11.247533,
+          "raw_close": 11.247533,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-27",
+          "close": 11.247859,
+          "raw_close": 11.247859,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-28",
+          "close": 11.244243,
+          "raw_close": 11.244243,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-29",
+          "close": 11.237191,
+          "raw_close": 11.237191,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-04-30",
+          "close": 11.227348,
+          "raw_close": 11.227348,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-01",
+          "close": 11.215471,
+          "raw_close": 11.215471,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-04",
+          "close": 11.202397,
+          "raw_close": 11.202397,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-05",
+          "close": 11.189007,
+          "raw_close": 11.189007,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-06",
+          "close": 11.176191,
+          "raw_close": 11.176191,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-07",
+          "close": 11.164814,
+          "raw_close": 11.164814,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-08",
+          "close": 11.15568,
+          "raw_close": 11.15568,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-11",
+          "close": 11.149503,
+          "raw_close": 11.149503,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-12",
+          "close": 11.146879,
+          "raw_close": 11.146879,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-13",
+          "close": 11.148267,
+          "raw_close": 11.148267,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-14",
+          "close": 11.153968,
+          "raw_close": 11.153968,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-15",
+          "close": 11.164117,
+          "raw_close": 11.164117,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-18",
+          "close": 11.178678,
+          "raw_close": 11.178678,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-19",
+          "close": 11.197442,
+          "raw_close": 11.197442,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-20",
+          "close": 11.22004,
+          "raw_close": 11.22004,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-21",
+          "close": 11.245949,
+          "raw_close": 11.245949,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-22",
+          "close": 11.274513,
+          "raw_close": 11.274513,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-25",
+          "close": 11.304971,
+          "raw_close": 11.304971,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-26",
+          "close": 11.33648,
+          "raw_close": 11.33648,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-27",
+          "close": 11.368148,
+          "raw_close": 11.368148,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-28",
+          "close": 11.399074,
+          "raw_close": 11.399074,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-05-29",
+          "close": 11.428376,
+          "raw_close": 11.428376,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-01",
+          "close": 11.455235,
+          "raw_close": 11.455235,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-02",
+          "close": 11.478924,
+          "raw_close": 11.478924,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-03",
+          "close": 11.498845,
+          "raw_close": 11.498845,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-04",
+          "close": 11.514548,
+          "raw_close": 11.514548,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-05",
+          "close": 11.525756,
+          "raw_close": 11.525756,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-08",
+          "close": 11.532378,
+          "raw_close": 11.532378,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-09",
+          "close": 11.534507,
+          "raw_close": 11.534507,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-10",
+          "close": 11.532426,
+          "raw_close": 11.532426,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-11",
+          "close": 11.526587,
+          "raw_close": 11.526587,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-12",
+          "close": 11.517596,
+          "raw_close": 11.517596,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-15",
+          "close": 11.506184,
+          "raw_close": 11.506184,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-16",
+          "close": 11.49318,
+          "raw_close": 11.49318,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-17",
+          "close": 11.479472,
+          "raw_close": 11.479472,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-18",
+          "close": 11.465975,
+          "raw_close": 11.465975,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-19",
+          "close": 11.453591,
+          "raw_close": 11.453591,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-22",
+          "close": 11.443172,
+          "raw_close": 11.443172,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-23",
+          "close": 11.435495,
+          "raw_close": 11.435495,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-24",
+          "close": 11.431224,
+          "raw_close": 11.431224,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-25",
+          "close": 11.430889,
+          "raw_close": 11.430889,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-26",
+          "close": 11.434868,
+          "raw_close": 11.434868,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-29",
+          "close": 11.443373,
+          "raw_close": 11.443373,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-06-30",
+          "close": 11.456439,
+          "raw_close": 11.456439,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-01",
+          "close": 11.473925,
+          "raw_close": 11.473925,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-02",
+          "close": 11.495519,
+          "raw_close": 11.495519,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-03",
+          "close": 11.520749,
+          "raw_close": 11.520749,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-06",
+          "close": 11.548997,
+          "raw_close": 11.548997,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-07",
+          "close": 11.579524,
+          "raw_close": 11.579524,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-08",
+          "close": 11.611495,
+          "raw_close": 11.611495,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-09",
+          "close": 11.644014,
+          "raw_close": 11.644014,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-10",
+          "close": 11.676156,
+          "raw_close": 11.676156,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-13",
+          "close": 11.707002,
+          "raw_close": 11.707002,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-14",
+          "close": 11.735683,
+          "raw_close": 11.735683,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-15",
+          "close": 11.761411,
+          "raw_close": 11.761411,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-16",
+          "close": 11.783511,
+          "raw_close": 11.783511,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-17",
+          "close": 11.801458,
+          "raw_close": 11.801458,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-20",
+          "close": 11.814891,
+          "raw_close": 11.814891,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-21",
+          "close": 11.823636,
+          "raw_close": 11.823636,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-22",
+          "close": 11.827712,
+          "raw_close": 11.827712,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-23",
+          "close": 11.827327,
+          "raw_close": 11.827327,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-24",
+          "close": 11.822875,
+          "raw_close": 11.822875,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-27",
+          "close": 11.814915,
+          "raw_close": 11.814915,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-28",
+          "close": 11.804146,
+          "raw_close": 11.804146,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-29",
+          "close": 11.791382,
+          "raw_close": 11.791382,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-30",
+          "close": 11.777513,
+          "raw_close": 11.777513,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-07-31",
+          "close": 11.763469,
+          "raw_close": 11.763469,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-03",
+          "close": 11.750185,
+          "raw_close": 11.750185,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-04",
+          "close": 11.738561,
+          "raw_close": 11.738561,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-05",
+          "close": 11.729429,
+          "raw_close": 11.729429,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-06",
+          "close": 11.723522,
+          "raw_close": 11.723522,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-07",
+          "close": 11.721443,
+          "raw_close": 11.721443,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-10",
+          "close": 11.723647,
+          "raw_close": 11.723647,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-11",
+          "close": 11.730423,
+          "raw_close": 11.730423,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-12",
+          "close": 11.741883,
+          "raw_close": 11.741883,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 11.757958,
+          "raw_close": 11.757958,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-14",
+          "close": 11.7784,
+          "raw_close": 11.7784,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-17",
+          "close": 11.802791,
+          "raw_close": 11.802791,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-18",
+          "close": 11.830556,
+          "raw_close": 11.830556,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-19",
+          "close": 11.860986,
+          "raw_close": 11.860986,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-20",
+          "close": 11.893264,
+          "raw_close": 11.893264,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-21",
+          "close": 11.926492,
+          "raw_close": 11.926492,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-24",
+          "close": 11.959728,
+          "raw_close": 11.959728,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-25",
+          "close": 11.992023,
+          "raw_close": 11.992023,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-26",
+          "close": 12.022462,
+          "raw_close": 12.022462,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-27",
+          "close": 12.050195,
+          "raw_close": 12.050195,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-28",
+          "close": 12.07448,
+          "raw_close": 12.07448,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-08-31",
+          "close": 12.09471,
+          "raw_close": 12.09471,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-01",
+          "close": 12.110443,
+          "raw_close": 12.110443,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-02",
+          "close": 12.121419,
+          "raw_close": 12.121419,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-03",
+          "close": 12.127575,
+          "raw_close": 12.127575,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-04",
+          "close": 12.129045,
+          "raw_close": 12.129045,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-07",
+          "close": 12.126154,
+          "raw_close": 12.126154,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 12.119408,
+          "raw_close": 12.119408,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-09",
+          "close": 12.109468,
+          "raw_close": 12.109468,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-10",
+          "close": 12.097123,
+          "raw_close": 12.097123,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-11",
+          "close": 12.083258,
+          "raw_close": 12.083258,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-14",
+          "close": 12.068813,
+          "raw_close": 12.068813,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 12.054752,
+          "raw_close": 12.054752,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 12.042016,
+          "raw_close": 12.042016,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-17",
+          "close": 12.031491,
+          "raw_close": 12.031491,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 12.023975,
+          "raw_close": 12.023975,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-21",
+          "close": 12.020144,
+          "raw_close": 12.020144,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-22",
+          "close": 12.020532,
+          "raw_close": 12.020532,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-23",
+          "close": 12.025506,
+          "raw_close": 12.025506,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 12.035258,
+          "raw_close": 12.035258,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-25",
+          "close": 12.049794,
+          "raw_close": 12.049794,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-28",
+          "close": 12.068936,
+          "raw_close": 12.068936,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-29",
+          "close": 12.092326,
+          "raw_close": 12.092326,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-09-30",
+          "close": 12.119439,
+          "raw_close": 12.119439,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-01",
+          "close": 12.149604,
+          "raw_close": 12.149604,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 12.182023,
+          "raw_close": 12.182023,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-05",
+          "close": 12.215807,
+          "raw_close": 12.215807,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-06",
+          "close": 12.250003,
+          "raw_close": 12.250003,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-07",
+          "close": 12.283639,
+          "raw_close": 12.283639,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-08",
+          "close": 12.315755,
+          "raw_close": 12.315755,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-09",
+          "close": 12.345448,
+          "raw_close": 12.345448,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-12",
+          "close": 12.371906,
+          "raw_close": 12.371906,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-13",
+          "close": 12.394445,
+          "raw_close": 12.394445,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 12.41254,
+          "raw_close": 12.41254,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        },
+        {
+          "date": "2026-10-15",
+          "close": 12.425844,
+          "raw_close": 12.425844,
+          "turnover": 300000000.0,
+          "is_st": 0,
+          "is_paused": 0
+        }
+      ]
+    },
+    "regime_source": "frozen",
+    "nav": 100000,
+    "held": []
+  },
+  "fixture": "synthetic, not market data or investment advice"
+}

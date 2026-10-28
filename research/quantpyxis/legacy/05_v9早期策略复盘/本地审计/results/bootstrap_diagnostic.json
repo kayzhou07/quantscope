@@ -1,0 +1,20 @@
+{
+  "R4-M": {
+    "point": 2.9490847576865513,
+    "conditional_percentile_95": [
+      -0.REDACTED_ID,
+      6.128410724386308
+    ],
+    "method": "circular moving-block bootstrap; block=10 sessions; 2000 samples; seed=20261019; zero cash yield",
+    "warning": "Conditional descriptive interval only; not selection-adjusted, not out-of-sample significance or prospective return interval"
+  },
+  "R4-Q": {
+    "point": 2.4485792956917556,
+    "conditional_percentile_95": [
+      -1.4466716871897434,
+      6.259417462392809
+    ],
+    "method": "circular moving-block bootstrap; block=10 sessions; 2000 samples; seed=20261019; zero cash yield",
+    "warning": "Conditional descriptive interval only; not selection-adjusted, not out-of-sample significance or prospective return interval"
+  }
+}

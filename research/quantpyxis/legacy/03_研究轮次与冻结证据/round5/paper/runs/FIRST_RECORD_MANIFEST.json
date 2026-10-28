@@ -1,0 +1,41 @@
+{
+ "schema": "round5-first-record-1",
+ "generated_at": "2026-10-20T23:16:45+08:00",
+ "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+ "data_cutoff": "2026-10-19",
+ "primary_account": "cash_100k_new",
+ "shadow_account": "inherit_history_274560.69",
+ "first_records": {
+  "2026-10-19_state_check": "all pass: 4 cutoffs prefix match + direct-vs-truncated 0 mismatch",
+  "2026-10-20_monthly_signal": "PENDING_DATA (2026-10-20 close not ingested); no signal, no fill",
+  "2026-10-20_daily_audit": "PENDING_DATA"
+ },
+ "files": [
+  {
+   "path": "2026-10-19\\state_check.json",
+   "bytes": 1628,
+   "sha256": "aa0a44bdc3b5a010516e505869170b84ac54cb6138562dfa512f863dd710a757"
+  },
+  {
+   "path": "2026-10-20\\daily_audit.json",
+   "bytes": 365,
+   "sha256": "7eb037a0099958cf93fd6e1424aae42b217f667ef16490ab6de377e824b927eb"
+  },
+  {
+   "path": "2026-10-20\\signals\\PENDING_2026-10-20.json",
+   "bytes": 551,
+   "sha256": "1927da7e0e42064497d16e023ba13b0f27707c5c5af665dfcacdc13124736fbc"
+  },
+  {
+   "path": "validation\\validation.json",
+   "bytes": 3169,
+   "sha256": "e67988b94faca6f870fbc4572d15d52965057e7e7c2dbc68b75f5bf1af964dc3"
+  },
+  {
+   "path": "freeze_check.json",
+   "bytes": 254,
+   "sha256": "931f8e92fbb94cc1932338c7ba245f01d400e2cb4776a0a08d9d48cb7f352fc1"
+  }
+ ],
+ "note": "No paper fill exists yet. The first signal can only be generated after 2026-10-20 (or later trading day) close data is ingested; generation time must be after freeze_at and before the next open; otherwise PENDING_DATA and defer."
+}

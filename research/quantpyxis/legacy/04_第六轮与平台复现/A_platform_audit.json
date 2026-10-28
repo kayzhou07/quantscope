@@ -1,0 +1,19 @@
+{
+  "daily_profit_factor": 1.1794233270760932,
+  "days": 2989,
+  "flat_cash_days": 1272,
+  "flat_days": 1312,
+  "last_day": "20261019",
+  "loss_sum": -893158.0246443497,
+  "mean_loss_day": -1169.0550060789917,
+  "mean_win_day": 1153.7912475692772,
+  "negative_days": 764,
+  "positive_days": 913,
+  "previous_nav": 260253.3843864004,
+  "previous_positions": false,
+  "risk_days": 1717,
+  "risk_positive_days": 913,
+  "win_sum": 1053411.4090307502,
+  "winrate_all": 0.3054533288725326,
+  "winrate_risk": 0.5317414094350612
+}

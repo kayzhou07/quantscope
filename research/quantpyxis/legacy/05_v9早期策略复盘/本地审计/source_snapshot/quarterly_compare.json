@@ -1,0 +1,86 @@
+[
+ {
+  "tag": "Q-无止损-无趋势",
+  "final": 123282.19,
+  "return": 0.232822,
+  "max_drawdown": 0.462469,
+  "ann_vol": 0.582049,
+  "sharpe": 1.054,
+  "calmar": 0.503,
+  "trades": 11,
+  "fees": 162.37,
+  "mean_exposure": 0.7053
+ },
+ {
+  "tag": "Q-止损12-无趋势",
+  "final": 132926.81,
+  "return": 0.329268,
+  "max_drawdown": 0.163302,
+  "ann_vol": 0.241845,
+  "sharpe": 2.592,
+  "calmar": 2.016,
+  "trades": 16,
+  "fees": 195.27,
+  "mean_exposure": 0.2143
+ },
+ {
+  "tag": "Q-无止损-趋势",
+  "final": 123282.19,
+  "return": 0.232822,
+  "max_drawdown": 0.462469,
+  "ann_vol": 0.582049,
+  "sharpe": 1.054,
+  "calmar": 0.503,
+  "trades": 11,
+  "fees": 162.37,
+  "mean_exposure": 0.7053
+ },
+ {
+  "tag": "Q-止损12-趋势",
+  "final": 132926.81,
+  "return": 0.329268,
+  "max_drawdown": 0.163302,
+  "ann_vol": 0.241845,
+  "sharpe": 2.592,
+  "calmar": 2.016,
+  "trades": 16,
+  "fees": 195.27,
+  "mean_exposure": 0.2143
+ },
+ {
+  "tag": "Q-止损15-趋势",
+  "final": 157576.18,
+  "return": 0.575762,
+  "max_drawdown": 0.2184,
+  "ann_vol": 0.342767,
+  "sharpe": 2.925,
+  "calmar": 2.636,
+  "trades": 16,
+  "fees": 261.21,
+  "mean_exposure": 0.3162
+ },
+ {
+  "tag": "M-止损12-趋势",
+  "final": 145163.98,
+  "return": 0.45164,
+  "max_drawdown": 0.159581,
+  "ann_vol": 0.330623,
+  "sharpe": 2.516,
+  "calmar": 2.83,
+  "trades": 41,
+  "fees": 495.01,
+  "mean_exposure": 0.4256
+ },
+ {
+  "tag": "M-止损12",
+  "final": 147740.32,
+  "return": 0.477403,
+  "max_drawdown": 0.159163,
+  "ann_vol": 0.330384,
+  "sharpe": 2.626,
+  "calmar": 2.999,
+  "trades": 41,
+  "fees": 495.51,
+  "mean_exposure": 0.4148
+ }
+]

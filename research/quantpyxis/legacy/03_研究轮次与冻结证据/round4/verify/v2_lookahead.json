@@ -1,0 +1,102 @@
+{
+ "calibration": {
+  "max_abs_diff": {
+   "nav": 5.820766091346741e-11,
+   "cash": 2.9103830456733704e-11,
+   "market_value": 5.820766091346741e-11,
+   "exposure": 1.1102230246251565e-16,
+   "ret": 9.93129189996722e-17,
+   "n_positions": 0.0,
+   "fees": 5.684341886080802e-14,
+   "dividends": 4.547473508864641e-13,
+   "traded_amount": 5.820766091346741e-11,
+   "turnover": 2.220446049250313e-16,
+   "bench_sh000300": 5.820766091346741e-11,
+   "bench_sz399006": 5.820766091346741e-11
+  },
+  "ok": true,
+  "metrics": {
+   "total_return": 2.481918221478975,
+   "max_drawdown": -0.3001919975181758,
+   "sharpe": 0.7637791734611683
+  },
+  "phaseG_row": {
+   "tag": "n90_top20_novolcap",
+   "total_return": 2.481918221478975,
+   "max_drawdown": -0.3001919975181758,
+   "cagr": 0.1109135241897969,
+   "ann_vol": 0.1531996166115118,
+   "sharpe": 0.7637791734611683,
+   "avg_exposure": 0.4661222704374697,
+   "all_cash_days": 1269,
+   "trade_count": 2493,
+   "total_fees": 23469.510000000068,
+   "latest_ret": 0.2199792760593901,
+   "latest_dd": -0.1904041844169118,
+   "y2024": 0.0399670715942341,
+   "y2025": 0.1833417535825083,
+   "y2026": -0.0097258148738689,
+   "elapsed_s": 8.6
+  },
+  "metrics_match_phaseG": true
+ },
+ "truncation_2019": {
+  "diffs": {
+   "dates_align": true,
+   "row_count_equal": true,
+   "nav": 0.0,
+   "cash": 0.0,
+   "market_value": 0.0,
+   "exposure": 0.0,
+   "ret": 0.0,
+   "n_positions": 0.0,
+   "fees": 0.0,
+   "dividends": 0.0,
+   "traded_amount": 0.0,
+   "turnover": 0.0,
+   "bench_sh000300": 0.0,
+   "bench_sz399006": 0.0
+  },
+  "nav_prefix_ok": true,
+  "dates_align": true,
+  "trades_ok": true,
+  "positions_ok": true,
+  "n_trades_full": 1087,
+  "n_trades_trunc": 1087
+ },
+ "truncation_2024_09_13": {
+  "diffs": {
+   "nav": 0.0,
+   "cash": 0.0,
+   "market_value": 0.0,
+   "exposure": 0.0,
+   "ret": 0.0,
+   "n_positions": 0.0,
+   "fees": 0.0,
+   "dividends": 0.0,
+   "traded_amount": 0.0,
+   "turnover": 0.0,
+   "bench_sh000300": 0.0,
+   "bench_sz399006": 0.0
+  },
+  "dates_align": true,
+  "nav_prefix_ok": true,
+  "trades_ok": true,
+  "n_trades_full": 1814,
+  "n_trades_trunc": 1814
+ },
+ "fill_timing": {
+  "n_trades": 2493,
+  "n_open": 2492,
+  "n_near_exact": 155,
+  "n_other": 1,
+  "misses": []
+ },
+ "audit": {
+  "n_days": 2989,
+  "n_reb": 90,
+  "reasons": {
+   "scheduled": 90
+  }
+ }
+}

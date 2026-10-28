@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-10-20T21:09:46",
+  "regime_csv": "qrun_1416/os/out/regime_v1.csv",
+  "rows": 3448,
+  "date_monotonic_increasing": true,
+  "duplicate_dates": 0,
+  "unmapped_states": 0,
+  "state_runs_in_csv": 90,
+  "state_prev_equals_previous_row_state": true,
+  "state_prev_mismatch_rows": 0,
+  "state_prev_checked_on_all_rows": 3447,
+  "flag_vs_state": {
+    "crash_flag": {
+      "rows_flag_1_but_state_not_CRASH": 0,
+      "rows_state_CRASH_but_flag_0": 92
+    },
+    "bear_flag": {
+      "rows_flag_1_but_state_not_BEAR": 461,
+      "rows_state_BEAR_but_flag_0": 73
+    },
+    "bull_flag": {
+      "rows_flag_1_but_state_not_BULL": 103,
+      "rows_state_BULL_but_flag_0": 77
+    }
+  },
+  "note_flags": "crash_flag/bear_flag/bull_flag are raw trigger indicators of the regime state machine, so they do not one-to-one equal state by design; S0 reads only the frozen RUN_TEXT / state column, never these flags",
+  "calendar_open_days_in_span": 3448,
+  "regime_dates_outside_calendar_open": [],
+  "calendar_open_missing_from_regime": []
+}

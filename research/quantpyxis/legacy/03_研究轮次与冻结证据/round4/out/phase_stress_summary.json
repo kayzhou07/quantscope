@@ -1,0 +1,28 @@
+[
+ {
+  "tag": "b100_n30_top15",
+  "stress": "slippage20bp_commission5bp",
+  "base_return": 1.7456069325168508,
+  "base_dd": -0.23979364746919452,
+  "base_sharpe": 0.8210367742374483,
+  "total_return": 1.496727737698396,
+  "max_drawdown": -0.25226133022403907,
+  "sharpe": 0.7468677639226583,
+  "total_fees": 14351.619999999979,
+  "latest_ret": 0.12297684215884241,
+  "latest_dd": -0.12954260126891737
+ },
+ {
+  "tag": "n90_top20_novolcap",
+  "stress": "slippage20bp_commission5bp",
+  "base_return": 2.481918221478975,
+  "base_dd": -0.3001919975181758,
+  "base_sharpe": 0.7637791734611683,
+  "total_return": 2.142199403389487,
+  "max_drawdown": -0.3070314367148873,
+  "sharpe": 0.7065262094601538,
+  "total_fees": 25332.769999999986,
+  "latest_ret": 0.1334486082154096,
+  "latest_dd": -0.19732287385056213
+ }
+]

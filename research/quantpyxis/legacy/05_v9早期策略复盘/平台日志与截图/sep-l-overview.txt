@@ -1,0 +1,119 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2026-04-01 至 2026-09-30
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：5秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad60828506c3200b5d4b591
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad60828506c3200b5d4b591
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad60828506c3200b5d4b591
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad60828506c3200b5d4b591
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad60828506c3200b5d4b591
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad60828506c3200b5d4b591
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad60828506c3200b5d4b591
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad60828506c3200b5d4b591
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad60828506c3200b5d4b591
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad60828506c3200b5d4b591
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad60828506c3200b5d4b591
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad60828506c3200b5d4b591
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad60828506c3200b5d4b591
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad60828506c3200b5d4b591
+    - table:
+      - rowgroup:
+        - row "策略收益 基准收益 策略年化收益率 基准年化收益 Alpha Beta Sharpe Sortino Information Ratio Volatility 最大回撤 Tracking Error Downside Risk 胜率 次胜率":
+          - cell "策略收益"
+          - cell "基准收益"
+          - cell "策略年化收益率"
+          - cell "基准年化收益"
+          - cell "Alpha"
+          - cell "Beta"
+          - cell "Sharpe"
+          - cell "Sortino"
+          - cell "Information Ratio"
+          - cell "Volatility"
+          - cell "最大回撤"
+          - cell "Tracking Error"
+          - cell "Downside Risk"
+          - cell "胜率"
+          - cell "次胜率"
+      - rowgroup:
+        - row "-2.66% -2.08% -5.25% -4.11% -0.05 0.27 -0.78 -0.59 -0.18 0.08 6.66% 0.16 0.11 46.4% 0%":
+          - cell "-2.66%"
+          - cell "-2.08%"
+          - cell "-5.25%"
+          - cell "-4.11%"
+          - cell "-0.05"
+          - cell "0.27"
+          - cell "-0.78"
+          - cell "-0.59"
+          - cell "-0.18"
+          - cell "0.08"
+          - cell "6.66%"
+          - cell "0.16"
+          - cell "0.11"
+          - cell "46.4%"
+          - cell "0%"
+    - radio "普通轴" [checked]
+    - generic: 普通轴
+    - radio "对数轴"
+    - generic: 对数轴

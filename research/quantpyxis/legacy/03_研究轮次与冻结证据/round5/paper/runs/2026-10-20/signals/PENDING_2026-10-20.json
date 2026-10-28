@@ -1,0 +1,16 @@
+{
+ "command": "monthly-signal",
+ "asof": "2026-10-20",
+ "kind": "initial",
+ "account": "cash_100k_new",
+ "last_available_bar": "2026-10-19",
+ "is_trading_day": true,
+ "is_month_end": false,
+ "status": "PENDING_DATA",
+ "no_signal_created": true,
+ "reason": "close data for 2026-10-20 not ingested (panel last bar 2026-10-19); no signal is created and no fill is back-filled",
+ "schema_generated_at": "2026-10-20T23:13:45+08:00",
+ "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+ "freeze_at": "2026-10-20T22:16:09+08:00",
+ "data_cutoff": "2026-10-19"
+}

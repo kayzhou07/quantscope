@@ -1,0 +1,92 @@
+{
+  "status": "platform_complete",
+  "period": [
+    "2026-05-01",
+    "2026-10-16"
+  ],
+  "initial_cash_simulated": 100000,
+  "baseline": {
+    "task_id": "6ad4d9ef27352e00b66f4133",
+    "return": 0.0219,
+    "max_drawdown": 0.2982
+  },
+  "risk_overlay": {
+    "task_id": "6ad4dd408e26a400b615c209",
+    "return": -0.005,
+    "max_drawdown": 0.0276,
+    "target_annual_vol": 0.2
+  },
+  "benchmark_return": -0.1324,
+  "risk_targets": [
+    {
+      "signal_date": "20260430",
+      "estimated_annual_vol": 0.6374763089691775,
+      "stock_exposure_target": 0.313737,
+      "cash_target": 0.686263,
+      "each_stock_target": 0.10457899999999999
+    },
+    {
+      "signal_date": "20260529",
+      "estimated_annual_vol": 0.5596083982073996,
+      "stock_exposure_target": 0.357393,
+      "cash_target": 0.642607,
+      "each_stock_target": 0.119131
+    },
+    {
+      "signal_date": "20260630",
+      "estimated_annual_vol": 0.5844516935996901,
+      "stock_exposure_target": 0.342201,
+      "cash_target": 0.657799,
+      "each_stock_target": 0.11406699999999999
+    },
+    {
+      "signal_date": "20260731",
+      "estimated_annual_vol": 0.7526268193408977,
+      "stock_exposure_target": 0.265736,
+      "cash_target": 0.734264,
+      "each_stock_target": 0.08857866666666668
+    },
+    {
+      "signal_date": "20260831",
+      "estimated_annual_vol": 0.7572824915851312,
+      "stock_exposure_target": 0.264102,
+      "cash_target": 0.735898,
+      "each_stock_target": 0.088034
+    },
+    {
+      "signal_date": "20260930",
+      "estimated_annual_vol": 0.7499279644036494,
+      "stock_exposure_target": 0.266692,
+      "cash_target": 0.733308,
+      "each_stock_target": 0.08889733333333333
+    }
+  ],
+  "local_code_sha256": "b5c8a8c49608f3a8fff8791a57c7fd80a63df40354bb1dd7358ee3fa85e49404",
+  "config": {
+    "experiment_id": "CN-MOM-VOL20-MAY2026-v2",
+    "market": "CN",
+    "currency": "CNY",
+    "start_date": "2026-05-01",
+    "requested_end_date": "2026-10-16",
+    "simulated_initial_cash": 100000,
+    "top_n": 3,
+    "momentum_lookback": 252,
+    "momentum_skip": 21,
+    "risk_overlay_enabled": true,
+    "annual_target_volatility": 0.2,
+    "volatility_lookback_returns": 60,
+    "max_gross_exposure": 1.0,
+    "allow_leverage": false,
+    "rebalance": "monthly",
+    "selection_rule": "Historical CSI300 constituents excluding STAR; prior available data only",
+    "note": "20% is a declared research trial, not a user-chosen personal loss tolerance. Baseline is rerun on identical dates before risk overlay."
+  },
+  "limits": [
+    "Displayed platform metrics; not independently reconstructed",
+    "Monthly target allocation differs from actual fills and holdings",
+    "High share prices and minimum lots cause additional uninvested cash",
+    "Research trial, not an optimized or validated personal risk allocation",
+    "Window already observed; not untouched out-of-sample evidence",
+    "Fee and tax assumptions require calibration"
+  ]
+}

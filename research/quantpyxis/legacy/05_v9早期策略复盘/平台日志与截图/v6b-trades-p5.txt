@@ -1,0 +1,613 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2025-10-17 至 2026-10-16
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：8秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad5eec4693b8e00b5b93fbb
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad5eec4693b8e00b5b93fbb
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad5eec4693b8e00b5b93fbb
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad5eec4693b8e00b5b93fbb
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad5eec4693b8e00b5b93fbb
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad5eec4693b8e00b5b93fbb
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad5eec4693b8e00b5b93fbb
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad5eec4693b8e00b5b93fbb
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad5eec4693b8e00b5b93fbb
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad5eec4693b8e00b5b93fbb
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad5eec4693b8e00b5b93fbb
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad5eec4693b8e00b5b93fbb
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad5eec4693b8e00b5b93fbb
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad5eec4693b8e00b5b93fbb
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2025-10-17 至 2026-10-16 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2025-10-17 至 2026-10-16 查询":
+            - combobox: 2025-10-17
+            - generic: 至
+            - combobox: 2026-10-16
+            - button "查询"
+      - rowgroup:
+        - row "2025-12-12 09:31:00 000425.SZ 徐工机械 买入 11.146 600 6,687.34 -- 5.00 --":
+          - cell "2025-12-12":
+            - generic: 2025-12-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000425.SZ 徐工机械":
+            - paragraph: 000425.SZ
+            - paragraph: 徐工机械
+          - cell "买入":
+            - generic: 买入
+          - cell "11.146":
+            - generic: "11.146"
+          - cell "600":
+            - generic: "600"
+          - cell "6,687.34":
+            - generic: 6,687.34
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-12-12 09:31:00 002600.SZ 领益智造 买入 15.208 400 6,083.04 -- 5.00 --":
+          - cell "2025-12-12":
+            - generic: 2025-12-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002600.SZ 领益智造":
+            - paragraph: 002600.SZ
+            - paragraph: 领益智造
+          - cell "买入":
+            - generic: 买入
+          - cell "15.208":
+            - generic: "15.208"
+          - cell "400":
+            - generic: "400"
+          - cell "6,083.04":
+            - generic: 6,083.04
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-12-12 09:31:00 600039.SH 四川路桥 买入 9.695 700 6,786.39 -- 5.00 --":
+          - cell "2025-12-12":
+            - generic: 2025-12-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600039.SH 四川路桥":
+            - paragraph: 600039.SH
+            - paragraph: 四川路桥
+          - cell "买入":
+            - generic: 买入
+          - cell "9.695":
+            - generic: "9.695"
+          - cell "700":
+            - generic: "700"
+          - cell "6,786.39":
+            - generic: 6,786.39
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-11-20 09:31:00 601229.SH 上海银行 卖出 10.015 -500 -5,007.50 -- 10.01 -128.64":
+          - cell "2025-11-20":
+            - generic: 2025-11-20
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601229.SH 上海银行":
+            - paragraph: 601229.SH
+            - paragraph: 上海银行
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.015":
+            - generic: "10.015"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-5,007.50":
+            - generic: "-5,007.50"
+          - cell "--":
+            - generic: "--"
+          - cell "10.01":
+            - generic: "10.01"
+          - cell "-128.64":
+            - generic: "-128.64"
+          - cell
+        - row "2025-11-19 09:31:00 601288.SH 农业银行 卖出 8.196 -500 -4,097.95 -- 9.10 -187.31":
+          - cell "2025-11-19":
+            - generic: 2025-11-19
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601288.SH 农业银行":
+            - paragraph: 601288.SH
+            - paragraph: 农业银行
+          - cell "卖出":
+            - generic: 卖出
+          - cell "8.196":
+            - generic: "8.196"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-4,097.95":
+            - generic: "-4,097.95"
+          - cell "--":
+            - generic: "--"
+          - cell "9.10":
+            - generic: "9.10"
+          - cell "-187.31":
+            - generic: "-187.31"
+          - cell
+        - row "2025-11-18 09:31:00 601229.SH 上海银行 卖出 10.085 -200 -2,016.99 -- 7.02 -37.46":
+          - cell "2025-11-18":
+            - generic: 2025-11-18
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601229.SH 上海银行":
+            - paragraph: 601229.SH
+            - paragraph: 上海银行
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.085":
+            - generic: "10.085"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-2,016.99":
+            - generic: "-2,016.99"
+          - cell "--":
+            - generic: "--"
+          - cell "7.02":
+            - generic: "7.02"
+          - cell "-37.46":
+            - generic: "-37.46"
+          - cell
+        - row "2025-11-18 09:31:00 601288.SH 农业银行 卖出 8.276 -300 -2,482.76 -- 7.48 -88.40":
+          - cell "2025-11-18":
+            - generic: 2025-11-18
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601288.SH 农业银行":
+            - paragraph: 601288.SH
+            - paragraph: 农业银行
+          - cell "卖出":
+            - generic: 卖出
+          - cell "8.276":
+            - generic: "8.276"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-2,482.76":
+            - generic: "-2,482.76"
+          - cell "--":
+            - generic: "--"
+          - cell "7.48":
+            - generic: "7.48"
+          - cell "-88.40":
+            - generic: "-88.40"
+          - cell
+        - row "2025-11-18 09:31:00 603993.SH 洛阳钼业 卖出 15.892 -400 -6,356.82 -- 11.36 -295.50":
+          - cell "2025-11-18":
+            - generic: 2025-11-18
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "603993.SH 洛阳钼业":
+            - paragraph: 603993.SH
+            - paragraph: 洛阳钼业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "15.892":
+            - generic: "15.892"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-6,356.82":
+            - generic: "-6,356.82"
+          - cell "--":
+            - generic: "--"
+          - cell "11.36":
+            - generic: "11.36"
+          - cell "-295.50":
+            - generic: "-295.50"
+          - cell
+        - row "2025-11-17 09:31:00 600176.SH 中国巨石 卖出 15.752 -400 -6,300.85 -- 11.30 -239.42":
+          - cell "2025-11-17":
+            - generic: 2025-11-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600176.SH 中国巨石":
+            - paragraph: 600176.SH
+            - paragraph: 中国巨石
+          - cell "卖出":
+            - generic: 卖出
+          - cell "15.752":
+            - generic: "15.752"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-6,300.85":
+            - generic: "-6,300.85"
+          - cell "--":
+            - generic: "--"
+          - cell "11.30":
+            - generic: "11.30"
+          - cell "-239.42":
+            - generic: "-239.42"
+          - cell
+        - row "2025-11-14 09:31:00 600176.SH 中国巨石 买入 16.338 400 6,535.27 -- 5.00 --":
+          - cell "2025-11-14":
+            - generic: 2025-11-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600176.SH 中国巨石":
+            - paragraph: 600176.SH
+            - paragraph: 中国巨石
+          - cell "买入":
+            - generic: 买入
+          - cell "16.338":
+            - generic: "16.338"
+          - cell "400":
+            - generic: "400"
+          - cell "6,535.27":
+            - generic: 6,535.27
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-11-14 09:31:00 603993.SH 洛阳钼业 买入 16.618 400 6,647.32 -- 5.00 --":
+          - cell "2025-11-14":
+            - generic: 2025-11-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "603993.SH 洛阳钼业":
+            - paragraph: 603993.SH
+            - paragraph: 洛阳钼业
+          - cell "买入":
+            - generic: 买入
+          - cell "16.618":
+            - generic: "16.618"
+          - cell "400":
+            - generic: "400"
+          - cell "6,647.32":
+            - generic: 6,647.32
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-11-14 09:31:00 601229.SH 上海银行 买入 10.265 700 7,185.59 -- 5.00 --":
+          - cell "2025-11-14":
+            - generic: 2025-11-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601229.SH 上海银行":
+            - paragraph: 601229.SH
+            - paragraph: 上海银行
+          - cell "买入":
+            - generic: 买入
+          - cell "10.265":
+            - generic: "10.265"
+          - cell "700":
+            - generic: "700"
+          - cell "7,185.59":
+            - generic: 7,185.59
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-11-14 09:31:00 601288.SH 农业银行 买入 8.564 800 6,851.42 -- 5.00 --":
+          - cell "2025-11-14":
+            - generic: 2025-11-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601288.SH 农业银行":
+            - paragraph: 601288.SH
+            - paragraph: 农业银行
+          - cell "买入":
+            - generic: 买入
+          - cell "8.564":
+            - generic: "8.564"
+          - cell "800":
+            - generic: "800"
+          - cell "6,851.42":
+            - generic: 6,851.42
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-10-24 09:31:00 600010.SH 包钢股份 卖出 2.639 -1400 -3,694.15 -- 8.69 -132.56":
+          - cell "2025-10-24":
+            - generic: 2025-10-24
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600010.SH 包钢股份":
+            - paragraph: 600010.SH
+            - paragraph: 包钢股份
+          - cell "卖出":
+            - generic: 卖出
+          - cell "2.639":
+            - generic: "2.639"
+          - cell "-1400":
+            - generic: "-1400"
+          - cell "-3,694.15":
+            - generic: "-3,694.15"
+          - cell "--":
+            - generic: "--"
+          - cell "8.69":
+            - generic: "8.69"
+          - cell "-132.56":
+            - generic: "-132.56"
+          - cell
+        - row "2025-10-20 09:31:00 002736.SZ 国信证券 卖出 13.973 -500 -6,986.51 -- 11.99 -92.03":
+          - cell "2025-10-20":
+            - generic: 2025-10-20
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002736.SZ 国信证券":
+            - paragraph: 002736.SZ
+            - paragraph: 国信证券
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.973":
+            - generic: "13.973"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-6,986.51":
+            - generic: "-6,986.51"
+          - cell "--":
+            - generic: "--"
+          - cell "11.99":
+            - generic: "11.99"
+          - cell "-92.03":
+            - generic: "-92.03"
+          - cell
+        - row "2025-10-20 09:31:00 603993.SH 洛阳钼业 卖出 15.032 -400 -6,012.99 -- 11.01 -287.15":
+          - cell "2025-10-20":
+            - generic: 2025-10-20
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "603993.SH 洛阳钼业":
+            - paragraph: 603993.SH
+            - paragraph: 洛阳钼业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "15.032":
+            - generic: "15.032"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-6,012.99":
+            - generic: "-6,012.99"
+          - cell "--":
+            - generic: "--"
+          - cell "11.01":
+            - generic: "11.01"
+          - cell "-287.15":
+            - generic: "-287.15"
+          - cell
+        - row "2025-10-20 09:31:00 600415.SH 小商品城 卖出 19.190 -300 -5,757.12 -- 10.76 -244.88":
+          - cell "2025-10-20":
+            - generic: 2025-10-20
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600415.SH 小商品城":
+            - paragraph: 600415.SH
+            - paragraph: 小商品城
+          - cell "卖出":
+            - generic: 卖出
+          - cell "19.190":
+            - generic: "19.190"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-5,757.12":
+            - generic: "-5,757.12"
+          - cell "--":
+            - generic: "--"
+          - cell "10.76":
+            - generic: "10.76"
+          - cell "-244.88":
+            - generic: "-244.88"
+          - cell
+        - row "2025-10-20 09:31:00 600010.SH 包钢股份 卖出 2.699 -1100 -2,968.52 -- 7.97 -38.19":
+          - cell "2025-10-20":
+            - generic: 2025-10-20
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600010.SH 包钢股份":
+            - paragraph: 600010.SH
+            - paragraph: 包钢股份
+          - cell "卖出":
+            - generic: 卖出
+          - cell "2.699":
+            - generic: "2.699"
+          - cell "-1100":
+            - generic: "-1100"
+          - cell "-2,968.52":
+            - generic: "-2,968.52"
+          - cell "--":
+            - generic: "--"
+          - cell "7.97":
+            - generic: "7.97"
+          - cell "-38.19":
+            - generic: "-38.19"
+          - cell
+        - row "2025-10-17 09:31:00 600010.SH 包钢股份 买入 2.731 2500 6,828.41 -- 5.00 --":
+          - cell "2025-10-17":
+            - generic: 2025-10-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600010.SH 包钢股份":
+            - paragraph: 600010.SH
+            - paragraph: 包钢股份
+          - cell "买入":
+            - generic: 买入
+          - cell "2.731":
+            - generic: "2.731"
+          - cell "2500":
+            - generic: "2500"
+          - cell "6,828.41":
+            - generic: 6,828.41
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-10-17 09:31:00 002736.SZ 国信证券 买入 14.147 500 7,073.54 -- 5.00 --":
+          - cell "2025-10-17":
+            - generic: 2025-10-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002736.SZ 国信证券":
+            - paragraph: 002736.SZ
+            - paragraph: 国信证券
+          - cell "买入":
+            - generic: 买入
+          - cell "14.147":
+            - generic: "14.147"
+          - cell "500":
+            - generic: "500"
+          - cell "7,073.54":
+            - generic: 7,073.54
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-10-17 09:31:00 600415.SH 小商品城 买入 19.990 300 5,997.00 -- 5.00 --":
+          - cell "2025-10-17":
+            - generic: 2025-10-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600415.SH 小商品城":
+            - paragraph: 600415.SH
+            - paragraph: 小商品城
+          - cell "买入":
+            - generic: 买入
+          - cell "19.990":
+            - generic: "19.990"
+          - cell "300":
+            - generic: "300"
+          - cell "5,997.00":
+            - generic: 5,997.00
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-10-17 09:31:00 603993.SH 洛阳钼业 买入 15.738 400 6,295.15 -- 5.00 --":
+          - cell "2025-10-17":
+            - generic: 2025-10-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "603993.SH 洛阳钼业":
+            - paragraph: 603993.SH
+            - paragraph: 洛阳钼业
+          - cell "买入":
+            - generic: 买入
+          - cell "15.738":
+            - generic: "15.738"
+          - cell "400":
+            - generic: "400"
+          - cell "6,295.15":
+            - generic: 6,295.15
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+    - button "上一页": <
+    - button "1"
+    - button "3"
+    - button "4"
+    - generic: "5"
+    - button "下一页" [disabled]: ">"
+    - textbox: "5"
+    - button "前往"

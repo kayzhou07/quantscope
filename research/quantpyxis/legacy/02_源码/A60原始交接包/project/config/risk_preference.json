@@ -1,0 +1,30 @@
+{
+  "confirmed_on": "2026-10-20",
+  "objective": "seek_higher_return_within_user_drawdown_tolerance",
+  "source": "explicit_user_instruction",
+  "supersedes": [
+    "earlier_high_risk_appetite",
+    "trade_count_target",
+    "return_must_not_be_below_baseline"
+  ],
+  "allow_all_cash": true,
+  "allow_cash_indefinitely": true,
+  "minimum_equity_weight": 0,
+  "minimum_return": null,
+  "confirmed_portfolio_drawdown_limit": 0.3,
+  "priorities": [
+    "data_and_execution_integrity",
+    "respect_30_percent_drawdown_tolerance_in_research",
+    "robust_return_within_risk_budget",
+    "cost_and_low_turnover"
+  ],
+  "cash_substitute_automatically_allowed": false,
+  "existing_stop_is_loss_guarantee": false,
+  "platform_changed_this_turn": false,
+  "drawdown_basis": "running peak of total account NAV; not initial-principal loss",
+  "loss_limit_is_guaranteed": false,
+  "latest_run_request": [
+    "2025-01-01",
+    "2026-10-20"
+  ]
+}

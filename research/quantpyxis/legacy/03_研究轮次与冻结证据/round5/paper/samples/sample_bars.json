@@ -1,0 +1,8 @@
+{
+ "date": "2026-10-21",
+ "bars": [
+  {"code": "600000", "open": 10.00, "high": 10.20, "low": 9.90, "close": 10.10, "preclose": 10.00, "volume": 1000000, "amount": 10000000},
+  {"code": "000001", "open": 12.00, "high": 12.30, "low": 11.90, "close": 12.20, "preclose": 12.00, "volume": 2000000, "amount": 24000000}
+ ],
+ "note": "one trading day of raw bars; limit band main board 10%; price limit up/down = round(preclose*1.1,2)/round(preclose*0.9,2)"
+}

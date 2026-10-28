@@ -1,0 +1,130 @@
+{
+ "reconciliation_max_abs_gap_cny": 0.REDACTED_ID,
+ "split_max_abs_gap_cny": 0.REDACTED_ID,
+ "bucket_totals_cny": {
+  "overnight": -14214.022389991973,
+  "intraday": 217007.53348716904,
+  "trade_exec": -13417.729922338329,
+  "ca_residual": -1243.361174838769,
+  "fee": 13571.68
+ },
+ "overnight_share_of_abs": 0.05780815590241893,
+ "worst20_ret_sum": -0.8947464339019146,
+ "worst_day": {
+  "date": "2025-04-07",
+  "ret": -0.09262329388933677,
+  "pnl": -22765.002155303926
+ },
+ "maxdd": {
+  "max_drawdown": -0.23979364746919452,
+  "peak_date": "2017-11-22",
+  "trough_date": "2020-03-23",
+  "recovery_date": "2020-09-02",
+  "underwater_days": 2803
+ },
+ "top3_drawdowns": [
+  {
+   "peak_date": "2017-11-22",
+   "peak_nav": 226083.36286675712,
+   "trough_date": "2020-03-23",
+   "trough_nav": 171870.00865283597,
+   "depth": -0.23979364746919452,
+   "recovery_date": "2020-09-02",
+   "duration_calendar_days": 1015,
+   "underwater_days": 677,
+   "still_underwater": false,
+   "index_ret_during": 0.14578625147425273,
+   "nav_ret_during": 0.REDACTED_ID
+  },
+  {
+   "peak_date": "2015-06-12",
+   "peak_nav": 209695.79570283025,
+   "trough_date": "2016-12-29",
+   "trough_nav": 180825.8089285616,
+   "depth": -0.13767556320099839,
+   "recovery_date": "2017-10-30",
+   "duration_calendar_days": 871,
+   "underwater_days": 580,
+   "still_underwater": false,
+   "index_ret_during": -0.24842838439283865,
+   "nav_ret_during": 0.REDACTED_ID
+  },
+  {
+   "peak_date": "2025-03-10",
+   "peak_nav": 255651.8854326837,
+   "trough_date": "2025-04-08",
+   "trough_nav": 222909.52755174803,
+   "depth": -0.1280739933739199,
+   "recovery_date": "2025-04-29",
+   "duration_calendar_days": 50,
+   "underwater_days": 35,
+   "still_underwater": false,
+   "index_ret_during": -0.03912773100439948,
+   "nav_ret_during": 0.00443468271792935
+  }
+ ],
+ "top5": [
+  {
+   "code": "002082",
+   "contrib_gross": 11205.0,
+   "fees": 41.1,
+   "contrib_net": 11163.9,
+   "pct_of_total_pnl": 0.06395426021769784,
+   "contrib_gross_share": 0.05955911267180851
+  },
+  {
+   "code": "002602",
+   "contrib_gross": 10795.0,
+   "fees": 74.60000000000001,
+   "contrib_net": 10720.4,
+   "pct_of_total_pnl": 0.06141359661389013,
+   "contrib_gross_share": 0.REDACTED_ID
+  },
+  {
+   "code": "000893",
+   "contrib_gross": 9800.0,
+   "fees": 45.19,
+   "contrib_net": 9754.81,
+   "pct_of_total_pnl": 0.REDACTED_ID,
+   "contrib_gross_share": 0.05209096869109535
+  },
+  {
+   "code": "600111",
+   "contrib_gross": 8745.0,
+   "fees": 25.23,
+   "contrib_net": 8719.77,
+   "pct_of_total_pnl": 0.04995265450411373,
+   "contrib_gross_share": 0.REDACTED_ID
+  },
+  {
+   "code": "002195",
+   "contrib_gross": 8649.0,
+   "fees": 25.3,
+   "contrib_net": 8623.7,
+   "pct_of_total_pnl": 0.04940230151106343,
+   "contrib_gross_share": 0.04597293757237589
+  }
+ ],
+ "pnl_actual": 174560.69325168506,
+ "gross_sum_check": 188132.41999999998,
+ "exclude_top1": [
+  {
+   "case": "baseline A",
+   "total_return": 1.7456069325168508,
+   "max_drawdown": -0.23979364746919452,
+   "final_nav": 274560.69325168506,
+   "cagr": 0.08888300693654827
+  },
+  {
+   "case": "exclude top-1 winner (002082), no reselection",
+   "total_return": 1.6407713348788517,
+   "max_drawdown": -0.23979364746919352,
+   "final_nav": 264077.1334878852,
+   "cagr": 0.08531488178063418
+  }
+ ],
+ "contrib_positive_codes": 204,
+ "contrib_negative_codes": 225,
+ "n_codes_held": 429,
+ "top5_share_of_total_pnl": 0.28060486635084536
+}

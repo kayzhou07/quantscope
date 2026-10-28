@@ -1,0 +1,210 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2026-04-01 至 2026-09-30
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：4秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad6097108141600b66c48a5
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad6097108141600b66c48a5
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad6097108141600b66c48a5
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad6097108141600b66c48a5
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad6097108141600b66c48a5
+      - link "输出日志" [active]:
+        - /url: /backtest-result/outLogs?id=6ad6097108141600b66c48a5
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad6097108141600b66c48a5
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad6097108141600b66c48a5
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad6097108141600b66c48a5
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad6097108141600b66c48a5
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad6097108141600b66c48a5
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad6097108141600b66c48a5
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad6097108141600b66c48a5
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad6097108141600b66c48a5
+    - paragraph: 2026-10-19 20:13:41 - INFO
+    - generic: 回测结束
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: MARKET_COMPARE 399006.SZ start=2026-03-31 00:00:00 end=2026-09-30 00:00:00 first=3184.9524 last=3135.2767 return=-0.REDACTED_ID
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: MARKET_COMPARE 000300.SH start=2026-03-31 00:00:00 end=2026-09-30 00:00:00 first=4450.0493 last=4357.6155 return=-0.02077141033021812
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: MARKET_COMPARE 000001.SH start=2026-03-31 00:00:00 end=2026-09-30 00:00:00 first=3891.8605 last=3842.1946 return=-0.REDACTED_ID
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE_MONTH 202609 [('20260901', 100490.86797749999, 62225.86797749999), ('20260902', 99395.86797749999, 62225.86797749999), ('20260903', 101065.86797749999, 62225.86797749999), ('20260904', 100820.86797749999, 62225.86797749999), ('20260907', 100200.86797749999, 62225.86797749999), ('20260908', 101160.86797749999, 62225.86797749999), ('20260909', 102883.36797749999, 62273.36797749999), ('20260910', 102468.36797749999, 62273.36797749999), ('20260911', 101033.36797749999, 62273.36797749999), ('20260914', 100803.36797749999, 62273.36797749999), ('20260915', 100898.36797749999, 62273.36797749999), ('20260916', 100618.36797749999, 62273.36797749999), ('20260917', 101948.36797749999, 62273.36797749999), ('20260918', 102378.36797749999, 62273.36797749999), ('20260921', 103118.36797749999, 62273.36797749999), ('20260922', 102113.36797749999, 62273.36797749999), ('20260923', 101213.36797749999, 62273.36797749999), ('20260924', 100813.36797749999, 62273.36797749999), ('20260928', 100163.36797749999, 62273.36797749999), ('20260929', 99413.36797749999, 62273.36797749999), ('20260930', 99738.36797749999, 62273.36797749999)]
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE_MONTH 202608 [('20260803', 98180.86797749999, 62225.86797749999), ('20260804', 98145.86797749999, 62225.86797749999), ('20260805', 100450.86797749999, 62225.86797749999), ('20260806', 99935.86797749999, 62225.86797749999), ('20260807', 100920.86797749999, 62225.86797749999), ('20260810', 100870.86797749999, 62225.86797749999), ('20260811', 98020.86797749999, 62225.86797749999), ('20260812', 98550.86797749999, 62225.86797749999), ('20260813', 98000.86797749999, 62225.86797749999), ('20260814', 98070.86797749999, 62225.86797749999), ('20260817', 99770.86797749999, 62225.86797749999), ('20260818', 99645.86797749999, 62225.86797749999), ('20260819', 99240.86797749999, 62225.86797749999), ('20260820', 99360.86797749999, 62225.86797749999), ('20260821', 101100.86797749999, 62225.86797749999), ('20260824', 100735.86797749999, 62225.86797749999), ('20260825', 100015.86797749999, 62225.86797749999), ('20260826', 100620.86797749999, 62225.86797749999), ('20260827', 100735.86797749999, 62225.86797749999), ('20260828', 101015.86797749999, 62225.86797749999), ('20260831', 100745.86797749999, 62225.86797749999)]
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE_MONTH 202607 [('20260701', 96995.86797749999, 61910.86797749999), ('20260702', 96885.86797749999, 61910.86797749999), ('20260703', 98060.86797749999, 61910.86797749999), ('20260706', 98040.86797749999, 61910.86797749999), ('20260707', 96180.86797749999, 61910.86797749999), ('20260708', 95425.86797749999, 61910.86797749999), ('20260709', 95550.86797749999, 61910.86797749999), ('20260710', 95555.86797749999, 62035.86797749999), ('20260713', 94350.86797749999, 62035.86797749999), ('20260714', 95585.86797749999, 62035.86797749999), ('20260715', 95625.86797749999, 62035.86797749999), ('20260716', 94760.86797749999, 62035.86797749999), ('20260717', 93675.86797749999, 62225.86797749999), ('20260720', 94250.86797749999, 62225.86797749999), ('20260721', 95335.86797749999, 62225.86797749999), ('20260722', 96890.86797749999, 62225.86797749999), ('20260723', 97630.86797749999, 62225.86797749999), ('20260724', 96385.86797749999, 62225.86797749999), ('20260727', 97065.86797749999, 62225.86797749999), ('20260728', 96825.86797749999, 62225.86797749999), ('20260729', 97195.86797749999, 62225.86797749999), ('20260730', 97500.86797749999, 62225.86797749999), ('20260731', 98130.86797749999, 62225.86797749999)]
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE_MONTH 202606 [('20260601', 99739.REDACTED_PHONE, 64659.174999999996), ('20260602', 100874.REDACTED_PHONE, 64659.174999999996), ('20260603', 100679.REDACTED_PHONE, 64659.174999999996), ('20260604', 99029.REDACTED_PHONE, 64659.174999999996), ('20260605', 98224.REDACTED_PHONE, 64659.174999999996), ('20260608', 96029.REDACTED_PHONE, 64734.174999999996), ('20260609', 96694.REDACTED_PHONE, 64734.174999999996), ('20260610', 96804.REDACTED_PHONE, 64734.174999999996), ('20260611', 97174.REDACTED_PHONE, 64734.174999999996), ('20260612', 99834.REDACTED_PHONE, 64734.174999999996), ('20260615', 102479.REDACTED_PHONE, 64734.174999999996), ('20260616', 101329.REDACTED_PHONE, 64734.174999999996), ('20260617', 101654.REDACTED_PHONE, 64734.174999999996), ('20260618', 101594.REDACTED_PHONE, 64734.174999999996), ('20260622', 104019.REDACTED_PHONE, 64734.174999999996), ('20260623', 101824.REDACTED_PHONE, 64734.174999999996), ('20260624', 102159.REDACTED_PHONE, 64734.174999999996), ('20260625', 101024.REDACTED_PHONE, 64734.174999999996), ('20260626', 98599.REDACTED_PHONE, 64734.174999999996), ('20260629', 98599.REDACTED_PHONE, 64734.174999999996), ('20260630', 97819.REDACTED_PHONE, 64734.174999999996)]
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE_MONTH 202605 [('20260506', 101342.REDACTED_PHONE, 64312.174999999996), ('20260507', 101562.REDACTED_PHONE, 64312.174999999996), ('20260508', 102502.REDACTED_PHONE, 64312.174999999996), ('20260511', 102117.REDACTED_PHONE, 64312.174999999996), ('20260512', 102067.REDACTED_PHONE, 64312.174999999996), ('20260513', 102647.REDACTED_PHONE, 64312.174999999996), ('20260514', 101562.REDACTED_PHONE, 64312.174999999996), ('20260515', 99632.REDACTED_PHONE, 64312.174999999996), ('20260518', 98897.REDACTED_PHONE, 64312.174999999996), ('20260519', 99092.REDACTED_PHONE, 64312.174999999996), ('20260520', 99041.REDACTED_PHONE, 64516.174999999996), ('20260521', 98481.REDACTED_PHONE, 64516.174999999996), ('20260522', 100281.REDACTED_PHONE, 64516.174999999996), ('20260525', 101011.REDACTED_PHONE, 64516.174999999996), ('20260526', 102106.REDACTED_PHONE, 64516.174999999996), ('20260527', 100164.REDACTED_PHONE, 64659.174999999996), ('20260528', 99999.REDACTED_PHONE, 64659.174999999996), ('20260529', 99994.REDACTED_PHONE, 64659.174999999996)]
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE_MONTH 202604 [('20260401', 100657.REDACTED_PHONE, 64312.174999999996), ('20260402', 100917.REDACTED_PHONE, 64312.174999999996), ('20260403', 100802.REDACTED_PHONE, 64312.174999999996), ('20260407', 101107.REDACTED_PHONE, 64312.174999999996), ('20260408', 102727.REDACTED_PHONE, 64312.174999999996), ('20260409', 102377.REDACTED_PHONE, 64312.174999999996), ('20260410', 101827.REDACTED_PHONE, 64312.174999999996), ('20260413', 101437.REDACTED_PHONE, 64312.174999999996), ('20260414', 102437.REDACTED_PHONE, 64312.174999999996), ('20260415', 102222.REDACTED_PHONE, 64312.174999999996), ('20260416', 102562.REDACTED_PHONE, 64312.174999999996), ('20260417', 102932.REDACTED_PHONE, 64312.174999999996), ('20260420', 103067.REDACTED_PHONE, 64312.174999999996), ('20260421', 102797.REDACTED_PHONE, 64312.174999999996), ('20260422', 102357.REDACTED_PHONE, 64312.174999999996), ('20260423', 101232.REDACTED_PHONE, 64312.174999999996), ('20260424', 100952.REDACTED_PHONE, 64312.174999999996), ('20260427', 100632.REDACTED_PHONE, 64312.174999999996), ('20260428', 99247.REDACTED_PHONE, 64312.174999999996), ('20260429', 100322.REDACTED_PHONE, 64312.174999999996), ('20260430', 99702.REDACTED_PHONE, 64312.174999999996)]
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: "AUDIT_FINAL_CLOSE nav=99738.36797749999 cash=62273.36797749999 market=37465.0 maxdd=0.09943654160398796 window=('20260622', '20260717') mean_exposure=0.365419888818742 counters={'candidate_two_lots_reject': 60, 'submitted_buy': 7, 'submitted_sell': 2, 'null_order_sell': 1, 'null_order_buy': 2}"
+    - paragraph: 2026-09-09 04:00:00 - INFO
+    - generic: 603993.SH在2026-09-09日发生了分红：每股税前分红0.095
+    - paragraph: 2026-07-17 04:00:00 - INFO
+    - generic: 600026.SH在2026-07-17日发生了分红：每股税前分红0.38
+    - paragraph: 2026-07-10 04:00:00 - INFO
+    - generic: 601872.SH在2026-07-10日发生了分红：每股税前分红0.25
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: TARGET buy 603993.SH weight=0.095785 order=None
+    - paragraph: 2026-07-01 09:31:00 - WARN
+    - generic: 603993.SH 下单股数为0,订单无效.
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: TARGET buy 601872.SH weight=0.095785 order=None
+    - paragraph: 2026-07-01 09:31:00 - WARN
+    - generic: 601872.SH 下单股数为0,订单无效.
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: TARGET buy 600026.SH weight=0.095785 order=6e05443b20cb4875b717be71ae6982a7
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: TARGET sell 600219.SH weight=0.000000 order=686cbb8dd9664e2ea59e181b7c6cb399
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: TARGET sell 000630.SZ weight=0.095785 order=None
+    - paragraph: 2026-07-01 09:31:00 - WARN
+    - generic: 000630.SZ 下单股数为0,订单无效.
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: ACTUAL_CONCENTRATION weights=[0.09726151883403139, 0.REDACTED_ID, 0.08833561995369306, 0.08915639226452877] risky_sleeve_HHI=0.2566122615784554
+    - paragraph: 2026-07-01 09:31:00 - INFO
+    - generic: AUDIT_OPEN_NAV 20260701 equity=97469.REDACTED_PHONE cash=64734.174999999996 holdings=[('000630.SZ', 1500), ('600219.SH', 1500), ('601872.SH', 500), ('603993.SH', 500)]
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: Signal=20260630 eligible=259 excluded=21 top=[('300308.SZ', 7.037934376297937), ('301308.SZ', 5.3402417962003454), ('300394.SZ', 4.779597649991098)]
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: NORMAL inflation=4.6 release=Jun26-final cap=0.7 exposure=0.383138
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: RISK 20260630 estimated_vol=0.5220048867153987 exposure=0.383138 cash_target=0.616862
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: RISK_CAP 20260630 beta=0.6082526406347595 cap=0.6 exposure=0.3831381756949751
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260630 600026.SH {'beta': 0.8573995517849735, 'residual_vol': 0.6099412978124736, 'downside_vol': 0.4233621488422728, 'tail_loss': 0.07227300812653341}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260630 000630.SZ {'beta': 2.376653770820391, 'residual_vol': 0.4164994331715635, 'downside_vol': 0.41942491314995345, 'tail_loss': 0.08319912296653191}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260630 603993.SH {'beta': 2.439571001508882, 'residual_vol': 0.4487527676242959, 'downside_vol': 0.41635345793728873, 'tail_loss': 0.0768158063019367}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260630 601872.SH {'beta': 0.9025904471454148, 'residual_vol': 0.6711333754431775, 'downside_vol': 0.40912598729786914, 'tail_loss': 0.07336663568413722}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION 20260630 screened=259 selected=['601872.SH', '603993.SH', '000630.SZ', '600026.SH'] equity=97819.REDACTED_PHONE counters={'candidate_two_lots_reject': 60, 'submitted_buy': 4}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260630 600026.SH lines={'high': 27.17, 'low': 9.53, 'high_month': '2026-03', 'low_month': '2025-04', 'levels': [(0.236, 23.006960000000003), (0.382, 20.431520000000003), (0.5, 18.35), (0.618, 16.268480000000004)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [], 'reclaimed': [0.618]}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260630 000630.SZ lines={'high': 9.14, 'low': 2.61, 'high_month': '2026-01', 'low_month': '2025-04', 'levels': [(0.236, 7.598920000000001), (0.382, 6.6455400000000004), (0.5, 5.875), (0.618, 5.1044599999999996)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [], 'reclaimed': [0.5]}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260630 603993.SH lines={'high': 28.49, 'low': 5.37, 'high_month': '2026-01', 'low_month': '2025-04', 'levels': [(0.236, 23.03368), (0.382, 19.65816), (0.5, 16.93), (0.618, 14.20184)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [], 'reclaimed': [0.5]}"
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260630 601872.SH lines={'high': 22.16, 'low': 5.51, 'high_month': '2026-06', 'low_month': '2025-04', 'levels': [(0.236, 18.230600000000003), (0.382, 15.799700000000001), (0.5, 13.835), (0.618, 11.8703)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [0.236], 'reclaimed': [0.382]}"
+    - paragraph: 2026-06-08 04:00:00 - INFO
+    - generic: 000630.SZ在2026-06-08日发生了分红：每股税前分红0.05
+    - paragraph: 2026-05-27 04:00:00 - INFO
+    - generic: 603993.SH在2026-05-27日发生了分红：每股税前分红0.286
+    - paragraph: 2026-05-20 04:00:00 - INFO
+    - generic: 600219.SH在2026-05-20日发生了分红：每股税前分红0.136
+    - paragraph: 2026-04-01 09:31:00 - INFO
+    - generic: TARGET buy 603993.SH weight=0.095773 order=0f8e7f065f7e46e78795a65a47daec3c
+    - paragraph: 2026-04-01 09:31:00 - INFO
+    - generic: TARGET buy 601872.SH weight=0.095773 order=7d63ea7f131d452abdcfd19a798820f9
+    - paragraph: 2026-04-01 09:31:00 - INFO
+    - generic: TARGET buy 600219.SH weight=0.095773 order=4fbcfe0e78aa453aaf52348de47bb560
+    - paragraph: 2026-04-01 09:31:00 - INFO
+    - generic: TARGET buy 000630.SZ weight=0.095773 order=6d14212eef4d4fcba3cf118ddbc29885
+    - paragraph: 2026-04-01 09:31:00 - INFO
+    - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+    - paragraph: 2026-04-01 09:31:00 - INFO
+    - generic: AUDIT_OPEN_NAV 20260401 equity=100000.0 cash=100000.0 holdings=[]
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: Signal=20260331 eligible=259 excluded=22 top=[('300394.SZ', 5.187279744923645), ('300308.SZ', 4.463474524248006), ('300502.SZ', 4.158543577981651)]
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: NORMAL inflation=3.8 release=Mar27-2026-final cap=1.0 exposure=0.383093
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: RISK 20260331 estimated_vol=0.5220662457142273 exposure=0.383093 cash_target=0.616907
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: RISK_CAP 20260331 beta=0.46285837264349167 cap=0.6 exposure=0.38309314505936776
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260331 600219.SH {'beta': 1.7144265471594329, 'residual_vol': 0.5983866646302977, 'downside_vol': 0.41939485792235265, 'tail_loss': 0.08769773554844056}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260331 000630.SZ {'beta': 2.322604302721693, 'residual_vol': 0.613246146583701, 'downside_vol': 0.45588092413044684, 'tail_loss': 0.0929521229935956}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260331 601872.SH {'beta': 1.8468250832730835, 'residual_vol': 0.7164088457067445, 'downside_vol': 0.4035239522311949, 'tail_loss': 0.0861385634879664}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "RISK_FACTORS 20260331 603993.SH {'beta': 2.758096414288641, 'residual_vol': 0.4811110774014733, 'downside_vol': 0.4600593815151492, 'tail_loss': 0.09077578717189345}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION 20260331 screened=259 selected=['603993.SH', '601872.SH', '000630.SZ', '600219.SH'] equity=100000.0 counters={'candidate_two_lots_reject': 23}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260331 600219.SH lines={'high': 8.45, 'low': 2.77, 'high_month': '2026-01', 'low_month': '2024-04', 'levels': [(0.236, 7.10952), (0.382, 6.280239999999999), (0.5, 5.609999999999999), (0.618, 4.93976)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [0.382], 'reclaimed': []}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260331 000630.SZ lines={'high': 9.19, 'low': 2.66, 'high_month': '2026-01', 'low_month': '2025-04', 'levels': [(0.236, 7.6489199999999995), (0.382, 6.695539999999999), (0.5, 5.925), (0.618, 5.15446)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [], 'reclaimed': []}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260331 601872.SH lines={'high': 19.65, 'low': 5.51, 'high_month': '2026-03', 'low_month': '2025-04', 'levels': [(0.236, 16.31296), (0.382, 14.24852), (0.5, 12.579999999999998), (0.618, 10.91148)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [], 'reclaimed': []}"
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "FIB_OBSERVE 20260331 603993.SH lines={'high': 28.78, 'low': 5.66, 'high_month': '2026-01', 'low_month': '2025-04', 'levels': [(0.236, 23.323680000000003), (0.382, 19.94816), (0.5, 17.22), (0.618, 14.49184)]} prior_month_frozen_event={'invalidated': False, 'breakout': False, 'near': [0.5], 'reclaimed': []}"
+    - paragraph: 2026-04-01 00:00:00 - INFO
+    - generic: Research only. Platform fees, matching and corporate actions require audit.
+    - paragraph: 2026-04-01 00:00:00 - INFO
+    - generic: v8q_sep_r quarterly execution; monthly12-1 MOM100; top4; Fibonacci observe only; MA exits OFF; risk sizing only at quarterly entry
+    - paragraph: 2026-04-01 00:00:00 - INFO
+    - generic: V8Q threshold frozen=0.5 sentiment OFF; MONTHLY MOM100
+    - paragraph: 2026-04-01 00:00:00 - INFO
+    - generic: V6b open proxies only; NOT Barra replica; fundamental/analyst/industry factors unavailable
+    - paragraph: 2026-10-19 20:13:38 - INFO
+    - generic: 回测开始
+    - paragraph: 2026-10-19 20:13:37 - INFO
+    - generic: INFO :回测开始运行

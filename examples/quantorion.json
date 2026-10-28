@@ -1,0 +1,25 @@
+{
+  "model": "quantorion",
+  "signal_date": "2026-10-15",
+  "execute_after": "2026-10-16",
+  "data": {
+    "history": {
+      "600001.SH": [
+        {
+          "date": "2026-10-14",
+          "close": 10,
+          "pct_chg": 10,
+          "volume": 1000
+        },
+        {
+          "date": "2026-10-15",
+          "close": 11,
+          "pct_chg": 10,
+          "volume": 800
+        }
+      ]
+    },
+    "variant": "baseline"
+  },
+  "fixture": "synthetic, not market data or investment advice"
+}

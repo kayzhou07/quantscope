@@ -1,0 +1,266 @@
+{
+ "window": [
+  "2014-07-01",
+  "2026-10-19"
+ ],
+ "benchmarks": {
+  "bh_csi300": {
+   "total_return": 0.9239219982917661,
+   "max_drawdown": -0.4669538134786452,
+   "latest_ret": 0.31645978811804265,
+   "latest_dd": -0.17661874095890073
+  },
+  "bh_chinext": {
+   "total_return": 0.9485422413141757,
+   "max_drawdown": -0.6961171173248036,
+   "latest_ret": 0.7871309751497744,
+   "latest_dd": -0.3712211258949264
+  }
+ },
+ "candidates": [
+  {
+   "tag": "V_base",
+   "total_return": 0.6869425354662904,
+   "max_drawdown": -0.14482345655896778,
+   "cagr": 0.REDACTED_ID,
+   "ann_vol": 0.07404945262617431,
+   "sharpe": 0.6325307812656308,
+   "calmar": 0.31122722286012694,
+   "avg_exposure": 0.1792910458575644,
+   "all_cash_days": 1322,
+   "trade_count": 970,
+   "total_fees": 7807.17,
+   "latest_ret": -0.REDACTED_ID,
+   "latest_dd": -0.14482345655896778,
+   "elapsed_s": 6.8
+  },
+  {
+   "tag": "b80_n30",
+   "total_return": 1.0543614514533202,
+   "max_drawdown": -0.1733193185724905,
+   "cagr": 0.06257970049277284,
+   "ann_vol": 0.09669798758346886,
+   "sharpe": 0.6763507340342114,
+   "calmar": 0.36106592737727033,
+   "avg_exposure": 0.23284387303934956,
+   "all_cash_days": 1306,
+   "trade_count": 1122,
+   "total_fees": 10046.61,
+   "latest_ret": -0.REDACTED_ID,
+   "latest_dd": -0.1546345828115856,
+   "elapsed_s": 7.9
+  },
+  {
+   "tag": "b100_n25",
+   "total_return": 1.3442597110723464,
+   "max_drawdown": -0.21381097520522552,
+   "cagr": 0.07447140472835745,
+   "ann_vol": 0.11556384820635762,
+   "sharpe": 0.6799154545508773,
+   "calmar": 0.3483048737646718,
+   "avg_exposure": 0.2521032958634661,
+   "all_cash_days": 1306,
+   "trade_count": 1126,
+   "total_fees": 11025.7,
+   "latest_ret": 0.02652931858376517,
+   "latest_dd": -0.1619799782345388,
+   "elapsed_s": 8.5
+  },
+  {
+   "tag": "b100_n30",
+   "total_return": 1.3784720827120562,
+   "max_drawdown": -0.21756226561484493,
+   "cagr": 0.07578469962521517,
+   "ann_vol": 0.11775870910251676,
+   "sharpe": 0.6797993262362875,
+   "calmar": 0.3483356794940646,
+   "avg_exposure": 0.2708661458935474,
+   "all_cash_days": 1306,
+   "trade_count": 1173,
+   "total_fees": 11611.96,
+   "latest_ret": 0.REDACTED_ID,
+   "latest_dd": -0.18109920819927194,
+   "elapsed_s": 7.4
+  },
+  {
+   "tag": "b100_n30_vt20",
+   "total_return": 1.2343564984145363,
+   "max_drawdown": -0.18589904822388226,
+   "cagr": 0.07013049957777695,
+   "ann_vol": 0.10803455687228261,
+   "sharpe": 0.6819710249423556,
+   "calmar": 0.37725044989642587,
+   "avg_exposure": 0.2552906836684337,
+   "all_cash_days": 1278,
+   "trade_count": 1158,
+   "total_fees": 10865.04,
+   "latest_ret": 0.REDACTED_ID,
+   "latest_dd": -0.1674065757407116,
+   "elapsed_s": 8.6
+  },
+  {
+   "tag": "b100_n30_vt15",
+   "total_return": 1.0084530129276055,
+   "max_drawdown": -0.18098934412618317,
+   "cagr": 0.REDACTED_ID,
+   "ann_vol": 0.09893923459297198,
+   "sharpe": 0.6441890087184001,
+   "calmar": 0.33458863309223363,
+   "avg_exposure": 0.23544205585922837,
+   "all_cash_days": 1278,
+   "trade_count": 1075,
+   "total_fees": 9688.31,
+   "latest_ret": 0.0005010240704006463,
+   "latest_dd": -0.16079662440878373,
+   "elapsed_s": 9.0
+  },
+  {
+   "tag": "b80_n30_vt18",
+   "total_return": 0.8578288438459512,
+   "max_drawdown": -0.15055611670496805,
+   "cagr": 0.05360940231868683,
+   "ann_vol": 0.08630935348753528,
+   "sharpe": 0.6484636515748469,
+   "calmar": 0.35607588380975974,
+   "avg_exposure": 0.21496463995622497,
+   "all_cash_days": 1278,
+   "trade_count": 1060,
+   "total_fees": 9063.5,
+   "latest_ret": -0.REDACTED_ID,
+   "latest_dd": -0.15055611670496805,
+   "elapsed_s": 9.4
+  },
+  {
+   "tag": "b100_n30_lowvol",
+   "total_return": 1.6681862019632296,
+   "max_drawdown": -0.24652355818329996,
+   "cagr": 0.08626031361978237,
+   "ann_vol": 0.1068895225325256,
+   "sharpe": 0.8278298081845734,
+   "calmar": 0.3499069795011008,
+   "avg_exposure": 0.2750785091537699,
+   "all_cash_days": 1278,
+   "trade_count": 1242,
+   "total_fees": 12333.970000000001,
+   "latest_ret": 0.REDACTED_ID,
+   "latest_dd": -0.16137997520441416,
+   "elapsed_s": 7.9
+  },
+  {
+   "tag": "b100_n30_top15",
+   "total_return": 1.7456069325168508,
+   "max_drawdown": -0.23979364746919452,
+   "cagr": 0.08888300693654827,
+   "ann_vol": 0.1113369182298553,
+   "sharpe": 0.8210367742374483,
+   "calmar": 0.37066456044448287,
+   "avg_exposure": 0.26422050783587264,
+   "all_cash_days": 1285,
+   "trade_count": 1603,
+   "total_fees": 13571.68,
+   "latest_ret": 0.14964627059664792,
+   "latest_dd": -0.12807399337392,
+   "elapsed_s": 7.4
+  },
+  {
+   "tag": "b100_n30_capma200",
+   "total_return": 0.8300794518479708,
+   "max_drawdown": -0.2534600000961704,
+   "cagr": 0.05227345192834698,
+   "ann_vol": 0.11196545896588939,
+   "sharpe": 0.5116554701947182,
+   "calmar": 0.20623945359627888,
+   "avg_exposure": 0.23629447369630643,
+   "all_cash_days": 1596,
+   "trade_count": 1015,
+   "total_fees": 9895.2,
+   "latest_ret": -0.1679984204210706,
+   "latest_dd": -0.22646313736822576,
+   "elapsed_s": 7.5
+  },
+  {
+   "tag": "base_vt18",
+   "total_return": 0.6965673304625466,
+   "max_drawdown": -0.130471887251968,
+   "cagr": 0.REDACTED_ID,
+   "ann_vol": 0.06514723371961566,
+   "sharpe": 0.7168034995160467,
+   "calmar": 0.3493043510726538,
+   "avg_exposure": 0.16412624003436346,
+   "all_cash_days": 1315,
+   "trade_count": 917,
+   "total_fees": 7209.77,
+   "latest_ret": -0.REDACTED_ID,
+   "latest_dd": -0.130471887251968,
+   "elapsed_s": 9.0
+  },
+  {
+   "tag": "REF_none_100",
+   "total_return": 1.7634384574697894,
+   "max_drawdown": -0.5618531309429631,
+   "cagr": 0.08947746060785522,
+   "ann_vol": 0.24127301242607385,
+   "sharpe": 0.4767525283657543,
+   "calmar": 0.15925418170703154,
+   "avg_exposure": 0.9312778098370745,
+   "all_cash_days": 59,
+   "trade_count": 2042,
+   "total_fees": 32139.129999999997,
+   "latest_ret": -0.REDACTED_ID,
+   "latest_dd": -0.384796345162563,
+   "elapsed_s": 12.2
+  },
+  {
+   "tag": "REF_ma200_100",
+   "total_return": 1.1623721731797492,
+   "max_drawdown": -0.451035483106354,
+   "cagr": 0.06718004414185752,
+   "ann_vol": 0.18666136071929743,
+   "sharpe": 0.44248344676087265,
+   "calmar": 0.148946250701115,
+   "avg_exposure": 0.5339229008465812,
+   "all_cash_days": 1265,
+   "trade_count": 1873,
+   "total_fees": 25345.31,
+   "latest_ret": -0.12268285574663629,
+   "latest_dd": -0.31380131550996926,
+   "elapsed_s": 10.7
+  }
+ ],
+ "segments": [
+  [
+   "bull_2014_2015",
+   "2014-07-01",
+   "2015-06-12"
+  ],
+  [
+   "crash_2015_2016",
+   "2015-06-15",
+   "2016-01-28"
+  ],
+  [
+   "bear_2018",
+   "2018-01-02",
+   "2018-12-31"
+  ],
+  [
+   "bull_2019_2021",
+   "2019-01-02",
+   "2021-02-10"
+  ],
+  [
+   "bear_2021_2024",
+   "2021-02-18",
+   "2024-09-13"
+  ],
+  [
+   "bull_2024_now",
+   "2024-09-18",
+   "2026-10-19"
+  ]
+ ],
+ "latest_window": [
+  "2024-09-18",
+  "2026-10-19"
+ ]
+}

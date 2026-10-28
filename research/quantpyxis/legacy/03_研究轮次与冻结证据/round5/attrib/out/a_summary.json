@@ -1,0 +1,50 @@
+{
+ "name": "A-attr",
+ "window": [
+  "2014-07-01",
+  "2026-10-19"
+ ],
+ "capital": 100000.0,
+ "n_trading_days": 2989,
+ "total_return": 1.7456069325168508,
+ "max_drawdown": -0.23979364746919452,
+ "maxdd_peak_date": "2017-11-22",
+ "maxdd_trough_date": "2020-03-23",
+ "maxdd_recovery_date": "2020-09-02",
+ "cagr": 0.08888300693654827,
+ "ann_vol": 0.11135550372108091,
+ "sharpe": 0.821174473475915,
+ "avg_exposure": 0.26422050783587264,
+ "all_cash_days": 1285,
+ "trade_count": 1603,
+ "total_fees": 13571.68,
+ "fifo_realized_pnl": 174560.74000000005,
+ "fifo_unrealized_pnl": 0.0,
+ "fifo_win_rate": 0.5062344139650873,
+ "final_nav": 274560.69325168506,
+ "max_positions_observed": 17,
+ "days_over_15": 94,
+ "n_rebalances": 90,
+ "n_set_targets_calls": 143,
+ "n_explicit_sell_calls": 752,
+ "elapsed_s": 7.6,
+ "published": {
+  "total_return": 1.7456069325168508,
+  "max_drawdown": -0.23979364746919452,
+  "dd_peak": "2017-11-22",
+  "dd_trough": "2020-03-23",
+  "max_positions_observed": 17,
+  "all_cash_days": 1285,
+  "avg_exposure": 0.264221,
+  "cagr": 0.088883
+ },
+ "verify": {
+  "total_return_match": true,
+  "max_drawdown_match": true,
+  "dd_peak_match": true,
+  "dd_trough_match": true,
+  "max_positions_match": true,
+  "all_cash_days_match": true,
+  "published_reproduced": true
+ }
+}

@@ -1,0 +1,8544 @@
+[
+ {
+  "tag": "A 主策略：月度动量+大盘状态",
+  "config": {
+   "w_each": 0.19,
+   "n_on": 5,
+   "n_off": 3,
+   "buffer": 1,
+   "min_amt": 100000000.0,
+   "trend_filter": false,
+   "regime": true,
+   "max_single": 0.25,
+   "stop": null,
+   "trail": null,
+   "rebal_months": [
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ],
+   "tag": "A 主策略：月度动量+大盘状态"
+  },
+  "final": 121691.03,
+  "return": 0.21691,
+  "max_drawdown": 0.451048,
+  "dd_window": [
+   "2026-06-25",
+   "2026-08-03"
+  ],
+  "ann_vol": 0.532415,
+  "sharpe": 1.051,
+  "calmar": 0.481,
+  "trades": 26,
+  "fees": 303.61,
+  "mean_exposure": 0.6866,
+  "equity": [
+   {
+    "date": "2026-04-01",
+    "cash": 50670.24,
+    "market_value": 48404.0,
+    "total": 99074.24,
+    "exposure": 0.4886,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-02",
+    "cash": 50670.24,
+    "market_value": 45811.0,
+    "total": 96481.24,
+    "exposure": 0.4748,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-03",
+    "cash": 50670.24,
+    "market_value": 46559.0,
+    "total": 97229.24,
+    "exposure": 0.4789,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-07",
+    "cash": 50670.24,
+    "market_value": 47354.0,
+    "total": 98024.24,
+    "exposure": 0.4831,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-08",
+    "cash": 50670.24,
+    "market_value": 50537.0,
+    "total": 101207.24,
+    "exposure": 0.4993,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-09",
+    "cash": 50670.24,
+    "market_value": 50347.0,
+    "total": 101017.24,
+    "exposure": 0.4984,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-10",
+    "cash": 50670.24,
+    "market_value": 52168.0,
+    "total": 102838.24,
+    "exposure": 0.5073,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-13",
+    "cash": 50670.24,
+    "market_value": 53290.0,
+    "total": 103960.24,
+    "exposure": 0.5126,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-14",
+    "cash": 50670.24,
+    "market_value": 57204.0,
+    "total": 107874.24,
+    "exposure": 0.5303,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-15",
+    "cash": 50670.24,
+    "market_value": 56065.0,
+    "total": 106735.24,
+    "exposure": 0.5253,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-16",
+    "cash": 50670.24,
+    "market_value": 57301.0,
+    "total": 107971.24,
+    "exposure": 0.5307,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-17",
+    "cash": 50670.24,
+    "market_value": 60185.0,
+    "total": 110855.24,
+    "exposure": 0.5429,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-20",
+    "cash": 50670.24,
+    "market_value": 60871.0,
+    "total": 111541.24,
+    "exposure": 0.5457,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-21",
+    "cash": 50670.24,
+    "market_value": 61094.0,
+    "total": 111764.24,
+    "exposure": 0.5466,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-22",
+    "cash": 50670.24,
+    "market_value": 62345.0,
+    "total": 113015.24,
+    "exposure": 0.5517,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-23",
+    "cash": 50670.24,
+    "market_value": 60251.0,
+    "total": 110921.24,
+    "exposure": 0.5432,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-24",
+    "cash": 50670.24,
+    "market_value": 59389.0,
+    "total": 110059.24,
+    "exposure": 0.5396,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-27",
+    "cash": 50670.24,
+    "market_value": 60114.0,
+    "total": 110784.24,
+    "exposure": 0.5426,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-28",
+    "cash": 50670.24,
+    "market_value": 59677.0,
+    "total": 110347.24,
+    "exposure": 0.5408,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-29",
+    "cash": 50670.24,
+    "market_value": 63934.0,
+    "total": 114604.24,
+    "exposure": 0.5579,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-30",
+    "cash": 50670.24,
+    "market_value": 64560.0,
+    "total": 115230.24,
+    "exposure": 0.5603,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-06",
+    "cash": 9514.16,
+    "market_value": 110705.0,
+    "total": 120219.16,
+    "exposure": 0.9209,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-07",
+    "cash": 9514.16,
+    "market_value": 114711.0,
+    "total": 124225.16,
+    "exposure": 0.9234,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-08",
+    "cash": 9514.16,
+    "market_value": 114444.0,
+    "total": 123958.16,
+    "exposure": 0.9232,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-11",
+    "cash": 9514.16,
+    "market_value": 115439.0,
+    "total": 124953.16,
+    "exposure": 0.9239,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-12",
+    "cash": 9514.16,
+    "market_value": 114701.0,
+    "total": 124215.16,
+    "exposure": 0.9234,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-13",
+    "cash": 9514.16,
+    "market_value": 117785.0,
+    "total": 127299.16,
+    "exposure": 0.9253,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-14",
+    "cash": 9514.16,
+    "market_value": 114888.0,
+    "total": 124402.16,
+    "exposure": 0.9235,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-15",
+    "cash": 9514.16,
+    "market_value": 115555.0,
+    "total": 125069.16,
+    "exposure": 0.9239,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-18",
+    "cash": 9514.16,
+    "market_value": 114126.0,
+    "total": 123640.16,
+    "exposure": 0.923,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-19",
+    "cash": 9514.16,
+    "market_value": 112198.0,
+    "total": 121712.16,
+    "exposure": 0.9218,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-20",
+    "cash": 9514.16,
+    "market_value": 114423.0,
+    "total": 123937.16,
+    "exposure": 0.9232,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-21",
+    "cash": 9514.16,
+    "market_value": 113203.0,
+    "total": 122717.16,
+    "exposure": 0.9225,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-22",
+    "cash": 9514.16,
+    "market_value": 125411.0,
+    "total": 134925.16,
+    "exposure": 0.9295,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-25",
+    "cash": 9514.16,
+    "market_value": 132734.0,
+    "total": 142248.16,
+    "exposure": 0.9331,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-26",
+    "cash": 9514.16,
+    "market_value": 134927.0,
+    "total": 144441.16,
+    "exposure": 0.9341,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-27",
+    "cash": 9514.16,
+    "market_value": 136751.0,
+    "total": 146265.16,
+    "exposure": 0.935,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-28",
+    "cash": 9514.16,
+    "market_value": 144767.0,
+    "total": 154281.16,
+    "exposure": 0.9383,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-29",
+    "cash": 9514.16,
+    "market_value": 143088.0,
+    "total": 152602.16,
+    "exposure": 0.9377,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-01",
+    "cash": 26847.35,
+    "market_value": 118705.0,
+    "total": 145552.35,
+    "exposure": 0.8155,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-02",
+    "cash": 26847.35,
+    "market_value": 121854.0,
+    "total": 148701.35,
+    "exposure": 0.8195,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-03",
+    "cash": 26847.35,
+    "market_value": 123657.0,
+    "total": 150504.35,
+    "exposure": 0.8216,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-04",
+    "cash": 26847.35,
+    "market_value": 122836.0,
+    "total": 149683.35,
+    "exposure": 0.8206,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-05",
+    "cash": 26847.35,
+    "market_value": 124232.0,
+    "total": 151079.35,
+    "exposure": 0.8223,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-08",
+    "cash": 26847.35,
+    "market_value": 122456.0,
+    "total": 149303.35,
+    "exposure": 0.8202,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-09",
+    "cash": 26847.35,
+    "market_value": 133080.0,
+    "total": 159927.35,
+    "exposure": 0.8321,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-10",
+    "cash": 26847.35,
+    "market_value": 132683.0,
+    "total": 159530.35,
+    "exposure": 0.8317,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-11",
+    "cash": 26847.35,
+    "market_value": 138538.0,
+    "total": 165385.35,
+    "exposure": 0.8377,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-12",
+    "cash": 26847.35,
+    "market_value": 140203.0,
+    "total": 167050.35,
+    "exposure": 0.8393,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-15",
+    "cash": 26847.35,
+    "market_value": 151342.0,
+    "total": 178189.35,
+    "exposure": 0.8493,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-16",
+    "cash": 26847.35,
+    "market_value": 156104.0,
+    "total": 182951.35,
+    "exposure": 0.8533,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-17",
+    "cash": 26847.35,
+    "market_value": 160672.0,
+    "total": 187519.35,
+    "exposure": 0.8568,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-18",
+    "cash": 26847.35,
+    "market_value": 162879.0,
+    "total": 189726.35,
+    "exposure": 0.8585,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-22",
+    "cash": 26847.35,
+    "market_value": 163197.0,
+    "total": 190044.35,
+    "exposure": 0.8587,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-23",
+    "cash": 26847.35,
+    "market_value": 155682.0,
+    "total": 182529.35,
+    "exposure": 0.8529,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-24",
+    "cash": 26847.35,
+    "market_value": 168170.0,
+    "total": 195017.35,
+    "exposure": 0.8623,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-25",
+    "cash": 26847.35,
+    "market_value": 170726.0,
+    "total": 197573.35,
+    "exposure": 0.8641,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-26",
+    "cash": 26847.35,
+    "market_value": 167633.0,
+    "total": 194480.35,
+    "exposure": 0.862,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-29",
+    "cash": 26847.35,
+    "market_value": 160271.0,
+    "total": 187118.35,
+    "exposure": 0.8565,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-30",
+    "cash": 26847.35,
+    "market_value": 162562.0,
+    "total": 189409.35,
+    "exposure": 0.8583,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-01",
+    "cash": 28870.93,
+    "market_value": 158256.0,
+    "total": 187126.93,
+    "exposure": 0.8457,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-02",
+    "cash": 28870.93,
+    "market_value": 148507.0,
+    "total": 177377.93,
+    "exposure": 0.8372,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-03",
+    "cash": 28870.93,
+    "market_value": 149077.0,
+    "total": 177947.93,
+    "exposure": 0.8378,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-06",
+    "cash": 28870.93,
+    "market_value": 135140.0,
+    "total": 164010.93,
+    "exposure": 0.824,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-07",
+    "cash": 28870.93,
+    "market_value": 131898.0,
+    "total": 160768.93,
+    "exposure": 0.8204,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-08",
+    "cash": 28870.93,
+    "market_value": 124957.0,
+    "total": 153827.93,
+    "exposure": 0.8123,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-09",
+    "cash": 28870.93,
+    "market_value": 130742.0,
+    "total": 159612.93,
+    "exposure": 0.8191,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-10",
+    "cash": 28870.93,
+    "market_value": 126668.0,
+    "total": 155538.93,
+    "exposure": 0.8144,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-13",
+    "cash": 28870.93,
+    "market_value": 115585.0,
+    "total": 144455.93,
+    "exposure": 0.8001,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-14",
+    "cash": 28870.93,
+    "market_value": 127023.0,
+    "total": 155893.93,
+    "exposure": 0.8148,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-15",
+    "cash": 28870.93,
+    "market_value": 121643.0,
+    "total": 150513.93,
+    "exposure": 0.8082,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-16",
+    "cash": 28870.93,
+    "market_value": 116700.0,
+    "total": 145570.93,
+    "exposure": 0.8017,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-17",
+    "cash": 28870.93,
+    "market_value": 108112.0,
+    "total": 136982.93,
+    "exposure": 0.7892,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-20",
+    "cash": 28870.93,
+    "market_value": 91580.0,
+    "total": 120450.93,
+    "exposure": 0.7603,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-21",
+    "cash": 28870.93,
+    "market_value": 98253.0,
+    "total": 127123.93,
+    "exposure": 0.7729,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-22",
+    "cash": 28870.93,
+    "market_value": 91144.0,
+    "total": 120014.93,
+    "exposure": 0.7594,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-23",
+    "cash": 28870.93,
+    "market_value": 89734.0,
+    "total": 118604.93,
+    "exposure": 0.7566,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-24",
+    "cash": 28870.93,
+    "market_value": 86446.0,
+    "total": 115316.93,
+    "exposure": 0.7496,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-27",
+    "cash": 28870.93,
+    "market_value": 95277.0,
+    "total": 124147.93,
+    "exposure": 0.7674,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-28",
+    "cash": 28870.93,
+    "market_value": 86678.0,
+    "total": 115548.93,
+    "exposure": 0.7501,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-29",
+    "cash": 28870.93,
+    "market_value": 85976.0,
+    "total": 114846.93,
+    "exposure": 0.7486,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-30",
+    "cash": 28870.93,
+    "market_value": 84436.0,
+    "total": 113306.93,
+    "exposure": 0.7452,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-31",
+    "cash": 28870.93,
+    "market_value": 86042.0,
+    "total": 114912.93,
+    "exposure": 0.7488,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-03",
+    "cash": 58482.23,
+    "market_value": 49976.0,
+    "total": 108458.23,
+    "exposure": 0.4608,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-04",
+    "cash": 58482.23,
+    "market_value": 53969.0,
+    "total": 112451.23,
+    "exposure": 0.4799,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-05",
+    "cash": 58482.23,
+    "market_value": 60216.0,
+    "total": 118698.23,
+    "exposure": 0.5073,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-06",
+    "cash": 58482.23,
+    "market_value": 63510.0,
+    "total": 121992.23,
+    "exposure": 0.5206,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-07",
+    "cash": 58482.23,
+    "market_value": 68864.0,
+    "total": 127346.23,
+    "exposure": 0.5408,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-10",
+    "cash": 58482.23,
+    "market_value": 69150.0,
+    "total": 127632.23,
+    "exposure": 0.5418,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-11",
+    "cash": 58482.23,
+    "market_value": 70055.0,
+    "total": 128537.23,
+    "exposure": 0.545,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-12",
+    "cash": 58482.23,
+    "market_value": 69962.0,
+    "total": 128444.23,
+    "exposure": 0.5447,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-13",
+    "cash": 58482.23,
+    "market_value": 66908.0,
+    "total": 125390.23,
+    "exposure": 0.5336,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-14",
+    "cash": 58482.23,
+    "market_value": 68567.0,
+    "total": 127049.23,
+    "exposure": 0.5397,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-17",
+    "cash": 58482.23,
+    "market_value": 71564.0,
+    "total": 130046.23,
+    "exposure": 0.5503,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-18",
+    "cash": 58482.23,
+    "market_value": 69337.0,
+    "total": 127819.23,
+    "exposure": 0.5425,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-19",
+    "cash": 58482.23,
+    "market_value": 62539.0,
+    "total": 121021.23,
+    "exposure": 0.5168,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-20",
+    "cash": 58482.23,
+    "market_value": 61167.0,
+    "total": 119649.23,
+    "exposure": 0.5112,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-21",
+    "cash": 58482.23,
+    "market_value": 62238.0,
+    "total": 120720.23,
+    "exposure": 0.5156,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-24",
+    "cash": 58482.23,
+    "market_value": 58641.0,
+    "total": 117123.23,
+    "exposure": 0.5007,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-25",
+    "cash": 58482.23,
+    "market_value": 60045.0,
+    "total": 118527.23,
+    "exposure": 0.5066,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-26",
+    "cash": 58482.23,
+    "market_value": 59366.0,
+    "total": 117848.23,
+    "exposure": 0.5037,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-27",
+    "cash": 58482.23,
+    "market_value": 63638.0,
+    "total": 122120.23,
+    "exposure": 0.5211,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-28",
+    "cash": 58482.23,
+    "market_value": 64329.0,
+    "total": 122811.23,
+    "exposure": 0.5238,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-31",
+    "cash": 58482.23,
+    "market_value": 66755.0,
+    "total": 125237.23,
+    "exposure": 0.533,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-01",
+    "cash": 57086.03,
+    "market_value": 64447.0,
+    "total": 121533.03,
+    "exposure": 0.5303,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-02",
+    "cash": 57086.03,
+    "market_value": 63090.0,
+    "total": 120176.03,
+    "exposure": 0.525,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-03",
+    "cash": 57086.03,
+    "market_value": 61887.0,
+    "total": 118973.03,
+    "exposure": 0.5202,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-04",
+    "cash": 57086.03,
+    "market_value": 59171.0,
+    "total": 116257.03,
+    "exposure": 0.509,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-07",
+    "cash": 57086.03,
+    "market_value": 61870.0,
+    "total": 118956.03,
+    "exposure": 0.5201,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-08",
+    "cash": 57086.03,
+    "market_value": 62114.0,
+    "total": 119200.03,
+    "exposure": 0.5211,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-09",
+    "cash": 57086.03,
+    "market_value": 62885.0,
+    "total": 119971.03,
+    "exposure": 0.5242,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-10",
+    "cash": 57086.03,
+    "market_value": 67009.0,
+    "total": 124095.03,
+    "exposure": 0.54,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-11",
+    "cash": 57086.03,
+    "market_value": 69771.0,
+    "total": 126857.03,
+    "exposure": 0.55,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-14",
+    "cash": 57086.03,
+    "market_value": 69651.0,
+    "total": 126737.03,
+    "exposure": 0.5496,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-15",
+    "cash": 57086.03,
+    "market_value": 71127.0,
+    "total": 128213.03,
+    "exposure": 0.5548,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-16",
+    "cash": 57086.03,
+    "market_value": 71402.0,
+    "total": 128488.03,
+    "exposure": 0.5557,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-17",
+    "cash": 57086.03,
+    "market_value": 70131.0,
+    "total": 127217.03,
+    "exposure": 0.5513,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-18",
+    "cash": 57086.03,
+    "market_value": 70538.0,
+    "total": 127624.03,
+    "exposure": 0.5527,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-21",
+    "cash": 57086.03,
+    "market_value": 70423.0,
+    "total": 127509.03,
+    "exposure": 0.5523,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-22",
+    "cash": 57086.03,
+    "market_value": 71919.0,
+    "total": 129005.03,
+    "exposure": 0.5575,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-23",
+    "cash": 57086.03,
+    "market_value": 71950.0,
+    "total": 129036.03,
+    "exposure": 0.5576,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-24",
+    "cash": 57086.03,
+    "market_value": 68219.0,
+    "total": 125305.03,
+    "exposure": 0.5444,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-28",
+    "cash": 57086.03,
+    "market_value": 65447.0,
+    "total": 122533.03,
+    "exposure": 0.5341,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-29",
+    "cash": 57086.03,
+    "market_value": 66892.0,
+    "total": 123978.03,
+    "exposure": 0.5395,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-30",
+    "cash": 57086.03,
+    "market_value": 64605.0,
+    "total": 121691.03,
+    "exposure": 0.5309,
+    "n_positions": 3
+   }
+  ],
+  "trade_log": [
+   {
+    "date": "2026-04-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 75.245,
+    "amount": 15049.03,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "BUY",
+    "shares": 100,
+    "price": 197.007,
+    "amount": 19700.68,
+    "fee": 5.2,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "BUY",
+    "shares": 300,
+    "price": 48.548,
+    "amount": 14564.55,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 188.769,
+    "amount": 18876.86,
+    "fee": 5.19,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "BUY",
+    "shares": 100,
+    "price": 222.682,
+    "amount": 22268.25,
+    "fee": 5.79,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "SELL",
+    "shares": 100,
+    "price": 343.077,
+    "amount": 34307.66,
+    "fee": 26.07,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "SELL",
+    "shares": 300,
+    "price": 67.722,
+    "amount": 20316.66,
+    "fee": 15.44,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "SELL",
+    "shares": 100,
+    "price": 327.063,
+    "amount": 32706.26,
+    "fee": 24.86,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "BUY",
+    "shares": 200,
+    "price": 110.651,
+    "amount": 22130.11,
+    "fee": 5.75,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 400,
+    "price": 57.137,
+    "amount": 22854.83,
+    "fee": 5.94,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "BUY",
+    "shares": 300,
+    "price": 83.093,
+    "amount": 24927.9,
+    "fee": 6.48,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 268.281,
+    "amount": 53656.29,
+    "fee": 40.78,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "SELL",
+    "shares": 100,
+    "price": 267.382,
+    "amount": 26738.23,
+    "fee": 20.32,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "SELL",
+    "shares": 300,
+    "price": 93.816,
+    "amount": 28144.83,
+    "fee": 21.39,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 700,
+    "price": 48.028,
+    "amount": 33619.59,
+    "fee": 8.74,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 200,
+    "price": 53.533,
+    "amount": 10706.7,
+    "fee": 5.11,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 141.541,
+    "amount": 28308.28,
+    "fee": 7.36,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "BUY",
+    "shares": 500,
+    "price": 67.537,
+    "amount": 33768.73,
+    "fee": 8.78,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "SELL",
+    "shares": 200,
+    "price": 81.329,
+    "amount": 16265.72,
+    "fee": 13.3,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "SELL",
+    "shares": 600,
+    "price": 29.5,
+    "amount": 17700.28,
+    "fee": 14.03,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 65.464,
+    "amount": 13092.89,
+    "fee": 11.68,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "SELL",
+    "shares": 500,
+    "price": 30.919,
+    "amount": 15459.52,
+    "fee": 12.88,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 100,
+    "price": 124.965,
+    "amount": 12496.48,
+    "fee": 5.12,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz002636",
+    "name": "金安国纪",
+    "side": "BUY",
+    "shares": 400,
+    "price": 50.871,
+    "amount": 20348.33,
+    "fee": 5.29,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 100,
+    "price": 150.06,
+    "amount": 15005.98,
+    "fee": 12.65,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 163.844,
+    "amount": 16384.37,
+    "fee": 5.16,
+    "reason": "enter target"
+   }
+  ],
+  "rebalance_log": [
+   {
+    "signal_date": "2026-03-31",
+    "exec_date": "2026-04-01",
+    "picks": [
+     "sh603256",
+     "sz301377",
+     "sz000657"
+    ],
+    "names": [
+     "宏和科技",
+     "鼎泰高科",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 1163,
+    "candidates_before_lot_filter": 1171,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      8.3568
+     ],
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.6009
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      5.9317
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.3128
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.4654
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      4.1638
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      3.9328
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      3.6413
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-04-30",
+    "exec_date": "2026-05-06",
+    "picks": [
+     "sz301377",
+     "sh603256",
+     "sh603929",
+     "sz300394",
+     "sz000657"
+    ],
+    "names": [
+     "鼎泰高科",
+     "宏和科技",
+     "亚翔集成",
+     "天孚通信",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1139,
+    "candidates_before_lot_filter": 1153,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.8628
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      6.819
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      6.6055
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.4258
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.1834
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.0827
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      4.0419
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      3.7396
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-05-29",
+    "exec_date": "2026-06-01",
+    "picks": [
+     "sh603256",
+     "sh603929",
+     "sz301217",
+     "sz001267",
+     "sz300390"
+    ],
+    "names": [
+     "宏和科技",
+     "亚翔集成",
+     "铜冠铜箔",
+     "汇绿生态",
+     "天华新能"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1154,
+    "candidates_before_lot_filter": 1172,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      9.7234
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.1931
+     ],
+     [
+      "sz301217",
+      "铜冠铜箔",
+      6.4045
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.5868
+     ],
+     [
+      "sz300390",
+      "天华新能",
+      5.4319
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      5.2588
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      5.1306
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.4743
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-06-30",
+    "exec_date": "2026-07-01",
+    "picks": [
+     "sz301217",
+     "sz301526",
+     "sz001267",
+     "sz301511",
+     "sh600105"
+    ],
+    "names": [
+     "铜冠铜箔",
+     "国际复材",
+     "汇绿生态",
+     "德福科技",
+     "永鼎股份"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1078,
+    "candidates_before_lot_filter": 1107,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301217",
+      "铜冠铜箔",
+      8.1273
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      5.4448
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.228
+     ],
+     [
+      "sz301511",
+      "德福科技",
+      5.1229
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      4.9625
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.8272
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.7169
+     ],
+     [
+      "sz002008",
+      "大族激光",
+      4.4551
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-07-31",
+    "exec_date": "2026-08-03",
+    "picks": [
+     "sh603256",
+     "sz002636",
+     "sz301526"
+    ],
+    "names": [
+     "宏和科技",
+     "金安国纪",
+     "国际复材"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 1142,
+    "candidates_before_lot_filter": 1154,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      10.3051
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      9.107
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      8.5988
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      7.9156
+     ],
+     [
+      "sz301396",
+      "宏景科技",
+      7.7122
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.2455
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      6.5195
+     ],
+     [
+      "sz300620",
+      "光库科技",
+      5.8927
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-08-31",
+    "exec_date": "2026-09-01",
+    "picks": [
+     "sz301526",
+     "sh603929",
+     "sz002636"
+    ],
+    "names": [
+     "国际复材",
+     "亚翔集成",
+     "金安国纪"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 1094,
+    "candidates_before_lot_filter": 1111,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301526",
+      "国际复材",
+      3.1277
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      2.8196
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      2.6024
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      2.4695
+     ],
+     [
+      "sz000636",
+      "风华高科",
+      2.2424
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      2.0348
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      1.8968
+     ],
+     [
+      "sh605376",
+      "博迁新材",
+      1.7765
+     ]
+    ],
+    "cash_after": 57086.03
+   }
+  ],
+  "trade_dates": [
+   "2026-04-01",
+   "2026-05-06",
+   "2026-06-01",
+   "2026-07-01",
+   "2026-08-03",
+   "2026-09-01"
+  ]
+ },
+ {
+  "tag": "B 取消大盘状态 常满仓",
+  "config": {
+   "w_each": 0.19,
+   "n_on": 5,
+   "n_off": 3,
+   "buffer": 1,
+   "min_amt": 100000000.0,
+   "trend_filter": false,
+   "regime": false,
+   "max_single": 0.25,
+   "stop": null,
+   "trail": null,
+   "rebal_months": [
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ],
+   "tag": "B 取消大盘状态 常满仓"
+  },
+  "final": 122510.21,
+  "return": 0.225102,
+  "max_drawdown": 0.463595,
+  "dd_window": [
+   "2026-06-25",
+   "2026-08-03"
+  ],
+  "ann_vol": 0.596321,
+  "sharpe": 0.991,
+  "calmar": 0.486,
+  "trades": 32,
+  "fees": 350.59,
+  "mean_exposure": 0.8317,
+  "equity": [
+   {
+    "date": "2026-04-01",
+    "cash": 16216.85,
+    "market_value": 83727.0,
+    "total": 99943.85,
+    "exposure": 0.8377,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-02",
+    "cash": 16216.85,
+    "market_value": 79539.0,
+    "total": 95755.85,
+    "exposure": 0.8306,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-03",
+    "cash": 16216.85,
+    "market_value": 80627.0,
+    "total": 96843.85,
+    "exposure": 0.8325,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-07",
+    "cash": 16216.85,
+    "market_value": 79934.0,
+    "total": 96150.85,
+    "exposure": 0.8313,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-08",
+    "cash": 16216.85,
+    "market_value": 85575.0,
+    "total": 101791.85,
+    "exposure": 0.8407,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-09",
+    "cash": 16216.85,
+    "market_value": 85732.0,
+    "total": 101948.85,
+    "exposure": 0.8409,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-10",
+    "cash": 16216.85,
+    "market_value": 88388.0,
+    "total": 104604.85,
+    "exposure": 0.845,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-13",
+    "cash": 16216.85,
+    "market_value": 89320.0,
+    "total": 105536.85,
+    "exposure": 0.8463,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-14",
+    "cash": 16216.85,
+    "market_value": 93512.0,
+    "total": 109728.85,
+    "exposure": 0.8522,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-15",
+    "cash": 16216.85,
+    "market_value": 91522.0,
+    "total": 107738.85,
+    "exposure": 0.8495,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-16",
+    "cash": 16216.85,
+    "market_value": 94700.0,
+    "total": 110916.85,
+    "exposure": 0.8538,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-17",
+    "cash": 16216.85,
+    "market_value": 99172.0,
+    "total": 115388.85,
+    "exposure": 0.8595,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-20",
+    "cash": 16216.85,
+    "market_value": 100250.0,
+    "total": 116466.85,
+    "exposure": 0.8608,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-21",
+    "cash": 16216.85,
+    "market_value": 99071.0,
+    "total": 115287.85,
+    "exposure": 0.8593,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-22",
+    "cash": 16216.85,
+    "market_value": 101766.0,
+    "total": 117982.85,
+    "exposure": 0.8625,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-23",
+    "cash": 16216.85,
+    "market_value": 97646.0,
+    "total": 113862.85,
+    "exposure": 0.8576,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-24",
+    "cash": 16216.85,
+    "market_value": 94492.0,
+    "total": 110708.85,
+    "exposure": 0.8535,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-27",
+    "cash": 16216.85,
+    "market_value": 94993.0,
+    "total": 111209.85,
+    "exposure": 0.8542,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-28",
+    "cash": 16216.85,
+    "market_value": 93699.0,
+    "total": 109915.85,
+    "exposure": 0.8525,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-29",
+    "cash": 16216.85,
+    "market_value": 98000.0,
+    "total": 114216.85,
+    "exposure": 0.858,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-04-30",
+    "cash": 16216.85,
+    "market_value": 98892.0,
+    "total": 115108.85,
+    "exposure": 0.8591,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-06",
+    "cash": 9665.16,
+    "market_value": 110705.0,
+    "total": 120370.16,
+    "exposure": 0.9197,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-07",
+    "cash": 9665.16,
+    "market_value": 114711.0,
+    "total": 124376.16,
+    "exposure": 0.9223,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-08",
+    "cash": 9665.16,
+    "market_value": 114444.0,
+    "total": 124109.16,
+    "exposure": 0.9221,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-11",
+    "cash": 9665.16,
+    "market_value": 115439.0,
+    "total": 125104.16,
+    "exposure": 0.9227,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-12",
+    "cash": 9665.16,
+    "market_value": 114701.0,
+    "total": 124366.16,
+    "exposure": 0.9223,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-13",
+    "cash": 9665.16,
+    "market_value": 117785.0,
+    "total": 127450.16,
+    "exposure": 0.9242,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-14",
+    "cash": 9665.16,
+    "market_value": 114888.0,
+    "total": 124553.16,
+    "exposure": 0.9224,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-15",
+    "cash": 9665.16,
+    "market_value": 115555.0,
+    "total": 125220.16,
+    "exposure": 0.9228,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-18",
+    "cash": 9665.16,
+    "market_value": 114126.0,
+    "total": 123791.16,
+    "exposure": 0.9219,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-19",
+    "cash": 9665.16,
+    "market_value": 112198.0,
+    "total": 121863.16,
+    "exposure": 0.9207,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-20",
+    "cash": 9665.16,
+    "market_value": 114423.0,
+    "total": 124088.16,
+    "exposure": 0.9221,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-21",
+    "cash": 9665.16,
+    "market_value": 113203.0,
+    "total": 122868.16,
+    "exposure": 0.9213,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-22",
+    "cash": 9665.16,
+    "market_value": 125411.0,
+    "total": 135076.16,
+    "exposure": 0.9284,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-25",
+    "cash": 9665.16,
+    "market_value": 132734.0,
+    "total": 142399.16,
+    "exposure": 0.9321,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-26",
+    "cash": 9665.16,
+    "market_value": 134927.0,
+    "total": 144592.16,
+    "exposure": 0.9332,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-27",
+    "cash": 9665.16,
+    "market_value": 136751.0,
+    "total": 146416.16,
+    "exposure": 0.934,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-28",
+    "cash": 9665.16,
+    "market_value": 144767.0,
+    "total": 154432.16,
+    "exposure": 0.9374,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-29",
+    "cash": 9665.16,
+    "market_value": 143088.0,
+    "total": 152753.16,
+    "exposure": 0.9367,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-01",
+    "cash": 26998.35,
+    "market_value": 118705.0,
+    "total": 145703.35,
+    "exposure": 0.8147,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-02",
+    "cash": 26998.35,
+    "market_value": 121854.0,
+    "total": 148852.35,
+    "exposure": 0.8186,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-03",
+    "cash": 26998.35,
+    "market_value": 123657.0,
+    "total": 150655.35,
+    "exposure": 0.8208,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-04",
+    "cash": 26998.35,
+    "market_value": 122836.0,
+    "total": 149834.35,
+    "exposure": 0.8198,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-05",
+    "cash": 26998.35,
+    "market_value": 124232.0,
+    "total": 151230.35,
+    "exposure": 0.8215,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-08",
+    "cash": 26998.35,
+    "market_value": 122456.0,
+    "total": 149454.35,
+    "exposure": 0.8194,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-09",
+    "cash": 26998.35,
+    "market_value": 133080.0,
+    "total": 160078.35,
+    "exposure": 0.8313,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-10",
+    "cash": 26998.35,
+    "market_value": 132683.0,
+    "total": 159681.35,
+    "exposure": 0.8309,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-11",
+    "cash": 26998.35,
+    "market_value": 138538.0,
+    "total": 165536.35,
+    "exposure": 0.8369,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-12",
+    "cash": 26998.35,
+    "market_value": 140203.0,
+    "total": 167201.35,
+    "exposure": 0.8385,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-15",
+    "cash": 26998.35,
+    "market_value": 151342.0,
+    "total": 178340.35,
+    "exposure": 0.8486,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-16",
+    "cash": 26998.35,
+    "market_value": 156104.0,
+    "total": 183102.35,
+    "exposure": 0.8526,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-17",
+    "cash": 26998.35,
+    "market_value": 160672.0,
+    "total": 187670.35,
+    "exposure": 0.8561,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-18",
+    "cash": 26998.35,
+    "market_value": 162879.0,
+    "total": 189877.35,
+    "exposure": 0.8578,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-22",
+    "cash": 26998.35,
+    "market_value": 163197.0,
+    "total": 190195.35,
+    "exposure": 0.858,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-23",
+    "cash": 26998.35,
+    "market_value": 155682.0,
+    "total": 182680.35,
+    "exposure": 0.8522,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-24",
+    "cash": 26998.35,
+    "market_value": 168170.0,
+    "total": 195168.35,
+    "exposure": 0.8617,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-25",
+    "cash": 26998.35,
+    "market_value": 170726.0,
+    "total": 197724.35,
+    "exposure": 0.8635,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-26",
+    "cash": 26998.35,
+    "market_value": 167633.0,
+    "total": 194631.35,
+    "exposure": 0.8613,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-29",
+    "cash": 26998.35,
+    "market_value": 160271.0,
+    "total": 187269.35,
+    "exposure": 0.8558,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-30",
+    "cash": 26998.35,
+    "market_value": 162562.0,
+    "total": 189560.35,
+    "exposure": 0.8576,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-01",
+    "cash": 29021.93,
+    "market_value": 158256.0,
+    "total": 187277.93,
+    "exposure": 0.845,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-02",
+    "cash": 29021.93,
+    "market_value": 148507.0,
+    "total": 177528.93,
+    "exposure": 0.8365,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-03",
+    "cash": 29021.93,
+    "market_value": 149077.0,
+    "total": 178098.93,
+    "exposure": 0.837,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-06",
+    "cash": 29021.93,
+    "market_value": 135140.0,
+    "total": 164161.93,
+    "exposure": 0.8232,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-07",
+    "cash": 29021.93,
+    "market_value": 131898.0,
+    "total": 160919.93,
+    "exposure": 0.8196,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-08",
+    "cash": 29021.93,
+    "market_value": 124957.0,
+    "total": 153978.93,
+    "exposure": 0.8115,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-09",
+    "cash": 29021.93,
+    "market_value": 130742.0,
+    "total": 159763.93,
+    "exposure": 0.8183,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-10",
+    "cash": 29021.93,
+    "market_value": 126668.0,
+    "total": 155689.93,
+    "exposure": 0.8136,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-13",
+    "cash": 29021.93,
+    "market_value": 115585.0,
+    "total": 144606.93,
+    "exposure": 0.7993,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-14",
+    "cash": 29021.93,
+    "market_value": 127023.0,
+    "total": 156044.93,
+    "exposure": 0.814,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-15",
+    "cash": 29021.93,
+    "market_value": 121643.0,
+    "total": 150664.93,
+    "exposure": 0.8074,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-16",
+    "cash": 29021.93,
+    "market_value": 116700.0,
+    "total": 145721.93,
+    "exposure": 0.8008,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-17",
+    "cash": 29021.93,
+    "market_value": 108112.0,
+    "total": 137133.93,
+    "exposure": 0.7884,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-20",
+    "cash": 29021.93,
+    "market_value": 91580.0,
+    "total": 120601.93,
+    "exposure": 0.7594,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-21",
+    "cash": 29021.93,
+    "market_value": 98253.0,
+    "total": 127274.93,
+    "exposure": 0.772,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-22",
+    "cash": 29021.93,
+    "market_value": 91144.0,
+    "total": 120165.93,
+    "exposure": 0.7585,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-23",
+    "cash": 29021.93,
+    "market_value": 89734.0,
+    "total": 118755.93,
+    "exposure": 0.7556,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-24",
+    "cash": 29021.93,
+    "market_value": 86446.0,
+    "total": 115467.93,
+    "exposure": 0.7487,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-27",
+    "cash": 29021.93,
+    "market_value": 95277.0,
+    "total": 124298.93,
+    "exposure": 0.7665,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-28",
+    "cash": 29021.93,
+    "market_value": 86678.0,
+    "total": 115699.93,
+    "exposure": 0.7492,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-29",
+    "cash": 29021.93,
+    "market_value": 85976.0,
+    "total": 114997.93,
+    "exposure": 0.7476,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-30",
+    "cash": 29021.93,
+    "market_value": 84436.0,
+    "total": 113457.93,
+    "exposure": 0.7442,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-31",
+    "cash": 29021.93,
+    "market_value": 86042.0,
+    "total": 115063.93,
+    "exposure": 0.7478,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-03",
+    "cash": 27970.3,
+    "market_value": 78090.0,
+    "total": 106060.3,
+    "exposure": 0.7363,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-04",
+    "cash": 27970.3,
+    "market_value": 85844.0,
+    "total": 113814.3,
+    "exposure": 0.7542,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-05",
+    "cash": 27970.3,
+    "market_value": 95231.0,
+    "total": 123201.3,
+    "exposure": 0.773,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-06",
+    "cash": 27970.3,
+    "market_value": 98719.0,
+    "total": 126689.3,
+    "exposure": 0.7792,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-07",
+    "cash": 27970.3,
+    "market_value": 105138.0,
+    "total": 133108.3,
+    "exposure": 0.7899,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-10",
+    "cash": 27970.3,
+    "market_value": 104624.0,
+    "total": 132594.3,
+    "exposure": 0.7891,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-11",
+    "cash": 27970.3,
+    "market_value": 105081.0,
+    "total": 133051.3,
+    "exposure": 0.7898,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-12",
+    "cash": 27970.3,
+    "market_value": 105817.0,
+    "total": 133787.3,
+    "exposure": 0.7909,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-13",
+    "cash": 27970.3,
+    "market_value": 103073.0,
+    "total": 131043.3,
+    "exposure": 0.7866,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-14",
+    "cash": 27970.3,
+    "market_value": 106846.0,
+    "total": 134816.3,
+    "exposure": 0.7925,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-17",
+    "cash": 27970.3,
+    "market_value": 111501.0,
+    "total": 139471.3,
+    "exposure": 0.7995,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-18",
+    "cash": 27970.3,
+    "market_value": 108036.0,
+    "total": 136006.3,
+    "exposure": 0.7943,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-19",
+    "cash": 27970.3,
+    "market_value": 97171.0,
+    "total": 125141.3,
+    "exposure": 0.7765,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-20",
+    "cash": 27970.3,
+    "market_value": 95872.0,
+    "total": 123842.3,
+    "exposure": 0.7741,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-21",
+    "cash": 27970.3,
+    "market_value": 96644.0,
+    "total": 124614.3,
+    "exposure": 0.7755,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-24",
+    "cash": 27970.3,
+    "market_value": 91217.0,
+    "total": 119187.3,
+    "exposure": 0.7653,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-25",
+    "cash": 27970.3,
+    "market_value": 92699.0,
+    "total": 120669.3,
+    "exposure": 0.7682,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-26",
+    "cash": 27970.3,
+    "market_value": 91837.0,
+    "total": 119807.3,
+    "exposure": 0.7665,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-27",
+    "cash": 27970.3,
+    "market_value": 98299.0,
+    "total": 126269.3,
+    "exposure": 0.7785,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-28",
+    "cash": 27970.3,
+    "market_value": 99154.0,
+    "total": 127124.3,
+    "exposure": 0.78,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-31",
+    "cash": 27970.3,
+    "market_value": 102957.0,
+    "total": 130927.3,
+    "exposure": 0.7864,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-01",
+    "cash": 22737.21,
+    "market_value": 102160.0,
+    "total": 124897.21,
+    "exposure": 0.818,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-02",
+    "cash": 22737.21,
+    "market_value": 99782.0,
+    "total": 122519.21,
+    "exposure": 0.8144,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-03",
+    "cash": 22737.21,
+    "market_value": 99696.0,
+    "total": 122433.21,
+    "exposure": 0.8143,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-04",
+    "cash": 22737.21,
+    "market_value": 95020.0,
+    "total": 117757.21,
+    "exposure": 0.8069,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-07",
+    "cash": 22737.21,
+    "market_value": 99735.0,
+    "total": 122472.21,
+    "exposure": 0.8143,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-08",
+    "cash": 22737.21,
+    "market_value": 100012.0,
+    "total": 122749.21,
+    "exposure": 0.8148,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-09",
+    "cash": 22737.21,
+    "market_value": 100217.0,
+    "total": 122954.21,
+    "exposure": 0.8151,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-10",
+    "cash": 22737.21,
+    "market_value": 104687.0,
+    "total": 127424.21,
+    "exposure": 0.8216,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-11",
+    "cash": 22737.21,
+    "market_value": 108932.0,
+    "total": 131669.21,
+    "exposure": 0.8273,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-14",
+    "cash": 22737.21,
+    "market_value": 109349.0,
+    "total": 132086.21,
+    "exposure": 0.8279,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-15",
+    "cash": 22737.21,
+    "market_value": 110298.0,
+    "total": 133035.21,
+    "exposure": 0.8291,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-16",
+    "cash": 22737.21,
+    "market_value": 111441.0,
+    "total": 134178.21,
+    "exposure": 0.8305,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-17",
+    "cash": 22737.21,
+    "market_value": 109194.0,
+    "total": 131931.21,
+    "exposure": 0.8277,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-18",
+    "cash": 22737.21,
+    "market_value": 111250.0,
+    "total": 133987.21,
+    "exposure": 0.8303,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-21",
+    "cash": 22737.21,
+    "market_value": 112443.0,
+    "total": 135180.21,
+    "exposure": 0.8318,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-22",
+    "cash": 22737.21,
+    "market_value": 113139.0,
+    "total": 135876.21,
+    "exposure": 0.8327,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-23",
+    "cash": 22737.21,
+    "market_value": 113349.0,
+    "total": 136086.21,
+    "exposure": 0.8329,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-24",
+    "cash": 22737.21,
+    "market_value": 107914.0,
+    "total": 130651.21,
+    "exposure": 0.826,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-28",
+    "cash": 22737.21,
+    "market_value": 101585.0,
+    "total": 124322.21,
+    "exposure": 0.8171,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-29",
+    "cash": 22737.21,
+    "market_value": 103396.0,
+    "total": 126133.21,
+    "exposure": 0.8197,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-09-30",
+    "cash": 22737.21,
+    "market_value": 99773.0,
+    "total": 122510.21,
+    "exposure": 0.8144,
+    "n_positions": 5
+   }
+  ],
+  "trade_log": [
+   {
+    "date": "2026-04-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 75.245,
+    "amount": 15049.03,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "BUY",
+    "shares": 100,
+    "price": 197.007,
+    "amount": 19700.68,
+    "fee": 5.2,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "BUY",
+    "shares": 300,
+    "price": 48.548,
+    "amount": 14564.55,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "BUY",
+    "shares": 100,
+    "price": 225.415,
+    "amount": 22541.52,
+    "fee": 5.86,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz301005",
+    "name": "超捷股份",
+    "side": "BUY",
+    "shares": 100,
+    "price": 119.009,
+    "amount": 11900.89,
+    "fee": 5.12,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sz301005",
+    "name": "超捷股份",
+    "side": "SELL",
+    "shares": 100,
+    "price": 123.416,
+    "amount": 12341.65,
+    "fee": 11.29,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 188.769,
+    "amount": 18876.86,
+    "fee": 5.19,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "SELL",
+    "shares": 100,
+    "price": 343.077,
+    "amount": 34307.66,
+    "fee": 26.07,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "SELL",
+    "shares": 300,
+    "price": 67.722,
+    "amount": 20316.66,
+    "fee": 15.44,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "SELL",
+    "shares": 100,
+    "price": 327.063,
+    "amount": 32706.26,
+    "fee": 24.86,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "BUY",
+    "shares": 200,
+    "price": 110.651,
+    "amount": 22130.11,
+    "fee": 5.75,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 400,
+    "price": 57.137,
+    "amount": 22854.83,
+    "fee": 5.94,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "BUY",
+    "shares": 300,
+    "price": 83.093,
+    "amount": 24927.9,
+    "fee": 6.48,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 268.281,
+    "amount": 53656.29,
+    "fee": 40.78,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "SELL",
+    "shares": 100,
+    "price": 267.382,
+    "amount": 26738.23,
+    "fee": 20.32,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "SELL",
+    "shares": 300,
+    "price": 93.816,
+    "amount": 28144.83,
+    "fee": 21.39,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 700,
+    "price": 48.028,
+    "amount": 33619.59,
+    "fee": 8.74,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 200,
+    "price": 53.533,
+    "amount": 10706.7,
+    "fee": 5.11,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 141.541,
+    "amount": 28308.28,
+    "fee": 7.36,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "BUY",
+    "shares": 500,
+    "price": 67.537,
+    "amount": 33768.73,
+    "fee": 8.78,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "SELL",
+    "shares": 200,
+    "price": 81.329,
+    "amount": 16265.72,
+    "fee": 13.3,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "SELL",
+    "shares": 600,
+    "price": 29.5,
+    "amount": 17700.28,
+    "fee": 14.03,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 65.464,
+    "amount": 13092.89,
+    "fee": 11.68,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "SELL",
+    "shares": 500,
+    "price": 30.919,
+    "amount": 15459.52,
+    "fee": 12.88,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 100,
+    "price": 124.965,
+    "amount": 12496.48,
+    "fee": 5.12,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz002636",
+    "name": "金安国纪",
+    "side": "BUY",
+    "shares": 400,
+    "price": 50.871,
+    "amount": 20348.33,
+    "fee": 5.29,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz300475",
+    "name": "香农芯创",
+    "side": "BUY",
+    "shares": 100,
+    "price": 144.765,
+    "amount": 14476.46,
+    "fee": 5.14,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301396",
+    "name": "宏景科技",
+    "side": "BUY",
+    "shares": 100,
+    "price": 161.762,
+    "amount": 16176.16,
+    "fee": 5.16,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 100,
+    "price": 150.06,
+    "amount": 15005.98,
+    "fee": 12.65,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz301396",
+    "name": "宏景科技",
+    "side": "SELL",
+    "shares": 100,
+    "price": 184.415,
+    "amount": 18441.54,
+    "fee": 14.41,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 163.844,
+    "amount": 16384.37,
+    "fee": 5.16,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz000636",
+    "name": "风华高科",
+    "side": "BUY",
+    "shares": 400,
+    "price": 55.646,
+    "amount": 22258.24,
+    "fee": 5.79,
+    "reason": "enter target"
+   }
+  ],
+  "rebalance_log": [
+   {
+    "signal_date": "2026-03-31",
+    "exec_date": "2026-04-01",
+    "picks": [
+     "sh603256",
+     "sz301377",
+     "sz000657",
+     "sz300394",
+     "sz301005"
+    ],
+    "names": [
+     "宏和科技",
+     "鼎泰高科",
+     "中钨高新",
+     "天孚通信",
+     "超捷股份"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1163,
+    "candidates_before_lot_filter": 1171,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      8.3568
+     ],
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.6009
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      5.9317
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.3128
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.4654
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      4.1638
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      3.9328
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      3.6413
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-04-30",
+    "exec_date": "2026-05-06",
+    "picks": [
+     "sz301377",
+     "sh603256",
+     "sh603929",
+     "sz300394",
+     "sz000657"
+    ],
+    "names": [
+     "鼎泰高科",
+     "宏和科技",
+     "亚翔集成",
+     "天孚通信",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1139,
+    "candidates_before_lot_filter": 1153,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.8628
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      6.819
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      6.6055
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.4258
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.1834
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.0827
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      4.0419
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      3.7396
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-05-29",
+    "exec_date": "2026-06-01",
+    "picks": [
+     "sh603256",
+     "sh603929",
+     "sz301217",
+     "sz001267",
+     "sz300390"
+    ],
+    "names": [
+     "宏和科技",
+     "亚翔集成",
+     "铜冠铜箔",
+     "汇绿生态",
+     "天华新能"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1154,
+    "candidates_before_lot_filter": 1172,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      9.7234
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.1931
+     ],
+     [
+      "sz301217",
+      "铜冠铜箔",
+      6.4045
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.5868
+     ],
+     [
+      "sz300390",
+      "天华新能",
+      5.4319
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      5.2588
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      5.1306
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.4743
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-06-30",
+    "exec_date": "2026-07-01",
+    "picks": [
+     "sz301217",
+     "sz301526",
+     "sz001267",
+     "sz301511",
+     "sh600105"
+    ],
+    "names": [
+     "铜冠铜箔",
+     "国际复材",
+     "汇绿生态",
+     "德福科技",
+     "永鼎股份"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1078,
+    "candidates_before_lot_filter": 1107,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301217",
+      "铜冠铜箔",
+      8.1273
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      5.4448
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.228
+     ],
+     [
+      "sz301511",
+      "德福科技",
+      5.1229
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      4.9625
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.8272
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.7169
+     ],
+     [
+      "sz002008",
+      "大族激光",
+      4.4551
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-07-31",
+    "exec_date": "2026-08-03",
+    "picks": [
+     "sh603256",
+     "sz002636",
+     "sz301526",
+     "sz300475",
+     "sz301396"
+    ],
+    "names": [
+     "宏和科技",
+     "金安国纪",
+     "国际复材",
+     "香农芯创",
+     "宏景科技"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1142,
+    "candidates_before_lot_filter": 1154,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      10.3051
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      9.107
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      8.5988
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      7.9156
+     ],
+     [
+      "sz301396",
+      "宏景科技",
+      7.7122
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.2455
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      6.5195
+     ],
+     [
+      "sz300620",
+      "光库科技",
+      5.8927
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-08-31",
+    "exec_date": "2026-09-01",
+    "picks": [
+     "sz301526",
+     "sh603929",
+     "sz002636",
+     "sz300475",
+     "sz000636"
+    ],
+    "names": [
+     "国际复材",
+     "亚翔集成",
+     "金安国纪",
+     "香农芯创",
+     "风华高科"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1094,
+    "candidates_before_lot_filter": 1111,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301526",
+      "国际复材",
+      3.1277
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      2.8196
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      2.6024
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      2.4695
+     ],
+     [
+      "sz000636",
+      "风华高科",
+      2.2424
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      2.0348
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      1.8968
+     ],
+     [
+      "sh605376",
+      "博迁新材",
+      1.7765
+     ]
+    ],
+    "cash_after": 22737.21
+   }
+  ],
+  "trade_dates": [
+   "2026-04-01",
+   "2026-05-06",
+   "2026-06-01",
+   "2026-07-01",
+   "2026-08-03",
+   "2026-09-01"
+  ]
+ },
+ {
+  "tag": "C 加个股趋势过滤",
+  "config": {
+   "w_each": 0.19,
+   "n_on": 5,
+   "n_off": 3,
+   "buffer": 1,
+   "min_amt": 100000000.0,
+   "trend_filter": true,
+   "regime": true,
+   "max_single": 0.25,
+   "stop": null,
+   "trail": null,
+   "rebal_months": [
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ],
+   "tag": "C 加个股趋势过滤"
+  },
+  "final": 117416.46,
+  "return": 0.174165,
+  "max_drawdown": 0.455172,
+  "dd_window": [
+   "2026-06-25",
+   "2026-08-03"
+  ],
+  "ann_vol": 0.537306,
+  "sharpe": 0.911,
+  "calmar": 0.383,
+  "trades": 28,
+  "fees": 333.16,
+  "mean_exposure": 0.6946,
+  "equity": [
+   {
+    "date": "2026-04-01",
+    "cash": 50670.24,
+    "market_value": 48404.0,
+    "total": 99074.24,
+    "exposure": 0.4886,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-02",
+    "cash": 50670.24,
+    "market_value": 45811.0,
+    "total": 96481.24,
+    "exposure": 0.4748,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-03",
+    "cash": 50670.24,
+    "market_value": 46559.0,
+    "total": 97229.24,
+    "exposure": 0.4789,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-07",
+    "cash": 50670.24,
+    "market_value": 47354.0,
+    "total": 98024.24,
+    "exposure": 0.4831,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-08",
+    "cash": 50670.24,
+    "market_value": 50537.0,
+    "total": 101207.24,
+    "exposure": 0.4993,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-09",
+    "cash": 50670.24,
+    "market_value": 50347.0,
+    "total": 101017.24,
+    "exposure": 0.4984,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-10",
+    "cash": 50670.24,
+    "market_value": 52168.0,
+    "total": 102838.24,
+    "exposure": 0.5073,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-13",
+    "cash": 50670.24,
+    "market_value": 53290.0,
+    "total": 103960.24,
+    "exposure": 0.5126,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-14",
+    "cash": 50670.24,
+    "market_value": 57204.0,
+    "total": 107874.24,
+    "exposure": 0.5303,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-15",
+    "cash": 50670.24,
+    "market_value": 56065.0,
+    "total": 106735.24,
+    "exposure": 0.5253,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-16",
+    "cash": 50670.24,
+    "market_value": 57301.0,
+    "total": 107971.24,
+    "exposure": 0.5307,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-17",
+    "cash": 50670.24,
+    "market_value": 60185.0,
+    "total": 110855.24,
+    "exposure": 0.5429,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-20",
+    "cash": 50670.24,
+    "market_value": 60871.0,
+    "total": 111541.24,
+    "exposure": 0.5457,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-21",
+    "cash": 50670.24,
+    "market_value": 61094.0,
+    "total": 111764.24,
+    "exposure": 0.5466,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-22",
+    "cash": 50670.24,
+    "market_value": 62345.0,
+    "total": 113015.24,
+    "exposure": 0.5517,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-23",
+    "cash": 50670.24,
+    "market_value": 60251.0,
+    "total": 110921.24,
+    "exposure": 0.5432,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-24",
+    "cash": 50670.24,
+    "market_value": 59389.0,
+    "total": 110059.24,
+    "exposure": 0.5396,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-27",
+    "cash": 50670.24,
+    "market_value": 60114.0,
+    "total": 110784.24,
+    "exposure": 0.5426,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-28",
+    "cash": 50670.24,
+    "market_value": 59677.0,
+    "total": 110347.24,
+    "exposure": 0.5408,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-29",
+    "cash": 50670.24,
+    "market_value": 63934.0,
+    "total": 114604.24,
+    "exposure": 0.5579,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-30",
+    "cash": 50670.24,
+    "market_value": 64560.0,
+    "total": 115230.24,
+    "exposure": 0.5603,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-06",
+    "cash": 9514.16,
+    "market_value": 110705.0,
+    "total": 120219.16,
+    "exposure": 0.9209,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-07",
+    "cash": 9514.16,
+    "market_value": 114711.0,
+    "total": 124225.16,
+    "exposure": 0.9234,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-08",
+    "cash": 9514.16,
+    "market_value": 114444.0,
+    "total": 123958.16,
+    "exposure": 0.9232,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-11",
+    "cash": 9514.16,
+    "market_value": 115439.0,
+    "total": 124953.16,
+    "exposure": 0.9239,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-12",
+    "cash": 9514.16,
+    "market_value": 114701.0,
+    "total": 124215.16,
+    "exposure": 0.9234,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-13",
+    "cash": 9514.16,
+    "market_value": 117785.0,
+    "total": 127299.16,
+    "exposure": 0.9253,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-14",
+    "cash": 9514.16,
+    "market_value": 114888.0,
+    "total": 124402.16,
+    "exposure": 0.9235,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-15",
+    "cash": 9514.16,
+    "market_value": 115555.0,
+    "total": 125069.16,
+    "exposure": 0.9239,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-18",
+    "cash": 9514.16,
+    "market_value": 114126.0,
+    "total": 123640.16,
+    "exposure": 0.923,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-19",
+    "cash": 9514.16,
+    "market_value": 112198.0,
+    "total": 121712.16,
+    "exposure": 0.9218,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-20",
+    "cash": 9514.16,
+    "market_value": 114423.0,
+    "total": 123937.16,
+    "exposure": 0.9232,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-21",
+    "cash": 9514.16,
+    "market_value": 113203.0,
+    "total": 122717.16,
+    "exposure": 0.9225,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-22",
+    "cash": 9514.16,
+    "market_value": 125411.0,
+    "total": 134925.16,
+    "exposure": 0.9295,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-25",
+    "cash": 9514.16,
+    "market_value": 132734.0,
+    "total": 142248.16,
+    "exposure": 0.9331,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-26",
+    "cash": 9514.16,
+    "market_value": 134927.0,
+    "total": 144441.16,
+    "exposure": 0.9341,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-27",
+    "cash": 9514.16,
+    "market_value": 136751.0,
+    "total": 146265.16,
+    "exposure": 0.935,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-28",
+    "cash": 9514.16,
+    "market_value": 144767.0,
+    "total": 154281.16,
+    "exposure": 0.9383,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-29",
+    "cash": 9514.16,
+    "market_value": 143088.0,
+    "total": 152602.16,
+    "exposure": 0.9377,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-01",
+    "cash": 26847.35,
+    "market_value": 118705.0,
+    "total": 145552.35,
+    "exposure": 0.8155,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-02",
+    "cash": 26847.35,
+    "market_value": 121854.0,
+    "total": 148701.35,
+    "exposure": 0.8195,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-03",
+    "cash": 26847.35,
+    "market_value": 123657.0,
+    "total": 150504.35,
+    "exposure": 0.8216,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-04",
+    "cash": 26847.35,
+    "market_value": 122836.0,
+    "total": 149683.35,
+    "exposure": 0.8206,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-05",
+    "cash": 26847.35,
+    "market_value": 124232.0,
+    "total": 151079.35,
+    "exposure": 0.8223,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-08",
+    "cash": 26847.35,
+    "market_value": 122456.0,
+    "total": 149303.35,
+    "exposure": 0.8202,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-09",
+    "cash": 26847.35,
+    "market_value": 133080.0,
+    "total": 159927.35,
+    "exposure": 0.8321,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-10",
+    "cash": 26847.35,
+    "market_value": 132683.0,
+    "total": 159530.35,
+    "exposure": 0.8317,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-11",
+    "cash": 26847.35,
+    "market_value": 138538.0,
+    "total": 165385.35,
+    "exposure": 0.8377,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-12",
+    "cash": 26847.35,
+    "market_value": 140203.0,
+    "total": 167050.35,
+    "exposure": 0.8393,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-15",
+    "cash": 26847.35,
+    "market_value": 151342.0,
+    "total": 178189.35,
+    "exposure": 0.8493,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-16",
+    "cash": 26847.35,
+    "market_value": 156104.0,
+    "total": 182951.35,
+    "exposure": 0.8533,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-17",
+    "cash": 26847.35,
+    "market_value": 160672.0,
+    "total": 187519.35,
+    "exposure": 0.8568,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-18",
+    "cash": 26847.35,
+    "market_value": 162879.0,
+    "total": 189726.35,
+    "exposure": 0.8585,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-22",
+    "cash": 26847.35,
+    "market_value": 163197.0,
+    "total": 190044.35,
+    "exposure": 0.8587,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-23",
+    "cash": 26847.35,
+    "market_value": 155682.0,
+    "total": 182529.35,
+    "exposure": 0.8529,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-24",
+    "cash": 26847.35,
+    "market_value": 168170.0,
+    "total": 195017.35,
+    "exposure": 0.8623,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-25",
+    "cash": 26847.35,
+    "market_value": 170726.0,
+    "total": 197573.35,
+    "exposure": 0.8641,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-26",
+    "cash": 26847.35,
+    "market_value": 167633.0,
+    "total": 194480.35,
+    "exposure": 0.862,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-29",
+    "cash": 26847.35,
+    "market_value": 160271.0,
+    "total": 187118.35,
+    "exposure": 0.8565,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-30",
+    "cash": 26847.35,
+    "market_value": 162562.0,
+    "total": 189409.35,
+    "exposure": 0.8583,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-01",
+    "cash": 28870.93,
+    "market_value": 158256.0,
+    "total": 187126.93,
+    "exposure": 0.8457,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-02",
+    "cash": 28870.93,
+    "market_value": 148507.0,
+    "total": 177377.93,
+    "exposure": 0.8372,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-03",
+    "cash": 28870.93,
+    "market_value": 149077.0,
+    "total": 177947.93,
+    "exposure": 0.8378,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-06",
+    "cash": 28870.93,
+    "market_value": 135140.0,
+    "total": 164010.93,
+    "exposure": 0.824,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-07",
+    "cash": 28870.93,
+    "market_value": 131898.0,
+    "total": 160768.93,
+    "exposure": 0.8204,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-08",
+    "cash": 28870.93,
+    "market_value": 124957.0,
+    "total": 153827.93,
+    "exposure": 0.8123,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-09",
+    "cash": 28870.93,
+    "market_value": 130742.0,
+    "total": 159612.93,
+    "exposure": 0.8191,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-10",
+    "cash": 28870.93,
+    "market_value": 126668.0,
+    "total": 155538.93,
+    "exposure": 0.8144,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-13",
+    "cash": 28870.93,
+    "market_value": 115585.0,
+    "total": 144455.93,
+    "exposure": 0.8001,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-14",
+    "cash": 28870.93,
+    "market_value": 127023.0,
+    "total": 155893.93,
+    "exposure": 0.8148,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-15",
+    "cash": 28870.93,
+    "market_value": 121643.0,
+    "total": 150513.93,
+    "exposure": 0.8082,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-16",
+    "cash": 28870.93,
+    "market_value": 116700.0,
+    "total": 145570.93,
+    "exposure": 0.8017,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-17",
+    "cash": 28870.93,
+    "market_value": 108112.0,
+    "total": 136982.93,
+    "exposure": 0.7892,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-20",
+    "cash": 28870.93,
+    "market_value": 91580.0,
+    "total": 120450.93,
+    "exposure": 0.7603,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-21",
+    "cash": 28870.93,
+    "market_value": 98253.0,
+    "total": 127123.93,
+    "exposure": 0.7729,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-22",
+    "cash": 28870.93,
+    "market_value": 91144.0,
+    "total": 120014.93,
+    "exposure": 0.7594,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-23",
+    "cash": 28870.93,
+    "market_value": 89734.0,
+    "total": 118604.93,
+    "exposure": 0.7566,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-24",
+    "cash": 28870.93,
+    "market_value": 86446.0,
+    "total": 115316.93,
+    "exposure": 0.7496,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-27",
+    "cash": 28870.93,
+    "market_value": 95277.0,
+    "total": 124147.93,
+    "exposure": 0.7674,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-28",
+    "cash": 28870.93,
+    "market_value": 86678.0,
+    "total": 115548.93,
+    "exposure": 0.7501,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-29",
+    "cash": 28870.93,
+    "market_value": 85976.0,
+    "total": 114846.93,
+    "exposure": 0.7486,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-30",
+    "cash": 28870.93,
+    "market_value": 84436.0,
+    "total": 113306.93,
+    "exposure": 0.7452,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-31",
+    "cash": 28870.93,
+    "market_value": 86042.0,
+    "total": 114912.93,
+    "exposure": 0.7488,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-08-03",
+    "cash": 52761.48,
+    "market_value": 54882.0,
+    "total": 107643.48,
+    "exposure": 0.5098,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-04",
+    "cash": 52761.48,
+    "market_value": 58924.0,
+    "total": 111685.48,
+    "exposure": 0.5276,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-05",
+    "cash": 52761.48,
+    "market_value": 65648.0,
+    "total": 118409.48,
+    "exposure": 0.5544,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-06",
+    "cash": 52761.48,
+    "market_value": 68727.0,
+    "total": 121488.48,
+    "exposure": 0.5657,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-07",
+    "cash": 52761.48,
+    "market_value": 74103.0,
+    "total": 126864.48,
+    "exposure": 0.5841,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-10",
+    "cash": 52761.48,
+    "market_value": 74327.0,
+    "total": 127088.48,
+    "exposure": 0.5848,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-11",
+    "cash": 52761.48,
+    "market_value": 74152.0,
+    "total": 126913.48,
+    "exposure": 0.5843,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-12",
+    "cash": 52761.48,
+    "market_value": 75020.0,
+    "total": 127781.48,
+    "exposure": 0.5871,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-13",
+    "cash": 52761.48,
+    "market_value": 71395.0,
+    "total": 124156.48,
+    "exposure": 0.575,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-14",
+    "cash": 52761.48,
+    "market_value": 73653.0,
+    "total": 126414.48,
+    "exposure": 0.5826,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-17",
+    "cash": 52761.48,
+    "market_value": 76892.0,
+    "total": 129653.48,
+    "exposure": 0.5931,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-18",
+    "cash": 52761.48,
+    "market_value": 76249.0,
+    "total": 129010.48,
+    "exposure": 0.591,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-19",
+    "cash": 52761.48,
+    "market_value": 69025.0,
+    "total": 121786.48,
+    "exposure": 0.5668,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-20",
+    "cash": 52761.48,
+    "market_value": 68193.0,
+    "total": 120954.48,
+    "exposure": 0.5638,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-21",
+    "cash": 52761.48,
+    "market_value": 68226.0,
+    "total": 120987.48,
+    "exposure": 0.5639,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-24",
+    "cash": 52761.48,
+    "market_value": 65873.0,
+    "total": 118634.48,
+    "exposure": 0.5553,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-25",
+    "cash": 52761.48,
+    "market_value": 64385.0,
+    "total": 117146.48,
+    "exposure": 0.5496,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-26",
+    "cash": 52761.48,
+    "market_value": 63905.0,
+    "total": 116666.48,
+    "exposure": 0.5478,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-27",
+    "cash": 52761.48,
+    "market_value": 67771.0,
+    "total": 120532.48,
+    "exposure": 0.5623,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-28",
+    "cash": 52761.48,
+    "market_value": 66557.0,
+    "total": 119318.48,
+    "exposure": 0.5578,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-31",
+    "cash": 52761.48,
+    "market_value": 67908.0,
+    "total": 120669.48,
+    "exposure": 0.5628,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-01",
+    "cash": 54858.46,
+    "market_value": 62326.0,
+    "total": 117184.46,
+    "exposure": 0.5319,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-02",
+    "cash": 54858.46,
+    "market_value": 60527.0,
+    "total": 115385.46,
+    "exposure": 0.5246,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-03",
+    "cash": 54858.46,
+    "market_value": 59943.0,
+    "total": 114801.46,
+    "exposure": 0.5221,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-04",
+    "cash": 54858.46,
+    "market_value": 57213.0,
+    "total": 112071.46,
+    "exposure": 0.5105,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-07",
+    "cash": 54858.46,
+    "market_value": 59810.0,
+    "total": 114668.46,
+    "exposure": 0.5216,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-08",
+    "cash": 54858.46,
+    "market_value": 59508.0,
+    "total": 114366.46,
+    "exposure": 0.5203,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-09",
+    "cash": 54858.46,
+    "market_value": 60015.0,
+    "total": 114873.46,
+    "exposure": 0.5224,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-10",
+    "cash": 54858.46,
+    "market_value": 63889.0,
+    "total": 118747.46,
+    "exposure": 0.538,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-11",
+    "cash": 54858.46,
+    "market_value": 68617.0,
+    "total": 123475.46,
+    "exposure": 0.5557,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-14",
+    "cash": 54858.46,
+    "market_value": 69905.0,
+    "total": 124763.46,
+    "exposure": 0.5603,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-15",
+    "cash": 54858.46,
+    "market_value": 70461.0,
+    "total": 125319.46,
+    "exposure": 0.5623,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-16",
+    "cash": 54858.46,
+    "market_value": 70593.0,
+    "total": 125451.46,
+    "exposure": 0.5627,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-17",
+    "cash": 54858.46,
+    "market_value": 68992.0,
+    "total": 123850.46,
+    "exposure": 0.5571,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-18",
+    "cash": 54858.46,
+    "market_value": 69364.0,
+    "total": 124222.46,
+    "exposure": 0.5584,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-21",
+    "cash": 54858.46,
+    "market_value": 70038.0,
+    "total": 124896.46,
+    "exposure": 0.5608,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-22",
+    "cash": 54858.46,
+    "market_value": 70474.0,
+    "total": 125332.46,
+    "exposure": 0.5623,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-23",
+    "cash": 54858.46,
+    "market_value": 70858.0,
+    "total": 125716.46,
+    "exposure": 0.5636,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-24",
+    "cash": 54858.46,
+    "market_value": 67119.0,
+    "total": 121977.46,
+    "exposure": 0.5503,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-28",
+    "cash": 54858.46,
+    "market_value": 63320.0,
+    "total": 118178.46,
+    "exposure": 0.5358,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-29",
+    "cash": 54858.46,
+    "market_value": 64797.0,
+    "total": 119655.46,
+    "exposure": 0.5415,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-30",
+    "cash": 54858.46,
+    "market_value": 62558.0,
+    "total": 117416.46,
+    "exposure": 0.5328,
+    "n_positions": 3
+   }
+  ],
+  "trade_log": [
+   {
+    "date": "2026-04-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 75.245,
+    "amount": 15049.03,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "BUY",
+    "shares": 100,
+    "price": 197.007,
+    "amount": 19700.68,
+    "fee": 5.2,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "BUY",
+    "shares": 300,
+    "price": 48.548,
+    "amount": 14564.55,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 188.769,
+    "amount": 18876.86,
+    "fee": 5.19,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "BUY",
+    "shares": 100,
+    "price": 222.682,
+    "amount": 22268.25,
+    "fee": 5.79,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "SELL",
+    "shares": 100,
+    "price": 343.077,
+    "amount": 34307.66,
+    "fee": 26.07,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "SELL",
+    "shares": 300,
+    "price": 67.722,
+    "amount": 20316.66,
+    "fee": 15.44,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "SELL",
+    "shares": 100,
+    "price": 327.063,
+    "amount": 32706.26,
+    "fee": 24.86,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "BUY",
+    "shares": 200,
+    "price": 110.651,
+    "amount": 22130.11,
+    "fee": 5.75,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 400,
+    "price": 57.137,
+    "amount": 22854.83,
+    "fee": 5.94,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "BUY",
+    "shares": 300,
+    "price": 83.093,
+    "amount": 24927.9,
+    "fee": 6.48,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 268.281,
+    "amount": 53656.29,
+    "fee": 40.78,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "SELL",
+    "shares": 100,
+    "price": 267.382,
+    "amount": 26738.23,
+    "fee": 20.32,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "SELL",
+    "shares": 300,
+    "price": 93.816,
+    "amount": 28144.83,
+    "fee": 21.39,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 700,
+    "price": 48.028,
+    "amount": 33619.59,
+    "fee": 8.74,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 200,
+    "price": 53.533,
+    "amount": 10706.7,
+    "fee": 5.11,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 141.541,
+    "amount": 28308.28,
+    "fee": 7.36,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "BUY",
+    "shares": 500,
+    "price": 67.537,
+    "amount": 33768.73,
+    "fee": 8.78,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "SELL",
+    "shares": 200,
+    "price": 81.329,
+    "amount": 16265.72,
+    "fee": 13.3,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "SELL",
+    "shares": 600,
+    "price": 29.5,
+    "amount": 17700.28,
+    "fee": 14.03,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 65.464,
+    "amount": 13092.89,
+    "fee": 11.68,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "SELL",
+    "shares": 500,
+    "price": 30.919,
+    "amount": 15459.52,
+    "fee": 12.88,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh600176",
+    "name": "中国巨石",
+    "side": "BUY",
+    "shares": 500,
+    "price": 36.597,
+    "amount": 18298.28,
+    "fee": 5.18,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz300666",
+    "name": "江丰电子",
+    "side": "BUY",
+    "shares": 100,
+    "price": 202.672,
+    "amount": 20267.25,
+    "fee": 5.27,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sh600176",
+    "name": "中国巨石",
+    "side": "SELL",
+    "shares": 500,
+    "price": 45.305,
+    "amount": 22652.33,
+    "fee": 17.22,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz300666",
+    "name": "江丰电子",
+    "side": "SELL",
+    "shares": 100,
+    "price": 242.757,
+    "amount": 24275.7,
+    "fee": 18.45,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz002636",
+    "name": "金安国纪",
+    "side": "BUY",
+    "shares": 300,
+    "price": 75.085,
+    "amount": 22525.5,
+    "fee": 5.86,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz000636",
+    "name": "风华高科",
+    "side": "BUY",
+    "shares": 400,
+    "price": 55.646,
+    "amount": 22258.24,
+    "fee": 5.79,
+    "reason": "enter target"
+   }
+  ],
+  "rebalance_log": [
+   {
+    "signal_date": "2026-03-31",
+    "exec_date": "2026-04-01",
+    "picks": [
+     "sh603256",
+     "sz301377",
+     "sz000657"
+    ],
+    "names": [
+     "宏和科技",
+     "鼎泰高科",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 444,
+    "candidates_before_lot_filter": 451,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      8.3568
+     ],
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.6009
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      5.9317
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.3128
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.4654
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      4.1638
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      3.9328
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      3.6413
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-04-30",
+    "exec_date": "2026-05-06",
+    "picks": [
+     "sz301377",
+     "sh603256",
+     "sh603929",
+     "sz300394",
+     "sz000657"
+    ],
+    "names": [
+     "鼎泰高科",
+     "宏和科技",
+     "亚翔集成",
+     "天孚通信",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 537,
+    "candidates_before_lot_filter": 549,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.8628
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      6.819
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      6.6055
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.4258
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.1834
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.0827
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      4.0419
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      3.7396
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-05-29",
+    "exec_date": "2026-06-01",
+    "picks": [
+     "sh603256",
+     "sh603929",
+     "sz301217",
+     "sz001267",
+     "sz300390"
+    ],
+    "names": [
+     "宏和科技",
+     "亚翔集成",
+     "铜冠铜箔",
+     "汇绿生态",
+     "天华新能"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 388,
+    "candidates_before_lot_filter": 404,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      9.7234
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.1931
+     ],
+     [
+      "sz301217",
+      "铜冠铜箔",
+      6.4045
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.5868
+     ],
+     [
+      "sz300390",
+      "天华新能",
+      5.4319
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      5.2588
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      5.1306
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.4743
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-06-30",
+    "exec_date": "2026-07-01",
+    "picks": [
+     "sz301217",
+     "sz301526",
+     "sz001267",
+     "sz301511",
+     "sh600105"
+    ],
+    "names": [
+     "铜冠铜箔",
+     "国际复材",
+     "汇绿生态",
+     "德福科技",
+     "永鼎股份"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 272,
+    "candidates_before_lot_filter": 299,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301217",
+      "铜冠铜箔",
+      8.1273
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      5.4448
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.228
+     ],
+     [
+      "sz301511",
+      "德福科技",
+      5.1229
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      4.9625
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.8272
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.7169
+     ],
+     [
+      "sz002008",
+      "大族激光",
+      4.4551
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-07-31",
+    "exec_date": "2026-08-03",
+    "picks": [
+     "sz301526",
+     "sh600176",
+     "sz300666"
+    ],
+    "names": [
+     "国际复材",
+     "中国巨石",
+     "江丰电子"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 248,
+    "candidates_before_lot_filter": 254,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301526",
+      "国际复材",
+      8.5988
+     ],
+     [
+      "sh600176",
+      "中国巨石",
+      5.2009
+     ],
+     [
+      "sz300666",
+      "江丰电子",
+      4.3482
+     ],
+     [
+      "sz000636",
+      "风华高科",
+      4.22
+     ],
+     [
+      "sz300408",
+      "三环集团",
+      4.1134
+     ],
+     [
+      "sz301200",
+      "大族数控",
+      3.6899
+     ],
+     [
+      "sh600667",
+      "太极实业",
+      3.4808
+     ],
+     [
+      "sz000811",
+      "冰轮环境",
+      3.4408
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-08-31",
+    "exec_date": "2026-09-01",
+    "picks": [
+     "sz301526",
+     "sz002636",
+     "sz000636"
+    ],
+    "names": [
+     "国际复材",
+     "金安国纪",
+     "风华高科"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 347,
+    "candidates_before_lot_filter": 358,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301526",
+      "国际复材",
+      3.1277
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      2.6024
+     ],
+     [
+      "sz000636",
+      "风华高科",
+      2.2424
+     ],
+     [
+      "sh601872",
+      "招商轮船",
+      1.7212
+     ],
+     [
+      "sz000703",
+      "恒逸石化",
+      1.7123
+     ],
+     [
+      "sz000811",
+      "冰轮环境",
+      1.6561
+     ],
+     [
+      "sz300408",
+      "三环集团",
+      1.5515
+     ],
+     [
+      "sz300666",
+      "江丰电子",
+      1.5235
+     ]
+    ],
+    "cash_after": 54858.46
+   }
+  ],
+  "trade_dates": [
+   "2026-04-01",
+   "2026-05-06",
+   "2026-06-01",
+   "2026-07-01",
+   "2026-08-03",
+   "2026-09-01"
+  ]
+ },
+ {
+  "tag": "D 主策略+移动止损12%",
+  "config": {
+   "w_each": 0.19,
+   "n_on": 5,
+   "n_off": 3,
+   "buffer": 1,
+   "min_amt": 100000000.0,
+   "trend_filter": false,
+   "regime": true,
+   "max_single": 0.25,
+   "stop": null,
+   "trail": 0.12,
+   "rebal_months": [
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ],
+   "tag": "D 主策略+移动止损12%"
+  },
+  "final": 147740.32,
+  "return": 0.477403,
+  "max_drawdown": 0.159163,
+  "dd_window": [
+   "2026-06-26",
+   "2026-08-03"
+  ],
+  "ann_vol": 0.330384,
+  "sharpe": 2.626,
+  "calmar": 2.999,
+  "trades": 41,
+  "fees": 495.51,
+  "mean_exposure": 0.4148,
+  "equity": [
+   {
+    "date": "2026-04-01",
+    "cash": 50670.24,
+    "market_value": 48404.0,
+    "total": 99074.24,
+    "exposure": 0.4886,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-02",
+    "cash": 50670.24,
+    "market_value": 45811.0,
+    "total": 96481.24,
+    "exposure": 0.4748,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-03",
+    "cash": 50670.24,
+    "market_value": 46559.0,
+    "total": 97229.24,
+    "exposure": 0.4789,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-07",
+    "cash": 50670.24,
+    "market_value": 47354.0,
+    "total": 98024.24,
+    "exposure": 0.4831,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-08",
+    "cash": 50670.24,
+    "market_value": 50537.0,
+    "total": 101207.24,
+    "exposure": 0.4993,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-09",
+    "cash": 50670.24,
+    "market_value": 50347.0,
+    "total": 101017.24,
+    "exposure": 0.4984,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-10",
+    "cash": 50670.24,
+    "market_value": 52168.0,
+    "total": 102838.24,
+    "exposure": 0.5073,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-13",
+    "cash": 50670.24,
+    "market_value": 53290.0,
+    "total": 103960.24,
+    "exposure": 0.5126,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-14",
+    "cash": 50670.24,
+    "market_value": 57204.0,
+    "total": 107874.24,
+    "exposure": 0.5303,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-15",
+    "cash": 50670.24,
+    "market_value": 56065.0,
+    "total": 106735.24,
+    "exposure": 0.5253,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-16",
+    "cash": 50670.24,
+    "market_value": 57301.0,
+    "total": 107971.24,
+    "exposure": 0.5307,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-17",
+    "cash": 50670.24,
+    "market_value": 60185.0,
+    "total": 110855.24,
+    "exposure": 0.5429,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-20",
+    "cash": 50670.24,
+    "market_value": 60871.0,
+    "total": 111541.24,
+    "exposure": 0.5457,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-21",
+    "cash": 50670.24,
+    "market_value": 61094.0,
+    "total": 111764.24,
+    "exposure": 0.5466,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-22",
+    "cash": 50670.24,
+    "market_value": 62345.0,
+    "total": 113015.24,
+    "exposure": 0.5517,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-23",
+    "cash": 50670.24,
+    "market_value": 60251.0,
+    "total": 110921.24,
+    "exposure": 0.5432,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-24",
+    "cash": 50670.24,
+    "market_value": 59389.0,
+    "total": 110059.24,
+    "exposure": 0.5396,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-27",
+    "cash": 50670.24,
+    "market_value": 60114.0,
+    "total": 110784.24,
+    "exposure": 0.5426,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-28",
+    "cash": 50670.24,
+    "market_value": 59677.0,
+    "total": 110347.24,
+    "exposure": 0.5408,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-29",
+    "cash": 50670.24,
+    "market_value": 63934.0,
+    "total": 114604.24,
+    "exposure": 0.5579,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-30",
+    "cash": 50670.24,
+    "market_value": 64560.0,
+    "total": 115230.24,
+    "exposure": 0.5603,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-06",
+    "cash": 9514.16,
+    "market_value": 110705.0,
+    "total": 120219.16,
+    "exposure": 0.9209,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-07",
+    "cash": 9514.16,
+    "market_value": 114711.0,
+    "total": 124225.16,
+    "exposure": 0.9234,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-08",
+    "cash": 9514.16,
+    "market_value": 114444.0,
+    "total": 123958.16,
+    "exposure": 0.9232,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-11",
+    "cash": 9514.16,
+    "market_value": 115439.0,
+    "total": 124953.16,
+    "exposure": 0.9239,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-12",
+    "cash": 9514.16,
+    "market_value": 114701.0,
+    "total": 124215.16,
+    "exposure": 0.9234,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-13",
+    "cash": 9514.16,
+    "market_value": 117785.0,
+    "total": 127299.16,
+    "exposure": 0.9253,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-14",
+    "cash": 9514.16,
+    "market_value": 114888.0,
+    "total": 124402.16,
+    "exposure": 0.9235,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-15",
+    "cash": 9514.16,
+    "market_value": 115555.0,
+    "total": 125069.16,
+    "exposure": 0.9239,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-05-18",
+    "cash": 35749.92,
+    "market_value": 87844.0,
+    "total": 123593.92,
+    "exposure": 0.7107,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-05-19",
+    "cash": 51854.57,
+    "market_value": 68648.0,
+    "total": 120502.57,
+    "exposure": 0.5697,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-20",
+    "cash": 51854.57,
+    "market_value": 68952.0,
+    "total": 120806.57,
+    "exposure": 0.5708,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-21",
+    "cash": 93928.8,
+    "market_value": 25786.0,
+    "total": 119714.8,
+    "exposure": 0.2154,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-22",
+    "cash": 93928.8,
+    "market_value": 30963.0,
+    "total": 124891.8,
+    "exposure": 0.2479,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-25",
+    "cash": 93928.8,
+    "market_value": 32649.0,
+    "total": 126577.8,
+    "exposure": 0.2579,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-26",
+    "cash": 93928.8,
+    "market_value": 32623.0,
+    "total": 126551.8,
+    "exposure": 0.2578,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-27",
+    "cash": 93928.8,
+    "market_value": 34608.0,
+    "total": 128536.8,
+    "exposure": 0.2692,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-28",
+    "cash": 93928.8,
+    "market_value": 36862.0,
+    "total": 130790.8,
+    "exposure": 0.2818,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-29",
+    "cash": 93928.8,
+    "market_value": 34972.0,
+    "total": 128900.8,
+    "exposure": 0.2713,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-01",
+    "cash": 33528.63,
+    "market_value": 92032.0,
+    "total": 125560.63,
+    "exposure": 0.733,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-02",
+    "cash": 33528.63,
+    "market_value": 93851.0,
+    "total": 127379.63,
+    "exposure": 0.7368,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-03",
+    "cash": 33528.63,
+    "market_value": 95789.0,
+    "total": 129317.63,
+    "exposure": 0.7407,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-04",
+    "cash": 33528.63,
+    "market_value": 95469.0,
+    "total": 128997.63,
+    "exposure": 0.7401,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-05",
+    "cash": 33528.63,
+    "market_value": 96583.0,
+    "total": 130111.63,
+    "exposure": 0.7423,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-06-08",
+    "cash": 53473.47,
+    "market_value": 76004.0,
+    "total": 129477.47,
+    "exposure": 0.587,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-09",
+    "cash": 53473.47,
+    "market_value": 83262.0,
+    "total": 136735.47,
+    "exposure": 0.6089,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-10",
+    "cash": 53473.47,
+    "market_value": 83906.0,
+    "total": 137379.47,
+    "exposure": 0.6108,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-11",
+    "cash": 53473.47,
+    "market_value": 88423.0,
+    "total": 141896.47,
+    "exposure": 0.6232,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-12",
+    "cash": 53473.47,
+    "market_value": 90012.0,
+    "total": 143485.47,
+    "exposure": 0.6273,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-15",
+    "cash": 53473.47,
+    "market_value": 97698.0,
+    "total": 151171.47,
+    "exposure": 0.6463,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-16",
+    "cash": 53473.47,
+    "market_value": 100415.0,
+    "total": 153888.47,
+    "exposure": 0.6525,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-17",
+    "cash": 53473.47,
+    "market_value": 103631.0,
+    "total": 157104.47,
+    "exposure": 0.6596,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-18",
+    "cash": 53473.47,
+    "market_value": 104967.0,
+    "total": 158440.47,
+    "exposure": 0.6625,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-22",
+    "cash": 53473.47,
+    "market_value": 105168.0,
+    "total": 158641.47,
+    "exposure": 0.6629,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-06-23",
+    "cash": 88391.93,
+    "market_value": 63231.0,
+    "total": 151622.93,
+    "exposure": 0.417,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-06-24",
+    "cash": 88391.93,
+    "market_value": 69587.0,
+    "total": 157978.93,
+    "exposure": 0.4405,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-06-25",
+    "cash": 88391.93,
+    "market_value": 72014.0,
+    "total": 160405.93,
+    "exposure": 0.4489,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-06-26",
+    "cash": 105177.55,
+    "market_value": 55620.0,
+    "total": 160797.55,
+    "exposure": 0.3459,
+    "n_positions": 2
+   },
+   {
+    "date": "2026-06-29",
+    "cash": 105177.55,
+    "market_value": 54185.0,
+    "total": 159362.55,
+    "exposure": 0.34,
+    "n_positions": 2
+   },
+   {
+    "date": "2026-06-30",
+    "cash": 105177.55,
+    "market_value": 53570.0,
+    "total": 158747.55,
+    "exposure": 0.3375,
+    "n_positions": 2
+   },
+   {
+    "date": "2026-07-01",
+    "cash": 31145.82,
+    "market_value": 125793.0,
+    "total": 156938.82,
+    "exposure": 0.8015,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-02",
+    "cash": 31145.82,
+    "market_value": 117895.0,
+    "total": 149040.82,
+    "exposure": 0.791,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-03",
+    "cash": 54093.38,
+    "market_value": 97097.0,
+    "total": 151190.38,
+    "exposure": 0.6422,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-07-06",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-07",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-08",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-09",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-10",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-13",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-14",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-15",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-16",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-17",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-20",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-21",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-22",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-23",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-24",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-27",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-28",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-29",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-30",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-31",
+    "cash": 141353.21,
+    "market_value": 0,
+    "total": 141353.21,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-03",
+    "cash": 66176.59,
+    "market_value": 69028.0,
+    "total": 135204.59,
+    "exposure": 0.5105,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-04",
+    "cash": 66176.59,
+    "market_value": 74629.0,
+    "total": 140805.59,
+    "exposure": 0.53,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-05",
+    "cash": 66176.59,
+    "market_value": 83064.0,
+    "total": 149240.59,
+    "exposure": 0.5566,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-06",
+    "cash": 66176.59,
+    "market_value": 87903.0,
+    "total": 154079.59,
+    "exposure": 0.5705,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-07",
+    "cash": 66176.59,
+    "market_value": 95116.0,
+    "total": 161292.59,
+    "exposure": 0.5897,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-10",
+    "cash": 66176.59,
+    "market_value": 95394.0,
+    "total": 161570.59,
+    "exposure": 0.5904,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-11",
+    "cash": 66176.59,
+    "market_value": 96076.0,
+    "total": 162252.59,
+    "exposure": 0.5921,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-12",
+    "cash": 66176.59,
+    "market_value": 96133.0,
+    "total": 162309.59,
+    "exposure": 0.5923,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-13",
+    "cash": 66176.59,
+    "market_value": 92278.0,
+    "total": 158454.59,
+    "exposure": 0.5824,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-14",
+    "cash": 66176.59,
+    "market_value": 94483.0,
+    "total": 160659.59,
+    "exposure": 0.5881,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-17",
+    "cash": 66176.59,
+    "market_value": 98641.0,
+    "total": 164817.59,
+    "exposure": 0.5985,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-18",
+    "cash": 66176.59,
+    "market_value": 95663.0,
+    "total": 161839.59,
+    "exposure": 0.5911,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-08-19",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-20",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-21",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-24",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-25",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-26",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-27",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-28",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-31",
+    "cash": 152329.76,
+    "market_value": 0,
+    "total": 152329.76,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-01",
+    "cash": 84734.77,
+    "market_value": 62786.0,
+    "total": 147520.77,
+    "exposure": 0.4256,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-02",
+    "cash": 84734.77,
+    "market_value": 61620.0,
+    "total": 146354.77,
+    "exposure": 0.421,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-03",
+    "cash": 84734.77,
+    "market_value": 60494.0,
+    "total": 145228.77,
+    "exposure": 0.4165,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-04",
+    "cash": 84734.77,
+    "market_value": 57986.0,
+    "total": 142720.77,
+    "exposure": 0.4063,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-07",
+    "cash": 84734.77,
+    "market_value": 60555.0,
+    "total": 145289.77,
+    "exposure": 0.4168,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-08",
+    "cash": 84734.77,
+    "market_value": 60674.0,
+    "total": 145408.77,
+    "exposure": 0.4173,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-09",
+    "cash": 84734.77,
+    "market_value": 61445.0,
+    "total": 146179.77,
+    "exposure": 0.4203,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-10",
+    "cash": 84734.77,
+    "market_value": 65248.0,
+    "total": 149982.77,
+    "exposure": 0.435,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-11",
+    "cash": 84734.77,
+    "market_value": 67663.0,
+    "total": 152397.77,
+    "exposure": 0.444,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-14",
+    "cash": 84734.77,
+    "market_value": 67571.0,
+    "total": 152305.77,
+    "exposure": 0.4437,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-15",
+    "cash": 84734.77,
+    "market_value": 69088.0,
+    "total": 153822.77,
+    "exposure": 0.4491,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-16",
+    "cash": 84734.77,
+    "market_value": 69570.0,
+    "total": 154304.77,
+    "exposure": 0.4509,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-17",
+    "cash": 84734.77,
+    "market_value": 68623.0,
+    "total": 153357.77,
+    "exposure": 0.4475,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-18",
+    "cash": 84734.77,
+    "market_value": 68688.0,
+    "total": 153422.77,
+    "exposure": 0.4477,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-21",
+    "cash": 84734.77,
+    "market_value": 68549.0,
+    "total": 153283.77,
+    "exposure": 0.4472,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-22",
+    "cash": 84734.77,
+    "market_value": 69561.0,
+    "total": 154295.77,
+    "exposure": 0.4508,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-23",
+    "cash": 84734.77,
+    "market_value": 69297.0,
+    "total": 154031.77,
+    "exposure": 0.4499,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-24",
+    "cash": 84734.77,
+    "market_value": 65973.0,
+    "total": 150707.77,
+    "exposure": 0.4378,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-09-28",
+    "cash": 123905.32,
+    "market_value": 23790.0,
+    "total": 147695.32,
+    "exposure": 0.1611,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-09-29",
+    "cash": 123905.32,
+    "market_value": 24909.0,
+    "total": 148814.32,
+    "exposure": 0.1674,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-09-30",
+    "cash": 123905.32,
+    "market_value": 23835.0,
+    "total": 147740.32,
+    "exposure": 0.1613,
+    "n_positions": 1
+   }
+  ],
+  "trade_log": [
+   {
+    "date": "2026-04-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 75.245,
+    "amount": 15049.03,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "BUY",
+    "shares": 100,
+    "price": 197.007,
+    "amount": 19700.68,
+    "fee": 5.2,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "BUY",
+    "shares": 300,
+    "price": 48.548,
+    "amount": 14564.55,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 188.769,
+    "amount": 18876.86,
+    "fee": 5.19,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-06",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "BUY",
+    "shares": 100,
+    "price": 222.682,
+    "amount": 22268.25,
+    "fee": 5.79,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-19",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 131.279,
+    "amount": 26255.72,
+    "fee": 19.95,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-05-20",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "SELL",
+    "shares": 300,
+    "price": 53.726,
+    "amount": 16117.87,
+    "fee": 13.22,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-05-22",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "SELL",
+    "shares": 100,
+    "price": 175.175,
+    "amount": 17517.47,
+    "fee": 13.93,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-05-22",
+    "code": "sz300394",
+    "name": "天孚通信",
+    "side": "SELL",
+    "shares": 100,
+    "price": 245.894,
+    "amount": 24589.39,
+    "fee": 18.69,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "SELL",
+    "shares": 100,
+    "price": 343.077,
+    "amount": 34307.66,
+    "fee": 26.07,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 100,
+    "price": 182.052,
+    "amount": 18205.19,
+    "fee": 5.18,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 148.458,
+    "amount": 14845.83,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "BUY",
+    "shares": 200,
+    "price": 110.651,
+    "amount": 22130.11,
+    "fee": 5.75,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 400,
+    "price": 57.137,
+    "amount": 22854.83,
+    "fee": 5.94,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-01",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "BUY",
+    "shares": 200,
+    "price": 83.093,
+    "amount": 16618.6,
+    "fee": 5.17,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-06-09",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "SELL",
+    "shares": 400,
+    "price": 49.9,
+    "amount": 19960.02,
+    "fee": 15.18,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-06-24",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "SELL",
+    "shares": 200,
+    "price": 174.725,
+    "amount": 34945.02,
+    "fee": 26.56,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-06-29",
+    "code": "sz300390",
+    "name": "天华新能",
+    "side": "SELL",
+    "shares": 200,
+    "price": 83.996,
+    "amount": 16799.18,
+    "fee": 13.57,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 100,
+    "price": 268.281,
+    "amount": 26828.15,
+    "fee": 20.39,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "SELL",
+    "shares": 100,
+    "price": 267.382,
+    "amount": 26738.23,
+    "fee": 20.32,
+    "reason": "leave target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "BUY",
+    "shares": 100,
+    "price": 166.166,
+    "amount": 16616.6,
+    "fee": 5.17,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 600,
+    "price": 48.028,
+    "amount": 28816.79,
+    "fee": 7.49,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 500,
+    "price": 53.533,
+    "amount": 26766.74,
+    "fee": 6.96,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 141.541,
+    "amount": 28308.28,
+    "fee": 7.36,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "BUY",
+    "shares": 400,
+    "price": 67.537,
+    "amount": 27014.99,
+    "fee": 7.02,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-06",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "SELL",
+    "shares": 400,
+    "price": 57.413,
+    "amount": 22965.01,
+    "fee": 17.45,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "SELL",
+    "shares": 100,
+    "price": 144.655,
+    "amount": 14465.52,
+    "fee": 12.38,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "SELL",
+    "shares": 600,
+    "price": 41.429,
+    "amount": 24857.12,
+    "fee": 18.89,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "SELL",
+    "shares": 500,
+    "price": 43.686,
+    "amount": 21843.13,
+    "fee": 16.6,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 130.809,
+    "amount": 26161.81,
+    "fee": 19.88,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 124.965,
+    "amount": 24992.97,
+    "fee": 6.5,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz002636",
+    "name": "金安国纪",
+    "side": "BUY",
+    "shares": 500,
+    "price": 50.871,
+    "amount": 25435.41,
+    "fee": 6.61,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-03",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 800,
+    "price": 30.911,
+    "amount": 24728.7,
+    "fee": 6.43,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-08-20",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 141.358,
+    "amount": 28271.7,
+    "fee": 21.49,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-08-20",
+    "code": "sz002636",
+    "name": "金安国纪",
+    "side": "SELL",
+    "shares": 500,
+    "price": 60.989,
+    "amount": 30494.47,
+    "fee": 23.18,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-08-20",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "SELL",
+    "shares": 800,
+    "price": 34.316,
+    "amount": 27452.52,
+    "fee": 20.86,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 900,
+    "price": 31.852,
+    "amount": 28666.64,
+    "fee": 7.45,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "BUY",
+    "shares": 100,
+    "price": 163.844,
+    "amount": 16384.37,
+    "fee": 5.16,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-01",
+    "code": "sz002636",
+    "name": "金安国纪",
+    "side": "BUY",
+    "shares": 300,
+    "price": 75.085,
+    "amount": 22525.5,
+    "fee": 5.86,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-09-29",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "SELL",
+    "shares": 900,
+    "price": 27.662,
+    "amount": 24896.08,
+    "fee": 18.92,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-09-29",
+    "code": "sh603929",
+    "name": "亚翔集成",
+    "side": "SELL",
+    "shares": 100,
+    "price": 143.057,
+    "amount": 14305.68,
+    "fee": 12.3,
+    "reason": "trail -12% from peak"
+   }
+  ],
+  "rebalance_log": [
+   {
+    "signal_date": "2026-03-31",
+    "exec_date": "2026-04-01",
+    "picks": [
+     "sh603256",
+     "sz301377",
+     "sz000657"
+    ],
+    "names": [
+     "宏和科技",
+     "鼎泰高科",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 1163,
+    "candidates_before_lot_filter": 1171,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      8.3568
+     ],
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.6009
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      5.9317
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.3128
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.4654
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      4.1638
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      3.9328
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      3.6413
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-04-30",
+    "exec_date": "2026-05-06",
+    "picks": [
+     "sz301377",
+     "sh603256",
+     "sh603929",
+     "sz300394",
+     "sz000657"
+    ],
+    "names": [
+     "鼎泰高科",
+     "宏和科技",
+     "亚翔集成",
+     "天孚通信",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1139,
+    "candidates_before_lot_filter": 1153,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.8628
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      6.819
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      6.6055
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.4258
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.1834
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.0827
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      4.0419
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      3.7396
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-05-29",
+    "exec_date": "2026-06-01",
+    "picks": [
+     "sh603256",
+     "sh603929",
+     "sz301217",
+     "sz001267",
+     "sz300390"
+    ],
+    "names": [
+     "宏和科技",
+     "亚翔集成",
+     "铜冠铜箔",
+     "汇绿生态",
+     "天华新能"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1154,
+    "candidates_before_lot_filter": 1172,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      9.7234
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.1931
+     ],
+     [
+      "sz301217",
+      "铜冠铜箔",
+      6.4045
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.5868
+     ],
+     [
+      "sz300390",
+      "天华新能",
+      5.4319
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      5.2588
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      5.1306
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.4743
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-06-30",
+    "exec_date": "2026-07-01",
+    "picks": [
+     "sz301217",
+     "sz301526",
+     "sz001267",
+     "sz301511",
+     "sh600105"
+    ],
+    "names": [
+     "铜冠铜箔",
+     "国际复材",
+     "汇绿生态",
+     "德福科技",
+     "永鼎股份"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 1078,
+    "candidates_before_lot_filter": 1107,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301217",
+      "铜冠铜箔",
+      8.1273
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      5.4448
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.228
+     ],
+     [
+      "sz301511",
+      "德福科技",
+      5.1229
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      4.9625
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.8272
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.7169
+     ],
+     [
+      "sz002008",
+      "大族激光",
+      4.4551
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-07-31",
+    "exec_date": "2026-08-03",
+    "picks": [
+     "sh603256",
+     "sz002636",
+     "sz301526"
+    ],
+    "names": [
+     "宏和科技",
+     "金安国纪",
+     "国际复材"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 1142,
+    "candidates_before_lot_filter": 1154,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      10.3051
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      9.107
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      8.5988
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      7.9156
+     ],
+     [
+      "sz301396",
+      "宏景科技",
+      7.7122
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      7.2455
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      6.5195
+     ],
+     [
+      "sz300620",
+      "光库科技",
+      5.8927
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-08-31",
+    "exec_date": "2026-09-01",
+    "picks": [
+     "sz301526",
+     "sh603929",
+     "sz002636"
+    ],
+    "names": [
+     "国际复材",
+     "亚翔集成",
+     "金安国纪"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 1094,
+    "candidates_before_lot_filter": 1111,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301526",
+      "国际复材",
+      3.1277
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      2.8196
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      2.6024
+     ],
+     [
+      "sz300475",
+      "香农芯创",
+      2.4695
+     ],
+     [
+      "sz000636",
+      "风华高科",
+      2.2424
+     ],
+     [
+      "sh603256",
+      "宏和科技",
+      2.0348
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      1.8968
+     ],
+     [
+      "sh605376",
+      "博迁新材",
+      1.7765
+     ]
+    ],
+    "cash_after": 84734.77
+   }
+  ],
+  "trade_dates": [
+   "2026-04-01",
+   "2026-05-06",
+   "2026-05-19",
+   "2026-05-20",
+   "2026-05-22",
+   "2026-06-01",
+   "2026-06-09",
+   "2026-06-24",
+   "2026-06-29",
+   "2026-07-01",
+   "2026-07-06",
+   "2026-07-07",
+   "2026-08-03",
+   "2026-08-20",
+   "2026-09-01",
+   "2026-09-29"
+  ]
+ },
+ {
+  "tag": "E 季度调仓+趋势+移动止损",
+  "config": {
+   "w_each": 0.19,
+   "n_on": 5,
+   "n_off": 3,
+   "buffer": 1,
+   "min_amt": 100000000.0,
+   "trend_filter": true,
+   "regime": true,
+   "max_single": 0.25,
+   "stop": null,
+   "trail": 0.12,
+   "rebal_months": [
+    "2026-03",
+    "2026-06"
+   ],
+   "tag": "E 季度调仓+趋势+移动止损"
+  },
+  "final": 132926.81,
+  "return": 0.329268,
+  "max_drawdown": 0.163302,
+  "dd_window": [
+   "2026-06-22",
+   "2026-07-06"
+  ],
+  "ann_vol": 0.241845,
+  "sharpe": 2.592,
+  "calmar": 2.016,
+  "trades": 16,
+  "fees": 195.27,
+  "mean_exposure": 0.2143,
+  "equity": [
+   {
+    "date": "2026-04-01",
+    "cash": 50670.24,
+    "market_value": 48404.0,
+    "total": 99074.24,
+    "exposure": 0.4886,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-02",
+    "cash": 50670.24,
+    "market_value": 45811.0,
+    "total": 96481.24,
+    "exposure": 0.4748,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-03",
+    "cash": 50670.24,
+    "market_value": 46559.0,
+    "total": 97229.24,
+    "exposure": 0.4789,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-07",
+    "cash": 50670.24,
+    "market_value": 47354.0,
+    "total": 98024.24,
+    "exposure": 0.4831,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-08",
+    "cash": 50670.24,
+    "market_value": 50537.0,
+    "total": 101207.24,
+    "exposure": 0.4993,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-09",
+    "cash": 50670.24,
+    "market_value": 50347.0,
+    "total": 101017.24,
+    "exposure": 0.4984,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-10",
+    "cash": 50670.24,
+    "market_value": 52168.0,
+    "total": 102838.24,
+    "exposure": 0.5073,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-13",
+    "cash": 50670.24,
+    "market_value": 53290.0,
+    "total": 103960.24,
+    "exposure": 0.5126,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-14",
+    "cash": 50670.24,
+    "market_value": 57204.0,
+    "total": 107874.24,
+    "exposure": 0.5303,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-15",
+    "cash": 50670.24,
+    "market_value": 56065.0,
+    "total": 106735.24,
+    "exposure": 0.5253,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-16",
+    "cash": 50670.24,
+    "market_value": 57301.0,
+    "total": 107971.24,
+    "exposure": 0.5307,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-17",
+    "cash": 50670.24,
+    "market_value": 60185.0,
+    "total": 110855.24,
+    "exposure": 0.5429,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-20",
+    "cash": 50670.24,
+    "market_value": 60871.0,
+    "total": 111541.24,
+    "exposure": 0.5457,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-21",
+    "cash": 50670.24,
+    "market_value": 61094.0,
+    "total": 111764.24,
+    "exposure": 0.5466,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-22",
+    "cash": 50670.24,
+    "market_value": 62345.0,
+    "total": 113015.24,
+    "exposure": 0.5517,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-23",
+    "cash": 50670.24,
+    "market_value": 60251.0,
+    "total": 110921.24,
+    "exposure": 0.5432,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-24",
+    "cash": 50670.24,
+    "market_value": 59389.0,
+    "total": 110059.24,
+    "exposure": 0.5396,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-27",
+    "cash": 50670.24,
+    "market_value": 60114.0,
+    "total": 110784.24,
+    "exposure": 0.5426,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-28",
+    "cash": 50670.24,
+    "market_value": 59677.0,
+    "total": 110347.24,
+    "exposure": 0.5408,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-29",
+    "cash": 50670.24,
+    "market_value": 63934.0,
+    "total": 114604.24,
+    "exposure": 0.5579,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-04-30",
+    "cash": 50670.24,
+    "market_value": 64560.0,
+    "total": 115230.24,
+    "exposure": 0.5603,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-06",
+    "cash": 50670.24,
+    "market_value": 68371.0,
+    "total": 119041.24,
+    "exposure": 0.5743,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-07",
+    "cash": 50670.24,
+    "market_value": 71102.0,
+    "total": 121772.24,
+    "exposure": 0.5839,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-08",
+    "cash": 50670.24,
+    "market_value": 71470.0,
+    "total": 122140.24,
+    "exposure": 0.5851,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-11",
+    "cash": 50670.24,
+    "market_value": 71540.0,
+    "total": 122210.24,
+    "exposure": 0.5854,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-12",
+    "cash": 50670.24,
+    "market_value": 71180.0,
+    "total": 121850.24,
+    "exposure": 0.5842,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-13",
+    "cash": 50670.24,
+    "market_value": 71476.0,
+    "total": 122146.24,
+    "exposure": 0.5852,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-14",
+    "cash": 50670.24,
+    "market_value": 68498.0,
+    "total": 119168.24,
+    "exposure": 0.5748,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-15",
+    "cash": 50670.24,
+    "market_value": 68344.0,
+    "total": 119014.24,
+    "exposure": 0.5743,
+    "n_positions": 3
+   },
+   {
+    "date": "2026-05-18",
+    "cash": 76906.01,
+    "market_value": 42287.0,
+    "total": 119193.01,
+    "exposure": 0.3548,
+    "n_positions": 2
+   },
+   {
+    "date": "2026-05-19",
+    "cash": 93010.65,
+    "market_value": 24699.0,
+    "total": 117709.65,
+    "exposure": 0.2098,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-20",
+    "cash": 93010.65,
+    "market_value": 24705.0,
+    "total": 117715.65,
+    "exposure": 0.2099,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-21",
+    "cash": 93010.65,
+    "market_value": 25786.0,
+    "total": 118796.65,
+    "exposure": 0.2171,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-22",
+    "cash": 93010.65,
+    "market_value": 30963.0,
+    "total": 123973.65,
+    "exposure": 0.2498,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-25",
+    "cash": 93010.65,
+    "market_value": 32649.0,
+    "total": 125659.65,
+    "exposure": 0.2598,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-26",
+    "cash": 93010.65,
+    "market_value": 32623.0,
+    "total": 125633.65,
+    "exposure": 0.2597,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-27",
+    "cash": 93010.65,
+    "market_value": 34608.0,
+    "total": 127618.65,
+    "exposure": 0.2712,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-28",
+    "cash": 93010.65,
+    "market_value": 36862.0,
+    "total": 129872.65,
+    "exposure": 0.2838,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-05-29",
+    "cash": 93010.65,
+    "market_value": 34972.0,
+    "total": 127982.65,
+    "exposure": 0.2733,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-01",
+    "cash": 93010.65,
+    "market_value": 33737.0,
+    "total": 126747.65,
+    "exposure": 0.2662,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-02",
+    "cash": 93010.65,
+    "market_value": 34328.0,
+    "total": 127338.65,
+    "exposure": 0.2696,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-03",
+    "cash": 93010.65,
+    "market_value": 38374.0,
+    "total": 131384.65,
+    "exposure": 0.2921,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-04",
+    "cash": 93010.65,
+    "market_value": 40752.0,
+    "total": 133762.65,
+    "exposure": 0.3047,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-05",
+    "cash": 93010.65,
+    "market_value": 39491.0,
+    "total": 132501.65,
+    "exposure": 0.298,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-08",
+    "cash": 93010.65,
+    "market_value": 42363.0,
+    "total": 135373.65,
+    "exposure": 0.3129,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-09",
+    "cash": 93010.65,
+    "market_value": 43830.0,
+    "total": 136840.65,
+    "exposure": 0.3203,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-10",
+    "cash": 93010.65,
+    "market_value": 43120.0,
+    "total": 136130.65,
+    "exposure": 0.3168,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-11",
+    "cash": 93010.65,
+    "market_value": 42989.0,
+    "total": 135999.65,
+    "exposure": 0.3161,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-12",
+    "cash": 93010.65,
+    "market_value": 47030.0,
+    "total": 140040.65,
+    "exposure": 0.3358,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-15",
+    "cash": 93010.65,
+    "market_value": 55256.0,
+    "total": 148266.65,
+    "exposure": 0.3727,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-16",
+    "cash": 93010.65,
+    "market_value": 55258.0,
+    "total": 148268.65,
+    "exposure": 0.3727,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-17",
+    "cash": 93010.65,
+    "market_value": 58900.0,
+    "total": 151910.65,
+    "exposure": 0.3877,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-18",
+    "cash": 93010.65,
+    "market_value": 59900.0,
+    "total": 152910.65,
+    "exposure": 0.3917,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-22",
+    "cash": 93010.65,
+    "market_value": 65860.0,
+    "total": 158870.65,
+    "exposure": 0.4146,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-23",
+    "cash": 93010.65,
+    "market_value": 59900.0,
+    "total": 152910.65,
+    "exposure": 0.3917,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-24",
+    "cash": 93010.65,
+    "market_value": 61900.0,
+    "total": 154910.65,
+    "exposure": 0.3996,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-25",
+    "cash": 93010.65,
+    "market_value": 63950.0,
+    "total": 156960.65,
+    "exposure": 0.4074,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-26",
+    "cash": 93010.65,
+    "market_value": 58900.0,
+    "total": 151910.65,
+    "exposure": 0.3877,
+    "n_positions": 1
+   },
+   {
+    "date": "2026-06-29",
+    "cash": 148528.81,
+    "market_value": 0,
+    "total": 148528.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-06-30",
+    "cash": 148528.81,
+    "market_value": 0,
+    "total": 148528.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-01",
+    "cash": 39931.82,
+    "market_value": 105628.0,
+    "total": 145559.82,
+    "exposure": 0.7257,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-02",
+    "cash": 39931.82,
+    "market_value": 98825.0,
+    "total": 138756.82,
+    "exposure": 0.7122,
+    "n_positions": 5
+   },
+   {
+    "date": "2026-07-03",
+    "cash": 62879.38,
+    "market_value": 77098.0,
+    "total": 139977.38,
+    "exposure": 0.5508,
+    "n_positions": 4
+   },
+   {
+    "date": "2026-07-06",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-07",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-08",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-09",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-10",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-13",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-14",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-15",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-16",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-17",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-20",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-21",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-22",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-23",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-24",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-27",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-28",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-29",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-30",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-07-31",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-03",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-04",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-05",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-06",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-07",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-10",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-11",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-12",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-13",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-14",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-17",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-18",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-19",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-20",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-21",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-24",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-25",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-26",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-27",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-28",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-08-31",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-01",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-02",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-03",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-04",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-07",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-08",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-09",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-10",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-11",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-14",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-15",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-16",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-17",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-18",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-21",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-22",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-23",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-24",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-28",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-29",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   },
+   {
+    "date": "2026-09-30",
+    "cash": 132926.81,
+    "market_value": 0,
+    "total": 132926.81,
+    "exposure": 0.0,
+    "n_positions": 0
+   }
+  ],
+  "trade_log": [
+   {
+    "date": "2026-04-01",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "BUY",
+    "shares": 200,
+    "price": 75.245,
+    "amount": 15049.03,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "BUY",
+    "shares": 100,
+    "price": 197.007,
+    "amount": 19700.68,
+    "fee": 5.2,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-04-01",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "BUY",
+    "shares": 300,
+    "price": 48.548,
+    "amount": 14564.55,
+    "fee": 5.15,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-05-19",
+    "code": "sh603256",
+    "name": "宏和科技",
+    "side": "SELL",
+    "shares": 200,
+    "price": 131.279,
+    "amount": 26255.72,
+    "fee": 19.95,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-05-20",
+    "code": "sz000657",
+    "name": "中钨高新",
+    "side": "SELL",
+    "shares": 300,
+    "price": 53.726,
+    "amount": 16117.87,
+    "fee": 13.22,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-06-30",
+    "code": "sz301377",
+    "name": "鼎泰高科",
+    "side": "SELL",
+    "shares": 100,
+    "price": 555.604,
+    "amount": 55560.38,
+    "fee": 42.23,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "BUY",
+    "shares": 100,
+    "price": 166.166,
+    "amount": 16616.6,
+    "fee": 5.17,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "BUY",
+    "shares": 500,
+    "price": 48.028,
+    "amount": 24013.99,
+    "fee": 6.24,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "BUY",
+    "shares": 500,
+    "price": 53.533,
+    "amount": 26766.74,
+    "fee": 6.96,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "BUY",
+    "shares": 100,
+    "price": 141.541,
+    "amount": 14154.14,
+    "fee": 5.14,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-01",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "BUY",
+    "shares": 400,
+    "price": 67.537,
+    "amount": 27014.99,
+    "fee": 7.02,
+    "reason": "enter target"
+   },
+   {
+    "date": "2026-07-06",
+    "code": "sh600105",
+    "name": "永鼎股份",
+    "side": "SELL",
+    "shares": 400,
+    "price": 57.413,
+    "amount": 22965.01,
+    "fee": 17.45,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz301217",
+    "name": "铜冠铜箔",
+    "side": "SELL",
+    "shares": 100,
+    "price": 144.655,
+    "amount": 14465.52,
+    "fee": 12.38,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz301526",
+    "name": "国际复材",
+    "side": "SELL",
+    "shares": 500,
+    "price": 41.429,
+    "amount": 20714.26,
+    "fee": 15.74,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz001267",
+    "name": "汇绿生态",
+    "side": "SELL",
+    "shares": 500,
+    "price": 43.686,
+    "amount": 21843.13,
+    "fee": 16.6,
+    "reason": "trail -12% from peak"
+   },
+   {
+    "date": "2026-07-07",
+    "code": "sz301511",
+    "name": "德福科技",
+    "side": "SELL",
+    "shares": 100,
+    "price": 130.809,
+    "amount": 13080.91,
+    "fee": 11.67,
+    "reason": "trail -12% from peak"
+   }
+  ],
+  "rebalance_log": [
+   {
+    "signal_date": "2026-03-31",
+    "exec_date": "2026-04-01",
+    "picks": [
+     "sh603256",
+     "sz301377",
+     "sz000657"
+    ],
+    "names": [
+     "宏和科技",
+     "鼎泰高科",
+     "中钨高新"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": false,
+    "target_exposure": 0.57,
+    "n_positions": 3,
+    "candidates": 444,
+    "candidates_before_lot_filter": 451,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sh603256",
+      "宏和科技",
+      8.3568
+     ],
+     [
+      "sz301377",
+      "鼎泰高科",
+      6.6009
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      5.9317
+     ],
+     [
+      "sz300394",
+      "天孚通信",
+      5.3128
+     ],
+     [
+      "sz301005",
+      "超捷股份",
+      4.4654
+     ],
+     [
+      "sh603929",
+      "亚翔集成",
+      4.1638
+     ],
+     [
+      "sz001203",
+      "大中矿业",
+      3.9328
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      3.6413
+     ]
+    ]
+   },
+   {
+    "signal_date": "2026-06-30",
+    "exec_date": "2026-07-01",
+    "picks": [
+     "sz301217",
+     "sz301526",
+     "sz001267",
+     "sz301511",
+     "sh600105"
+    ],
+    "names": [
+     "铜冠铜箔",
+     "国际复材",
+     "汇绿生态",
+     "德福科技",
+     "永鼎股份"
+    ],
+    "target_weight_each": 0.19,
+    "regime_on": true,
+    "target_exposure": 0.95,
+    "n_positions": 5,
+    "candidates": 272,
+    "candidates_before_lot_filter": 299,
+    "one_lot_cap": 25000.0,
+    "top8": [
+     [
+      "sz301217",
+      "铜冠铜箔",
+      8.1273
+     ],
+     [
+      "sz301526",
+      "国际复材",
+      5.4448
+     ],
+     [
+      "sz001267",
+      "汇绿生态",
+      5.228
+     ],
+     [
+      "sz301511",
+      "德福科技",
+      5.1229
+     ],
+     [
+      "sh600105",
+      "永鼎股份",
+      4.9625
+     ],
+     [
+      "sz000657",
+      "中钨高新",
+      4.8272
+     ],
+     [
+      "sz002636",
+      "金安国纪",
+      4.7169
+     ],
+     [
+      "sz002008",
+      "大族激光",
+      4.4551
+     ]
+    ],
+    "cash_after": 39931.82
+   }
+  ],
+  "trade_dates": [
+   "2026-04-01",
+   "2026-05-19",
+   "2026-05-20",
+   "2026-06-30",
+   "2026-07-01",
+   "2026-07-06",
+   "2026-07-07"
+  ]
+ }
+]

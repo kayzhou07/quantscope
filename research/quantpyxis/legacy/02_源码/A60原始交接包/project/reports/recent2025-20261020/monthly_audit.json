@@ -1,0 +1,618 @@
+[
+  {
+    "variant": "A60_original",
+    "month": "2025-01",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-02",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-03",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-04",
+    "return_": 0.REDACTED_ID,
+    "pnl": 432.80933111895865,
+    "end": 100432.80933111896
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-05",
+    "return_": -0.0031382634298093848,
+    "pnl": -315.1846126768651,
+    "end": 100117.6247184421
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-06",
+    "return_": 0.REDACTED_ID,
+    "pnl": 3808.773153815433,
+    "end": 103926.39787225753
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-07",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1934.3338998236723,
+    "end": 101992.06397243385
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-08",
+    "return_": -0.01798561973158619,
+    "pnl": -1834.3904782478057,
+    "end": 100157.67349418605
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-09",
+    "return_": -0.02187583975036922,
+    "pnl": -2191.033215128613,
+    "end": 97966.64027905744
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-10",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1117.1960292054282,
+    "end": 96849.44424985201
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-11",
+    "return_": -0.REDACTED_ID,
+    "pnl": -580.0007820129395,
+    "end": 96269.44346783907
+  },
+  {
+    "variant": "A60_original",
+    "month": "2025-12",
+    "return_": 0.01777304655742995,
+    "pnl": 1711.0013008117676,
+    "end": 97980.44476865084
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-01",
+    "return_": 0.0012577916499714181,
+    "pnl": 123.23898529048893,
+    "end": 98103.68375394132
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-02",
+    "return_": 0.REDACTED_ID,
+    "pnl": 901.0007858276367,
+    "end": 99004.68453976896
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-03",
+    "return_": -0.REDACTED_ID,
+    "pnl": -3255.000114440918,
+    "end": 95749.68442532804
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-04",
+    "return_": 0.019225962455375,
+    "pnl": 1840.8798378753563,
+    "end": 97590.5642632034
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-05",
+    "return_": 0.06658040116599451,
+    "pnl": 6497.618918659849,
+    "end": 104088.REDACTED_PHONE
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-06",
+    "return_": -0.0781578523944001,
+    "pnl": -8135.308857129348,
+    "end": 95952.8743247339
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-07",
+    "return_": -0.03068220555665102,
+    "pnl": -2944.0458137829846,
+    "end": 93008.82851095092
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-08",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 93008.82851095092
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-09",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 93008.82851095092
+  },
+  {
+    "variant": "A60_original",
+    "month": "2026-10",
+    "return_": -0.REDACTED_ID,
+    "pnl": -275.07000000002154,
+    "end": 92733.7585109509
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-01",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-02",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-03",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-04",
+    "return_": 0.REDACTED_ID,
+    "pnl": 840.389460491424,
+    "end": 100840.38946049142
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-05",
+    "return_": -0.0028675645595834798,
+    "pnl": -289.1663269915007,
+    "end": 100551.22313349992
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-06",
+    "return_": 0.05368863706438898,
+    "pnl": 5398.458125194869,
+    "end": 105949.68125869479
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-07",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2797.869953396337,
+    "end": 103151.81130529846
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-08",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2612.7193107071653,
+    "end": 100539.09199459129
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-09",
+    "return_": -0.REDACTED_ID,
+    "pnl": -3526.821943588555,
+    "end": 97012.27005100274
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-10",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1701.7600858113728,
+    "end": 95310.50996519136
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-11",
+    "return_": -0.0016472586944002998,
+    "pnl": -157.00106620788574,
+    "end": 95153.50889898348
+  },
+  {
+    "variant": "B80_original",
+    "month": "2025-12",
+    "return_": 0.04481181929759637,
+    "pnl": 4264.001846313477,
+    "end": 99417.51074529695
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-01",
+    "return_": 0.REDACTED_ID,
+    "pnl": 449.40883270259656,
+    "end": 99866.91957799955
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-02",
+    "return_": 0.REDACTED_ID,
+    "pnl": 830.0006866455078,
+    "end": 100696.92026464506
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-03",
+    "return_": -0.03111316596512248,
+    "pnl": -3132.9999923706055,
+    "end": 97563.92027227445
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-04",
+    "return_": 0.REDACTED_ID,
+    "pnl": 1823.2097844695963,
+    "end": 99387.REDACTED_PHONE
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-05",
+    "return_": 0.06537686433796908,
+    "pnl": 6497.618918659849,
+    "end": 105884.7489754039
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-06",
+    "return_": -0.07683173389794884,
+    "pnl": -8135.308857129348,
+    "end": 97749.44011827455
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-07",
+    "return_": -0.03111256504490645,
+    "pnl": -3041.2358137830015,
+    "end": 94708.20430449155
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-08",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 94708.20430449155
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-09",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 94708.20430449155
+  },
+  {
+    "variant": "B80_original",
+    "month": "2026-10",
+    "return_": -0.0029043946300117973,
+    "pnl": -275.07000000002154,
+    "end": 94433.REDACTED_PHONE
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-01",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-02",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-03",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-04",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1832.820271498029,
+    "end": 98167.REDACTED_PHONE
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-05",
+    "return_": 0.00012129935374738388,
+    "pnl": 11.907615460266243,
+    "end": 98179.08734396224
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-06",
+    "return_": 0.0204528168900453,
+    "pnl": 2008.0388958778203,
+    "end": 100187.12623984006
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-07",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1776.8238252342853,
+    "end": 98410.30241460577
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-08",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1820.653398270355,
+    "end": 96589.64901633542
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-09",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2177.371445873825,
+    "end": 94412.27757046159
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-10",
+    "return_": -0.REDACTED_ID,
+    "pnl": -1504.9331083758298,
+    "end": 92907.34446208576
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-11",
+    "return_": -0.REDACTED_ID,
+    "pnl": -742.0005321502686,
+    "end": 92165.3439299355
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2025-12",
+    "return_": 0.0064232470180862755,
+    "pnl": 592.0007705688477,
+    "end": 92757.34470050434
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-01",
+    "return_": -0.0008197812547072747,
+    "pnl": -76.0407324218977,
+    "end": 92681.30396808244
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-02",
+    "return_": 0.REDACTED_ID,
+    "pnl": 1092.000961303711,
+    "end": 93773.30492938615
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-03",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2597.999954223633,
+    "end": 91175.30497516252
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-04",
+    "return_": 0.REDACTED_ID,
+    "pnl": 1612.989416351309,
+    "end": 92788.29439151383
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-05",
+    "return_": 0.0643683358201228,
+    "pnl": 5972.628093569379,
+    "end": 98760.92248508321
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-06",
+    "return_": -0.06485369087726078,
+    "pnl": -6405.010337600703,
+    "end": 92355.91214748251
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-07",
+    "return_": -0.03250056887085706,
+    "pnl": -3001.6196833800786,
+    "end": 89354.29246410243
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-08",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 89354.29246410243
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-09",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 89354.29246410243
+  },
+  {
+    "variant": "C60_fast_reduce",
+    "month": "2026-10",
+    "return_": -0.REDACTED_ID,
+    "pnl": -224.72000000001572,
+    "end": 89129.57246410241
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-01",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-02",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-03",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 100000.0
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-04",
+    "return_": -0.03584500068991814,
+    "pnl": -3584.500068991809,
+    "end": 96415.49993100819
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-05",
+    "return_": -0.REDACTED_ID,
+    "pnl": -152.9816151325067,
+    "end": 96262.51831587568
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-06",
+    "return_": 0.REDACTED_ID,
+    "pnl": 1318.3263599659258,
+    "end": 97580.84467584161
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-07",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2361.2555087070796,
+    "end": 95219.58916713453
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-08",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2315.1050695969607,
+    "end": 92904.48409753757
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-09",
+    "return_": -0.REDACTED_ID,
+    "pnl": -3045.433611305765,
+    "end": 89859.0504862318
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-10",
+    "return_": -0.0160060546257329,
+    "pnl": -1438.2888706991216,
+    "end": 88420.76161553268
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-11",
+    "return_": -0.0073399134795200105,
+    "pnl": -649.0007400512695,
+    "end": 87771.76087548141
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2025-12",
+    "return_": 0.0370962250632656,
+    "pnl": 3256.0009956359863,
+    "end": 91027.7618711174
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-01",
+    "return_": -0.00016468387877510704,
+    "pnl": -14.99080490115739,
+    "end": 91012.77106621624
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-02",
+    "return_": 0.0117675887633657,
+    "pnl": 1071.000862121582,
+    "end": 92083.77192833782
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-03",
+    "return_": -0.REDACTED_ID,
+    "pnl": -2334.000015258789,
+    "end": 89749.77191307904
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-04",
+    "return_": 0.REDACTED_ID,
+    "pnl": 1584.8594926452643,
+    "end": 91334.6314057243
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-05",
+    "return_": 0.0630829164425506,
+    "pnl": 5761.654921278459,
+    "end": 97096.28632700276
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-06",
+    "return_": -0.06554319025843569,
+    "pnl": -6364.000368118286,
+    "end": 90732.28595888447
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-07",
+    "return_": -0.0329885843865142,
+    "pnl": -2993.129671935996,
+    "end": 87739.REDACTED_PHONE
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-08",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 87739.REDACTED_PHONE
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-09",
+    "return_": 0.0,
+    "pnl": 0.0,
+    "end": 87739.REDACTED_PHONE
+  },
+  {
+    "variant": "D80_fast_reduce",
+    "month": "2026-10",
+    "return_": -0.0025612281848833574,
+    "pnl": -224.72000000001572,
+    "end": 87514.43628694846
+  }
+]

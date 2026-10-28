@@ -1,0 +1,17 @@
+{
+  "removed_pseudo_bars": 4,
+  "missing_symbol": "sh601026",
+  "verification": {
+    "M": {
+      "final": 154436.95,
+      "identical_trade_log": true,
+      "identical_equity": true
+    },
+    "Q": {
+      "final": 131925.85,
+      "identical_trade_log": true,
+      "identical_equity": true
+    }
+  },
+  "rule": "Drop nonpositive/invalid OHLC bars before features; no fabricated observations"
+}

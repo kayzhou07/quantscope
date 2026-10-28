@@ -1,0 +1,162 @@
+{
+ "schema": "round5-validation-1",
+ "generated_at": "2026-10-20T23:12:59+08:00",
+ "freeze_id": "R5-A-FREEZE-20261020T221609+0800",
+ "checks": [
+  {
+   "name": "freeze_snapshot",
+   "pass": true,
+   "detail": {
+    "manifest_sha256": "94e3d974eafc85ca9c2d6ff300861937d7333623455368fd9afd0bffbd7f9710"
+   },
+   "seconds": 0.01
+  },
+  {
+   "name": "no_future_input",
+   "pass": true,
+   "detail": {
+    "qfq_window_last": "2023-06-30",
+    "features": 4528
+   },
+   "seconds": 5.3
+  },
+  {
+   "name": "state_missing_fails",
+   "pass": true,
+   "detail": {
+    "raised": "asof 2026-10-20 is after the last available bar 2026-10-19; state cannot be computed"
+   },
+   "seconds": 0.03
+  },
+  {
+   "name": "signal_idempotent",
+   "pass": true,
+   "detail": {
+    "signal_id": "sig-f6bd61bd8909532d",
+    "action": "risk_off",
+    "n_targets": 0
+   },
+   "seconds": 6.84
+  },
+  {
+   "name": "month_end_boundary",
+   "pass": true,
+   "detail": {
+    "2023-06-30": true,
+    "2023-06-15": false
+   },
+   "seconds": 0.01
+  },
+  {
+   "name": "initial_account",
+   "pass": true,
+   "detail": {
+    "signal_id": "sig-2fc540eea22c0ce9",
+    "exec_day": "2026-10-08",
+    "n_positions": 10,
+    "nav": 100195.53351775998,
+    "cash_reason": "cash_above_cap"
+   },
+   "seconds": 2.72
+  },
+  {
+   "name": "fees_and_lots",
+   "pass": true,
+   "detail": {
+    "shares": 900.0,
+    "commission": 5.0,
+    "nav": 99994.90991
+   },
+   "seconds": 0.0
+  },
+  {
+   "name": "limit_block_then_fill",
+   "pass": true,
+   "detail": {
+    "first_attempt": {
+     "date": "2020-01-03",
+     "attempted": 1,
+     "filled": 0,
+     "blocked": 1,
+     "expired": 0,
+     "no_bar": false,
+     "blocked_detail": [
+      {
+       "code": "600000",
+       "side": "buy",
+       "reason": "limit_up",
+       "date": "2020-01-03"
+      }
+     ]
+    },
+    "second_attempt": {
+     "date": "2020-01-06",
+     "attempted": 1,
+     "filled": 1,
+     "blocked": 0,
+     "expired": 0,
+     "no_bar": false,
+     "blocked_detail": []
+    }
+   },
+   "seconds": 0.0
+  },
+  {
+   "name": "suspension_retention",
+   "pass": true,
+   "detail": {
+    "retained_after_suspension": true
+   },
+   "seconds": 0.01
+  },
+  {
+   "name": "corporate_action",
+   "pass": true,
+   "detail": {
+    "shares": 200.0,
+    "nav_before": 1000.0,
+    "nav_after": 1000.0
+   },
+   "seconds": 0.0
+  },
+  {
+   "name": "idempotent_orders",
+   "pass": true,
+   "detail": {
+    "pending_before_after": [
+     1,
+     1
+    ],
+    "fills": 1
+   },
+   "seconds": 0.0
+  },
+  {
+   "name": "capital_conservation",
+   "pass": true,
+   "detail": {
+    "days": 3,
+    "nav": 100918.24726
+   },
+   "seconds": 0.01
+  }
+ ],
+ "summary": {
+  "freeze_snapshot": "PASS",
+  "no_future_input": "PASS",
+  "state_missing_fails": "PASS",
+  "signal_idempotent": "PASS",
+  "month_end_boundary": "PASS",
+  "initial_account": "PASS",
+  "fees_and_lots": "PASS",
+  "limit_block_then_fill": "PASS",
+  "suspension_retention": "PASS",
+  "corporate_action": "PASS",
+  "idempotent_orders": "PASS",
+  "capital_conservation": "PASS"
+ },
+ "pass": true,
+ "schema_generated_at": "2026-10-20T23:12:59+08:00",
+ "freeze_at": "2026-10-20T22:16:09+08:00",
+ "data_cutoff": "2026-10-19"
+}

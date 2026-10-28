@@ -1,0 +1,15 @@
+{
+  "stock_count": 1589,
+  "stock_bars": 608021,
+  "indexes": {
+    "sz399006": 424,
+    "sh000001": 424,
+    "sh000300": 424
+  },
+  "duplicates": 0,
+  "conflicting_duplicates": [],
+  "invalid_ohlc_rows": 4,
+  "missing_held_bars": [],
+  "stock_data_min": "2025-01-02",
+  "stock_data_max": "2026-09-30"
+}

@@ -1,0 +1,271 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+- main:
+  - main:
+    - link "<":
+      - /url: "#/study-index"
+    - link "新建策略":
+      - /url: "#/study-index"
+    - generic: 股票
+    - generic: 策略编辑
+    - link "回测列表":
+      - /url: "#/backreport-history?strategyId=6ad4b79227352e00b66f40ee"
+    - region "策略代码":
+      - button "编译运行 beta":
+        - text: 编译运行
+        - generic: beta
+      - button "保存" [disabled]
+      - link "API 文档":
+        - /url: /view/help/12#股票回测引擎
+      - button "编辑器设置"
+      - button "全屏"
+      - textbox "Cursor at row 297"
+      - generic: "272"
+      - generic: "273"
+      - generic: "274"
+      - generic: "275"
+      - generic: "276"
+      - text: "277"
+      - button [expanded]
+      - generic: "278"
+      - generic: "279"
+      - generic: "280"
+      - generic: "281"
+      - text: "282"
+      - button [expanded]
+      - text: "283"
+      - button [expanded]
+      - generic: "284"
+      - generic: "285"
+      - text: "286"
+      - button [expanded]
+      - generic: "287"
+      - generic: "288"
+      - generic: "289"
+      - generic: "290"
+      - generic: "291"
+      - generic: "292"
+      - generic: "293"
+      - generic: "294"
+      - generic: "295"
+      - generic: "296"
+      - generic: "297"
+      - generic: nav = (1.0 + r).cumprod()
+      - generic: dd = float((nav / nav.cummax() - 1.0).min())
+      - generic: return utility, float(nav.iloc[-1]-1.0), dd, triggers, len
+      - generic: (values)
+      - generic: "def calibrate_volume_threshold():"
+      - generic: data = get_price(['000300.SH', '510880.SH'], '20191201',
+      - generic: "'20260430', '1d',"
+      - generic: "['open', 'close', 'volume'], skip_paused"
+      - generic: =False, fq='pre', is_panel=False)
+      - generic: market, etf = data['000300.SH'], data['510880.SH']
+      - generic: market, etf = market.align(etf, join='inner', axis=0)
+      - generic: "for frame in (market, etf):"
+      - generic: if frame[['open', 'close', 'volume']].isnull().any
+      - generic: ().any() or (frame[['open', 'close', 'volume']] <=
+      - generic: "0).any().any():"
+      - generic: raise ValueError('Invalid calibration history')
+      - generic: candidates = []
+      - generic: "for threshold in [0.10, 0.20, 0.30, 0.40, 0.50]:"
+      - generic: train = proxy_metrics(market, etf, threshold,
+      - generic: "'20200101', '20241231')"
+      - generic: valid = proxy_metrics(market, etf, threshold,
+      - generic: "'20250101', '20260430')"
+      - generic: "log.info('CAL threshold={} train={} validation={}'"
+      - generic: .format(threshold, train, valid))
+      - generic: candidates.append((train[0], threshold))
+      - generic: "# Training utility only. Validation never reselects the"
+      - generic: threshold.
+      - generic: "selected = sorted(candidates, key=lambda x: (-x[0], -x[1]"
+      - generic: ))[0][1]
+      - generic: benchmark = proxy_metrics(market, etf, 2.0, '20250101',
+      - generic: "'20260430')"
+      - generic: "log.info('CAL selected={} validation_no_defense={}'.format"
+      - generic: (selected, benchmark))
+      - generic: return selected
+    - complementary "回测报告":
+      - combobox: 2026-05-01
+      - generic: 至
+      - combobox: 2026-10-16
+      - text: ￥
+      - textbox: "100000"
+      - combobox
+      - generic: 每日
+      - generic: python3.8
+      - button "进行回测"
+      - table:
+        - rowgroup:
+          - row "策略收益 基准收益 Alpha Beta Sharpe 最大回撤":
+            - cell "策略收益"
+            - cell "基准收益"
+            - cell "Alpha"
+            - cell "Beta"
+            - cell "Sharpe"
+            - cell "最大回撤"
+        - rowgroup:
+          - row "-5.05% -13.24% -0.11 0.06 -2.50 5.95%":
+            - cell "-5.05%"
+            - cell "-13.24%"
+            - cell "-0.11"
+            - cell "0.06"
+            - cell "-2.50"
+            - cell "5.95%"
+      - button "日志"
+      - button "错误"
+      - button "展开日志区域": ∧
+      - paragraph: 2026-10-18 23:47:56 - INFO
+      - generic: INFO :回测开始运行
+      - paragraph: 2026-10-18 23:47:56 - INFO
+      - generic: 回测开始
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.1 train=(-0.07910184457653374, -0.23706063139385436, -0.4464832200625687, 61, 1211) validation=(0.02262510914304192, 0.04420401233661342, -0.08374192605972497, 21, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.2 train=(-0.04099143913549405, -0.08276320890001931, -0.37881361674452274, 39, 1211) validation=(0.REDACTED_ID, 0.REDACTED_ID, -0.08125077905929923, 15, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.3 train=(-0.REDACTED_ID, -0.05475499102879633, -0.3549526816716684, 17, 1211) validation=(0.06662485405655016, 0.10435347887171709, -0.07802510875504087, 6, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.4 train=(-0.REDACTED_ID, -0.REDACTED_ID, -0.3460837611273997, 8, 1211) validation=(0.08637904755583248, 0.132431085195009, -0.07802510875504087, 3, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.5 train=(-0.REDACTED_ID, 0.0019290939360971926, -0.34878942978409044, 1, 1211) validation=(0.09449219661587327, 0.14406042650645978, -0.07450825855607013, 1, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL selected=0.5 validation_no_defense=(0.10228752402942584, 0.15546785043877942, -0.07450825855607013, 0, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: V3 threshold frozen=0.5 sentiment OFF; MOM80/PV20
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: "量化一 v3: MOM80/PV20; top3; vol20%; past60d; sentiment OFF"
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: Research only. Platform fees, matching and corporate actions require audit.
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: RISK 20260430 estimated_vol=0.4390992775874138 exposure=0.455478 cash_target=0.544522
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: NORMAL inflation=4.7 release=Apr24-final cap=0.7 exposure=0.455478
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: Signal=20260430 eligible=271 excluded=10 top=[('002709.SZ', 0.9490774907749078), ('600875.SH', 0.9431734317343173), ('002916.SZ', 0.9416974169741698)]
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: TARGET buy 002709.SZ weight=0.151826 order=35f9a52d604548b980ab8186ad57c225
+      - paragraph: 2026-05-06 09:31:00 - WARN
+      - generic: 002916.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: TARGET buy 002916.SZ weight=0.151826 order=None
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: TARGET buy 600875.SH weight=0.151826 order=b1125d1d6db948c0b5804e2cb927b320
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: RISK 20260529 estimated_vol=0.6051378735881273 exposure=0.330503 cash_target=0.669497
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.8 release=May22-final cap=0.7 exposure=0.330503
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: Signal=20260529 eligible=271 excluded=10 top=[('300502.SZ', 0.9763837638376384), ('300394.SZ', 0.9645756457564576), ('002463.SZ', 0.9535055350553506)]
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET sell 002709.SZ weight=0.000000 order=7536277586194b57bc7eff569c1fc03b
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET sell 600875.SH weight=0.000000 order=8ac4f2fb535a4062bfa12a948799f6c7
+      - paragraph: 2026-06-01 09:31:00 - WARN
+      - generic: 002463.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET buy 002463.SZ weight=0.110168 order=None
+      - paragraph: 2026-06-01 09:31:00 - WARN
+      - generic: 300394.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET buy 300394.SZ weight=0.110168 order=None
+      - paragraph: 2026-06-01 09:31:00 - WARN
+      - generic: 300502.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET buy 300502.SZ weight=0.110168 order=None
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: RISK 20260630 estimated_vol=0.6180557777232101 exposure=0.323595 cash_target=0.676405
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.6 release=Jun26-final cap=0.7 exposure=0.323595
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: Signal=20260630 eligible=269 excluded=11 top=[('002384.SZ', 0.9472118959107807), ('301308.SZ', 0.9442379182156134), ('300408.SZ', 0.9330855018587361)]
+      - paragraph: 2026-07-01 09:31:00 - WARN
+      - generic: 002384.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: TARGET buy 002384.SZ weight=0.107865 order=None
+      - paragraph: 2026-07-01 09:31:00 - WARN
+      - generic: 300408.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: TARGET buy 300408.SZ weight=0.107865 order=None
+      - paragraph: 2026-07-01 09:31:00 - WARN
+      - generic: 301308.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: TARGET buy 301308.SZ weight=0.107865 order=None
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: RISK 20260731 estimated_vol=0.8829840778502533 exposure=0.226505 cash_target=0.773495
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: NORMAL inflation=4.2 release=Jul31-final cap=0.7 exposure=0.226505
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: Signal=20260731 eligible=270 excluded=10 top=[('301308.SZ', 0.9785185185185186), ('600176.SH', 0.9614814814814815), ('300408.SZ', 0.9548148148148148)]
+      - paragraph: 2026-08-03 09:31:00 - WARN
+      - generic: 300408.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: TARGET buy 300408.SZ weight=0.075502 order=None
+      - paragraph: 2026-08-03 09:31:00 - WARN
+      - generic: 301308.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: TARGET buy 301308.SZ weight=0.075502 order=None
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: TARGET buy 600176.SH weight=0.075502 order=cd27d982eb614877b9a0177c527c0149
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: RISK 20260831 estimated_vol=0.8392697070218355 exposure=0.238302 cash_target=0.761698
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.0 release=Aug28-final cap=0.7 exposure=0.238302
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: Signal=20260831 eligible=270 excluded=10 top=[('301308.SZ', 0.982962962962963), ('600176.SH', 0.9562962962962963), ('000657.SZ', 0.9533333333333334)]
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: TARGET buy 000657.SZ weight=0.079434 order=29e0594f3dd247ca8a38f5ad6a779e60
+      - paragraph: 2026-09-01 09:31:00 - WARN
+      - generic: 301308.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: TARGET buy 301308.SZ weight=0.079434 order=None
+      - paragraph: 2026-09-01 09:31:00 - WARN
+      - generic: 600176.SH 下单股数为0,订单无效.
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: TARGET buy 600176.SH weight=0.079434 order=None
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: RISK 20260930 estimated_vol=0.7208206648769694 exposure=0.277462 cash_target=0.722538
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: NORMAL inflation=4.6 release=Sep11-prelim cap=0.7 exposure=0.277462
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: Signal=20260930 eligible=271 excluded=9 top=[('000657.SZ', 0.9638376383763838), ('002384.SZ', 0.9608856088560886), ('300408.SZ', 0.9608856088560885)]
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: TARGET sell 600176.SH weight=0.000000 order=034b2448f6b742b4ada4ed3cf053385b
+      - paragraph: 2026-10-08 09:31:00 - WARN
+      - generic: 000657.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: TARGET buy 000657.SZ weight=0.092487 order=None
+      - paragraph: 2026-10-08 09:31:00 - WARN
+      - generic: 002384.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: TARGET buy 002384.SZ weight=0.092487 order=None
+      - paragraph: 2026-10-08 09:31:00 - WARN
+      - generic: 300408.SZ 下单股数为0,订单无效.
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: TARGET buy 300408.SZ weight=0.092487 order=None
+      - paragraph: 2026-10-18 23:48:00 - INFO
+      - generic: 回测结束

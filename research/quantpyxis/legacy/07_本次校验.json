@@ -1,0 +1,44 @@
+[
+  {
+    "file": "02_源码\\冻结A运行环境\\qrun_1416\\engine\\core.py",
+    "expected": "b7fc9882b22529265e9a274335c7a50f82ad3432167c41e96b367344b0bd7d30",
+    "actual": "b7fc9882b22529265e9a274335c7a50f82ad3432167c41e96b367344b0bd7d30",
+    "match": true
+  },
+  {
+    "file": "02_源码\\冻结A运行环境\\qrun_1416\\engine\\data.py",
+    "expected": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+    "actual": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+    "match": true
+  },
+  {
+    "file": "02_源码\\冻结A运行环境\\qrun_1416\\engine\\api.py",
+    "expected": "aa1a111133fb903232a072756a982bdf22355927d8916faade53a8f45a7cc2cc",
+    "actual": "aa1a111133fb903232a072756a982bdf22355927d8916faade53a8f45a7cc2cc",
+    "match": true
+  },
+  {
+    "file": "02_源码\\冻结A运行环境\\qrun_1416\\engine\\metrics.py",
+    "expected": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+    "actual": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+    "match": true
+  },
+  {
+    "file": "02_源码\\冻结A运行环境\\qrun_1416\\engine\\regime.py",
+    "expected": "83ce69fc4030e94f2f18ada22b5cd946b6f75c359982844e59095e6771ad4acb",
+    "actual": "83ce69fc4030e94f2f18ada22b5cd946b6f75c359982844e59095e6771ad4acb",
+    "match": true
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/regime/regime_v1.csv",
+    "expected": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+    "actual": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+    "match": true
+  },
+  {
+    "file": "06_行情数据/data/meta/manifest.json",
+    "expected": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db",
+    "actual": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db",
+    "match": true
+  }
+]
