@@ -16,6 +16,7 @@
 | 名称 | 角色 |
 | --- | --- |
 | [@kayzhou07](https://github.com/kayzhou07) | 项目所有者与维护者 |
+| [@Tang666-0427](https://github.com/Tang666-0427) | 贡献者 |
 | [OpenAI — Codex／ChatGPT](https://github.com/openai) | 源码整理、文档编写及开发辅助工具 |
 | [DeepSeek](https://github.com/deepseek-ai) | 项目研究与报告工作流中的 AI 工具致谢 |
 

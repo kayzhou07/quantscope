@@ -4,6 +4,10 @@
 
 - [@kayzhou07](https://github.com/kayzhou07) — project owner and maintainer / 项目所有者与维护者。
 
+## Contributors / 贡献者
+
+- [@Tang666-0427](https://github.com/Tang666-0427) — contributor / 贡献者。
+
 ## AI tools / AI 工具
 
 - [OpenAI](https://github.com/openai): Codex / ChatGPT — AI-assisted code organization, documentation and development support / 源码整理、文档编写及开发辅助。

@@ -16,6 +16,7 @@ A unified research workspace for three quantitative models and one financial tec
 | Name | Role |
 | --- | --- |
 | [@kayzhou07](https://github.com/kayzhou07) | Project owner and maintainer |
+| [@Tang666-0427](https://github.com/Tang666-0427) | Contributor |
 | [OpenAI — Codex / ChatGPT](https://github.com/openai) | AI-assisted code organization, documentation and development support |
 | [DeepSeek](https://github.com/deepseek-ai) | AI tooling acknowledged for the project's research and report workflows |
 
