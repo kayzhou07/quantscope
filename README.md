@@ -77,4 +77,4 @@ Every recovered source file is inventoried in [source_inventory.json](docs/migra
 
 ## Licensing and publication
 
-All rights reserved; no open-source license has been granted. Secrets and personal application data must not be committed. Use `.env.example` only as a template. Default publication should be a **private** repository until code and dataset redistribution rights are confirmed. This is a repository visibility choice, not a claim of financial authorization.
+All rights reserved; no open-source license has been granted. Secrets and personal application data must not be committed. Use `.env.example` only as a template. The repository is publicly visible. Existing dataset and third-party rights remain applicable.
