@@ -1,0 +1,353 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "<":
+      - /url: "#/study-index"
+    - link "新建策略":
+      - /url: "#/study-index"
+    - generic: 股票
+    - generic: 策略编辑
+    - link "回测列表":
+      - /url: "#/backreport-history?strategyId=6ad4b79227352e00b66f40ee"
+    - region "策略代码":
+      - button "编译运行 beta":
+        - text: 编译运行
+        - generic: beta
+      - button "保存" [disabled]
+      - link "API 文档":
+        - /url: /view/help/12#股票回测引擎
+      - button "编辑器设置"
+      - button "全屏"
+      - textbox "Cursor at row 449"
+      - generic: "422"
+      - generic: "423"
+      - text: "424"
+      - button [expanded]
+      - generic: "425"
+      - text: "426"
+      - button [expanded]
+      - generic: "427"
+      - generic: "428"
+      - generic: "429"
+      - text: "430"
+      - button [expanded]
+      - generic: "431"
+      - generic: "432"
+      - text: "433"
+      - button [expanded]
+      - generic: "434"
+      - text: "435"
+      - button [expanded]
+      - generic: "436"
+      - generic: "437"
+      - text: "438"
+      - button [expanded]
+      - generic: "439"
+      - text: "440"
+      - button [expanded]
+      - generic: "441"
+      - text: "442"
+      - button [expanded]
+      - generic: "443"
+      - text: "444"
+      - button [expanded]
+      - generic: "445"
+      - generic: "446"
+      - text: "447"
+      - button [expanded]
+      - generic: "448"
+      - generic: "449"
+      - generic: history = get_price(watch, None, end, '1d', ['close'],
+      - generic: skip_paused=False,
+      - generic: fq='pre', bar_count=30, is_panel=False
+      - generic: )
+      - generic: "for symbol in watch:"
+      - generic: frame = history.get(symbol)
+      - generic: if frame is None or len(frame) != 30 or pd.Timestamp
+      - generic: "(frame.index[-1]).strftime('%Y%m%d') != end:"
+      - generic: raise ValueError('Incomplete MA history')
+      - generic: closes = [float(x) for x in frame['close']]
+      - generic: action, m5, m13, m30 = ma_action(closes, context
+      - generic: .halved.get(symbol, False))
+      - generic: "if closes[-1] >= max(m5,m13,m30):"
+      - generic: context.halved[symbol] = False
+      - generic: context.ma_targets.pop(symbol, None)
+      - generic: "if symbol not in held:"
+      - generic: continue
+      - generic: "if symbol not in context.entries:"
+      - generic: "context.entries[symbol] = today # Conservative"
+      - generic: unknown-entry clock.
+      - generic: amount = float(positions[symbol].amount)
+      - generic: "if action == 'EXIT':"
+      - generic: context.ma_targets[symbol] = 0.0
+      - generic: "elif action == 'HALF':"
+      - generic: target = half_remaining(amount)
+      - generic: "if target >= amount:"
+      - generic: "log.info('MA_HALF_LOT_BLOCK {} amount={}'"
+      - generic: .format(symbol, amount))
+      - generic: "else:"
+      - generic: context.ma_targets[symbol] = min(context
+      - generic: .ma_targets.get(symbol, amount), target)
+      - generic: context.halved[symbol] = True
+      - generic: "if action != 'HOLD':"
+      - generic: "log.info('MA_SIGNAL {} {} close={} ma5={} ma13={}"
+      - generic: "ma30={} target_shares={}'.format(end, symbol,"
+      - generic: closes[-1],m5,m13,m30,context.ma_targets.get
+      - generic: (symbol)))
+    - complementary "回测报告":
+      - combobox: 2025-10-17
+      - generic: 至
+      - combobox: 2026-10-16
+      - text: ￥
+      - textbox: "100000"
+      - combobox
+      - generic: 每日
+      - generic: python3.8
+      - button "进行回测"
+      - table:
+        - rowgroup:
+          - row "策略收益 基准收益 Alpha Beta Sharpe 最大回撤":
+            - cell "策略收益"
+            - cell "基准收益"
+            - cell "Alpha"
+            - cell "Beta"
+            - cell "Sharpe"
+            - cell "最大回撤"
+        - rowgroup:
+          - row "-0.04% -9.70% -0.01 0.00 -1.58 0.84%":
+            - cell "-0.04%"
+            - cell "-9.70%"
+            - cell "-0.01"
+            - cell "0.00"
+            - cell "-1.58"
+            - cell "0.84%"
+      - button "日志"
+      - button "错误"
+      - button "展开日志区域": ∧
+      - paragraph: 2026-10-19 17:27:17 - INFO
+      - generic: INFO :回测开始运行
+      - paragraph: 2026-10-19 17:27:17 - INFO
+      - generic: 回测开始
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: V5 open proxies only; NOT Barra replica; fundamental/analyst/industry factors unavailable
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: V5 threshold frozen=0.5 sentiment OFF; MOM80/PV20
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: "量化一 v5: MOM80/PV20; top3; vol20%; past60d; sentiment OFF"
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: Research only. Platform fees, matching and corporate actions require audit.
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251031 600111.SH {'beta': 1.5850254998770517, 'residual_vol': 0.6013431909237554, 'downside_vol': 0.3611325773459627, 'tail_loss': 0.06581610279302086}"
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251031 600183.SH {'beta': 2.8610185883747565, 'residual_vol': 0.5842829398818318, 'downside_vol': 0.4599411670627762, 'tail_loss': 0.0966252056847875}"
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251031 002050.SZ {'beta': 1.3482816240206699, 'residual_vol': 0.6230889647306465, 'downside_vol': 0.3579212940289174, 'tail_loss': 0.07769333475360211}"
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: RISK_CAP 20251031 beta=0.5177479052732487 cap=0.15523899684036144 exposure=0.15523899684036144
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: RISK 20251031 estimated_vol=0.4718584317390901 exposure=0.155239 cash_target=0.844761
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: NORMAL inflation=4.6 release=Oct24-2025-final cap=0.7 exposure=0.155239
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: Signal=20251031 eligible=269 excluded=11 top=[('600111.SH', 0.9680297397769518), ('600183.SH', 0.9553903345724908), ('002050.SZ', 0.9219330855018588)]
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 002050.SZ
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 600111.SH
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 600183.SH
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251128 300308.SZ {'beta': 2.9815202988695217, 'residual_vol': 0.7542566067079177, 'downside_vol': 0.5098453595417869, 'tail_loss': 0.10231595628299202}"
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251128 300502.SZ {'beta': 3.3349954264584163, 'residual_vol': 0.6649624324282044, 'downside_vol': 0.6020409268425742, 'tail_loss': 0.11580212604386753}"
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251128 300394.SZ {'beta': 3.243425136504896, 'residual_vol': 0.7511985082156862, 'downside_vol': 0.641073847332264, 'tail_loss': 0.12459472237034681}"
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: RISK_CAP 20251128 beta=0.3138094726063859 cap=0.12039033206730719 exposure=0.12039033206730719
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: RISK 20251128 estimated_vol=0.8384901090501459 exposure=0.120390 cash_target=0.879610
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.5 release=Nov21-2025-final cap=0.7 exposure=0.120390
+      - paragraph: 2025-12-01 09:00:00 - INFO
+      - generic: Signal=20251128 eligible=268 excluded=12 top=[('300308.SZ', 0.9783582089552241), ('300502.SZ', 0.9694029850746269), ('300394.SZ', 0.9664179104477613)]
+      - paragraph: 2025-12-01 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2025-12-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300308.SZ
+      - paragraph: 2025-12-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300394.SZ
+      - paragraph: 2025-12-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300502.SZ
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251231 002384.SZ {'beta': 2.8054569309534254, 'residual_vol': 0.5306571789566976, 'downside_vol': 0.4137634281240665, 'tail_loss': 0.07180698453704715}"
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251231 300476.SZ {'beta': 2.9757176168229815, 'residual_vol': 0.4809447168528722, 'downside_vol': 0.424711131534476, 'tail_loss': 0.08342663466255966}"
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251231 300394.SZ {'beta': 2.9244889899930726, 'residual_vol': 0.722627562275736, 'downside_vol': 0.49277100785415173, 'tail_loss': 0.09237784513940091}"
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: RISK_CAP 20251231 beta=0.3446032559131782 cap=0.16237659557185552 exposure=0.16237659557185552
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: RISK 20251231 estimated_vol=0.6128453182852576 exposure=0.162377 cash_target=0.837623
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: NORMAL inflation=4.2 release=Dec19-2025-final cap=0.7 exposure=0.162377
+      - paragraph: 2026-01-05 09:00:00 - INFO
+      - generic: Signal=20251231 eligible=267 excluded=14 top=[('002384.SZ', 0.9812734082397004), ('300476.SZ', 0.9752808988764046), ('300394.SZ', 0.9722846441947566)]
+      - paragraph: 2026-01-05 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-01-05 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 002384.SZ
+      - paragraph: 2026-01-05 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300394.SZ
+      - paragraph: 2026-01-05 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300476.SZ
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260130 300394.SZ {'beta': 2.414886783421085, 'residual_vol': 0.7307795156531574, 'downside_vol': 0.40202648260675156, 'tail_loss': 0.07337775224480814}"
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260130 600362.SH {'beta': 2.3352037551282185, 'residual_vol': 0.5182045479314185, 'downside_vol': 0.3340558877677499, 'tail_loss': 0.07230807810417612}"
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260130 300803.SZ {'beta': 2.267904586684013, 'residual_vol': 0.3472930407800346, 'downside_vol': 0.2961109043293764, 'tail_loss': 0.REDACTED_ID}"
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: RISK_CAP 20260130 beta=0.4274725112323676 cap=0.20442163382105139 exposure=0.20442163382105139
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: RISK 20260130 estimated_vol=0.41447377943804664 exposure=0.204422 cash_target=0.795578
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: NORMAL inflation=4.0 release=Jan23-2026-final cap=0.7 exposure=0.204422
+      - paragraph: 2026-02-02 09:00:00 - INFO
+      - generic: Signal=20260130 eligible=269 excluded=12 top=[('300394.SZ', 0.9695167286245354), ('600362.SH', 0.946468401486989), ('300803.SZ', 0.9420074349442379)]
+      - paragraph: 2026-02-02 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-02-02 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300394.SZ
+      - paragraph: 2026-02-02 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300803.SZ
+      - paragraph: 2026-02-02 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 600362.SH
+      - paragraph: 2026-02-24 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-02-24 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300394.SZ
+      - paragraph: 2026-02-24 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300803.SZ
+      - paragraph: 2026-02-24 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 600362.SH
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260227 300476.SZ {'beta': 1.460635007717718, 'residual_vol': 0.5312925576996381, 'downside_vol': 0.3075169166307856, 'tail_loss': 0.04835253506447701}"
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260227 600362.SH {'beta': 2.5645434997597203, 'residual_vol': 0.5462937039221077, 'downside_vol': 0.3846071128452554, 'tail_loss': 0.08686107680590101}"
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260227 300394.SZ {'beta': 3.5032913872866756, 'residual_vol': 0.815437381335402, 'downside_vol': 0.3705655461771798, 'tail_loss': 0.06125024262693971}"
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: RISK_CAP 20260227 beta=0.3984873476197912 cap=0.17268954693618255 exposure=0.17268954693618255
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: RISK 20260227 estimated_vol=0.46742351573402424 exposure=0.172690 cash_target=0.827310
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: NORMAL inflation=3.4 release=Feb20-2026-final cap=1.0 exposure=0.172690
+      - paragraph: 2026-03-02 09:00:00 - INFO
+      - generic: Signal=20260227 eligible=269 excluded=12 top=[('300476.SZ', 0.9895910780669146), ('600362.SH', 0.9858736059479554), ('300394.SZ', 0.9695167286245354)]
+      - paragraph: 2026-03-02 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-03-02 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300394.SZ
+      - paragraph: 2026-03-02 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300476.SZ
+      - paragraph: 2026-03-02 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 600362.SH
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260331 300502.SZ {'beta': 0.9269741602705434, 'residual_vol': 0.6222676269483504, 'downside_vol': 0.4132072473565219, 'tail_loss': 0.06742672287334184}"
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260331 300308.SZ {'beta': 1.5235462172744336, 'residual_vol': 0.5288850006778001, 'downside_vol': 0.4007111898080784, 'tail_loss': 0.0713772552501889}"
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260331 600089.SH {'beta': 0.8359819719033517, 'residual_vol': 0.5021104196587558, 'downside_vol': 0.28936839258489966, 'tail_loss': 0.REDACTED_ID}"
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: RISK_CAP 20260331 beta=0.9128245414166765 cap=0.2101509780310627 exposure=0.2101509780310627
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: RISK 20260331 estimated_vol=0.43265566956289575 exposure=0.210151 cash_target=0.789849
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: NORMAL inflation=3.8 release=Mar27-2026-final cap=1.0 exposure=0.210151
+      - paragraph: 2026-04-01 09:00:00 - INFO
+      - generic: Signal=20260331 eligible=270 excluded=11 top=[('300502.SZ', 0.9955555555555556), ('300308.SZ', 0.9777777777777779), ('600089.SH', 0.9466666666666668)]
+      - paragraph: 2026-04-01 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-04-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300308.SZ
+      - paragraph: 2026-04-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300502.SZ
+      - paragraph: 2026-04-01 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 600089.SH
+      - paragraph: 2026-04-08 09:00:00 - INFO
+      - generic: DEFENSE 20260407 drop=0.504274 threshold=0.5 ETF50 CASH50 inflation=3.8 release=Mar27-2026-final
+      - paragraph: 2026-04-08 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-04-08 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-09 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-09 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-10 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-10 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-13 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-13 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-14 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-14 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-15 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-15 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-16 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-16 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-17 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-17 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-20 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-20 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-21 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-21 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-22 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry
+      - paragraph: 2026-04-22 09:31:00 - INFO
+      - generic: MA_ENTRY_BLOCK 510880.SH
+      - paragraph: 2026-04-23 09:31:00 - INFO
+      - generic: DEFENSE ETF entry retry

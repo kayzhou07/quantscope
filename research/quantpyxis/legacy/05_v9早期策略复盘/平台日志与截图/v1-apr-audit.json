@@ -1,0 +1,262 @@
+{
+  "fill_count": 11,
+  "buy_count": 7,
+  "sell_count": 4,
+  "fees": 235.32,
+  "trade_cash_flow": -83726.62,
+  "notional_turnover": 394639.64,
+  "securities": {
+    "300394.SZ": {
+      "cash_flow": 14207.7,
+      "fees": 61.480000000000004,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": 14262.84
+    },
+    "002384.SZ": {
+      "cash_flow": -3607.140000000003,
+      "fees": 81.35,
+      "quantity": 0.0,
+      "fills": 4,
+      "closed_pnl": -3538.709999999999
+    },
+    "000657.SZ": {
+      "cash_flow": -24116.059999999998,
+      "fees": 78.45,
+      "quantity": 700.0,
+      "fills": 3,
+      "closed_pnl": 12897.91
+    },
+    "301308.SZ": {
+      "cash_flow": -34104.86,
+      "fees": 6.82,
+      "quantity": 100.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    },
+    "600176.SH": {
+      "cash_flow": -36106.26,
+      "fees": 7.22,
+      "quantity": 900.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    }
+  },
+  "rows": [
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "side": "买入",
+      "price": 316.828,
+      "quantity": 100.0,
+      "amount": 31682.83,
+      "fee": 6.34,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-06-01",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "买入",
+      "price": 209.325,
+      "quantity": 100.0,
+      "amount": 20932.46,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-06-01",
+      "time": "09:31:00",
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "side": "卖出",
+      "price": 459.52,
+      "quantity": -100.0,
+      "amount": -45952.01,
+      "fee": 55.14,
+      "platform_closed_pnl": 14262.84
+    },
+    {
+      "date": "2026-07-01",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "卖出",
+      "price": 262.219,
+      "quantity": -100.0,
+      "amount": -26221.88,
+      "fee": 31.47,
+      "platform_closed_pnl": 5284.42
+    },
+    {
+      "date": "2026-08-03",
+      "time": "09:31:00",
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "side": "买入",
+      "price": 49.615,
+      "quantity": 800.0,
+      "amount": 39691.84,
+      "fee": 7.94,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-08-03",
+      "time": "09:31:00",
+      "symbol": "301308.SZ",
+      "name": "江波龙",
+      "side": "买入",
+      "price": 340.98,
+      "quantity": 100.0,
+      "amount": 34098.04,
+      "fee": 6.82,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-09-01",
+      "time": "09:31:00",
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "side": "卖出",
+      "price": 65.747,
+      "quantity": -800.0,
+      "amount": -52597.69,
+      "fee": 63.12,
+      "platform_closed_pnl": 12897.91
+    },
+    {
+      "date": "2026-09-01",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "买入",
+      "price": 198.089,
+      "quantity": 200.0,
+      "amount": 39617.8,
+      "fee": 7.92,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "side": "买入",
+      "price": 52.776,
+      "quantity": 700.0,
+      "amount": 36943.46,
+      "fee": 7.39,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "side": "卖出",
+      "price": 154.013,
+      "quantity": -200.0,
+      "amount": -30802.59,
+      "fee": 36.96,
+      "platform_closed_pnl": -8823.13
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "600176.SH",
+      "name": "中国巨石",
+      "side": "买入",
+      "price": 40.11,
+      "quantity": 900.0,
+      "amount": 36099.04,
+      "fee": 7.22,
+      "platform_closed_pnl": null
+    }
+  ],
+  "interpretation": "cash flow is not total PnL when quantities remain, dividends or corporate actions exist; verify page coverage separately",
+  "trade_dates": [
+    "2026-04-01",
+    "2026-06-01",
+    "2026-07-01",
+    "2026-08-03",
+    "2026-09-01",
+    "2026-10-08"
+  ],
+  "closed_cohorts": [
+    {
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "start": "2026-09-01",
+      "quantity": 0.0,
+      "cash_flow": -8860.09,
+      "fees": 44.88,
+      "fills": 2,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "002384.SZ",
+      "name": "东山精密",
+      "start": "2026-06-01",
+      "quantity": 0.0,
+      "cash_flow": 5252.950000000001,
+      "fees": 36.47,
+      "fills": 2,
+      "end": "2026-07-01"
+    },
+    {
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "start": "2026-08-03",
+      "quantity": 0.0,
+      "cash_flow": 12834.79,
+      "fees": 71.06,
+      "fills": 2,
+      "end": "2026-09-01"
+    },
+    {
+      "symbol": "300394.SZ",
+      "name": "天孚通信",
+      "start": "2026-04-01",
+      "quantity": 0.0,
+      "cash_flow": 14207.7,
+      "fees": 61.480000000000004,
+      "fills": 2,
+      "end": "2026-06-01"
+    }
+  ],
+  "open_cohorts": [
+    {
+      "symbol": "301308.SZ",
+      "name": "江波龙",
+      "start": "2026-08-03",
+      "quantity": 100.0,
+      "cash_flow": -34104.86,
+      "fees": 6.82,
+      "fills": 1,
+      "end": "2026-08-03"
+    },
+    {
+      "symbol": "000657.SZ",
+      "name": "中钨高新",
+      "start": "2026-10-08",
+      "quantity": 700.0,
+      "cash_flow": -36950.85,
+      "fees": 7.39,
+      "fills": 1,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "600176.SH",
+      "name": "中国巨石",
+      "start": "2026-10-08",
+      "quantity": 900.0,
+      "cash_flow": -36106.26,
+      "fees": 7.22,
+      "fills": 1,
+      "end": "2026-10-08"
+    }
+  ]
+}

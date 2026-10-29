@@ -1,0 +1,338 @@
+[
+  {
+    "tag": "R0-M",
+    "final": 147740.32,
+    "return": 0.477403,
+    "max_drawdown": 0.159163,
+    "dd_window": [
+      "2026-06-26",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.330384,
+    "sharpe": 2.626,
+    "calmar": 2.999,
+    "trades": 41,
+    "fees": 495.51,
+    "mean_exposure": 0.4148,
+    "audited_max_drawdown": 0.1591626240573939,
+    "audited_sharpe": 2.5546422984685067,
+    "operation_days": 16,
+    "buy_count": 21,
+    "sell_count": 20
+  },
+  {
+    "tag": "R1-M",
+    "final": 144918.23,
+    "return": 0.449182,
+    "max_drawdown": 0.153861,
+    "dd_window": [
+      "2026-06-26",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.320099,
+    "sharpe": 2.577,
+    "calmar": 2.919,
+    "trades": 42,
+    "fees": 511.55,
+    "mean_exposure": 0.3644,
+    "audited_max_drawdown": 0.1538609263636168,
+    "audited_sharpe": 2.503923924290174,
+    "operation_days": 18,
+    "buy_count": 21,
+    "sell_count": 21
+  },
+  {
+    "tag": "R2-M",
+    "final": 147740.32,
+    "return": 0.477403,
+    "max_drawdown": 0.161522,
+    "dd_window": [
+      "2026-06-26",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.331955,
+    "sharpe": 2.614,
+    "calmar": 2.956,
+    "trades": 41,
+    "fees": 495.51,
+    "mean_exposure": 0.437,
+    "audited_max_drawdown": 0.16152155848997884,
+    "audited_sharpe": 2.5438489564181888,
+    "operation_days": 16,
+    "buy_count": 21,
+    "sell_count": 20
+  },
+  {
+    "tag": "R3-M",
+    "final": 144918.23,
+    "return": 0.449182,
+    "max_drawdown": 0.156235,
+    "dd_window": [
+      "2026-06-26",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.3251,
+    "sharpe": 2.542,
+    "calmar": 2.875,
+    "trades": 42,
+    "fees": 511.55,
+    "mean_exposure": 0.3878,
+    "audited_max_drawdown": 0.1562347344894971,
+    "audited_sharpe": 2.4703139302489223,
+    "operation_days": 18,
+    "buy_count": 21,
+    "sell_count": 21
+  },
+  {
+    "tag": "R4-M",
+    "final": 154436.95,
+    "return": 0.54437,
+    "max_drawdown": 0.143907,
+    "dd_window": [
+      "2026-06-26",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.31488,
+    "sharpe": 3.026,
+    "calmar": 3.783,
+    "trades": 38,
+    "fees": 479.74,
+    "mean_exposure": 0.4423,
+    "audited_max_drawdown": 0.1439074113086437,
+    "audited_sharpe": 2.9490847576865513,
+    "operation_days": 19,
+    "buy_count": 19,
+    "sell_count": 19
+  },
+  {
+    "tag": "R4-M-delay1",
+    "final": 154073.96,
+    "return": 0.54074,
+    "max_drawdown": 0.132756,
+    "dd_window": [
+      "2026-06-25",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.33442,
+    "sharpe": 2.853,
+    "calmar": 4.073,
+    "trades": 38,
+    "fees": 512.82,
+    "mean_exposure": 0.4888,
+    "audited_max_drawdown": 0.1327563478771322,
+    "audited_sharpe": 2.781242405084815,
+    "operation_days": 19,
+    "buy_count": 19,
+    "sell_count": 19
+  },
+  {
+    "tag": "R4-M-delay2",
+    "final": 152472.72,
+    "return": 0.524727,
+    "max_drawdown": 0.156949,
+    "dd_window": [
+      "2026-06-25",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.339186,
+    "sharpe": 2.755,
+    "calmar": 3.343,
+    "trades": 36,
+    "fees": 471.63,
+    "mean_exposure": 0.5052,
+    "audited_max_drawdown": 0.15694877719137734,
+    "audited_sharpe": 2.684758670857455,
+    "operation_days": 17,
+    "buy_count": 19,
+    "sell_count": 17
+  },
+  {
+    "tag": "R4-M-slip30bp",
+    "final": 152658.86,
+    "return": 0.526589,
+    "max_drawdown": 0.148907,
+    "dd_window": [
+      "2026-06-26",
+      "2026-08-03"
+    ],
+    "ann_vol": 0.317348,
+    "sharpe": 2.937,
+    "calmar": 3.536,
+    "trades": 38,
+    "fees": 479.22,
+    "mean_exposure": 0.4445,
+    "audited_max_drawdown": 0.14890669517843547,
+    "audited_sharpe": 2.8540910299146964,
+    "operation_days": 19,
+    "buy_count": 19,
+    "sell_count": 19
+  },
+  {
+    "tag": "R0-Q",
+    "final": 132926.81,
+    "return": 0.329268,
+    "max_drawdown": 0.163302,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-06"
+    ],
+    "ann_vol": 0.241845,
+    "sharpe": 2.592,
+    "calmar": 2.016,
+    "trades": 16,
+    "fees": 195.27,
+    "mean_exposure": 0.2143,
+    "audited_max_drawdown": 0.16330165452209078,
+    "audited_sharpe": 2.498593724060524,
+    "operation_days": 7,
+    "buy_count": 8,
+    "sell_count": 8
+  },
+  {
+    "tag": "R1-Q",
+    "final": 133779.31,
+    "return": 0.337793,
+    "max_drawdown": 0.157936,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-06"
+    ],
+    "ann_vol": 0.239634,
+    "sharpe": 2.668,
+    "calmar": 2.139,
+    "trades": 16,
+    "fees": 195.92,
+    "mean_exposure": 0.2103,
+    "audited_max_drawdown": 0.15793565394237385,
+    "audited_sharpe": 2.573188678657956,
+    "operation_days": 7,
+    "buy_count": 8,
+    "sell_count": 8
+  },
+  {
+    "tag": "R2-Q",
+    "final": 132926.81,
+    "return": 0.329268,
+    "max_drawdown": 0.163839,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-06"
+    ],
+    "ann_vol": 0.238993,
+    "sharpe": 2.62,
+    "calmar": 2.01,
+    "trades": 16,
+    "fees": 195.27,
+    "mean_exposure": 0.2256,
+    "audited_max_drawdown": 0.16383938757725225,
+    "audited_sharpe": 2.5252983866915875,
+    "operation_days": 7,
+    "buy_count": 8,
+    "sell_count": 8
+  },
+  {
+    "tag": "R3-Q",
+    "final": 133779.31,
+    "return": 0.337793,
+    "max_drawdown": 0.159534,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-06"
+    ],
+    "ann_vol": 0.239817,
+    "sharpe": 2.666,
+    "calmar": 2.117,
+    "trades": 16,
+    "fees": 195.92,
+    "mean_exposure": 0.2217,
+    "audited_max_drawdown": 0.1595338094229487,
+    "audited_sharpe": 2.5714202482817217,
+    "operation_days": 7,
+    "buy_count": 8,
+    "sell_count": 8
+  },
+  {
+    "tag": "R4-Q",
+    "final": 131925.85,
+    "return": 0.319259,
+    "max_drawdown": 0.173024,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-08"
+    ],
+    "ann_vol": 0.240392,
+    "sharpe": 2.543,
+    "calmar": 1.845,
+    "trades": 16,
+    "fees": 213.6,
+    "mean_exposure": 0.2305,
+    "audited_max_drawdown": 0.17302440696251953,
+    "audited_sharpe": 2.4485792956917556,
+    "operation_days": 8,
+    "buy_count": 8,
+    "sell_count": 8
+  },
+  {
+    "tag": "R4-Q-delay1",
+    "final": 134495.43,
+    "return": 0.344954,
+    "max_drawdown": 0.176298,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-08"
+    ],
+    "ann_vol": 0.238454,
+    "sharpe": 2.726,
+    "calmar": 1.957,
+    "trades": 16,
+    "fees": 215.46,
+    "mean_exposure": 0.2423,
+    "audited_max_drawdown": 0.17629802380247794,
+    "audited_sharpe": 2.630046890152595,
+    "operation_days": 7,
+    "buy_count": 8,
+    "sell_count": 8
+  },
+  {
+    "tag": "R4-Q-delay2",
+    "final": 137197.0,
+    "return": 0.37197,
+    "max_drawdown": 0.174373,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-08"
+    ],
+    "ann_vol": 0.239396,
+    "sharpe": 2.886,
+    "calmar": 2.133,
+    "trades": 14,
+    "fees": 183.93,
+    "mean_exposure": 0.2438,
+    "audited_max_drawdown": 0.1743734904501375,
+    "audited_sharpe": 2.788667377863999,
+    "operation_days": 8,
+    "buy_count": 7,
+    "sell_count": 7
+  },
+  {
+    "tag": "R4-Q-slip30bp",
+    "final": 131142.98,
+    "return": 0.31143,
+    "max_drawdown": 0.1766,
+    "dd_window": [
+      "2026-06-22",
+      "2026-07-08"
+    ],
+    "ann_vol": 0.241144,
+    "sharpe": 2.493,
+    "calmar": 1.763,
+    "trades": 16,
+    "fees": 213.34,
+    "mean_exposure": 0.2308,
+    "audited_max_drawdown": 0.17659959515358936,
+    "audited_sharpe": 2.3909062750915466,
+    "operation_days": 8,
+    "buy_count": 8,
+    "sell_count": 8
+  }
+]

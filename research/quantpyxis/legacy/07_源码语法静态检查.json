@@ -1,0 +1,932 @@
+[
+  {
+    "file": "04_第六轮与平台复现/A80_platform.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/A80_readback.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/A_platform.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/A_readback.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/build_round6_platform.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/editor_before.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/round6_analyse.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/round6_run.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "04_第六轮与平台复现/S0_submitted.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "01_经理报告与摘要/原始证据与源码/S1_strategy_final.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "01_经理报告与摘要/原始证据与源码/S1_strategy_helpers.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "01_经理报告与摘要/原始证据与源码/S1_strategy_v46.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "01_经理报告与摘要/原始证据与源码/S2_v9_platform_source.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "01_经理报告与摘要/原始证据与源码/S3_A_platform.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/audit_recent_2x2.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/package_latest_mode.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/prepare_recent_run.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/report_recent_2x2.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/run_recent_2x2.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/qrun_1416/os/strategy_final.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/qrun_1416/os/strategy_v1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/os/strategy_v46.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/api.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/core.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/data.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/metrics.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/precompute.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/regime.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/run_api_smoke.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/verify_data_integration.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/__init__.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/fixture_utils.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/make_fixtures.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_api.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_core_engine.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_core_rules.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_corporate_actions.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_data.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_metrics.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_no_lookahead.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/A60原始交接包/project/work/recent_window_20261020/frozen/run2/engine_fix/engine/tests/test_regime.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/api.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/core.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/data.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/metrics.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/precompute.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/regime.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/run_api_smoke.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/verify_data_integration.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/__init__.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/analyze.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/charts.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/regime_v1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/run_v1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/sensitivity.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/strategy_final.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/strategy_v1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/os/strategy_v2.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/fixture_utils.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/make_fixtures.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_api.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_core_engine.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_core_rules.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_corporate_actions.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_data.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_metrics.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_no_lookahead.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "02_源码/冻结A运行环境/qrun_1416/engine/tests/test_regime.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/analyze_extra.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/build_supplements.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/debug_dust.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/debug_positions.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/digest.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/inspect_result.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/make_chart.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/quick_test.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/run_round3.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/s0s1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/smoke.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/test_runner_short.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/build_round4_tables.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/overlays.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseA.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseA2.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseB.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseC.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseD.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseE.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseF.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseG.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_phaseH.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/run_stress.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/variants.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/oos_window_addendum.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/seal_freeze.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/verify_postfix.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/__init__.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/项目根目录原件/SuperMind_Q0_季度胜率诊断_v03.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/项目根目录原件/SuperMind_R2_v02.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/项目根目录原件/SuperMind_S0_月度基线_胜率诊断_v03.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/项目根目录原件/SuperMind_S1_整手候选补位_待验证_v03.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/audit/diag_anomalies.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/audit/panel_audit.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/audit/probe_panel.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/audit/regime_audit.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/audit/regime_internal_checks.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/verify/lookahead_perturb.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/verify/risk_flat_check.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round3/verify/verify_metrics.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/verify/v1_recompute.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/verify/v2b_state_timing.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/verify/v2_lookahead.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/verify/v3_oos_report.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/verify/v4_overlay.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round4/verify/v5_integrity.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/attrib_common.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/build_attrib_report.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/build_panel_cache.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/rerun_a.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/step2_over15.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/step3abc.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/step3de.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/step3f_stress.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/step3g_fifo.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/attrib/step3h_cost_delay.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/cli.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/config.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/first_record_manifest.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/ledger.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/panel.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/state.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/strategy.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/util.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/validate.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/paper/__init__.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/platform/platform_diff.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/engine/api.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/engine/core.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/engine/data.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/engine/metrics.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/engine/regime.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/engine/__init__.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/platform_source/SuperMind_S0_月度基线_胜率诊断_v03.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/platform_source/SuperMind_S1_整手候选补位_待验证_v03.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/regime/regime_v1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/strategy/overlays.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/strategy/run_phaseB.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "03_研究轮次与冻结证据/round5/SEAL/snapshot/strategy/variants.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/原始交付/supermind_v9_free.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/平台日志与截图/2015-b-editor-readback.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/平台日志与截图/2015-c-editor-readback.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/平台日志与截图/2015-d-editor-readback.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/平台日志与截图/supermind_momentum_v3_initial.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/平台日志与截图/supermind_v5_initial.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/平台日志与截图/v9-platform-editor-readback.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/audit_platform_result.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/complete_audit.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/render_results.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/replay_audit.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/test_replay_audit.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/results/variants_R1.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/results/variants_R2.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/results/variants_R3.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/results/variants_R4.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/analyze_loss.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/audit.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/build_doc.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/build_universe.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/engine.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/fetch_all.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/finalize.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/loader.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/retry_fetch.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "05_v9早期策略复盘/本地审计/source_snapshot/variants.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/build_manifest.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/build_qa.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/classify_qfq_jumps.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/cross_validate_baostock.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/factor_worker.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/fetch_factors_serial.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/launch_factors.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/launch_tx.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/merge_panel.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/panel_validation.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/sample_validation.py",
+    "parse_ok": true,
+    "error": ""
+  },
+  {
+    "file": "06_行情数据/data/scripts/tx_worker.py",
+    "parse_ok": true,
+    "error": ""
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "version": "S0",
+    "id": "6ad80c9bae9dc400b6de024e",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "status": "completed",
+    "capital": 100000,
+    "source_readback_exact": true,
+    "frequency": "daily",
+    "return_pct": 84.0,
+    "max_drawdown_pct": 11.16,
+    "runtime_seconds": 1033,
+    "final_nav": 183998.REDACTED_PHONE,
+    "headline_reproduction": "PASS",
+    "full_daily_trade_reconciliation": "NOT_COMPLETED"
+  },
+  {
+    "version": "A",
+    "id": "6ad80e7f8947df00b63f2e0e",
+    "start": "2014-07-01",
+    "end": "2026-10-19",
+    "status": "completed",
+    "capital": 100000,
+    "source_readback_exact": true,
+    "frequency": "daily",
+    "return_pct": 160.25,
+    "max_drawdown_pct": 24.86,
+    "final_nav": 260253.3843864004,
+    "runtime_seconds": 1584,
+    "alpha_display": 0.05,
+    "beta_display": 0.23,
+    "sharpe_display": 0.53
+  },
+  {
+    "version": "A80",
+    "id": "6ad80f46a2096a00b6d5f430",
+    "start": "2014-07-01",
+    "end": "2026-10-19",
+    "status": "completed",
+    "capital": 100000,
+    "source_readback_exact": true,
+    "frequency": "daily",
+    "return_pct": 120.68,
+    "max_drawdown_pct": 19.3,
+    "runtime_seconds": 1528,
+    "alpha_display": 0.04,
+    "beta_display": 0.19,
+    "sharpe_display": 0.5
+  }
+]

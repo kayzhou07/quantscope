@@ -1,0 +1,503 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2025-10-17 至 2026-09-30
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：6秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad4d6976d443a00b6b6d014
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad4d6976d443a00b6b6d014
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad4d6976d443a00b6b6d014
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad4d6976d443a00b6b6d014
+      - link "历史持仓" [active]:
+        - /url: /backtest-result/dailyPosition?id=6ad4d6976d443a00b6b6d014
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad4d6976d443a00b6b6d014
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad4d6976d443a00b6b6d014
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad4d6976d443a00b6b6d014
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad4d6976d443a00b6b6d014
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad4d6976d443a00b6b6d014
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad4d6976d443a00b6b6d014
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad4d6976d443a00b6b6d014
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad4d6976d443a00b6b6d014
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad4d6976d443a00b6b6d014
+    - table:
+      - rowgroup:
+        - row "展开/收起 收起全部 日期(时间) 代码/名称 类型 方向 收盘价/结算价 数量 保证金 市值 开仓均价 累计盈亏":
+          - columnheader "展开/收起 收起全部":
+            - button "展开/收起"
+            - button "收起全部"
+          - columnheader "日期(时间)"
+          - columnheader "代码/名称"
+          - columnheader "类型"
+          - columnheader "方向"
+          - columnheader "收盘价/结算价"
+          - columnheader "数量"
+          - columnheader "保证金"
+          - columnheader "市值"
+          - columnheader "开仓均价"
+          - columnheader "累计盈亏"
+          - columnheader
+      - rowgroup:
+        - 'row "- 2026-09-30 持有2只证券 总资产: 118,191.57 现金: 54,518.57 累计盈亏: 18,191.57"':
+          - cell "-":
+            - button "-"
+          - cell "2026-09-30":
+            - generic: 2026-09-30
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 118,191.57"':
+            - generic "总资产:118,191.57": "总资产: 118,191.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 18,191.57"':
+            - generic "累计盈亏:18,191.57": "累计盈亏: 18,191.57"
+          - cell
+        - row "15:15:00 301308.SZ 江波龙 股票 -- 301.93 100 -- 30,193.00 341.05 -3,911.86":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "301308.SZ 江波龙":
+            - generic "301308.SZ 江波龙":
+              - paragraph: 301308.SZ
+              - paragraph: 江波龙
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "301.93":
+            - generic: "301.93"
+          - cell "100":
+            - generic: "100"
+          - cell "--":
+            - generic: "--"
+          - cell "30,193.00":
+            - generic: 30,193.00
+          - cell "341.05":
+            - generic: "341.05"
+          - cell "-3,911.86":
+            - generic: "-3,911.86"
+          - cell
+        - row "15:15:00 002384.SZ 东山精密 股票 -- 167.40 200 -- 33,480.00 198.13 -6,145.72":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "002384.SZ 东山精密":
+            - generic "002384.SZ 东山精密":
+              - paragraph: 002384.SZ
+              - paragraph: 东山精密
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "167.40":
+            - generic: "167.40"
+          - cell "200":
+            - generic: "200"
+          - cell "--":
+            - generic: "--"
+          - cell "33,480.00":
+            - generic: 33,480.00
+          - cell "198.13":
+            - generic: "198.13"
+          - cell "-6,145.72":
+            - generic: "-6,145.72"
+          - cell
+        - 'row "- 2026-09-29 持有2只证券 总资产: 119,926.57 现金: 54,518.57 累计盈亏: 19,926.57"':
+          - cell "-":
+            - button "-"
+          - cell "2026-09-29":
+            - generic: 2026-09-29
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 119,926.57"':
+            - generic "总资产:119,926.57": "总资产: 119,926.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 19,926.57"':
+            - generic "累计盈亏:19,926.57": "累计盈亏: 19,926.57"
+          - cell
+        - row "15:15:00 301308.SZ 江波龙 股票 -- 311.66 100 -- 31,166.00 341.05 -2,938.86":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "301308.SZ 江波龙":
+            - generic "301308.SZ 江波龙":
+              - paragraph: 301308.SZ
+              - paragraph: 江波龙
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "311.66":
+            - generic: "311.66"
+          - cell "100":
+            - generic: "100"
+          - cell "--":
+            - generic: "--"
+          - cell "31,166.00":
+            - generic: 31,166.00
+          - cell "341.05":
+            - generic: "341.05"
+          - cell "-2,938.86":
+            - generic: "-2,938.86"
+          - cell
+        - row "15:15:00 002384.SZ 东山精密 股票 -- 171.21 200 -- 34,242.00 198.13 -5,383.72":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "002384.SZ 东山精密":
+            - generic "002384.SZ 东山精密":
+              - paragraph: 002384.SZ
+              - paragraph: 东山精密
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "171.21":
+            - generic: "171.21"
+          - cell "200":
+            - generic: "200"
+          - cell "--":
+            - generic: "--"
+          - cell "34,242.00":
+            - generic: 34,242.00
+          - cell "198.13":
+            - generic: "198.13"
+          - cell "-5,383.72":
+            - generic: "-5,383.72"
+          - cell
+        - 'row "+ 2026-09-28 持有2只证券 总资产: 119,374.57 现金: 54,518.57 累计盈亏: 19,374.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-28":
+            - generic: 2026-09-28
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 119,374.57"':
+            - generic "总资产:119,374.57": "总资产: 119,374.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 19,374.57"':
+            - generic "累计盈亏:19,374.57": "累计盈亏: 19,374.57"
+          - cell
+        - 'row "+ 2026-09-24 持有2只证券 总资产: 124,893.57 现金: 54,518.57 累计盈亏: 24,893.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-24":
+            - generic: 2026-09-24
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 124,893.57"':
+            - generic "总资产:124,893.57": "总资产: 124,893.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 24,893.57"':
+            - generic "累计盈亏:24,893.57": "累计盈亏: 24,893.57"
+          - cell
+        - 'row "+ 2026-09-23 持有2只证券 总资产: 127,718.57 现金: 54,518.57 累计盈亏: 27,718.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-23":
+            - generic: 2026-09-23
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 127,718.57"':
+            - generic "总资产:127,718.57": "总资产: 127,718.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 27,718.57"':
+            - generic "累计盈亏:27,718.57": "累计盈亏: 27,718.57"
+          - cell
+        - 'row "+ 2026-09-22 持有2只证券 总资产: 128,969.57 现金: 54,518.57 累计盈亏: 28,969.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-22":
+            - generic: 2026-09-22
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 128,969.57"':
+            - generic "总资产:128,969.57": "总资产: 128,969.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 28,969.57"':
+            - generic "累计盈亏:28,969.57": "累计盈亏: 28,969.57"
+          - cell
+        - 'row "+ 2026-09-21 持有2只证券 总资产: 128,301.57 现金: 54,518.57 累计盈亏: 28,301.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-21":
+            - generic: 2026-09-21
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 128,301.57"':
+            - generic "总资产:128,301.57": "总资产: 128,301.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 28,301.57"':
+            - generic "累计盈亏:28,301.57": "累计盈亏: 28,301.57"
+          - cell
+        - 'row "- 2026-09-18 持有2只证券 总资产: 128,444.57 现金: 54,518.57 累计盈亏: 28,444.57"':
+          - cell "-":
+            - button "-"
+          - cell "2026-09-18":
+            - generic: 2026-09-18
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 128,444.57"':
+            - generic "总资产:128,444.57": "总资产: 128,444.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 28,444.57"':
+            - generic "累计盈亏:28,444.57": "累计盈亏: 28,444.57"
+          - cell
+        - row "15:15:00 002384.SZ 东山精密 股票 -- 196.15 200 -- 39,230.00 198.13 -395.72":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "002384.SZ 东山精密":
+            - generic "002384.SZ 东山精密":
+              - paragraph: 002384.SZ
+              - paragraph: 东山精密
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "196.15":
+            - generic: "196.15"
+          - cell "200":
+            - generic: "200"
+          - cell "--":
+            - generic: "--"
+          - cell "39,230.00":
+            - generic: 39,230.00
+          - cell "198.13":
+            - generic: "198.13"
+          - cell "-395.72":
+            - generic: "-395.72"
+          - cell
+        - row "15:15:00 301308.SZ 江波龙 股票 -- 346.96 100 -- 34,696.00 341.05 591.14":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "301308.SZ 江波龙":
+            - generic "301308.SZ 江波龙":
+              - paragraph: 301308.SZ
+              - paragraph: 江波龙
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "346.96":
+            - generic: "346.96"
+          - cell "100":
+            - generic: "100"
+          - cell "--":
+            - generic: "--"
+          - cell "34,696.00":
+            - generic: 34,696.00
+          - cell "341.05":
+            - generic: "341.05"
+          - cell "591.14":
+            - generic: "591.14"
+          - cell
+        - 'row "+ 2026-09-17 持有2只证券 总资产: 126,733.57 现金: 54,518.57 累计盈亏: 26,733.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-17":
+            - generic: 2026-09-17
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 126,733.57"':
+            - generic "总资产:126,733.57": "总资产: 126,733.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 26,733.57"':
+            - generic "累计盈亏:26,733.57": "累计盈亏: 26,733.57"
+          - cell
+        - 'row "+ 2026-09-16 持有2只证券 总资产: 126,814.57 现金: 54,518.57 累计盈亏: 26,814.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-16":
+            - generic: 2026-09-16
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 126,814.57"':
+            - generic "总资产:126,814.57": "总资产: 126,814.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 26,814.57"':
+            - generic "累计盈亏:26,814.57": "累计盈亏: 26,814.57"
+          - cell
+        - 'row "+ 2026-09-15 持有2只证券 总资产: 123,932.57 现金: 54,518.57 累计盈亏: 23,932.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-15":
+            - generic: 2026-09-15
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 123,932.57"':
+            - generic "总资产:123,932.57": "总资产: 123,932.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 23,932.57"':
+            - generic "累计盈亏:23,932.57": "累计盈亏: 23,932.57"
+          - cell
+        - 'row "+ 2026-09-14 持有2只证券 总资产: 124,641.57 现金: 54,518.57 累计盈亏: 24,641.57"':
+          - cell "+":
+            - button "+"
+          - cell "2026-09-14":
+            - generic: 2026-09-14
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 124,641.57"':
+            - generic "总资产:124,641.57": "总资产: 124,641.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 24,641.57"':
+            - generic "累计盈亏:24,641.57": "累计盈亏: 24,641.57"
+          - cell
+        - 'row "- 2026-09-11 持有2只证券 总资产: 127,357.57 现金: 54,518.57 累计盈亏: 27,357.57"':
+          - cell "-":
+            - button "-"
+          - cell "2026-09-11":
+            - generic: 2026-09-11
+          - cell "持有2只证券":
+            - generic "持有2只证券"
+          - cell
+          - 'cell "总资产: 127,357.57"':
+            - generic "总资产:127,357.57": "总资产: 127,357.57"
+          - 'cell "现金: 54,518.57"':
+            - generic "现金:54,518.57": "现金: 54,518.57"
+          - 'cell "累计盈亏: 27,357.57"':
+            - generic "累计盈亏:27,357.57": "累计盈亏: 27,357.57"
+          - cell
+        - row "15:15:00 301308.SZ 江波龙 股票 -- 339.55 100 -- 33,955.00 341.05 -149.86":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "301308.SZ 江波龙":
+            - generic "301308.SZ 江波龙":
+              - paragraph: 301308.SZ
+              - paragraph: 江波龙
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "339.55":
+            - generic: "339.55"
+          - cell "100":
+            - generic: "100"
+          - cell "--":
+            - generic: "--"
+          - cell "33,955.00":
+            - generic: 33,955.00
+          - cell "341.05":
+            - generic: "341.05"
+          - cell "-149.86":
+            - generic: "-149.86"
+          - cell
+        - row "15:15:00 002384.SZ 东山精密 股票 -- 194.42 200 -- 38,884.00 198.13 -741.72":
+          - cell
+          - cell "15:15:00":
+            - generic: 15:15:00
+          - cell "002384.SZ 东山精密":
+            - generic "002384.SZ 东山精密":
+              - paragraph: 002384.SZ
+              - paragraph: 东山精密
+          - cell "股票":
+            - generic "股票"
+          - cell "--":
+            - generic: "--"
+          - cell "194.42":
+            - generic: "194.42"
+          - cell "200":
+            - generic: "200"
+          - cell "--":
+            - generic: "--"
+          - cell "38,884.00":
+            - generic: 38,884.00
+          - cell "198.13":
+            - generic: "198.13"
+          - cell "-741.72":
+            - generic: "-741.72"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "2"
+    - button "3"
+    - button "4"
+    - generic: ...
+    - button "19"
+    - button "下一页": ">"
+    - textbox: "1"
+    - button "前往"

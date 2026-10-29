@@ -1,0 +1,426 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2025-10-17 至 2026-09-30
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：6秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad4d6976d443a00b6b6d014
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad4d6976d443a00b6b6d014
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad4d6976d443a00b6b6d014
+      - link "交易明细" [active]:
+        - /url: /backtest-result/transactionDetail?id=6ad4d6976d443a00b6b6d014
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad4d6976d443a00b6b6d014
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad4d6976d443a00b6b6d014
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad4d6976d443a00b6b6d014
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad4d6976d443a00b6b6d014
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad4d6976d443a00b6b6d014
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad4d6976d443a00b6b6d014
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad4d6976d443a00b6b6d014
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad4d6976d443a00b6b6d014
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad4d6976d443a00b6b6d014
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad4d6976d443a00b6b6d014
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2025-10-17 至 2026-09-30 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2025-10-17 至 2026-09-30 查询":
+            - combobox: 2025-10-17
+            - generic: 至
+            - combobox: 2026-09-30
+            - button "查询"
+      - rowgroup:
+        - row "2026-09-01 09:31:00 002384.SZ 东山精密 买入 198.089 200 39,617.80 -- 7.92 --":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002384.SZ 东山精密":
+            - paragraph: 002384.SZ
+            - paragraph: 东山精密
+          - cell "买入":
+            - generic: 买入
+          - cell "198.089":
+            - generic: "198.089"
+          - cell "200":
+            - generic: "200"
+          - cell "39,617.80":
+            - generic: 39,617.80
+          - cell "--":
+            - generic: "--"
+          - cell "7.92":
+            - generic: "7.92"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-01 09:31:00 000657.SZ 中钨高新 卖出 65.747 -700 -46,022.98 -- 55.23 11,285.67":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000657.SZ 中钨高新":
+            - paragraph: 000657.SZ
+            - paragraph: 中钨高新
+          - cell "卖出":
+            - generic: 卖出
+          - cell "65.747":
+            - generic: "65.747"
+          - cell "-700":
+            - generic: "-700"
+          - cell "-46,022.98":
+            - generic: "-46,022.98"
+          - cell "--":
+            - generic: "--"
+          - cell "55.23":
+            - generic: "55.23"
+          - cell "11,285.67":
+            - generic: 11,285.67
+          - cell
+        - row "2026-08-03 09:31:00 000657.SZ 中钨高新 买入 49.615 700 34,730.36 -- 6.95 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000657.SZ 中钨高新":
+            - paragraph: 000657.SZ
+            - paragraph: 中钨高新
+          - cell "买入":
+            - generic: 买入
+          - cell "49.615":
+            - generic: "49.615"
+          - cell "700":
+            - generic: "700"
+          - cell "34,730.36":
+            - generic: 34,730.36
+          - cell "--":
+            - generic: "--"
+          - cell "6.95":
+            - generic: "6.95"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-03 09:31:00 301308.SZ 江波龙 买入 340.980 100 34,098.04 -- 6.82 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "301308.SZ 江波龙":
+            - paragraph: 301308.SZ
+            - paragraph: 江波龙
+          - cell "买入":
+            - generic: 买入
+          - cell "340.980":
+            - generic: "340.980"
+          - cell "100":
+            - generic: "100"
+          - cell "34,098.04":
+            - generic: 34,098.04
+          - cell "--":
+            - generic: "--"
+          - cell "6.82":
+            - generic: "6.82"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-07-01 09:31:00 002384.SZ 东山精密 卖出 262.219 -100 -26,221.88 -- 31.47 5,284.42":
+          - cell "2026-07-01":
+            - generic: 2026-07-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002384.SZ 东山精密":
+            - paragraph: 002384.SZ
+            - paragraph: 东山精密
+          - cell "卖出":
+            - generic: 卖出
+          - cell "262.219":
+            - generic: "262.219"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-26,221.88":
+            - generic: "-26,221.88"
+          - cell "--":
+            - generic: "--"
+          - cell "31.47":
+            - generic: "31.47"
+          - cell "5,284.42":
+            - generic: 5,284.42
+          - cell
+        - row "2026-06-01 09:31:00 300394.SZ 天孚通信 卖出 459.520 -100 -45,952.01 -- 55.14 14,262.84":
+          - cell "2026-06-01":
+            - generic: 2026-06-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "300394.SZ 天孚通信":
+            - paragraph: 300394.SZ
+            - paragraph: 天孚通信
+          - cell "卖出":
+            - generic: 卖出
+          - cell "459.520":
+            - generic: "459.520"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-45,952.01":
+            - generic: "-45,952.01"
+          - cell "--":
+            - generic: "--"
+          - cell "55.14":
+            - generic: "55.14"
+          - cell "14,262.84":
+            - generic: 14,262.84
+          - cell
+        - row "2026-06-01 09:31:00 002384.SZ 东山精密 买入 209.325 100 20,932.46 -- 5.00 --":
+          - cell "2026-06-01":
+            - generic: 2026-06-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002384.SZ 东山精密":
+            - paragraph: 002384.SZ
+            - paragraph: 东山精密
+          - cell "买入":
+            - generic: 买入
+          - cell "209.325":
+            - generic: "209.325"
+          - cell "100":
+            - generic: "100"
+          - cell "20,932.46":
+            - generic: 20,932.46
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-04-01 09:31:00 300476.SZ 胜宏科技 卖出 259.870 -100 -25,987.00 -- 31.18 -3,213.43":
+          - cell "2026-04-01":
+            - generic: 2026-04-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "300476.SZ 胜宏科技":
+            - paragraph: 300476.SZ
+            - paragraph: 胜宏科技
+          - cell "卖出":
+            - generic: 卖出
+          - cell "259.870":
+            - generic: "259.870"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-25,987.00":
+            - generic: "-25,987.00"
+          - cell "--":
+            - generic: "--"
+          - cell "31.18":
+            - generic: "31.18"
+          - cell "-3,213.43":
+            - generic: "-3,213.43"
+          - cell
+        - row "2026-04-01 09:31:00 300394.SZ 天孚通信 买入 316.828 100 31,682.83 -- 6.34 --":
+          - cell "2026-04-01":
+            - generic: 2026-04-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "300394.SZ 天孚通信":
+            - paragraph: 300394.SZ
+            - paragraph: 天孚通信
+          - cell "买入":
+            - generic: 买入
+          - cell "316.828":
+            - generic: "316.828"
+          - cell "100":
+            - generic: "100"
+          - cell "31,682.83":
+            - generic: 31,682.83
+          - cell "--":
+            - generic: "--"
+          - cell "6.34":
+            - generic: "6.34"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-01-05 09:31:00 300476.SZ 胜宏科技 买入 291.946 100 29,194.59 -- 5.84 --":
+          - cell "2026-01-05":
+            - generic: 2026-01-05
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "300476.SZ 胜宏科技":
+            - paragraph: 300476.SZ
+            - paragraph: 胜宏科技
+          - cell "买入":
+            - generic: 买入
+          - cell "291.946":
+            - generic: "291.946"
+          - cell "100":
+            - generic: "100"
+          - cell "29,194.59":
+            - generic: 29,194.59
+          - cell "--":
+            - generic: "--"
+          - cell "5.84":
+            - generic: "5.84"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-01-05 09:31:00 600183.SH 生益科技 卖出 73.463 -500 -36,731.63 -- 44.08 5,039.45":
+          - cell "2026-01-05":
+            - generic: 2026-01-05
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600183.SH 生益科技":
+            - paragraph: 600183.SH
+            - paragraph: 生益科技
+          - cell "卖出":
+            - generic: 卖出
+          - cell "73.463":
+            - generic: "73.463"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-36,731.63":
+            - generic: "-36,731.63"
+          - cell "--":
+            - generic: "--"
+          - cell "44.08":
+            - generic: "44.08"
+          - cell "5,039.45":
+            - generic: 5,039.45
+          - cell
+        - row "2025-12-01 09:31:00 601138.SH 工业富联 卖出 60.000 -400 -23,999.99 -- 29.00 -4,163.71":
+          - cell "2025-12-01":
+            - generic: 2025-12-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601138.SH 工业富联":
+            - paragraph: 601138.SH
+            - paragraph: 工业富联
+          - cell "卖出":
+            - generic: 卖出
+          - cell "60.000":
+            - generic: "60.000"
+          - cell "-400":
+            - generic: "-400"
+          - cell "-23,999.99":
+            - generic: "-23,999.99"
+          - cell "--":
+            - generic: "--"
+          - cell "29.00":
+            - generic: "29.00"
+          - cell "-4,163.71":
+            - generic: "-4,163.71"
+          - cell
+        - row "2025-11-03 09:31:00 601138.SH 工业富联 买入 70.395 400 28,158.07 -- 5.63 --":
+          - cell "2025-11-03":
+            - generic: 2025-11-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601138.SH 工业富联":
+            - paragraph: 601138.SH
+            - paragraph: 工业富联
+          - cell "买入":
+            - generic: 买入
+          - cell "70.395":
+            - generic: "70.395"
+          - cell "400":
+            - generic: "400"
+          - cell "28,158.07":
+            - generic: 28,158.07
+          - cell "--":
+            - generic: "--"
+          - cell "5.63":
+            - generic: "5.63"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2025-11-03 09:31:00 600183.SH 生益科技 买入 63.372 500 31,685.84 -- 6.34 --":
+          - cell "2025-11-03":
+            - generic: 2025-11-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600183.SH 生益科技":
+            - paragraph: 600183.SH
+            - paragraph: 生益科技
+          - cell "买入":
+            - generic: 买入
+          - cell "63.372":
+            - generic: "63.372"
+          - cell "500":
+            - generic: "500"
+          - cell "31,685.84":
+            - generic: 31,685.84
+          - cell "--":
+            - generic: "--"
+          - cell "6.34":
+            - generic: "6.34"
+          - cell "--":
+            - generic: "--"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "下一页" [disabled]: ">"
+    - textbox: "1"
+    - button "前往"

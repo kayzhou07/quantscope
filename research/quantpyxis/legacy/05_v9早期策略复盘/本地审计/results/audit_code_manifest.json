@@ -1,0 +1,98 @@
+{
+  "code": [
+    {
+      "path": "complete_audit.py",
+      "sha256": "31211478806876dbc69a8073eb22a92ce2cced7c99c620c7ca1bb793760be775"
+    },
+    {
+      "path": "replay_audit.py",
+      "sha256": "8d02a832868a6d812b24ab079028e753e4f893d4a7ee4c9fec58080d0843784f"
+    },
+    {
+      "path": "test_replay_audit.py",
+      "sha256": "4471df4f35f5a29522680f9eeae4311dcd2ba7b89141e97db697af827e80a793"
+    },
+    {
+      "path": "results\\variants_R1.py",
+      "sha256": "a6558d471e473543509c8f75688dd7a55fe36cd5e9afa4c2a60c5a3558d30cb5"
+    },
+    {
+      "path": "results\\variants_R2.py",
+      "sha256": "a96a27f65a55da8223c6a45fc658ae7b6043baeb861074a39ef00932ab1c6365"
+    },
+    {
+      "path": "results\\variants_R3.py",
+      "sha256": "11891b742e81312346f4c77c2c3147983e247a4dbe886b730600669dc40e35d3"
+    },
+    {
+      "path": "results\\variants_R4.py",
+      "sha256": "b2e7e1588972fd1d6dbfb8bdc46eb9cc8f403c5efc29761d87f021c697b53a7b"
+    }
+  ],
+  "cash_checks": [
+    [
+      "R0-M",
+      9514.16
+    ],
+    [
+      "R1-M",
+      9514.16
+    ],
+    [
+      "R2-M",
+      9514.16
+    ],
+    [
+      "R3-M",
+      9514.16
+    ],
+    [
+      "R4-M",
+      9514.16
+    ],
+    [
+      "R4-M-delay1",
+      9514.16
+    ],
+    [
+      "R4-M-delay2",
+      9514.16
+    ],
+    [
+      "R4-M-slip30bp",
+      9333.41
+    ],
+    [
+      "R0-Q",
+      39931.82
+    ],
+    [
+      "R1-Q",
+      39931.82
+    ],
+    [
+      "R2-Q",
+      39931.82
+    ],
+    [
+      "R3-Q",
+      39931.82
+    ],
+    [
+      "R4-Q",
+      18113.81
+    ],
+    [
+      "R4-Q-delay1",
+      18773.74
+    ],
+    [
+      "R4-Q-delay2",
+      3241.78
+    ],
+    [
+      "R4-Q-slip30bp",
+      17558.8
+    ]
+  ]
+}

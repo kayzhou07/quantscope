@@ -1,0 +1,32 @@
+{
+ "qrun_1416/engine/core.py": {
+  "sha256": "b7fc9882b22529265e9a274335c7a50f82ad3432167c41e96b367344b0bd7d30",
+  "seal_sha256": "b7fc9882b22529265e9a274335c7a50f82ad3432167c41e96b367344b0bd7d30",
+  "match": true
+ },
+ "qrun_1416/engine/api.py": {
+  "sha256": "aa1a111133fb903232a072756a982bdf22355927d8916faade53a8f45a7cc2cc",
+  "seal_sha256": "aa1a111133fb903232a072756a982bdf22355927d8916faade53a8f45a7cc2cc",
+  "match": true
+ },
+ "qrun_1416/engine/metrics.py": {
+  "sha256": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+  "seal_sha256": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+  "match": true
+ },
+ "qrun_1416/engine/data.py": {
+  "sha256": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+  "seal_sha256": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+  "match": true
+ },
+ "winrate_backtest_20261020/round4/variants.py": {
+  "sha256": "ee19328e231f74af782fb607a31de99393630994c8bf379c6d6659ba87d7b27b",
+  "seal_sha256": "ee19328e231f74af782fb607a31de99393630994c8bf379c6d6659ba87d7b27b",
+  "match": true
+ },
+ "qrun_1416/os/out/regime_v1.csv": {
+  "sha256": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+  "seal_sha256": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+  "match": true
+ }
+}

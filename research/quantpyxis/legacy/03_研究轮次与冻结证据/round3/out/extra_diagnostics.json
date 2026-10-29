@@ -1,0 +1,105 @@
+{
+ "benchmarks": {
+  "total_return": {
+   "bench_sh000300": 0.5851311514262258,
+   "bench_sz399006": 0.3397451789853059
+  },
+  "yearly": {
+   "bench_sh000300": {
+    "2014": 0.6325288430576388,
+    "2015": 0.05583374956313558,
+    "2016": -0.11281786006719352,
+    "2017": 0.21775086470693616,
+    "2018": -0.2530979787409815,
+    "2019": 0.36069550360004987,
+    "2020": 0.27210647803461474,
+    "2021": -0.REDACTED_ID,
+    "2022": -0.21632768114911483,
+    "2023": -0.1137824295262635
+   },
+   "bench_sz399006": {
+    "2014": 0.REDACTED_ID,
+    "2015": 0.8440782625475283,
+    "2016": -0.27707321314877265,
+    "2017": -0.10672773179997741,
+    "2018": -0.28649555074253175,
+    "2019": 0.43789048599588165,
+    "2020": 0.6496449621215072,
+    "2021": 0.12015691294107,
+    "2022": -0.29371101124170396,
+    "2023": -0.19405441613930996
+   }
+  }
+ },
+ "execution": {
+  "S0": {
+   "n_rebalances": 65,
+   "mean_chosen": 6.676923076923077,
+   "mean_filled": 6.661538461538462,
+   "fill_rate_mean": 0.9984615384615385,
+   "total_chosen": 434,
+   "total_filled": 433,
+   "mean_utilization": 0.885435824756406,
+   "mean_target": 0.3576923076923077,
+   "mean_realized": 0.3205044186969975,
+   "n_bought": 322,
+   "n_bought_unaffordable_at_open": 4,
+   "fill_rate_B": 0.9949999999999999,
+   "mean_chosen_B": 8.25,
+   "mean_utilization_B": 0.9206364375733205,
+   "fill_rate_N": 1.0,
+   "mean_chosen_N": 5.977777777777778,
+   "mean_utilization_N": 0.8697911079488884
+  },
+  "S1": {
+   "n_rebalances": 66,
+   "mean_chosen": 10.0,
+   "mean_filled": 9.954545454545455,
+   "fill_rate_mean": 0.9954545454545455,
+   "total_chosen": 660,
+   "total_filled": 657,
+   "mean_utilization": 0.8370489318139823,
+   "mean_target": 0.3560606060606061,
+   "mean_realized": 0.30177370990348884,
+   "n_bought": 468,
+   "n_bought_unaffordable_at_open": 0,
+   "fill_rate_B": 0.99,
+   "mean_chosen_B": 10.0,
+   "mean_utilization_B": 0.8722510683856509,
+   "fill_rate_N": 0.9978260869565218,
+   "mean_chosen_N": 10.0,
+   "mean_utilization_N": 0.8217436550436916
+  }
+ },
+ "s0_dropped": {
+  "n_dropped": 226,
+  "mean_raw_price": 207.95238976773962,
+  "median_raw_price": 99.47500228881836,
+  "min_price": 31.489999771118164,
+  "max_price": 2122.780029296875,
+  "by_state": {
+   "B": 35,
+   "N": 191
+  },
+  "by_reason": {
+   "scheduled": 226
+  },
+  "total_one_lot_cost": 4706109.989426849
+ },
+ "positions": {
+  "S0": {
+   "mean_positions": 3.5317494600431965,
+   "pct_days_0": 1083,
+   "pct_days_1_3": 246,
+   "pct_days_10": 208,
+   "max_positions": 13
+  },
+  "S1": {
+   "mean_positions": 5.379697624190065,
+   "pct_days_0": 1067,
+   "pct_days_1_3": 7,
+   "pct_days_10": 1212,
+   "max_positions": 13
+  }
+ }
+}

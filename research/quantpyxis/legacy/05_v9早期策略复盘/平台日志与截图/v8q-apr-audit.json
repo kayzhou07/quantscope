@@ -1,0 +1,355 @@
+{
+  "fill_count": 15,
+  "buy_count": 10,
+  "sell_count": 5,
+  "fees": 101.37,
+  "trade_cash_flow": -25611.489999999998,
+  "notional_turnover": 78263.74,
+  "securities": {
+    "000630.SZ": {
+      "cash_flow": -245.54999999999927,
+      "fees": 20.22,
+      "quantity": 0.0,
+      "fills": 3,
+      "closed_pnl": -195.33
+    },
+    "600219.SH": {
+      "cash_flow": -1825.25,
+      "fees": 13.17,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": -1708.28
+    },
+    "601872.SH": {
+      "cash_flow": 1318.9899999999998,
+      "fees": 16.34,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": 1405.33
+    },
+    "603993.SH": {
+      "cash_flow": -323.27000000000044,
+      "fees": 15.06,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": -198.92
+    },
+    "600026.SH": {
+      "cash_flow": 1306.5,
+      "fees": 16.58,
+      "quantity": 0.0,
+      "fills": 2,
+      "closed_pnl": 1432.08
+    },
+    "000301.SZ": {
+      "cash_flow": -6508.25,
+      "fees": 5.0,
+      "quantity": 500.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    },
+    "002493.SZ": {
+      "cash_flow": -6763.38,
+      "fees": 5.0,
+      "quantity": 500.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    },
+    "600188.SH": {
+      "cash_flow": -5842.92,
+      "fees": 5.0,
+      "quantity": 300.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    },
+    "601857.SH": {
+      "cash_flow": -6728.36,
+      "fees": 5.0,
+      "quantity": 600.0,
+      "fills": 1,
+      "closed_pnl": 0.0
+    }
+  },
+  "rows": [
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "000630.SZ",
+      "name": "铜陵有色",
+      "side": "买入",
+      "price": 6.013,
+      "quantity": 800.0,
+      "amount": 4810.4,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "600219.SH",
+      "name": "南山铝业",
+      "side": "买入",
+      "price": 6.233,
+      "quantity": 800.0,
+      "amount": 4986.49,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "601872.SH",
+      "name": "招商轮船",
+      "side": "买入",
+      "price": 16.688,
+      "quantity": 300.0,
+      "amount": 5006.5,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-04-01",
+      "time": "09:31:00",
+      "symbol": "603993.SH",
+      "name": "洛阳钼业",
+      "side": "买入",
+      "price": 17.909,
+      "quantity": 300.0,
+      "amount": 5372.68,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-07-01",
+      "time": "09:31:00",
+      "symbol": "000630.SZ",
+      "name": "铜陵有色",
+      "side": "买入",
+      "price": 6.323,
+      "quantity": 100.0,
+      "amount": 632.32,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-07-01",
+      "time": "09:31:00",
+      "symbol": "600026.SH",
+      "name": "中远海能",
+      "side": "买入",
+      "price": 17.519,
+      "quantity": 300.0,
+      "amount": 5255.63,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-07-01",
+      "time": "09:31:00",
+      "symbol": "600219.SH",
+      "name": "南山铝业",
+      "side": "卖出",
+      "price": 3.968,
+      "quantity": -800.0,
+      "amount": -3174.41,
+      "fee": 8.17,
+      "platform_closed_pnl": -1708.28
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "000301.SZ",
+      "name": "东方盛虹",
+      "side": "买入",
+      "price": 13.007,
+      "quantity": 500.0,
+      "amount": 6503.25,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "000630.SZ",
+      "name": "铜陵有色",
+      "side": "卖出",
+      "price": 5.797,
+      "quantity": -900.0,
+      "amount": -5217.39,
+      "fee": 10.22,
+      "platform_closed_pnl": -195.33
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "002493.SZ",
+      "name": "荣盛石化",
+      "side": "买入",
+      "price": 13.517,
+      "quantity": 500.0,
+      "amount": 6758.38,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "600026.SH",
+      "name": "中远海能",
+      "side": "卖出",
+      "price": 21.929,
+      "quantity": -300.0,
+      "amount": -6578.71,
+      "fee": 11.58,
+      "platform_closed_pnl": 1432.08
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "600188.SH",
+      "name": "兖矿能源",
+      "side": "买入",
+      "price": 19.46,
+      "quantity": 300.0,
+      "amount": 5837.92,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "601857.SH",
+      "name": "中国石油",
+      "side": "买入",
+      "price": 11.206,
+      "quantity": 600.0,
+      "amount": 6723.36,
+      "fee": 5.0,
+      "platform_closed_pnl": null
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "601872.SH",
+      "name": "招商轮船",
+      "side": "卖出",
+      "price": 21.139,
+      "quantity": -300.0,
+      "amount": -6341.83,
+      "fee": 11.34,
+      "platform_closed_pnl": 1405.33
+    },
+    {
+      "date": "2026-10-08",
+      "time": "09:31:00",
+      "symbol": "603993.SH",
+      "name": "洛阳钼业",
+      "side": "卖出",
+      "price": 16.882,
+      "quantity": -300.0,
+      "amount": -5064.47,
+      "fee": 10.06,
+      "platform_closed_pnl": -198.92
+    }
+  ],
+  "interpretation": "cash flow is not total PnL when quantities remain, dividends or corporate actions exist; verify page coverage separately",
+  "trade_dates": [
+    "2026-04-01",
+    "2026-07-01",
+    "2026-10-08"
+  ],
+  "closed_cohorts": [
+    {
+      "symbol": "600219.SH",
+      "name": "南山铝业",
+      "start": "2026-04-01",
+      "quantity": 0.0,
+      "cash_flow": -1825.25,
+      "fees": 13.17,
+      "fills": 2,
+      "end": "2026-07-01"
+    },
+    {
+      "symbol": "603993.SH",
+      "name": "洛阳钼业",
+      "start": "2026-04-01",
+      "quantity": 0.0,
+      "cash_flow": -323.27000000000044,
+      "fees": 15.06,
+      "fills": 2,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "000630.SZ",
+      "name": "铜陵有色",
+      "start": "2026-04-01",
+      "quantity": 0.0,
+      "cash_flow": -245.54999999999927,
+      "fees": 20.22,
+      "fills": 3,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "600026.SH",
+      "name": "中远海能",
+      "start": "2026-07-01",
+      "quantity": 0.0,
+      "cash_flow": 1306.5,
+      "fees": 16.58,
+      "fills": 2,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "601872.SH",
+      "name": "招商轮船",
+      "start": "2026-04-01",
+      "quantity": 0.0,
+      "cash_flow": 1318.9899999999998,
+      "fees": 16.34,
+      "fills": 2,
+      "end": "2026-10-08"
+    }
+  ],
+  "open_cohorts": [
+    {
+      "symbol": "000301.SZ",
+      "name": "东方盛虹",
+      "start": "2026-10-08",
+      "quantity": 500.0,
+      "cash_flow": -6508.25,
+      "fees": 5.0,
+      "fills": 1,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "002493.SZ",
+      "name": "荣盛石化",
+      "start": "2026-10-08",
+      "quantity": 500.0,
+      "cash_flow": -6763.38,
+      "fees": 5.0,
+      "fills": 1,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "600188.SH",
+      "name": "兖矿能源",
+      "start": "2026-10-08",
+      "quantity": 300.0,
+      "cash_flow": -5842.92,
+      "fees": 5.0,
+      "fills": 1,
+      "end": "2026-10-08"
+    },
+    {
+      "symbol": "601857.SH",
+      "name": "中国石油",
+      "start": "2026-10-08",
+      "quantity": 600.0,
+      "cash_flow": -6728.36,
+      "fees": 5.0,
+      "fills": 1,
+      "end": "2026-10-08"
+    }
+  ]
+}

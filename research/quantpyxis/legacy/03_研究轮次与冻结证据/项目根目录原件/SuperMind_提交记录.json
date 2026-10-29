@@ -1,0 +1,111 @@
+[
+  {
+    "variant": "R0_bridge_v01",
+    "start": "2025-01-01",
+    "end": "2026-10-19",
+    "id": "6ad7471f506c3200b5d4b87b",
+    "status": "completed",
+    "return_pct": -5.29,
+    "max_drawdown_pct": 12.46,
+    "note": "Engineering bridge; buffer 24 subsequently corrected to original 20. Not final R0 control."
+  },
+  {
+    "variant": "R0",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "id": "6ad749106d443a00b6b6d54c",
+    "tab": "4",
+    "status": "completed",
+    "return_pct": 63.58,
+    "max_drawdown_pct": 14.33
+  },
+  {
+    "variant": "R1",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "id": "6ad74942eb421500b61316cf",
+    "tab": "5",
+    "status": "completed",
+    "return_pct": 63.58,
+    "max_drawdown_pct": 14.33
+  },
+  {
+    "variant": "R2",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "id": "6ad74a7622686300b6eeb1f9",
+    "tab": "6",
+    "status": "completed",
+    "return_pct": 84.0,
+    "max_drawdown_pct": 11.16,
+    "observed_date": "2026-10-20"
+  },
+  {
+    "variant": "R3",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "id": "6ad74b21a5755800b6218e18",
+    "tab": "7",
+    "status": "completed",
+    "return_pct": 81.66,
+    "max_drawdown_pct": 11.53,
+    "observed_date": "2026-10-20"
+  },
+  {
+    "variant": "R4",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "id": "6ad74caf693b8e00b5b94306",
+    "tab": "8",
+    "status": "completed",
+    "return_pct": 66.45,
+    "max_drawdown_pct": 11.56,
+    "observed_date": "2026-10-20"
+  },
+  {
+    "variant": "R5",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "status": "submission_not_accepted",
+    "id": null,
+    "note": "Clicked submit; no new task ID observed. R5 attempted twice; R6 and R7 once. No explicit rejection reason visible."
+  },
+  {
+    "variant": "R6",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "status": "submission_not_accepted",
+    "id": null,
+    "note": "Clicked submit; no new task ID observed. R5 attempted twice; R6 and R7 once. No explicit rejection reason visible."
+  },
+  {
+    "variant": "R7",
+    "version": "v02",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "status": "submission_not_accepted",
+    "id": null,
+    "note": "Clicked submit; no new task ID observed. R5 attempted twice; R6 and R7 once. No explicit rejection reason visible."
+  },
+  {
+    "id": "6ad75f84693b8e00b5b9432e",
+    "variant": "Q0",
+    "start": "2014-07-01",
+    "end": "2023-12-29",
+    "initial_cash": 100000,
+    "status": "completed",
+    "source_readback_exact": true,
+    "return_pct": 63.58,
+    "max_drawdown_pct": 14.33,
+    "runtime_seconds": 409,
+    "baseline_reproduced": true,
+    "version": "v03"
+  }
+]

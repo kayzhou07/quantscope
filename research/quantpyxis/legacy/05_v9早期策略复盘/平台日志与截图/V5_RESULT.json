@@ -1,0 +1,55 @@
+{
+  "version": "v5",
+  "status": "platform_complete",
+  "start": "2025-10-17",
+  "end": "2026-10-16",
+  "task_id": "6ad5e2ec27352e00b66f433c",
+  "return": -0.0004,
+  "benchmark_return": -0.097,
+  "max_drawdown": 0.0084,
+  "sharpe": -1.58,
+  "trade_count": 5,
+  "stock_roundtrips": 1,
+  "minimum_normal_holding_trading_days": 7,
+  "actual_stock_roundtrip": {
+    "symbol": "002709.SZ",
+    "buy": "2026-05-06",
+    "sell": "2026-05-15",
+    "elapsed_sessions": 7,
+    "shares": 100,
+    "platform_closed_pnl": -479.82
+  },
+  "etf_trades": [
+    {
+      "date": "2026-04-23",
+      "shares": 15200
+    },
+    {
+      "date": "2026-04-28",
+      "shares": -7500
+    },
+    {
+      "date": "2026-05-06",
+      "shares": -7700
+    }
+  ],
+  "exceptions": [
+    "MA5 reduction",
+    "MA13 or MA30 exit",
+    "pre-existing hard cash/risk caps"
+  ],
+  "entry_filter": "previous close >= MA5,MA13,MA30",
+  "sell_signal": "previous completed session; next-session execution",
+  "training": "threshold .50 frozen; no runtime calibration after test start",
+  "macro": "preApr2026 sparse verified final releases only; existing later table retained",
+  "source_sha256": "4f539325b8cde196e7618a538df0af0635bb8465855c0438d2761af8942f44b2",
+  "tests_passed": 5,
+  "limitations": [
+    "only five trades and high cash",
+    "not unseen out-of-sample",
+    "cannot compare directly with half-year v4",
+    "whole lots can prevent exact half",
+    "orders subject to T+1/suspension/limit prices",
+    "fundamentals/Barra full model and convertible bond adapter still unavailable"
+  ]
+}

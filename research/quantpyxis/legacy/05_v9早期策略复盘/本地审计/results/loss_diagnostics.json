@@ -1,0 +1,216 @@
+{
+  "R4-M": {
+    "monthly": [
+      {
+        "month": "2026-04",
+        "start_nav": 100000,
+        "end_nav": 115230.24,
+        "return_": 0.15230239999999995,
+        "pnl": 15230.240000000005,
+        "mean_exposure": 0.5238380952380952
+      },
+      {
+        "month": "2026-05",
+        "start_nav": 115230.24,
+        "end_nav": 128900.8,
+        "return_": 0.11863691336579696,
+        "pnl": 13670.559999999998,
+        "mean_exposure": 0.6519666666666667
+      },
+      {
+        "month": "2026-06",
+        "start_nav": 128900.8,
+        "end_nav": 158747.55,
+        "return_": 0.23154821382024005,
+        "pnl": 29846.749999999985,
+        "mean_exposure": 0.612
+      },
+      {
+        "month": "2026-07",
+        "start_nav": 158747.55,
+        "end_nav": 142680.96,
+        "return_": -0.10120842809857533,
+        "pnl": -16066.589999999997,
+        "mean_exposure": 0.13083913043478262
+      },
+      {
+        "month": "2026-08",
+        "start_nav": 142680.96,
+        "end_nav": 165137.08,
+        "return_": 0.15738694216803695,
+        "pnl": 22456.119999999995,
+        "mean_exposure": 0.5258619047619048
+      },
+      {
+        "month": "2026-09",
+        "start_nav": 165137.08,
+        "end_nav": 154436.95,
+        "return_": -0.06479544145990701,
+        "pnl": -10700.129999999976,
+        "mean_exposure": 0.26881428571428573
+      }
+    ],
+    "top3_net_contribution": 49323.95,
+    "net_profit": 54436.95000000001,
+    "top3_share": 0.9060748260143154,
+    "july_new_lots_pnl": -13661.42,
+    "july_new_lots": [
+      {
+        "code": "sz001267",
+        "name": "汇绿生态",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-03",
+        "shares": 500,
+        "net_pnl": -3339.99,
+        "net_return": -0.124748914046247,
+        "reason": "trail -12% from peak signal=2026-07-02"
+      },
+      {
+        "code": "sz301217",
+        "name": "铜冠铜箔",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-07",
+        "shares": 100,
+        "net_pnl": -2168.63,
+        "net_return": -0.1304692580874358,
+        "reason": "trail -12% from peak signal=2026-07-06"
+      },
+      {
+        "code": "sz301526",
+        "name": "国际复材",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-07",
+        "shares": 600,
+        "net_pnl": -3986.05,
+        "net_return": -0.13828792948167312,
+        "reason": "trail -12% from peak signal=2026-07-06"
+      },
+      {
+        "code": "sz301200",
+        "name": "大族数控",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-09",
+        "shares": 100,
+        "net_pnl": -4166.75,
+        "net_return": -0.11538903558388214,
+        "reason": "trail -12% from peak signal=2026-07-08"
+      }
+    ],
+    "max_dd_peak_nav": 161249.93,
+    "max_dd_trough_nav": 138044.87,
+    "drawdown_cash_loss": 23205.059999999998,
+    "flat_cash_from": "2026-09-29"
+  },
+  "R4-Q": {
+    "monthly": [
+      {
+        "month": "2026-04",
+        "start_nav": 100000,
+        "end_nav": 115230.24,
+        "return_": 0.15230239999999995,
+        "pnl": 15230.240000000005,
+        "mean_exposure": 0.5238380952380952
+      },
+      {
+        "month": "2026-05",
+        "start_nav": 115230.24,
+        "end_nav": 127982.65,
+        "return_": 0.11066895287209322,
+        "pnl": 12752.409999999989,
+        "mean_exposure": 0.42186666666666667
+      },
+      {
+        "month": "2026-06",
+        "start_nav": 127982.65,
+        "end_nav": 148528.81,
+        "return_": 0.16053863551036018,
+        "pnl": 20546.160000000003,
+        "mean_exposure": 0.33005238095238093
+      },
+      {
+        "month": "2026-07",
+        "start_nav": 148528.81,
+        "end_nav": 131925.85,
+        "return_": -0.11178275783667824,
+        "pnl": -16602.959999999992,
+        "mean_exposure": 0.14270869565217392
+      },
+      {
+        "month": "2026-08",
+        "start_nav": 131925.85,
+        "end_nav": 131925.85,
+        "return_": 0.0,
+        "pnl": 0.0,
+        "mean_exposure": 0.0
+      },
+      {
+        "month": "2026-09",
+        "start_nav": 131925.85,
+        "end_nav": 131925.85,
+        "return_": 0.0,
+        "pnl": 0.0,
+        "mean_exposure": 0.0
+      }
+    ],
+    "top3_net_contribution": 44922.939999999995,
+    "net_profit": 31925.850000000006,
+    "top3_share": 1.4071023950811017,
+    "july_new_lots_pnl": -16602.95,
+    "july_new_lots": [
+      {
+        "code": "sh603256",
+        "name": "宏和科技",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-03",
+        "shares": 100,
+        "net_pnl": -3605.87,
+        "net_return": -0.13410284712914355,
+        "reason": "trail -12% from peak signal=2026-07-02"
+      },
+      {
+        "code": "sz001267",
+        "name": "汇绿生态",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-03",
+        "shares": 500,
+        "net_pnl": -3339.99,
+        "net_return": -0.124748914046247,
+        "reason": "trail -12% from peak signal=2026-07-02"
+      },
+      {
+        "code": "sz301217",
+        "name": "铜冠铜箔",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-07",
+        "shares": 100,
+        "net_pnl": -2168.63,
+        "net_return": -0.1304692580874358,
+        "reason": "trail -12% from peak signal=2026-07-06"
+      },
+      {
+        "code": "sz301526",
+        "name": "国际复材",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-07",
+        "shares": 500,
+        "net_pnl": -3321.71,
+        "net_return": -0.13828801805811197,
+        "reason": "trail -12% from peak signal=2026-07-06"
+      },
+      {
+        "code": "sz301200",
+        "name": "大族数控",
+        "buy_date": "2026-07-01",
+        "sell_date": "2026-07-09",
+        "shares": 100,
+        "net_pnl": -4166.75,
+        "net_return": -0.11538903558388214,
+        "reason": "trail -12% from peak signal=2026-07-08"
+      }
+    ],
+    "max_dd_peak_nav": 158870.65,
+    "max_dd_trough_nav": 131382.15,
+    "drawdown_cash_loss": 27488.5,
+    "flat_cash_from": "2026-07-09"
+  }
+}

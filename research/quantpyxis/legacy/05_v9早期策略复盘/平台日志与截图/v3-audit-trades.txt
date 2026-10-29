@@ -1,0 +1,265 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2026-05-01 至 2026-10-16
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：5秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad4ea80eb421500b61311d4
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad4ea80eb421500b61311d4
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad4ea80eb421500b61311d4
+      - link "交易明细" [active]:
+        - /url: /backtest-result/transactionDetail?id=6ad4ea80eb421500b61311d4
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad4ea80eb421500b61311d4
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad4ea80eb421500b61311d4
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad4ea80eb421500b61311d4
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad4ea80eb421500b61311d4
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad4ea80eb421500b61311d4
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad4ea80eb421500b61311d4
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad4ea80eb421500b61311d4
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad4ea80eb421500b61311d4
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad4ea80eb421500b61311d4
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad4ea80eb421500b61311d4
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2026-05-01 至 2026-10-16 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2026-05-01 至 2026-10-16 查询":
+            - combobox: 2026-05-01
+            - generic: 至
+            - combobox: 2026-10-16
+            - button "查询"
+      - rowgroup:
+        - row "2026-10-08 09:31:00 600176.SH 中国巨石 卖出 40.070 -100 -4,007.00 -- 9.01 311.15":
+          - cell "2026-10-08":
+            - generic: 2026-10-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600176.SH 中国巨石":
+            - paragraph: 600176.SH
+            - paragraph: 中国巨石
+          - cell "卖出":
+            - generic: 卖出
+          - cell "40.070":
+            - generic: "40.070"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-4,007.00":
+            - generic: "-4,007.00"
+          - cell "--":
+            - generic: "--"
+          - cell "9.01":
+            - generic: "9.01"
+          - cell "311.15":
+            - generic: "311.15"
+          - cell
+        - row "2026-09-01 09:31:00 000657.SZ 中钨高新 买入 65.813 100 6,581.29 -- 5.00 --":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000657.SZ 中钨高新":
+            - paragraph: 000657.SZ
+            - paragraph: 中钨高新
+          - cell "买入":
+            - generic: 买入
+          - cell "65.813":
+            - generic: "65.813"
+          - cell "100":
+            - generic: "100"
+          - cell "6,581.29":
+            - generic: 6,581.29
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-03 09:31:00 600176.SH 中国巨石 买入 36.908 100 3,690.84 -- 5.00 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600176.SH 中国巨石":
+            - paragraph: 600176.SH
+            - paragraph: 中国巨石
+          - cell "买入":
+            - generic: 买入
+          - cell "36.908":
+            - generic: "36.908"
+          - cell "100":
+            - generic: "100"
+          - cell "3,690.84":
+            - generic: 3,690.84
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-06-01 09:31:00 600875.SH 东方电气 卖出 35.062 -300 -10,518.74 -- 15.52 -1,387.21":
+          - cell "2026-06-01":
+            - generic: 2026-06-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600875.SH 东方电气":
+            - paragraph: 600875.SH
+            - paragraph: 东方电气
+          - cell "卖出":
+            - generic: 卖出
+          - cell "35.062":
+            - generic: "35.062"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-10,518.74":
+            - generic: "-10,518.74"
+          - cell "--":
+            - generic: "--"
+          - cell "15.52":
+            - generic: "15.52"
+          - cell "-1,387.21":
+            - generic: "-1,387.21"
+          - cell
+        - row "2026-06-01 09:31:00 002709.SZ 天赐材料 卖出 52.054 -200 -10,410.79 -- 15.41 -1,716.27":
+          - cell "2026-06-01":
+            - generic: 2026-06-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002709.SZ 天赐材料":
+            - paragraph: 002709.SZ
+            - paragraph: 天赐材料
+          - cell "卖出":
+            - generic: 卖出
+          - cell "52.054":
+            - generic: "52.054"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-10,410.79":
+            - generic: "-10,410.79"
+          - cell "--":
+            - generic: "--"
+          - cell "15.41":
+            - generic: "15.41"
+          - cell "-1,716.27":
+            - generic: "-1,716.27"
+          - cell
+        - row "2026-05-06 09:31:00 600875.SH 东方电气 买入 39.670 300 11,900.95 -- 5.00 --":
+          - cell "2026-05-06":
+            - generic: 2026-05-06
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600875.SH 东方电气":
+            - paragraph: 600875.SH
+            - paragraph: 东方电气
+          - cell "买入":
+            - generic: 买入
+          - cell "39.670":
+            - generic: "39.670"
+          - cell "300":
+            - generic: "300"
+          - cell "11,900.95":
+            - generic: 11,900.95
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-05-06 09:31:00 002709.SZ 天赐材料 买入 60.610 200 12,122.06 -- 5.00 --":
+          - cell "2026-05-06":
+            - generic: 2026-05-06
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002709.SZ 天赐材料":
+            - paragraph: 002709.SZ
+            - paragraph: 天赐材料
+          - cell "买入":
+            - generic: 买入
+          - cell "60.610":
+            - generic: "60.610"
+          - cell "200":
+            - generic: "200"
+          - cell "12,122.06":
+            - generic: 12,122.06
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "下一页" [disabled]: ">"
+    - textbox: "1"
+    - button "前往"

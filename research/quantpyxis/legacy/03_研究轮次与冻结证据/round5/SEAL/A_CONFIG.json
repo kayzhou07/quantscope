@@ -1,0 +1,106 @@
+{
+ "schema_version": "round5-a-freeze-1",
+ "strategy_id": "A",
+ "description": "frozen-state monthly momentum, B=100%/N=30%, top15, buffer20, vol cap 0.55, truncate-then-drop affordability, explicit full exits",
+ "engine": {
+  "repo": "qrun_1416/engine v1.0.1",
+  "exec_timing": "T close signal -> T+1 open fill",
+  "lots": 100,
+  "leverage": 0,
+  "cash_interest": 0,
+  "max_pending_days": 20,
+  "dividend_mode": "qfq_reinvest (share multiplier on ex-date)",
+  "volume_cap": null,
+  "st_filter": "INERT (panel isst always 0) - documented known gap"
+ },
+ "state": {
+  "source_csv": "qrun_1416/os/out/regime_v1.csv",
+  "generator": "qrun_1416/os/regime_v1.py compute_regime(start='2012-08-01', end=asof)",
+  "label_semantics": "state evaluated at T close, actionable T+1 open",
+  "mapping": {
+   "BULL": "B",
+   "NEUTRAL": "N",
+   "BEAR": "E",
+   "CRASH": "C"
+  },
+  "missing_state_behaviour": "FAIL with DATA_UNAVAILABLE; MUST NOT fall back to N and MUST NOT reuse stale state"
+ },
+ "exposure": {
+  "B": 1.0,
+  "N": 0.3,
+  "E": 0.0,
+  "C": 0.0
+ },
+ "selection": {
+  "universe_prefixes": [
+   "600",
+   "601",
+   "603",
+   "605",
+   "000",
+   "001",
+   "002",
+   "003",
+   "300",
+   "301"
+  ],
+  "window_bars": 260,
+  "min_valid_bars": 230,
+  "momentum_12_1": "x[-22]/x[-253]-1",
+  "momentum_6_1": "x[-22]/x[-127]-1",
+  "vol": "std(pct_change() over the last 61 return observations)*sqrt(252)  [code: iloc[-61:], 61 obs; NOT exactly 60]",
+  "vol_cap": 0.55,
+  "min_raw_close": 2.0,
+  "min_amount_60d_mean": 200000000.0,
+  "trend": "close > MA60 > MA120 (qfq, ffill)",
+  "score": {
+   "w_ras": 0.5,
+   "w_m6": 0.3,
+   "w_inv_vol": 0.2,
+   "rank": "cross-sectional pct rank"
+  },
+  "top_n": 15,
+  "retention_buffer_rank": 20,
+  "affordability": "truncate to top_n first, then drop names with 100*raw_close > budget*1.02; budget = exposure*nav/top_n; NO backfill",
+  "weights": "exposure / n_selected",
+  "rebalance": "last trading day of month; first frozen date initialises; B<->N changes do NOT trigger an extra immediate rebalance; E/C exit target is issued at that close and attempted next open"
+ },
+ "costs": {
+  "slippage_bps_per_side": 10.0,
+  "commission_bps": 2.5,
+  "min_commission_cny": 5.0,
+  "stamp_tax_sell": {
+   "before": "2023-08-28: 0.001",
+   "from_2023_08_28": "0.0005"
+  },
+  "transfer_fee": 1e-05
+ },
+ "window": {
+  "start": "2014-07-01",
+  "end": "2026-10-19",
+  "capital": 100000.0
+ },
+ "published_metrics": {
+  "total_return": 1.7456069325168508,
+  "max_drawdown": -0.23979364746919452,
+  "dd_peak": "2017-11-22",
+  "dd_trough": "2020-03-23",
+  "cagr": 0.088883,
+  "avg_exposure": 0.264221,
+  "all_cash_days": 1285,
+  "max_positions_observed": 17
+ },
+ "prohibited_changes": [
+  "no circuit breakers",
+  "no fast re-entry",
+  "no sector caps",
+  "no parameter search on N=85/90 or top_n 15/20",
+  "no use of 2024-09+ performance to change rules"
+ ],
+ "known_behaviour": {
+  "missing_input": "FAIL with DATA_UNAVAILABLE, write nothing",
+  "empty_candidates": "set empty target book (sell all), recorded as cash reason no_candidate",
+  "pending_order_expiry": "20 trading days (engine max_pending_days), then target_book_expired event",
+  "blocked_exit": "carried daily, retried at next open; over-target holdings possible up to expiry"
+ }
+}

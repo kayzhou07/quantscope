@@ -1,0 +1,42 @@
+{
+  "version": "v6b",
+  "status": "platform_complete_research_only",
+  "task_id": "6ad5eec4693b8e00b5b93fbb",
+  "start": "2025-10-17",
+  "end": "2026-10-16",
+  "return": -0.0599,
+  "max_drawdown": 0.0613,
+  "fill_count": 142,
+  "buy_count": 52,
+  "sell_count": 90,
+  "closed_roundtrips": 49,
+  "still_open_roundtrips": 3,
+  "fees": 1019.46,
+  "final_equity": 94008.1,
+  "final_cash": 74771.1,
+  "final_market_value": 19237.0,
+  "frequency_goal": "<200 achieved; preferred100 not exact (142)",
+  "periodic_review_sessions": 20,
+  "max_positions": 4,
+  "outside_review_stock_buys": false,
+  "tests_passed": 6,
+  "source_sha256": "4f3291b6e97b65af15ffb41d3ba848ca21e21db3f89018bcdf9e84a83e4edfc8",
+  "first_trial": {
+    "version": "v6",
+    "task_id": "6ad5ebc2ae9dc400b6ddfe45",
+    "fill_count": 401,
+    "count_evidence": "13 full pages*30+11 last-page rows",
+    "return": -0.0765,
+    "max_drawdown": 0.1078,
+    "status": "failed frequency target; retained"
+  },
+  "audit": {
+    "complete_trade_pages": true,
+    "cash_and_positions_reconciled_with_unresolved_adjustment": 65.05,
+    "maximum_drawdown_dates": "unverified; require complete closing NAV series",
+    "final_counter_log": "instrumented but end-of-year row not yet extracted from paginated platform logs",
+    "per_condition_causal_contributions": "not identified; no individual ablation",
+    "fees_and_dividends_independent_vendor_audit": "pending"
+  },
+  "promotion": "Not recommended as better strategy: improved activity, worse PnL than v5; no further frequency fitting in this run"
+}

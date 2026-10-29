@@ -1,0 +1,80 @@
+{
+ "settings": {
+  "cost_2x": {
+   "slippage_bps": 20.0,
+   "commission_bps": 5.0,
+   "min_commission": 5.0
+  },
+  "delay_1d": {
+   "exec_delay_days": 1
+  }
+ },
+ "dd_fail_line": -0.3,
+ "results": [
+  {
+   "case": "A baseline (10bp slip / 2.5bp comm, T+1 open)",
+   "slippage_bps": 10.0,
+   "commission_bps": 2.5,
+   "exec_delay_days": 0,
+   "total_return": 1.7456069325168508,
+   "max_drawdown": -0.23979364746919452,
+   "cagr": 0.08888300693654827,
+   "ann_vol": 0.11135550372108091,
+   "sharpe": 0.821174473475915,
+   "avg_exposure": 0.26422050783587264,
+   "n_positions_max": 17,
+   "trade_count": 1603,
+   "total_fees": 13571.68,
+   "final_nav": 274560.69325168506,
+   "dd_breach_30": false
+  },
+  {
+   "case": "(i) doubled costs (20bp slip / 5bp comm)",
+   "slippage_bps": 20.0,
+   "commission_bps": 5.0,
+   "exec_delay_days": 0,
+   "dd_breach_30": false,
+   "elapsed_s": 7.0,
+   "total_return": 1.496727737698396,
+   "max_drawdown": -0.25226133022403907,
+   "cagr": 0.08019464603303805,
+   "ann_vol": 0.11174571014114491,
+   "sharpe": 0.7469929662885411,
+   "avg_exposure": 0.26414701866706286,
+   "n_positions_max": 17,
+   "trade_count": 1598,
+   "total_fees": 14351.619999999999,
+   "final_nav": 249672.7737698396,
+   "n_trading_days": 2989
+  },
+  {
+   "case": "(ii) 1-trading-day exec delay (T+2 open)",
+   "slippage_bps": 10.0,
+   "commission_bps": 2.5,
+   "exec_delay_days": 1,
+   "dd_breach_30": false,
+   "elapsed_s": 7.3,
+   "total_return": 1.594523839130939,
+   "max_drawdown": -0.24127116172853225,
+   "cagr": 0.08369942513389073,
+   "ann_vol": 0.11257594121767185,
+   "sharpe": 0.7711118749774996,
+   "avg_exposure": 0.2648739230173925,
+   "n_positions_max": 17,
+   "trade_count": 1574,
+   "total_fees": 13378.49,
+   "final_nav": 259452.38391309392,
+   "n_trading_days": 2989
+  }
+ ],
+ "delay_validation": {
+  "n_codes_compared": 424,
+  "mean_business_day_shift": 1.3608490566037736,
+  "median_business_day_shift": 1.0,
+  "pct_shifted_at_least_1_day": 1.0,
+  "n_shifted_exactly_1": 421,
+  "first_buy_date_baseline": "2014-09-01",
+  "first_buy_date_delayed": "2014-09-02",
+  "note": "positive shift is expected (~1 business day)"
+ }
+}

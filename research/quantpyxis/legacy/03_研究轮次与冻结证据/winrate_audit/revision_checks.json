@@ -1,0 +1,10 @@
+{
+  "python38_syntax": "PASS",
+  "affordability_regressions": 6,
+  "diagnostic_regressions": "PASS",
+  "platform_backtest_performed": false,
+  "source_sha256": {
+    "SuperMind_S0_月度基线_胜率诊断_v03.py": "1f4cbf7930d82fec85960a8827702f6e5eb31bb5a51349b164592d6c8bf87653",
+    "SuperMind_S1_整手候选补位_待验证_v03.py": "05da5f1a38df99aa8d15dbb888aee0a8c6362ccb2ca1f8a36747c88f232699e7"
+  }
+}

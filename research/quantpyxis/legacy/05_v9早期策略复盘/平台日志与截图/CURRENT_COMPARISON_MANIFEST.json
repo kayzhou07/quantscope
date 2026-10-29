@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-19",
+  "current": "v8Q",
+  "period": [
+    "2026-04-01",
+    "2026-10-16"
+  ],
+  "notion": "https://app.notion.com/p/3fed4dbafa65816382f6e0699f97e986",
+  "runs": [
+    {
+      "id": "6ad5fca67f7c1200b6480fc1",
+      "version": "v6b",
+      "return": -0.0289,
+      "fills": 66,
+      "drawdown": 0.035
+    },
+    {
+      "id": "6ad5fd63a2096a00b6d5f065",
+      "version": "v7A",
+      "return": -0.0097,
+      "fills": 69,
+      "drawdown": 0.0361
+    },
+    {
+      "id": "6ad5ff72a2096a00b6d5f069",
+      "version": "v1",
+      "return": 0.0181,
+      "fills": 11,
+      "drawdown": 0.299
+    },
+    {
+      "id": "6ad60137f5be1600b606aadd",
+      "version": "v8Q",
+      "return": -0.0002,
+      "fills": 15,
+      "drawdown": 0.0584
+    }
+  ],
+  "files": [
+    {
+      "sha256": "DD5CFAAEEE0F42E600A0E5BB5FDF4C499DE2048C303F30EBE9634BF10BF63D80",
+      "path": "outputs/tang-investment/supermind_momentum_v1.py"
+    },
+    {
+      "sha256": "CAEEE72E941C7B251457ED5C077AB91AEC62FA9B60A3544BEEBCCD1C37B21832",
+      "path": "outputs/tang-investment/supermind_momentum_v6b.py"
+    },
+    {
+      "sha256": "1E56DF8BC2469608C51A3876944D373D6D5728CE25D655E4DC9EF5E2042B27E9",
+      "path": "outputs/tang-investment/supermind_momentum_v7a.py"
+    },
+    {
+      "sha256": "2B1FD057BDB8D1AA6390D8E9EEB47AB8A7666391D39053CA543E284EA0ED9F7C",
+      "path": "outputs/tang-investment/supermind_momentum_v8q.py"
+    }
+  ]
+}

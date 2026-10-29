@@ -1,0 +1,17 @@
+{
+ "contract": "v1",
+ "fixture": true,
+ "generated_by": "engine/tests/make_fixtures.py",
+ "calendar": "meta/calendar.csv",
+ "universe": "meta/universe.csv",
+ "files": [
+  "panel/bars_2020.csv",
+  "panel/bars_2021.csv",
+  "panel/bars_qfq_2020.csv",
+  "panel/bars_qfq_2021.csv",
+  "panel/index_daily.csv",
+  "meta/calendar.csv",
+  "meta/universe.csv",
+  "meta/codes.csv"
+ ]
+}

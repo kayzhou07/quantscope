@@ -1,0 +1,294 @@
+{
+  "attribution": [
+    {
+      "code": "sh603256",
+      "name": "宏和科技",
+      "net_pnl": 19560.83,
+      "fees": 76.03,
+      "end_shares": 0
+    },
+    {
+      "code": "sh601869",
+      "name": "长飞光纤",
+      "net_pnl": 14079.36,
+      "fees": 38.35,
+      "end_shares": 0
+    },
+    {
+      "code": "sz301217",
+      "name": "铜冠铜箔",
+      "net_pnl": 11906.71,
+      "fees": 50.82,
+      "end_shares": 0
+    },
+    {
+      "code": "sh603929",
+      "name": "亚翔集成",
+      "net_pnl": 10388.56,
+      "fees": 44.54,
+      "end_shares": 0
+    },
+    {
+      "code": "sz301377",
+      "name": "鼎泰高科",
+      "net_pnl": 8215.49,
+      "fees": 68.8,
+      "end_shares": 0
+    },
+    {
+      "code": "sz300394",
+      "name": "天孚通信",
+      "net_pnl": 4215.27,
+      "fees": 25.94,
+      "end_shares": 0
+    },
+    {
+      "code": "sz000657",
+      "name": "中钨高新",
+      "net_pnl": 1870.44,
+      "fees": 18.54,
+      "end_shares": 0
+    },
+    {
+      "code": "sz300390",
+      "name": "天华新能",
+      "net_pnl": 1523.99,
+      "fees": 26.6,
+      "end_shares": 0
+    },
+    {
+      "code": "sz001309",
+      "name": "德明利",
+      "net_pnl": -147.21,
+      "fees": 27.07,
+      "end_shares": 0
+    },
+    {
+      "code": "sz301200",
+      "name": "大族数控",
+      "net_pnl": -2070.44,
+      "fees": 35.28,
+      "end_shares": 0
+    },
+    {
+      "code": "sz001267",
+      "name": "汇绿生态",
+      "net_pnl": -6882.85,
+      "fees": 45.46,
+      "end_shares": 0
+    },
+    {
+      "code": "sz301526",
+      "name": "国际复材",
+      "net_pnl": -8586.19,
+      "fees": 55.39,
+      "end_shares": 0
+    }
+  ],
+  "fifo": [
+    {
+      "code": "sh603256",
+      "name": "宏和科技",
+      "buy_date": "2026-04-01",
+      "sell_date": "2026-05-20",
+      "shares": 200,
+      "net_pnl": 12052.05,
+      "net_return": 0.800578311140161,
+      "reason": "trail -12% from peak signal=2026-05-18"
+    },
+    {
+      "code": "sz000657",
+      "name": "中钨高新",
+      "buy_date": "2026-04-01",
+      "sell_date": "2026-05-21",
+      "shares": 300,
+      "net_pnl": 1870.44,
+      "net_return": 0.12837875865666426,
+      "reason": "trail -12% from peak signal=2026-05-19"
+    },
+    {
+      "code": "sh603929",
+      "name": "亚翔集成",
+      "buy_date": "2026-05-06",
+      "sell_date": "2026-05-25",
+      "shares": 100,
+      "net_pnl": -1478.37,
+      "net_return": -0.07829499445240307,
+      "reason": "trail -12% from peak signal=2026-05-21"
+    },
+    {
+      "code": "sz300394",
+      "name": "天孚通信",
+      "buy_date": "2026-05-06",
+      "sell_date": "2026-05-25",
+      "shares": 100,
+      "net_pnl": 4215.27,
+      "net_return": 0.18924586648852215,
+      "reason": "trail -12% from peak signal=2026-05-21"
+    },
+    {
+      "code": "sz301377",
+      "name": "鼎泰高科",
+      "buy_date": "2026-04-01",
+      "sell_date": "2026-06-01",
+      "shares": 100,
+      "net_pnl": 14575.71,
+      "net_return": 0.7396629838403566,
+      "reason": "leave target"
+    },
+    {
+      "code": "sz001267",
+      "name": "汇绿生态",
+      "buy_date": "2026-06-01",
+      "sell_date": "2026-06-10",
+      "shares": 400,
+      "net_pnl": -3063.7,
+      "net_return": -0.13401560839814253,
+      "reason": "trail -12% from peak signal=2026-06-08"
+    },
+    {
+      "code": "sz301217",
+      "name": "铜冠铜箔",
+      "buy_date": "2026-06-01",
+      "sell_date": "2026-06-25",
+      "shares": 200,
+      "net_pnl": 13996.46,
+      "net_return": 0.6322979997162972,
+      "reason": "trail -12% from peak signal=2026-06-23"
+    },
+    {
+      "code": "sz300390",
+      "name": "天华新能",
+      "buy_date": "2026-06-01",
+      "sell_date": "2026-06-30",
+      "shares": 300,
+      "net_pnl": 1523.99,
+      "net_return": 0.0611200278490982,
+      "reason": "trail -12% from peak signal=2026-06-26"
+    },
+    {
+      "code": "sh603929",
+      "name": "亚翔集成",
+      "buy_date": "2026-06-01",
+      "sell_date": "2026-07-01",
+      "shares": 100,
+      "net_pnl": 11866.93,
+      "net_return": 0.7990671322700589,
+      "reason": "leave target"
+    },
+    {
+      "code": "sh603256",
+      "name": "宏和科技",
+      "buy_date": "2026-06-01",
+      "sell_date": "2026-07-03",
+      "shares": 100,
+      "net_pnl": 5072.6,
+      "net_return": 0.278555570260242,
+      "reason": "trail -12% from peak signal=2026-07-01"
+    },
+    {
+      "code": "sz001267",
+      "name": "汇绿生态",
+      "buy_date": "2026-07-01",
+      "sell_date": "2026-07-06",
+      "shares": 500,
+      "net_pnl": -3819.15,
+      "net_return": -0.14264558129806504,
+      "reason": "trail -12% from peak signal=2026-07-02"
+    },
+    {
+      "code": "sz301217",
+      "name": "铜冠铜箔",
+      "buy_date": "2026-07-01",
+      "sell_date": "2026-07-08",
+      "shares": 100,
+      "net_pnl": -2089.75,
+      "net_return": -0.12572367443419086,
+      "reason": "trail -12% from peak signal=2026-07-06"
+    },
+    {
+      "code": "sz301526",
+      "name": "国际复材",
+      "buy_date": "2026-07-01",
+      "sell_date": "2026-07-08",
+      "shares": 600,
+      "net_pnl": -4327.45,
+      "net_return": -0.1501321108454401,
+      "reason": "trail -12% from peak signal=2026-07-06"
+    },
+    {
+      "code": "sz301200",
+      "name": "大族数控",
+      "buy_date": "2026-07-01",
+      "sell_date": "2026-07-10",
+      "shares": 100,
+      "net_pnl": -2070.44,
+      "net_return": -0.05733631123400562,
+      "reason": "trail -12% from peak signal=2026-07-08"
+    },
+    {
+      "code": "sh603256",
+      "name": "宏和科技",
+      "buy_date": "2026-08-03",
+      "sell_date": "2026-08-21",
+      "shares": 200,
+      "net_pnl": 2436.18,
+      "net_return": 0.09744926592443748,
+      "reason": "trail -12% from peak signal=2026-08-19"
+    },
+    {
+      "code": "sh601869",
+      "name": "长飞光纤",
+      "buy_date": "2026-08-03",
+      "sell_date": "2026-09-01",
+      "shares": 100,
+      "net_pnl": 14079.36,
+      "net_return": 0.5198003846254662,
+      "reason": "leave target"
+    },
+    {
+      "code": "sz301526",
+      "name": "国际复材",
+      "buy_date": "2026-09-01",
+      "sell_date": "2026-09-04",
+      "shares": 1000,
+      "net_pnl": -4258.74,
+      "net_return": -0.13367001359066677,
+      "reason": "trail -12% from peak signal=2026-09-02"
+    },
+    {
+      "code": "sz001309",
+      "name": "德明利",
+      "buy_date": "2026-08-03",
+      "sell_date": "2026-09-30",
+      "shares": 100,
+      "net_pnl": -147.21,
+      "net_return": -0.REDACTED_ID,
+      "reason": "trail -12% from peak signal=2026-09-28"
+    },
+    {
+      "code": "sz301377",
+      "name": "鼎泰高科",
+      "buy_date": "2026-09-01",
+      "sell_date": "2026-09-30",
+      "shares": 100,
+      "net_pnl": -6360.22,
+      "net_return": -0.15318721961807602,
+      "reason": "trail -12% from peak signal=2026-09-28"
+    }
+  ],
+  "benchmarks": [
+    {
+      "index": "sh000300",
+      "full_index_return": -0.REDACTED_ID,
+      "exposure_matched_return": 0.0013249202195264598,
+      "method": "overnight/intraday split, actual lagged holdings, gross price index; no benchmark fees"
+    },
+    {
+      "index": "sz399006",
+      "full_index_return": -0.01559522127505919,
+      "exposure_matched_return": 0.07884899901497033,
+      "method": "overnight/intraday split, actual lagged holdings, gross price index; no benchmark fees"
+    }
+  ]
+}

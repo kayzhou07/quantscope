@@ -1,0 +1,120 @@
+{
+ "dd_fuse": {
+  "nav_max_diff": 5.820766091346741e-11,
+  "metrics": {
+   "total_return": 0.608506080796126,
+   "max_drawdown": -0.15941689209776744,
+   "cagr": 0.04088636498299936,
+   "ann_vol": 0.07274794145974947,
+   "sharpe": 0.587355679818023
+  },
+  "latest": {
+   "ret": 0.0,
+   "dd": 0.0,
+   "days": 502
+  },
+  "avg_exposure": 0.09630011514985681,
+  "all_cash_days": 2175,
+  "final_exposure": 0.0,
+  "last_nav_move": "2020-02-04",
+  "permanent_cash_from": "2020-02-04",
+  "phaseC_row": {
+   "tag": "top15_fuse_10_15",
+   "total_return": 0.608506080796126,
+   "max_drawdown": -0.1594168920977674,
+   "cagr": 0.0408863649829993,
+   "ann_vol": 0.0727479414597494,
+   "sharpe": 0.587355679818023,
+   "avg_exposure": 0.0963001151498568,
+   "all_cash_days": 2175,
+   "trade_count": 847,
+   "total_fees": 6718.000000000022,
+   "latest_ret": 0.0,
+   "latest_dd": 0.0,
+   "elapsed_s": 5.0
+  }
+ },
+ "crash_brake": {
+  "crash": {
+   "total_return": 0.9457981665930213,
+   "max_drawdown": -0.2643440774409863,
+   "cagr": 0.REDACTED_ID,
+   "ann_vol": 0.1023532954041459,
+   "sharpe": 0.5998154189627056
+  },
+  "nocrash": {
+   "total_return": 1.7456069325168508,
+   "max_drawdown": -0.23979364746919452,
+   "cagr": 0.08888300693654827,
+   "ann_vol": 0.11133691822985531,
+   "sharpe": 0.821036774237445
+  },
+  "latest_crash": {
+   "ret": -0.06997563527378825,
+   "dd": -0.1643128094076406,
+   "days": 502
+  },
+  "latest_nocrash": {
+   "ret": 0.14964627059664792,
+   "dd": -0.1280739933739199,
+   "days": 502
+  }
+ },
+ "stress": {
+  "b100n30_top15_rerun": {
+   "metrics": {
+    "total_return": 1.496727737698396,
+    "max_drawdown": -0.25226133022403907,
+    "cagr": 0.08019464603303805,
+    "ann_vol": 0.1117270508930839,
+    "sharpe": 0.7468677639226583
+   },
+   "latest": {
+    "ret": 0.12297684215884241,
+    "dd": -0.12954260126891737,
+    "days": 502
+   },
+   "fees": 14351.619999999999
+  },
+  "phase_stress_b100n30_top15_x2cost": {
+   "tag": "b100_n30_top15",
+   "cost": "x2cost",
+   "total_return": 1.496727737698396,
+   "max_drawdown": -0.252261330224039,
+   "sharpe": 0.7468677639226583,
+   "total_fees": 14351.61999999998,
+   "latest_ret": 0.1229768421588424,
+   "latest_dd": -0.1295426012689173
+  },
+  "phase_stress_summary_b100n30_top15": {
+   "tag": "stress_b100n30_top15",
+   "stress": "slippage20bp_commission5bp",
+   "total_return": 0.9385879521472706,
+   "max_drawdown": -0.2936416251608674,
+   "sharpe": 0.565322626212067,
+   "total_fees": 15839.78000000005,
+   "latest_ret": -0.0426568463003129,
+   "latest_dd": -0.1686006694900773
+  },
+  "n90_top20_novolcap_rerun": {
+   "metrics": {
+    "total_return": 2.142199403389487,
+    "max_drawdown": -0.3070314367148873,
+    "cagr": 0.10133983032881488,
+    "ann_vol": 0.15341049158912673,
+    "sharpe": 0.7065262094601538
+   },
+   "fees": 25332.77
+  },
+  "phase_stress_summary_n90": {
+   "tag": "stress_n90_top20_novolcap",
+   "stress": "slippage20bp_commission5bp",
+   "total_return": 2.142199403389487,
+   "max_drawdown": -0.3070314367148873,
+   "sharpe": 0.7065262094601538,
+   "total_fees": 25332.769999999982,
+   "latest_ret": 0.1334486082154096,
+   "latest_dd": -0.1973228738505621
+  }
+ }
+}

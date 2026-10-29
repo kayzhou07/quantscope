@@ -1,0 +1,153 @@
+{
+ "instruments": {
+  "A_b100_n30_top15": "A：B100/N30、top15",
+  "S0_local_baseline": "本地 S0/R2 规则基线",
+  "B_b100_n90_top20_novol": "B：B100/N90、top20、无波动上限",
+  "C_b100_n90_top15_novol": "C：B100/N90、top15、无波动上限",
+  "REF_none_100": "不用状态、始终满仓",
+  "CSI300_bh": "沪深300 买入持有",
+  "ChiNext_bh": "创业板指 买入持有"
+ },
+ "rows": [
+  {
+   "instrument": "A_b100_n30_top15",
+   "label": "A：B100/N30、top15",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": 0.14964627059664792,
+   "max_drawdown": -0.1280739933739199
+  },
+  {
+   "instrument": "A_b100_n30_top15",
+   "label": "A：B100/N30、top15",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": 0.14964627059664792,
+   "max_drawdown": -0.1280739933739199
+  },
+  {
+   "instrument": "S0_local_baseline",
+   "label": "本地 S0/R2 规则基线",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": -0.REDACTED_ID,
+   "max_drawdown": -0.14482345655896744
+  },
+  {
+   "instrument": "S0_local_baseline",
+   "label": "本地 S0/R2 规则基线",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": -0.REDACTED_ID,
+   "max_drawdown": -0.14482345655896744
+  },
+  {
+   "instrument": "B_b100_n90_top20_novol",
+   "label": "B：B100/N90、top20、无波动上限",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": 0.21997927605939016,
+   "max_drawdown": -0.19040418441691198
+  },
+  {
+   "instrument": "B_b100_n90_top20_novol",
+   "label": "B：B100/N90、top20、无波动上限",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": 0.21997927605939016,
+   "max_drawdown": -0.19040418441691198
+  },
+  {
+   "instrument": "C_b100_n90_top15_novol",
+   "label": "C：B100/N90、top15、无波动上限",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": 0.21624424031738854,
+   "max_drawdown": -0.19482647679971588
+  },
+  {
+   "instrument": "C_b100_n90_top15_novol",
+   "label": "C：B100/N90、top15、无波动上限",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": 0.21624424031738854,
+   "max_drawdown": -0.19482647679971588
+  },
+  {
+   "instrument": "REF_none_100",
+   "label": "不用状态、始终满仓",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": -0.07262885355706239,
+   "max_drawdown": -0.3847963451625631
+  },
+  {
+   "instrument": "REF_none_100",
+   "label": "不用状态、始终满仓",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": -0.REDACTED_ID,
+   "max_drawdown": -0.3847963451625631
+  },
+  {
+   "instrument": "CSI300_bh",
+   "label": "沪深300 买入持有",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": 0.256841090451676,
+   "max_drawdown": -0.17661874095890095
+  },
+  {
+   "instrument": "CSI300_bh",
+   "label": "沪深300 买入持有",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": 0.3164597881180429,
+   "max_drawdown": -0.17661874095890095
+  },
+  {
+   "instrument": "ChiNext_bh",
+   "label": "创业板指 买入持有",
+   "start_window": "2024-08-30",
+   "start": "2024-08-30",
+   "end": "2026-10-19",
+   "days": 513,
+   "return": 0.7342452418451908,
+   "max_drawdown": -0.3712211258949263
+  },
+  {
+   "instrument": "ChiNext_bh",
+   "label": "创业板指 买入持有",
+   "start_window": "2024-09-18",
+   "start": "2024-09-18",
+   "end": "2026-10-19",
+   "days": 502,
+   "return": 0.7871309751497744,
+   "max_drawdown": -0.3712211258949263
+  }
+ ]
+}

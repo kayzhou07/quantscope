@@ -1,0 +1,407 @@
+{
+  "b": {
+    "fill_count": 7,
+    "buy_count": 6,
+    "sell_count": 1,
+    "fees": 38.17,
+    "trade_cash_flow": -22927.78,
+    "notional_turnover": 29238.43,
+    "task_id": "6ad607a7f5be1600b606aaf8",
+    "start": "2026-04-01",
+    "end": "2026-09-30",
+    "close_observations": 125,
+    "final_equity": 100003.31208800002,
+    "final_cash": 77524.31208800002,
+    "final_market_value": 22479.0,
+    "return_exact": 3.312088000018143e-05,
+    "max_drawdown_recomputed": 0.05838064030886225,
+    "drawdown_window": [
+      "20260622",
+      "20260717"
+    ],
+    "mean_risky_exposure": 0.21319861056592357,
+    "trade_dates": [
+      "2026-04-01",
+      "2026-07-01"
+    ],
+    "closed_cohorts": [
+      {
+        "symbol": "600219.SH",
+        "name": "南山铝业",
+        "start": "2026-04-01",
+        "quantity": 0.0,
+        "cash_flow": -1825.25,
+        "fees": 13.17,
+        "end": "2026-07-01"
+      }
+    ],
+    "open_cohorts": [
+      {
+        "symbol": "000630.SZ",
+        "name": "铜陵有色",
+        "start": "2026-04-01",
+        "quantity": 900.0,
+        "cash_flow": -5452.719999999999,
+        "fees": 10.0,
+        "end": "2026-07-01"
+      },
+      {
+        "symbol": "601872.SH",
+        "name": "招商轮船",
+        "start": "2026-04-01",
+        "quantity": 300.0,
+        "cash_flow": -5011.5,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "603993.SH",
+        "name": "洛阳钼业",
+        "start": "2026-04-01",
+        "quantity": 300.0,
+        "cash_flow": -5377.68,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "600026.SH",
+        "name": "中远海能",
+        "start": "2026-07-01",
+        "quantity": 300.0,
+        "cash_flow": -5260.63,
+        "fees": 5.0,
+        "end": "2026-07-01"
+      }
+    ],
+    "cash_adjustment": 452.09208800001943,
+    "dividends": [
+      {
+        "symbol": "603993.SH",
+        "date": "2026-09-09",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.095,
+        "gross": 28.5
+      },
+      {
+        "symbol": "600026.SH",
+        "date": "2026-07-17",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.38,
+        "gross": 114.0
+      },
+      {
+        "symbol": "601872.SH",
+        "date": "2026-07-10",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.25,
+        "gross": 75.0
+      },
+      {
+        "symbol": "000630.SZ",
+        "date": "2026-06-08",
+        "shares_before_day": 800.0,
+        "per_share_gross": 0.05,
+        "gross": 40.0
+      },
+      {
+        "symbol": "603993.SH",
+        "date": "2026-05-27",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.286,
+        "gross": 85.8
+      },
+      {
+        "symbol": "600219.SH",
+        "date": "2026-05-20",
+        "shares_before_day": 800.0,
+        "per_share_gross": 0.136,
+        "gross": 108.80000000000001
+      }
+    ],
+    "dividend_gross_total": 452.1,
+    "rounding_or_tax_remainder": -0.REDACTED_ID,
+    "counters": {
+      "candidate_two_lots_reject": 60,
+      "submitted_buy": 8,
+      "submitted_sell": 1,
+      "null_order_buy": 2
+    },
+    "ledger_reconciliation": {
+      "closed_trade_cashflow": -1825.25,
+      "open_cost_and_market_difference": 1376.4700000000012,
+      "cash_adjustment": 452.09208800001943,
+      "net_pnl": 3.3120880000205943
+    }
+  },
+  "l": {
+    "fill_count": 8,
+    "buy_count": 6,
+    "sell_count": 2,
+    "fees": 47.38,
+    "trade_cash_flow": -22534.99,
+    "notional_turnover": 37244.23,
+    "task_id": "6ad60828506c3200b5d4b591",
+    "start": "2026-04-01",
+    "end": "2026-09-30",
+    "close_observations": 125,
+    "final_equity": 97342.105191,
+    "final_cash": 77769.105191,
+    "final_market_value": 19573.0,
+    "return_exact": -0.REDACTED_ID,
+    "max_drawdown_recomputed": 0.06659538270683196,
+    "drawdown_window": [
+      "20260420",
+      "20260717"
+    ],
+    "mean_risky_exposure": 0.20250020569822022,
+    "trade_dates": [
+      "2026-04-01",
+      "2026-07-01"
+    ],
+    "closed_cohorts": [
+      {
+        "symbol": "600089.SH",
+        "name": "特变电工",
+        "start": "2026-04-01",
+        "quantity": 0.0,
+        "cash_flow": -915.4499999999998,
+        "fees": 14.5,
+        "end": "2026-07-01"
+      },
+      {
+        "symbol": "600875.SH",
+        "name": "东方电气",
+        "start": "2026-04-01",
+        "quantity": 0.0,
+        "cash_flow": -813.1600000000003,
+        "fees": 12.879999999999999,
+        "end": "2026-07-01"
+      }
+    ],
+    "open_cohorts": [
+      {
+        "symbol": "601872.SH",
+        "name": "招商轮船",
+        "start": "2026-04-01",
+        "quantity": 300.0,
+        "cash_flow": -5011.5,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "603993.SH",
+        "name": "洛阳钼业",
+        "start": "2026-04-01",
+        "quantity": 300.0,
+        "cash_flow": -5377.68,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "000338.SZ",
+        "name": "潍柴动力",
+        "start": "2026-07-01",
+        "quantity": 200.0,
+        "cash_flow": -5629.81,
+        "fees": 5.0,
+        "end": "2026-07-01"
+      },
+      {
+        "symbol": "002202.SZ",
+        "name": "金风科技",
+        "start": "2026-07-01",
+        "quantity": 200.0,
+        "cash_flow": -4787.39,
+        "fees": 5.0,
+        "end": "2026-07-01"
+      }
+    ],
+    "cash_adjustment": 304.0951909999967,
+    "dividends": [
+      {
+        "symbol": "603993.SH",
+        "date": "2026-09-09",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.095,
+        "gross": 28.5
+      },
+      {
+        "symbol": "000338.SZ",
+        "date": "2026-08-13",
+        "shares_before_day": 200.0,
+        "per_share_gross": 0.374,
+        "gross": 74.8
+      },
+      {
+        "symbol": "002202.SZ",
+        "date": "2026-08-07",
+        "shares_before_day": 200.0,
+        "per_share_gross": 0.2,
+        "gross": 40.0
+      },
+      {
+        "symbol": "601872.SH",
+        "date": "2026-07-10",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.25,
+        "gross": 75.0
+      },
+      {
+        "symbol": "603993.SH",
+        "date": "2026-05-27",
+        "shares_before_day": 300.0,
+        "per_share_gross": 0.286,
+        "gross": 85.8
+      }
+    ],
+    "dividend_gross_total": 304.1,
+    "rounding_or_tax_remainder": -0.REDACTED_ID,
+    "counters": {
+      "candidate_one_lot_reject": 39,
+      "submitted_buy": 8,
+      "submitted_sell": 2,
+      "null_order_buy": 2
+    },
+    "ledger_reconciliation": {
+      "closed_trade_cashflow": -1728.6100000000001,
+      "open_cost_and_market_difference": -1233.380000000001,
+      "cash_adjustment": 304.0951909999967,
+      "net_pnl": -2657.894809000005
+    }
+  },
+  "r": {
+    "fill_count": 6,
+    "buy_count": 5,
+    "sell_count": 1,
+    "fees": 35.95,
+    "trade_cash_flow": -38511.13,
+    "notional_turnover": 50379.22,
+    "task_id": "6ad6097108141600b66c48a5",
+    "start": "2026-04-01",
+    "end": "2026-09-30",
+    "close_observations": 125,
+    "final_equity": 99738.36797749999,
+    "final_cash": 62273.36797749999,
+    "final_market_value": 37465.0,
+    "return_exact": -0.REDACTED_ID,
+    "max_drawdown_recomputed": 0.09943654160398796,
+    "drawdown_window": [
+      "20260622",
+      "20260717"
+    ],
+    "mean_risky_exposure": 0.365419888818742,
+    "trade_dates": [
+      "2026-04-01",
+      "2026-07-01"
+    ],
+    "closed_cohorts": [
+      {
+        "symbol": "600219.SH",
+        "name": "南山铝业",
+        "start": "2026-04-01",
+        "quantity": 0.0,
+        "cash_flow": -3413.5999999999995,
+        "fees": 15.95,
+        "end": "2026-07-01"
+      }
+    ],
+    "open_cohorts": [
+      {
+        "symbol": "000630.SZ",
+        "name": "铜陵有色",
+        "start": "2026-04-01",
+        "quantity": 1500.0,
+        "cash_flow": -9024.51,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "601872.SH",
+        "name": "招商轮船",
+        "start": "2026-04-01",
+        "quantity": 500.0,
+        "cash_flow": -8349.17,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "603993.SH",
+        "name": "洛阳钼业",
+        "start": "2026-04-01",
+        "quantity": 500.0,
+        "cash_flow": -8959.47,
+        "fees": 5.0,
+        "end": "2026-04-01"
+      },
+      {
+        "symbol": "600026.SH",
+        "name": "中远海能",
+        "start": "2026-07-01",
+        "quantity": 500.0,
+        "cash_flow": -8764.38,
+        "fees": 5.0,
+        "end": "2026-07-01"
+      }
+    ],
+    "cash_adjustment": 784.4979774999883,
+    "dividends": [
+      {
+        "symbol": "603993.SH",
+        "date": "2026-09-09",
+        "shares_before_day": 500.0,
+        "per_share_gross": 0.095,
+        "gross": 47.5
+      },
+      {
+        "symbol": "600026.SH",
+        "date": "2026-07-17",
+        "shares_before_day": 500.0,
+        "per_share_gross": 0.38,
+        "gross": 190.0
+      },
+      {
+        "symbol": "601872.SH",
+        "date": "2026-07-10",
+        "shares_before_day": 500.0,
+        "per_share_gross": 0.25,
+        "gross": 125.0
+      },
+      {
+        "symbol": "000630.SZ",
+        "date": "2026-06-08",
+        "shares_before_day": 1500.0,
+        "per_share_gross": 0.05,
+        "gross": 75.0
+      },
+      {
+        "symbol": "603993.SH",
+        "date": "2026-05-27",
+        "shares_before_day": 500.0,
+        "per_share_gross": 0.286,
+        "gross": 143.0
+      },
+      {
+        "symbol": "600219.SH",
+        "date": "2026-05-20",
+        "shares_before_day": 1500.0,
+        "per_share_gross": 0.136,
+        "gross": 204.00000000000003
+      }
+    ],
+    "dividend_gross_total": 784.5,
+    "rounding_or_tax_remainder": -0.REDACTED_ID,
+    "counters": {
+      "candidate_two_lots_reject": 60,
+      "submitted_buy": 7,
+      "submitted_sell": 2,
+      "null_order_sell": 1,
+      "null_order_buy": 2
+    },
+    "ledger_reconciliation": {
+      "closed_trade_cashflow": -3413.5999999999995,
+      "open_cost_and_market_difference": 2367.470000000001,
+      "cash_adjustment": 784.4979774999883,
+      "net_pnl": -261.63202250000904
+    }
+  }
+}

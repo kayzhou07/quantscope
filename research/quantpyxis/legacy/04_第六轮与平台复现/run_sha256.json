@@ -1,0 +1,22 @@
+{
+  "A80_cost2x_nav.csv": "65fcffd48d4285b4108d6f6871f3129206d48cc20ab959752f6971c3dc795890",
+  "A80_cost2x_trades.csv": "2004d36fbb2fb3c46cda72d5a2aa22fa86097cbcf8fc21520cdf4b0cfffc0746",
+  "A80_nav.csv": "e19ac47d5e5d3f53e1a9c627d630e98f41bbf396dad9acf7c5e20999ae5ce2c9",
+  "A80_platform.py": "d0a788e2568385eb3aeffe99c20bd6b309dae9a99c75cb9e11de130d32fa1d7b",
+  "A80_readback.py": "d0a788e2568385eb3aeffe99c20bd6b309dae9a99c75cb9e11de130d32fa1d7b",
+  "A80_trades.csv": "8b0cdeee33dda617bec9b87ff0b79b952e7dfda7d5e2b40eb3f95dc47efd54a1",
+  "A_cost2x_nav.csv": "20a7b769c8099b49e9e8c41b92d840127d4f4cb056ff7b1e8b83e51e7ae74b1f",
+  "A_cost2x_trades.csv": "211b57f2258bf7ff179c241d464df01e6099112956b258e035fcd1a17d79e40d",
+  "A_nav.csv": "d3865baa833ff42e8fa4109f0f92a12b53f1f8d5a0614620bc29816b932dcfb5",
+  "A_platform.py": "8fdda3856e8dfc02e4865cd9ee09b35b8287f6ecd837e78ba3a97d2a6f99bb02",
+  "A_readback.py": "8fdda3856e8dfc02e4865cd9ee09b35b8287f6ecd837e78ba3a97d2a6f99bb02",
+  "A_trades.csv": "85a3fa739ab17d4a1a96a84d437b40045b06ad6eb5bd8516e8c97e4c6f97267f",
+  "editor_before.py": "498ebbf6ccdfb51beec557bbd393c38275a51f2ce4672930b62f04b8e0388e18",
+  "local_results.json": "42a8e5539574f7186068c9cd1e31c7ba8a2939391ab1725a943ed50cb591f732",
+  "platform_sources.json": "408e654affa8356ecd0cd3fdea9b51b9833fc055d699c123406c43ea49440fff",
+  "platform_tasks.json": "24c2cce2552b2911d2355416fed67243a0d78a59efe35ccf3beb5197913e6b4a",
+  "protocol.json": "7a4390904d146570ec47287c1f3493061c7e671f77349ae4480091a4fbfe7df0",
+  "rolling.json": "af512f3bbb745e55d2f923cac25054aa31515e444353aac03a53f2d2ec9414ba",
+  "S0_submitted.py": "1f4cbf7930d82fec85960a8827702f6e5eb31bb5a51349b164592d6c8bf87653",
+  "segments.csv": "332ef9de9b16279af7a39f26a3dab1c3000116121a3bea5cad925d1a819d73d5"
+}

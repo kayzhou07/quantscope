@@ -1,0 +1,338 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "<":
+      - /url: "#/study-index"
+    - link "新建策略":
+      - /url: "#/study-index"
+    - generic: 股票
+    - generic: 策略编辑
+    - link "回测列表":
+      - /url: "#/backreport-history?strategyId=6ad4b79227352e00b66f40ee"
+    - region "策略代码":
+      - button "编译运行 beta":
+        - text: 编译运行
+        - generic: beta
+      - button "保存" [disabled]
+      - link "API 文档":
+        - /url: /view/help/12#股票回测引擎
+      - button "编辑器设置"
+      - button "全屏"
+      - textbox "Cursor at row 491"
+      - generic: "467"
+      - generic: "468"
+      - text: "469"
+      - button [expanded]
+      - generic: "470"
+      - text: "471"
+      - button [expanded]
+      - generic: "472"
+      - generic: "473"
+      - generic: "474"
+      - text: "475"
+      - button [expanded]
+      - generic: "476"
+      - text: "477"
+      - button [expanded]
+      - generic: "478"
+      - text: "479"
+      - button [expanded]
+      - generic: "480"
+      - generic: "481"
+      - text: "482"
+      - button [expanded]
+      - generic: "483"
+      - generic: "484"
+      - text: "485"
+      - button [expanded]
+      - generic: "486"
+      - generic: "487"
+      - generic: "488"
+      - text: "489"
+      - button [expanded]
+      - generic: "490"
+      - generic: "491"
+      - generic: context.halved[symbol] = False
+      - generic: context.ma_targets.pop(symbol, None)
+      - generic: "if symbol not in held:"
+      - generic: continue
+      - generic: "if symbol not in context.entries:"
+      - generic: "context.entries[symbol] = today # Conservative unknown"
+      - generic: "-entry clock."
+      - generic: context.last_closes[symbol] = closes[-1]
+      - generic: amount = float(positions[symbol].amount)
+      - generic: "if action == 'EXIT':"
+      - generic: context.ma_targets[symbol] = 0.0
+      - generic: "elif action == 'HALF':"
+      - generic: target = half_remaining(amount)
+      - generic: "if target >= amount:"
+      - generic: audit_event(context, 'half_lot_reject')
+      - generic: "log.info('MA_HALF_LOT_BLOCK {} amount={}'.format"
+      - generic: (symbol, amount))
+      - generic: "else:"
+      - generic: context.ma_targets[symbol] = min(context.ma_targets
+      - generic: .get(symbol, amount), target)
+      - generic: context.halved[symbol] = True
+      - generic: "if action != 'HOLD':"
+      - generic: "log.info('MA_SIGNAL {} {} close={} ma5={} ma13={} ma30"
+      - generic: "={} target_shares={}'.format(end, symbol, closes["
+      - generic: "-1],m5,m13,m30,context.ma_targets.get(symbol)))"
+      - generic: "def audit_event(context, key):"
+      - generic: context.audit[key] = context.audit.get(key, 0) + 1
+    - complementary "回测报告":
+      - combobox: 2025-10-17
+      - generic: 至
+      - combobox: 2026-10-16
+      - text: ￥
+      - textbox: "100000"
+      - combobox
+      - generic: 每日
+      - generic: python3.8
+      - button "进行回测"
+      - table:
+        - rowgroup:
+          - row "策略收益 基准收益 Alpha Beta Sharpe 最大回撤":
+            - cell "策略收益"
+            - cell "基准收益"
+            - cell "Alpha"
+            - cell "Beta"
+            - cell "Sharpe"
+            - cell "最大回撤"
+        - rowgroup:
+          - row "-7.65% -9.70% -0.08 0.10 -1.32 10.78%":
+            - cell "-7.65%"
+            - cell "-9.70%"
+            - cell "-0.08"
+            - cell "0.10"
+            - cell "-1.32"
+            - cell "10.78%"
+      - button "日志"
+      - button "错误"
+      - button "展开日志区域": ∧
+      - paragraph: 2026-10-19 18:05:24 - INFO
+      - generic: INFO :回测开始运行
+      - paragraph: 2026-10-19 18:05:24 - INFO
+      - generic: 回测开始
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: V6 open proxies only; NOT Barra replica; fundamental/analyst/industry factors unavailable
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: V6 threshold frozen=0.5 sentiment OFF; MOM80/PV20
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: "量化一 v6: MOM80/PV20; top3; vol20%; past60d; sentiment OFF"
+      - paragraph: 2025-10-17 00:00:00 - INFO
+      - generic: Research only. Platform fees, matching and corporate actions require audit.
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: "AUDIT_SELECTION 20251016 screened=269 selected=['600010.SH', '600415.SH', '603993.SH', '002736.SZ', '600000.SH'] equity=100000.0 counters={'candidate_ma_reject': 19, 'candidate_two_lots_reject': 14}"
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251016 600010.SH {'beta': 1.5440382775538437, 'residual_vol': 0.5848847921546033, 'downside_vol': 0.33823722668955086, 'tail_loss': 0.07060842416958095}"
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251016 600415.SH {'beta': 1.0812633373040899, 'residual_vol': 0.4384301475407907, 'downside_vol': 0.2828168492906928, 'tail_loss': 0.05624246882708195}"
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251016 603993.SH {'beta': 2.365658647313002, 'residual_vol': 0.4735663996444547, 'downside_vol': 0.30638999030992653, 'tail_loss': 0.06760564958794257}"
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251016 002736.SZ {'beta': 0.8090925544756364, 'residual_vol': 0.3189546128670891, 'downside_vol': 0.16563772668107618, 'tail_loss': 0.03357064568888982}"
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251016 600000.SH {'beta': 0.0015314320590036911, 'residual_vol': 0.2672589840654349, 'downside_vol': 0.16857941281984373, 'tail_loss': 0.REDACTED_ID}"
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: RISK_CAP 20251016 beta=0.8618335588448238 cap=0.3540654007510103 exposure=0.3540654007510103
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: RISK 20251016 estimated_vol=0.28369646618428085 exposure=0.354065 cash_target=0.645935
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: NORMAL inflation=4.7 release=Sep26-2025-final cap=0.7 exposure=0.354065
+      - paragraph: 2025-10-17 09:00:00 - INFO
+      - generic: Signal=20251016 eligible=269 excluded=11 top=[('300394.SZ', 0.9858736059479555), ('600111.SH', 0.971003717472119), ('300308.SZ', 0.9479553903345724)]
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251017 equity=100000.0 cash=100000.0 holdings=[]
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: TARGET buy 002736.SZ weight=0.070813 order=d39fe40a694a4a0db193bb857169efa6
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: TARGET buy 600000.SH weight=0.070813 order=0b98fc97814443639902a4b58b7fbb5e
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: TARGET buy 600010.SH weight=0.070813 order=ea338501435a4689b01542512cf46afe
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: TARGET buy 600415.SH weight=0.070813 order=9feb5803b44d4da289922b2fea11d0de
+      - paragraph: 2025-10-17 09:31:00 - INFO
+      - generic: TARGET buy 603993.SH weight=0.070813 order=fc782c27837f4ee588824c10881e98aa
+      - paragraph: 2025-10-20 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251017 002736.SZ close=13.79 ma5=14.154000000000002 ma13=13.754615384615384 ma30=13.847 target_shares=0.0
+      - paragraph: 2025-10-20 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251017 600010.SH close=2.71 ma5=2.782 ma13=2.5346153846153845 ma30=2.5203333333333333 target_shares=1300.0
+      - paragraph: 2025-10-20 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251017 600415.SH close=19.18 ma5=19.224 ma13=18.783076923076923 ma30=19.55666666666666 target_shares=0.0
+      - paragraph: 2025-10-20 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251017 603993.SH close=15.04 ma5=16.060000000000002 ma13=15.195384615384613 ma30=13.901333333333334 target_shares=0.0
+      - paragraph: 2025-10-20 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251020 equity=99283.587 cash=67132.587 holdings=[('002736.SZ', 500), ('600000.SH', 500), ('600010.SH', 2500), ('600415.SH', 300), ('603993.SH', 400)]
+      - paragraph: 2025-10-20 09:31:00 - INFO
+      - generic: TARGET sell 002736.SZ weight=0.000000 order=8e3e09b209d544c7876101659ffcb1d7
+      - paragraph: 2025-10-20 09:31:00 - INFO
+      - generic: TARGET sell 600010.SH weight=0.035353 order=ae6efb3a67014d149ae94b38011de0ba
+      - paragraph: 2025-10-20 09:31:00 - INFO
+      - generic: TARGET sell 600415.SH weight=0.000000 order=0afc4011fbdb44ca9500ba8d5571fa73
+      - paragraph: 2025-10-20 09:31:00 - INFO
+      - generic: TARGET sell 603993.SH weight=0.000000 order=04d27e118bca4e99aea1fa6f68151a62
+      - paragraph: 2025-10-20 09:31:00 - WARN
+      - generic: 600000.SH 下单股数为0,订单无效.
+      - paragraph: 2025-10-20 09:31:00 - INFO
+      - generic: TARGET buy 600000.SH weight=0.070813 order=None
+      - paragraph: 2025-10-21 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251020 600000.SH close=12.99 ma5=13.113999999999999 ma13=12.506153846153847 ma30=13.014333333333331 target_shares=0.0
+      - paragraph: 2025-10-21 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251021 equity=99006.993868 cash=88815.993868 holdings=[('600000.SH', 500), ('600010.SH', 1400)]
+      - paragraph: 2025-10-21 09:31:00 - INFO
+      - generic: TARGET sell 600000.SH weight=0.000000 order=8afa2cdedce444438c442a6adbbf8f9f
+      - paragraph: 2025-10-21 09:31:00 - INFO
+      - generic: TARGET sell 600010.SH weight=0.034664 order=e1817f8c190642ee9f04b9e151edbc70
+      - paragraph: 2025-10-22 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251022 equity=98973.85874750001 cash=95554.85874750001 holdings=[('600010.SH', 1300)]
+      - paragraph: 2025-10-23 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251023 equity=98973.85874750001 cash=95554.85874750001 holdings=[('600010.SH', 1300)]
+      - paragraph: 2025-10-24 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251023 600010.SH close=2.64 ma5=2.662 ma13=2.642307692307692 ma30=2.515333333333333 target_shares=0.0
+      - paragraph: 2025-10-24 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251024 equity=98986.85874750001 cash=95554.85874750001 holdings=[('600010.SH', 1300)]
+      - paragraph: 2025-10-24 09:31:00 - INFO
+      - generic: TARGET sell 600010.SH weight=0.000000 order=9c17aa26302344cfb14528f042ef41db
+      - paragraph: 2025-10-24 09:31:00 - INFO
+      - generic: TARGET buy 002736.SZ weight=0.070813 order=ad45ce3d707f4273bdb5dbabb781b05a
+      - paragraph: 2025-10-27 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251027 equity=99032.9044635 cash=93352.9044635 holdings=[('002736.SZ', 400)]
+      - paragraph: 2025-10-28 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251028 equity=99040.9044635 cash=93352.9044635 holdings=[('002736.SZ', 400)]
+      - paragraph: 2025-10-29 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251029 equity=98960.9044635 cash=93352.9044635 holdings=[('002736.SZ', 400)]
+      - paragraph: 2025-10-30 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251030 equity=99104.9044635 cash=93352.9044635 holdings=[('002736.SZ', 400)]
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: "AUDIT_SELECTION 20251030 screened=269 selected=['603993.SH', '600176.SH', '002600.SZ', '600588.SH', '002736.SZ'] equity=99044.9044635 counters={'candidate_ma_reject': 34, 'candidate_two_lots_reject': 46, 'submitted_buy': 7, 'submitted_sell': 7, 'null_order_buy': 1}"
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251030 603993.SH {'beta': 2.308299528196571, 'residual_vol': 0.47154321588067055, 'downside_vol': 0.3233818812612898, 'tail_loss': 0.06760564958794257}"
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251030 600176.SH {'beta': 1.6135372402113177, 'residual_vol': 0.3836231110162704, 'downside_vol': 0.26167961663491807, 'tail_loss': 0.05072451935970327}"
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251030 002600.SZ {'beta': 2.436801398063004, 'residual_vol': 0.6064809331801111, 'downside_vol': 0.3970147864296352, 'tail_loss': 0.07626911204975644}"
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251030 600588.SH {'beta': 1.3875833813695482, 'residual_vol': 0.46978888336625324, 'downside_vol': 0.35068647398245884, 'tail_loss': 0.06836538507779633}"
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20251030 002736.SZ {'beta': 0.8428299052032793, 'residual_vol': 0.2720537792745069, 'downside_vol': 0.1787467375721374, 'tail_loss': 0.REDACTED_ID}"
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: RISK_CAP 20251030 beta=0.5821364591113423 cap=0.3277866927792539 exposure=0.3277866927792539
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: RISK 20251030 estimated_vol=0.35885144161320737 exposure=0.327787 cash_target=0.672213
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: NORMAL inflation=4.6 release=Oct24-2025-final cap=0.7 exposure=0.327787
+      - paragraph: 2025-10-31 09:00:00 - INFO
+      - generic: Signal=20251030 eligible=269 excluded=11 top=[('600183.SH', 0.9643122676579926), ('600111.SH', 0.9598513011152418), ('300394.SZ', 0.9472118959107807)]
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251031 equity=99116.9044635 cash=93352.9044635 holdings=[('002736.SZ', 400)]
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[0.05815355141687869] risky_sleeve_HHI=1.0
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: TARGET buy 002600.SZ weight=0.065557 order=3a1cf5794e9f408a9c1ce1c992fe3293
+      - paragraph: 2025-10-31 09:31:00 - WARN
+      - generic: 002736.SZ 下单股数为0,订单无效.
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: TARGET buy 002736.SZ weight=0.065557 order=None
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: TARGET buy 600176.SH weight=0.065557 order=61062d25dbdb4feb963775e64b6f9b83
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: TARGET buy 600588.SH weight=0.065557 order=139d6237e8d145ccbf0d5872651a00af
+      - paragraph: 2025-10-31 09:31:00 - INFO
+      - generic: TARGET buy 603993.SH weight=0.065557 order=27b1aeeabec841369790b3a2c0bff47a
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251031 002600.SZ close=15.63 ma5=15.882 ma13=15.256923076923076 ma30=15.316333333333338 target_shares=200.0
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251031 002736.SZ close=14.04 ma5=14.207999999999998 ma13=14.060769230769228 ma30=13.818000000000005 target_shares=0.0
+      - paragraph: 2025-11-03 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251031 603993.SH close=17.04 ma5=17.246 ma13=16.31230769230769 ma30=15.090333333333337 target_shares=200.0
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251103 equity=98706.61396349999 cash=70740.61396349999 holdings=[('002736.SZ', 400), ('002600.SZ', 400), ('600176.SH', 300), ('600588.SH', 400), ('603993.SH', 300)]
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: TARGET sell 002600.SZ weight=0.031305 order=e7f32bbf191f45fc8a35d158a684482f
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: TARGET sell 002736.SZ weight=0.000000 order=dcd7d9ad1ff4436292b50f2297154268
+      - paragraph: 2025-11-03 09:31:00 - WARN
+      - generic: 603993.SH 下单股数为0,订单无效.
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: TARGET sell 603993.SH weight=0.034142 order=None
+      - paragraph: 2025-11-03 09:31:00 - WARN
+      - generic: 600176.SH 下单股数为0,订单无效.
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: TARGET buy 600176.SH weight=0.065557 order=None
+      - paragraph: 2025-11-03 09:31:00 - WARN
+      - generic: 600588.SH 下单股数为0,订单无效.
+      - paragraph: 2025-11-03 09:31:00 - INFO
+      - generic: TARGET buy 600588.SH weight=0.065557 order=None
+      - paragraph: 2025-11-04 04:00:00 - INFO
+      - generic: 002600.SZ在2025-11-04日发生了分红：每股税前分红0.02
+      - paragraph: 2025-11-04 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251103 002600.SZ close=15.21 ma5=15.762 ma13=15.222307692307693 ma30=15.345000000000002 target_shares=0.0
+      - paragraph: 2025-11-04 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251103 600176.SH close=15.88 ma5=16.206 ma13=15.846153846153843 ma30=15.982333333333333 target_shares=0.0
+      - paragraph: 2025-11-04 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251104 equity=98237.89403799998 cash=77874.89403799998 holdings=[('002600.SZ', 300), ('600176.SH', 300), ('600588.SH', 400), ('603993.SH', 300)]
+      - paragraph: 2025-11-04 09:31:00 - INFO
+      - generic: TARGET sell 002600.SZ weight=0.000000 order=5a3a81977050403bbd8b09ad24387fa9
+      - paragraph: 2025-11-04 09:31:00 - INFO
+      - generic: TARGET sell 600176.SH weight=0.000000 order=8804a361d6864758b322abb15602010d
+      - paragraph: 2025-11-04 09:31:00 - WARN
+      - generic: 603993.SH 下单股数为0,订单无效.
+      - paragraph: 2025-11-04 09:31:00 - INFO
+      - generic: TARGET sell 603993.SH weight=0.032879 order=None
+      - paragraph: 2025-11-04 09:31:00 - WARN
+      - generic: 600588.SH 下单股数为0,订单无效.
+      - paragraph: 2025-11-04 09:31:00 - INFO
+      - generic: TARGET buy 600588.SH weight=0.065557 order=None
+      - paragraph: 2025-11-05 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251104 603993.SH close=15.73 ma5=16.858 ma13=16.319230769230767 ma30=15.268000000000004 target_shares=0.0
+      - paragraph: 2025-11-05 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251105 equity=97870.93969099999 cash=87156.93969099999 holdings=[('600588.SH', 400), ('603993.SH', 300)]
+      - paragraph: 2025-11-05 09:31:00 - INFO
+      - generic: TARGET sell 603993.SH weight=0.000000 order=89e5986440f342248c892262e6877674
+      - paragraph: 2025-11-05 09:31:00 - WARN
+      - generic: 600588.SH 下单股数为0,订单无效.
+      - paragraph: 2025-11-05 09:31:00 - INFO
+      - generic: TARGET buy 600588.SH weight=0.065557 order=None
+      - paragraph: 2025-11-06 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251105 600588.SH close=15.2 ma5=15.425999999999998 ma13=14.904615384615385 ma30=15.054333333333334 target_shares=200.0
+      - paragraph: 2025-11-06 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251106 equity=97811.056986 cash=91735.056986 holdings=[('600588.SH', 400)]
+      - paragraph: 2025-11-06 09:31:00 - INFO
+      - generic: TARGET sell 600588.SH weight=0.031060 order=ff3ab7770de34f618f3e75236c48ccbd
+      - paragraph: 2025-11-07 09:00:00 - INFO
+      - generic: MA_SIGNAL 20251106 600588.SH close=14.95 ma5=15.408000000000001 ma13=14.949230769230768 ma30=15.043333333333333 target_shares=0.0
+      - paragraph: 2025-11-07 09:31:00 - INFO
+      - generic: AUDIT_OPEN_NAV 20251107 equity=97689.7792455 cash=93246.7792455 holdings=[('600588.SH', 300)]
+      - paragraph: 2025-11-07 09:31:00 - INFO
+      - generic: TARGET sell 600588.SH weight=0.000000 order=dbb1a2eff81d4eb5ab6e5ce721ff8d8b
+      - paragraph: 2025-11-07 09:31:00 - INFO
+      - generic: TARGET buy 002736.SZ weight=0.065557 order=02b0030cc68148a0ba9bb9e57669500d

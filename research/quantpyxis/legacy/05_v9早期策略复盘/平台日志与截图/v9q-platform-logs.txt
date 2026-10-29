@@ -1,0 +1,672 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 量化一-v9季度纠错复核":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad62b5522686300b6eeafb5
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad62b5522686300b6eeafb5
+    - paragraph:
+      - generic: 回测日期：2026-04-01 至 2026-09-30
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：21秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad62f02f5be1600b606ab6a
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad62f02f5be1600b606ab6a
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad62f02f5be1600b606ab6a
+      - link "交易明细":
+        - /url: /backtest-result/transactionDetail?id=6ad62f02f5be1600b606ab6a
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad62f02f5be1600b606ab6a
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad62f02f5be1600b606ab6a
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad62f02f5be1600b606ab6a
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad62f02f5be1600b606ab6a
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad62f02f5be1600b606ab6a
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad62f02f5be1600b606ab6a
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad62f02f5be1600b606ab6a
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad62f02f5be1600b606ab6a
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad62f02f5be1600b606ab6a
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad62f02f5be1600b606ab6a
+    - paragraph: 2026-10-19 22:54:14 - INFO
+    - generic: 回测结束
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: "AUDIT_FINAL nav=131823.1767105 return=0.3182317671050001 maxdd=0.17346456400750998 mean_exposure=0.23112391683370972 order_attempts=16 counters={'submitted': 16}"
+    - paragraph: 2026-09-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260930 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260929 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260928 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260924 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260923 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260922 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260921 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260918 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260917 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260916 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260915 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260914 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260911 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260910 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260909 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260908 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260907 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260904 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260903 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260902 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-09-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260901 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-31 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260831 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260828 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260827 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260826 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260825 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260824 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260821 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260820 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260819 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260818 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260817 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260814 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260813 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260812 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260811 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260810 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260807 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260806 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260805 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260804 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-08-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260803 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-31 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260731 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260730 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260729 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260728 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260727 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260724 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260723 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260722 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260721 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260720 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260717 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260716 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260715 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260714 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260713 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260710 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260709 nav=131823.1767105 cash=131823.1767105 market=0 held=[]
+    - paragraph: 2026-07-09 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260709 301200.SZ target=0 reason=stop signal=20260708 order=afbbc58466ef431380373b66581ca925
+    - paragraph: 2026-07-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260708 nav=131295.1367105 cash=99895.REDACTED_PHONE market=31400.0 held=[('301200.SZ', 100)]
+    - paragraph: 2026-07-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260708 301200.SZ qty=100 cost=361.1009026625 close=314.0 peak=376.61 line=331.4168
+    - paragraph: 2026-07-08 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260708 301200.SZ close=314.0 cost=361.1009026625 peak=376.61 line=331.4168 next_open=True
+    - paragraph: 2026-07-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260707 nav=133558.1367105 cash=99895.REDACTED_PHONE market=33663.0 held=[('301200.SZ', 100)]
+    - paragraph: 2026-07-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260707 301200.SZ qty=100 cost=361.1009026625 close=336.63 peak=376.60999999999996 line=331.41679999999997
+    - paragraph: 2026-07-07 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260707 301526.SZ target=0 reason=stop signal=20260706 order=3f086ba92f5b4a03959a04f6db60a556
+    - paragraph: 2026-07-07 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260707 301217.SZ target=0 reason=stop signal=20260706 order=11a2b1dc5cb549cebb827c30918ce9b2
+    - paragraph: 2026-07-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260706 nav=133797.71006175003 cash=64760.71006175001 market=69037.0 held=[('301217.SZ', 100), ('301200.SZ', 100), ('301526.SZ', 500)]
+    - paragraph: 2026-07-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260706 301526.SZ qty=500 cost=48.040012 close=40.66 peak=46.99 line=42.27521056
+    - paragraph: 2026-07-06 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260706 301526.SZ close=40.66 cost=48.040012 peak=46.99 line=42.27521056 next_open=True
+    - paragraph: 2026-07-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260706 301200.SZ qty=100 cost=361.1009026625 close=342.9 peak=376.61 line=331.4168
+    - paragraph: 2026-07-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260706 301217.SZ qty=100 cost=166.21599999999998 close=144.17 peak=164.84 line=146.27007999999998
+    - paragraph: 2026-07-06 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260706 301217.SZ close=144.17 cost=166.21599999999998 peak=164.84 line=146.27007999999998 next_open=True
+    - paragraph: 2026-07-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260703 nav=138018.71006175003 cash=64760.71006175001 market=73258.0 held=[('301217.SZ', 100), ('301200.SZ', 100), ('301526.SZ', 500)]
+    - paragraph: 2026-07-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260703 301526.SZ qty=500 cost=48.040012 close=46.99 peak=46.99 line=42.27521056
+    - paragraph: 2026-07-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260703 301200.SZ qty=100 cost=361.1009026625 close=343.0 peak=376.61 line=331.4168
+    - paragraph: 2026-07-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260703 301217.SZ qty=100 cost=166.21599999999998 close=154.63 peak=164.84 line=146.27007999999998
+    - paragraph: 2026-07-03 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260703 603256.SH target=0 reason=stop signal=20260702 order=e0554bda93584186b37d8c4453d3d195
+    - paragraph: 2026-07-03 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260703 001267.SZ target=0 reason=stop signal=20260702 order=733c7e9dbc2d4b4bb1c4156614426807
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260702 nav=138051.9718005 cash=18056.97180050001 market=119995.0 held=[('603256.SH', 100), ('301217.SZ', 100), ('301200.SZ', 100), ('301526.SZ', 500), ('001267.SZ', 500)]
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260702 001267.SZ qty=500 cost=53.566888375000005 close=46.85 peak=50.64999999999999 line=47.138861770000005
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260702 001267.SZ close=46.85 cost=53.566888375000005 peak=50.64999999999999 line=47.138861770000005 next_open=True
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260702 301526.SZ qty=500 cost=48.040012 close=45.19 peak=46.73 line=42.27521056
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260702 301200.SZ qty=100 cost=361.1009026625 close=348.6 peak=376.61 line=331.4168
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260702 301217.SZ qty=100 cost=166.21599999999998 close=157.92 peak=164.84 line=146.27007999999998
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260702 603256.SH qty=100 cost=268.88575463750004 close=233.23 peak=255.97000000000003 line=236.61946408100005
+    - paragraph: 2026-07-02 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260702 603256.SH close=233.23 cost=268.88575463750004 peak=255.97000000000003 line=236.61946408100005 next_open=True
+    - paragraph: 2026-07-02 04:00:00 - INFO
+    - generic: 301526.SZ在2026-07-02日发生了分红：每股税前分红0.02
+    - paragraph: 2026-07-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260701 nav=146488.9718005 cash=18046.97180050001 market=128442.0 held=[('603256.SH', 100), ('301217.SZ', 100), ('301200.SZ', 100), ('301526.SZ', 500), ('001267.SZ', 500)]
+    - paragraph: 2026-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260701 001267.SZ qty=500 cost=53.566888375000005 close=50.65 peak=50.65 line=47.138861770000005
+    - paragraph: 2026-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260701 301526.SZ qty=500 cost=48.060012 close=46.75 peak=46.75 line=42.29281056
+    - paragraph: 2026-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260701 301200.SZ qty=100 cost=361.1009026625 close=376.61 peak=376.61 line=331.4168
+    - paragraph: 2026-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260701 301217.SZ qty=100 cost=166.21599999999998 close=164.84 peak=164.84 line=146.27007999999998
+    - paragraph: 2026-07-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260701 603256.SH qty=100 cost=268.88575463750004 close=255.97 peak=255.97 line=236.61946408100005
+    - paragraph: 2026-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260701 001267.SZ target=500 reason=rebalance buy order=77cc629bba524fdb9e014d80e19af196
+    - paragraph: 2026-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260701 301526.SZ target=500 reason=rebalance buy order=3453433e89dc4787b621a9af700ad7a7
+    - paragraph: 2026-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260701 301200.SZ target=100 reason=rebalance buy order=3d6a00f9cf69470cb1a4f3dcf4375f0e
+    - paragraph: 2026-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260701 301217.SZ target=100 reason=rebalance buy order=556035e1cd3d4b27a7f3f2a34d2211c5
+    - paragraph: 2026-07-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260701 603256.SH target=100 reason=rebalance buy order=27f49b9bc41f40b89de87d4fa4c6246e
+    - paragraph: 2026-07-01 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION signal=20260630 execute=20260701 on=True n=5 equity=148480.68771800003 lot_cap=37120.REDACTED_PHONE eligible=1350 rejected={'ineligible': 239} picks=['603256.SH', '301217.SZ', '301200.SZ', '301526.SZ', '001267.SZ'] top8=[('603256.SH', 12.700338983050848, 265.33), ('301217.SZ', 8.127301841473178, 165.07), ('301200.SZ', 5.6634822068306665, 360.65), ('301526.SZ', 5.414835164835165, 46.67), ('001267.SZ', 5.216738197424892, 53.5), ('301511.SZ', 5.098058252427184, 143.85), ('600105.SH', 4.937888198757763, 67.48), ('300394.SZ', 4.779597649991098, 302.68)]"
+    - paragraph: 2026-06-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260630 nav=148480.68771800003 cash=148480.68771800003 market=0 held=[]
+    - paragraph: 2026-06-30 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260630 301377.SZ target=0 reason=stop signal=20260629 order=5464bd41c0cc4a0891f80c8055b9051b
+    - paragraph: 2026-06-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260629 nav=148269.979073 cash=92889.97907300001 market=55379.99999999999 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260629 301377.SZ qty=100 cost=198.05830999999998 close=553.8 peak=659.6 line=580.448
+    - paragraph: 2026-06-29 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260629 301377.SZ close=553.8 cost=198.05830999999998 peak=659.6 line=580.448 next_open=True
+    - paragraph: 2026-06-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260626 nav=151889.97907300002 cash=92889.97907300001 market=59000.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260626 301377.SZ qty=100 cost=198.05830999999998 close=590.0 peak=659.6000000000001 line=580.4480000000001
+    - paragraph: 2026-06-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260625 nav=156939.97907300002 cash=92889.97907300001 market=64050.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260625 301377.SZ qty=100 cost=198.05830999999998 close=640.5 peak=659.6 line=580.448
+    - paragraph: 2026-06-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260624 nav=154889.97907300002 cash=92889.97907300001 market=62000.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260624 301377.SZ qty=100 cost=198.05830999999998 close=620.0 peak=659.6 line=580.448
+    - paragraph: 2026-06-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260623 nav=152889.97907300002 cash=92889.97907300001 market=60000.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260623 301377.SZ qty=100 cost=198.05830999999998 close=600.0 peak=659.5999999999999 line=580.448
+    - paragraph: 2026-06-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260622 nav=158849.97907300002 cash=92889.97907300001 market=65960.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260622 301377.SZ qty=100 cost=198.05830999999998 close=659.6 peak=659.6 line=580.448
+    - paragraph: 2026-06-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260618 nav=152889.97907300002 cash=92889.97907300001 market=60000.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260618 301377.SZ qty=100 cost=198.05830999999998 close=600.0 peak=600.0 line=528.0
+    - paragraph: 2026-06-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260617 nav=151889.97907300002 cash=92889.97907300001 market=59000.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260617 301377.SZ qty=100 cost=198.05830999999998 close=590.0 peak=590.0 line=519.2
+    - paragraph: 2026-06-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260616 nav=148247.97907300002 cash=92889.97907300001 market=55358.00000000001 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260616 301377.SZ qty=100 cost=198.05830999999998 close=553.58 peak=553.58 line=487.15040000000005
+    - paragraph: 2026-06-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260615 nav=148245.979073 cash=92889.97907300001 market=55355.99999999999 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260615 301377.SZ qty=100 cost=198.05830999999998 close=553.56 peak=553.56 line=487.1328
+    - paragraph: 2026-06-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260612 nav=140019.97907300002 cash=92889.97907300001 market=47130.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260612 301377.SZ qty=100 cost=198.05830999999998 close=471.3 peak=471.3 line=414.744
+    - paragraph: 2026-06-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260611 nav=135978.97907300002 cash=92889.97907300001 market=43089.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260611 301377.SZ qty=100 cost=198.05830999999998 close=430.89 peak=439.3 line=386.584
+    - paragraph: 2026-06-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260610 nav=136109.97907300002 cash=92889.97907300001 market=43220.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260610 301377.SZ qty=100 cost=198.05830999999998 close=432.2 peak=439.3 line=386.584
+    - paragraph: 2026-06-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260609 nav=136819.97907300002 cash=92889.97907300001 market=43930.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260609 301377.SZ qty=100 cost=198.05830999999998 close=439.3 peak=439.3 line=386.584
+    - paragraph: 2026-06-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260608 nav=135352.97907300002 cash=92889.97907300001 market=42463.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260608 301377.SZ qty=100 cost=198.05830999999998 close=424.63 peak=424.63 line=373.6744
+    - paragraph: 2026-06-05 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260605 nav=132480.97907300002 cash=92889.97907300001 market=39591.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-05 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260605 301377.SZ qty=100 cost=198.05830999999998 close=395.91 peak=408.52 line=359.4976
+    - paragraph: 2026-06-04 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260604 nav=133741.97907300002 cash=92889.97907300001 market=40852.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-04 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260604 301377.SZ qty=100 cost=198.05830999999998 close=408.52 peak=408.52 line=359.4976
+    - paragraph: 2026-06-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260603 nav=131363.97907300002 cash=92889.97907300001 market=38474.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260603 301377.SZ qty=100 cost=198.05830999999998 close=384.74 peak=384.74 line=338.57120000000003
+    - paragraph: 2026-06-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260602 nav=127317.97907300001 cash=92889.97907300001 market=34428.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260602 301377.SZ qty=100 cost=198.05830999999998 close=344.28 peak=369.62 line=325.2656
+    - paragraph: 2026-06-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260601 nav=126726.97907300001 cash=92889.97907300001 market=33837.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-06-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260601 301377.SZ qty=100 cost=198.05830999999998 close=338.37 peak=369.61999999999995 line=325.26559999999995
+    - paragraph: 2026-05-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260529 nav=127961.97907300001 cash=92889.97907300001 market=35072.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260529 301377.SZ qty=100 cost=198.05830999999998 close=350.72 peak=369.62 line=325.2656
+    - paragraph: 2026-05-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260528 nav=129851.97907300001 cash=92889.97907300001 market=36962.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260528 301377.SZ qty=100 cost=198.05830999999998 close=369.62 peak=369.62 line=325.2656
+    - paragraph: 2026-05-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260527 nav=127597.97907300001 cash=92889.97907300001 market=34708.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260527 301377.SZ qty=100 cost=198.05830999999998 close=347.08 peak=347.08 line=305.43039999999996
+    - paragraph: 2026-05-26 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260526 nav=125612.97907300001 cash=92889.97907300001 market=32723.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-26 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260526 301377.SZ qty=100 cost=198.05830999999998 close=327.23 peak=327.48999999999995 line=288.1912
+    - paragraph: 2026-05-25 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260525 nav=125638.97907300001 cash=92889.97907300001 market=32749.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-25 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260525 301377.SZ qty=100 cost=198.05830999999998 close=327.49 peak=327.49 line=288.19120000000004
+    - paragraph: 2026-05-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260522 nav=123952.97907300001 cash=92889.97907300001 market=31063.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260522 301377.SZ qty=100 cost=198.05830999999998 close=310.63 peak=310.63 line=273.3544
+    - paragraph: 2026-05-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260521 nav=118775.97907300001 cash=92889.97907300001 market=25886.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260521 301377.SZ qty=100 cost=198.05830999999998 close=258.86 peak=258.86 line=227.79680000000002
+    - paragraph: 2026-05-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260520 nav=117694.97907300001 cash=92889.97907300001 market=24805.0 held=[('301377.SZ', 100)]
+    - paragraph: 2026-05-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260520 301377.SZ qty=100 cost=198.05830999999998 close=248.05 peak=253.68 line=223.2384
+    - paragraph: 2026-05-20 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260520 000657.SZ target=0 reason=stop signal=20260519 order=99862d66619b4251b8419fd11ef52896
+    - paragraph: 2026-05-19 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260519 nav=117714.36887 cash=76724.36887 market=40990.0 held=[('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260519 000657.SZ qty=300 cost=48.79539666666666 close=53.97 peak=63.190000000000005 line=55.607200000000006
+    - paragraph: 2026-05-19 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260519 000657.SZ close=53.97 cost=48.79539666666666 peak=63.190000000000005 line=55.607200000000006 next_open=True
+    - paragraph: 2026-05-19 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260519 301377.SZ qty=100 cost=198.05830999999998 close=247.99 peak=253.68000000000004 line=223.23840000000004
+    - paragraph: 2026-05-19 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260519 603256.SH target=0 reason=stop signal=20260518 order=708df17259d24c249dbcff2f97807bf7
+    - paragraph: 2026-05-18 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260518 nav=119239.50200000001 cash=50487.50200000001 market=68752.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260518 000657.SZ qty=300 cost=48.79539666666666 close=56.96 peak=63.19 line=55.6072
+    - paragraph: 2026-05-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260518 301377.SZ qty=100 cost=198.05830999999998 close=253.68 peak=253.68 line=223.2384
+    - paragraph: 2026-05-18 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260518 603256.SH qty=200 cost=75.34023999999998 close=131.48 peak=149.98 line=131.98239999999998
+    - paragraph: 2026-05-18 15:30:00 - INFO
+    - generic: STOP_SIGNAL 20260518 603256.SH close=131.48 cost=75.34023999999998 peak=149.98 line=131.98239999999998 next_open=True
+    - paragraph: 2026-05-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260515 nav=119014.50200000001 cash=50487.50200000001 market=68527.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260515 000657.SZ qty=300 cost=48.79539666666666 close=56.46 peak=63.19 line=55.6072
+    - paragraph: 2026-05-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260515 301377.SZ qty=100 cost=198.05830999999998 close=247.69 peak=247.69 line=217.9672
+    - paragraph: 2026-05-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260515 603256.SH qty=200 cost=75.34023999999998 close=134.1 peak=149.98 line=131.98239999999998
+    - paragraph: 2026-05-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260514 nav=119168.50200000001 cash=50487.50200000001 market=68681.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260514 000657.SZ qty=300 cost=48.79539666666666 close=59.05 peak=63.18999999999999 line=55.60719999999999
+    - paragraph: 2026-05-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260514 301377.SZ qty=100 cost=198.05830999999998 close=226.0 peak=237.97 line=209.4136
+    - paragraph: 2026-05-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260514 603256.SH qty=200 cost=75.34023999999998 close=141.83 peak=149.98 line=131.98239999999998
+    - paragraph: 2026-05-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260513 nav=122146.50200000001 cash=50487.50200000001 market=71659.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260513 000657.SZ qty=300 cost=48.79539666666666 close=62.46 peak=63.19 line=55.6072
+    - paragraph: 2026-05-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260513 301377.SZ qty=100 cost=198.05830999999998 close=236.77 peak=237.96999999999997 line=209.41359999999997
+    - paragraph: 2026-05-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260513 603256.SH qty=200 cost=75.34023999999998 close=146.22 peak=149.98 line=131.98239999999998
+    - paragraph: 2026-05-12 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260512 nav=121850.50200000001 cash=50487.50200000001 market=71363.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260512 000657.SZ qty=300 cost=48.79539666666666 close=59.68 peak=63.19 line=55.6072
+    - paragraph: 2026-05-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260512 301377.SZ qty=100 cost=198.05830999999998 close=237.97 peak=237.97 line=209.4136
+    - paragraph: 2026-05-12 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260512 603256.SH qty=200 cost=75.34023999999998 close=148.31 peak=149.98 line=131.98239999999998
+    - paragraph: 2026-05-11 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260511 nav=122210.50200000001 cash=50487.50200000001 market=71723.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260511 000657.SZ qty=300 cost=48.79539666666666 close=60.64 peak=63.190000000000005 line=55.607200000000006
+    - paragraph: 2026-05-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260511 301377.SZ qty=100 cost=198.05830999999998 close=235.35 peak=237.54999999999998 line=209.04399999999998
+    - paragraph: 2026-05-11 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260511 603256.SH qty=200 cost=75.34023999999998 close=149.98 peak=149.98 line=131.98239999999998
+    - paragraph: 2026-05-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260508 nav=122140.50200000001 cash=50487.50200000001 market=71653.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260508 000657.SZ qty=300 cost=48.79539666666666 close=60.47 peak=63.19 line=55.6072
+    - paragraph: 2026-05-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260508 301377.SZ qty=100 cost=198.05830999999998 close=237.38 peak=237.54999999999998 line=209.04399999999998
+    - paragraph: 2026-05-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260508 603256.SH qty=200 cost=75.34023999999998 close=148.87 peak=148.87 line=131.00560000000002
+    - paragraph: 2026-05-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260507 nav=121772.50200000001 cash=50487.50200000001 market=71285.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260507 000657.SZ qty=300 cost=48.79539666666666 close=63.19 peak=63.19 line=55.6072
+    - paragraph: 2026-05-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260507 301377.SZ qty=100 cost=198.05830999999998 close=235.06 peak=237.55000000000004 line=209.04400000000004
+    - paragraph: 2026-05-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260507 603256.SH qty=200 cost=75.34023999999998 close=144.11 peak=144.11 line=126.81680000000001
+    - paragraph: 2026-05-06 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260506 nav=119041.50200000001 cash=50487.50200000001 market=68554.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-05-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260506 000657.SZ qty=300 cost=48.79539666666666 close=61.99 peak=61.99 line=54.5512
+    - paragraph: 2026-05-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260506 301377.SZ qty=100 cost=198.05830999999998 close=237.55 peak=237.55 line=209.044
+    - paragraph: 2026-05-06 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260506 603256.SH qty=200 cost=75.34023999999998 close=131.01 peak=131.01 line=115.2888
+    - paragraph: 2026-04-30 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260430 nav=115230.50200000001 cash=50487.50200000001 market=64743.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260430 000657.SZ qty=300 cost=48.79539666666666 close=58.19 peak=58.53999999999999 line=51.51519999999999
+    - paragraph: 2026-04-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260430 301377.SZ qty=100 cost=198.05830999999998 close=234.66 peak=236.19 line=207.8472
+    - paragraph: 2026-04-30 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260430 603256.SH qty=200 cost=75.34023999999998 close=119.1 peak=120.62000000000002 line=106.14560000000002
+    - paragraph: 2026-04-29 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260429 nav=114604.50200000001 cash=50487.50200000001 market=64117.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260429 000657.SZ qty=300 cost=48.79539666666666 close=57.31 peak=58.53999999999999 line=51.51519999999999
+    - paragraph: 2026-04-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260429 301377.SZ qty=100 cost=198.05830999999998 close=228.0 peak=236.19 line=207.8472
+    - paragraph: 2026-04-29 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260429 603256.SH qty=200 cost=75.34023999999998 close=120.62 peak=120.62 line=106.1456
+    - paragraph: 2026-04-28 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260428 nav=110347.50200000001 cash=50487.50200000001 market=59860.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260428 000657.SZ qty=300 cost=48.79539666666666 close=52.1 peak=58.54 line=51.5152
+    - paragraph: 2026-04-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260428 301377.SZ qty=100 cost=198.05830999999998 close=223.0 peak=236.19 line=207.8472
+    - paragraph: 2026-04-28 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260428 603256.SH qty=200 cost=75.34023999999998 close=109.65 peak=109.65 line=96.492
+    - paragraph: 2026-04-28 04:00:00 - INFO
+    - generic: 301377.SZ在2026-04-28日发生了分红：每股税前分红0.5
+    - paragraph: 2026-04-27 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260427 nav=110784.50200000001 cash=50437.50200000001 market=60347.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260427 000657.SZ qty=300 cost=48.79539666666666 close=53.83 peak=58.540000000000006 line=51.51520000000001
+    - paragraph: 2026-04-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260427 301377.SZ qty=100 cost=198.55830999999998 close=229.16 peak=236.68999999999997 line=208.28719999999998
+    - paragraph: 2026-04-27 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260427 603256.SH qty=200 cost=75.34023999999998 close=106.41 peak=107.35 line=94.46799999999999
+    - paragraph: 2026-04-24 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260424 nav=110059.50200000001 cash=50437.50200000001 market=59622.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260424 000657.SZ qty=300 cost=48.79539666666666 close=55.18 peak=58.54 line=51.5152
+    - paragraph: 2026-04-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260424 301377.SZ qty=100 cost=198.55830999999998 close=216.68 peak=236.68999999999997 line=208.28719999999998
+    - paragraph: 2026-04-24 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260424 603256.SH qty=200 cost=75.34023999999998 close=107.0 peak=107.35 line=94.46799999999999
+    - paragraph: 2026-04-23 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260423 nav=110921.50200000001 cash=50437.50200000001 market=60484.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260423 000657.SZ qty=300 cost=48.79539666666666 close=56.57 peak=58.540000000000006 line=51.51520000000001
+    - paragraph: 2026-04-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260423 301377.SZ qty=100 cost=198.55830999999998 close=223.35 peak=236.69 line=208.2872
+    - paragraph: 2026-04-23 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260423 603256.SH qty=200 cost=75.34023999999998 close=105.89 peak=107.34999999999998 line=94.46799999999999
+    - paragraph: 2026-04-22 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260422 nav=113015.50200000001 cash=50437.50200000001 market=62578.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260422 000657.SZ qty=300 cost=48.79539666666666 close=58.13 peak=58.54 line=51.5152
+    - paragraph: 2026-04-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260422 301377.SZ qty=100 cost=198.55830999999998 close=236.69 peak=236.69 line=208.2872
+    - paragraph: 2026-04-22 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260422 603256.SH qty=200 cost=75.34023999999998 close=107.35 peak=107.35 line=94.46799999999999
+    - paragraph: 2026-04-21 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260421 nav=111764.50200000001 cash=50437.50200000001 market=61327.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260421 000657.SZ qty=300 cost=48.79539666666666 close=57.81 peak=58.53999999999999 line=51.51519999999999
+    - paragraph: 2026-04-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260421 301377.SZ qty=100 cost=198.55830999999998 close=227.0 peak=228.55 line=201.12400000000002
+    - paragraph: 2026-04-21 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260421 603256.SH qty=200 cost=75.34023999999998 close=106.42 peak=106.42 line=93.6496
+    - paragraph: 2026-04-20 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260420 nav=111541.50200000001 cash=50437.50200000001 market=61104.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260420 000657.SZ qty=300 cost=48.79539666666666 close=58.54 peak=58.54 line=51.5152
+    - paragraph: 2026-04-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260420 301377.SZ qty=100 cost=198.55830999999998 close=227.5 peak=228.55 line=201.12400000000002
+    - paragraph: 2026-04-20 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260420 603256.SH qty=200 cost=75.34023999999998 close=103.96 peak=105.3 line=92.664
+    - paragraph: 2026-04-17 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260417 nav=110855.50200000001 cash=50437.50200000001 market=60418.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260417 000657.SZ qty=300 cost=48.79539666666666 close=56.12 peak=56.12 line=49.3856
+    - paragraph: 2026-04-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260417 301377.SZ qty=100 cost=198.55830999999998 close=225.22 peak=228.55 line=201.12400000000002
+    - paragraph: 2026-04-17 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260417 603256.SH qty=200 cost=75.34023999999998 close=105.3 peak=105.3 line=92.664
+    - paragraph: 2026-04-16 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260416 nav=107971.50200000001 cash=50437.50200000001 market=57534.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260416 000657.SZ qty=300 cost=48.79539666666666 close=51.9 peak=51.9 line=45.672
+    - paragraph: 2026-04-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260416 301377.SZ qty=100 cost=198.55830999999998 close=216.64 peak=228.55 line=201.12400000000002
+    - paragraph: 2026-04-16 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260416 603256.SH qty=200 cost=75.34023999999998 close=101.5 peak=102.07 line=89.82159999999999
+    - paragraph: 2026-04-15 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260415 nav=106735.50200000001 cash=50437.50200000001 market=56298.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260415 000657.SZ qty=300 cost=48.79539666666666 close=47.18 peak=49.94 line=43.947199999999995
+    - paragraph: 2026-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260415 301377.SZ qty=100 cost=198.55830999999998 close=217.3 peak=228.55 line=201.12400000000002
+    - paragraph: 2026-04-15 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260415 603256.SH qty=200 cost=75.34023999999998 close=102.07 peak=102.07 line=89.82159999999999
+    - paragraph: 2026-04-14 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260414 nav=107874.50200000001 cash=50437.50200000001 market=57437.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260414 000657.SZ qty=300 cost=48.79539666666666 close=49.94 peak=49.94 line=43.947199999999995
+    - paragraph: 2026-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260414 301377.SZ qty=100 cost=198.55830999999998 close=228.55 peak=228.55 line=201.12400000000002
+    - paragraph: 2026-04-14 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260414 603256.SH qty=200 cost=75.34023999999998 close=98.0 peak=98.0 line=86.24
+    - paragraph: 2026-04-13 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260413 nav=103960.50200000001 cash=50437.50200000001 market=53523.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260413 000657.SZ qty=300 cost=48.79539666666666 close=48.35 peak=49.45 line=43.516000000000005
+    - paragraph: 2026-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260413 301377.SZ qty=100 cost=198.55830999999998 close=211.58 peak=214.71 line=188.94480000000001
+    - paragraph: 2026-04-13 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260413 603256.SH qty=200 cost=75.34023999999998 close=89.3 peak=89.3 line=78.584
+    - paragraph: 2026-04-10 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260410 nav=102838.50200000001 cash=50437.50200000001 market=52401.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260410 000657.SZ qty=300 cost=48.79539666666666 close=48.98 peak=49.45 line=43.516000000000005
+    - paragraph: 2026-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260410 301377.SZ qty=100 cost=198.55830999999998 close=214.71 peak=214.71 line=188.94480000000001
+    - paragraph: 2026-04-10 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260410 603256.SH qty=200 cost=75.34023999999998 close=81.18 peak=81.18 line=71.4384
+    - paragraph: 2026-04-09 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260409 nav=101017.50200000001 cash=50437.50200000001 market=50580.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260409 000657.SZ qty=300 cost=48.79539666666666 close=49.15 peak=49.45 line=43.516000000000005
+    - paragraph: 2026-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260409 301377.SZ qty=100 cost=198.55830999999998 close=205.95 peak=211.01 line=185.6888
+    - paragraph: 2026-04-09 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260409 603256.SH qty=200 cost=75.34023999999998 close=76.2 peak=76.2 line=67.056
+    - paragraph: 2026-04-08 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260408 nav=101207.50200000001 cash=50437.50200000001 market=50770.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260408 000657.SZ qty=300 cost=48.79539666666666 close=49.45 peak=49.45 line=43.516000000000005
+    - paragraph: 2026-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260408 301377.SZ qty=100 cost=198.55830999999998 close=211.01 peak=211.01 line=185.6888
+    - paragraph: 2026-04-08 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260408 603256.SH qty=200 cost=75.34023999999998 close=74.17 peak=74.17 line=66.29941119999998
+    - paragraph: 2026-04-07 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260407 nav=98024.50200000001 cash=50437.50200000001 market=47587.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260407 000657.SZ qty=300 cost=48.79539666666666 close=47.64 peak=48.87 line=43.0056
+    - paragraph: 2026-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260407 301377.SZ qty=100 cost=198.55830999999998 close=194.95 peak=194.95 line=174.73131279999998
+    - paragraph: 2026-04-07 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260407 603256.SH qty=200 cost=75.34023999999998 close=69.0 peak=72.93 line=66.29941119999998
+    - paragraph: 2026-04-03 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260403 nav=97229.50200000001 cash=50437.50200000001 market=46792.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260403 000657.SZ qty=300 cost=48.79539666666666 close=46.27 peak=48.87 line=43.0056
+    - paragraph: 2026-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260403 301377.SZ qty=100 cost=198.55830999999998 close=193.11 peak=193.9 line=174.73131279999998
+    - paragraph: 2026-04-03 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260403 603256.SH qty=200 cost=75.34023999999998 close=68.0 peak=72.93 line=66.29941119999998
+    - paragraph: 2026-04-02 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260402 nav=96481.50200000001 cash=50437.50200000001 market=46044.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260402 000657.SZ qty=300 cost=48.79539666666666 close=46.17 peak=48.87 line=43.0056
+    - paragraph: 2026-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260402 301377.SZ qty=100 cost=198.55830999999998 close=185.21 peak=193.9 line=174.73131279999998
+    - paragraph: 2026-04-02 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260402 603256.SH qty=200 cost=75.34023999999998 close=68.36 peak=72.93 line=66.29941119999998
+    - paragraph: 2026-04-01 15:30:00 - INFO
+    - generic: AUDIT_CLOSE 20260401 nav=99074.50200000001 cash=50437.50200000001 market=48637.0 held=[('603256.SH', 200), ('301377.SZ', 100), ('000657.SZ', 300)]
+    - paragraph: 2026-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260401 000657.SZ qty=300 cost=48.79539666666666 close=48.87 peak=48.87 line=43.0056
+    - paragraph: 2026-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260401 301377.SZ qty=100 cost=198.55830999999998 close=193.9 peak=193.9 line=174.73131279999998
+    - paragraph: 2026-04-01 15:30:00 - INFO
+    - generic: AUDIT_HOLD 20260401 603256.SH qty=200 cost=75.34023999999998 close=72.93 peak=72.93 line=66.29941119999998
+    - paragraph: 2026-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260401 000657.SZ target=300 reason=rebalance buy order=208cf173b95941bfad1a8b83c9b31803
+    - paragraph: 2026-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260401 301377.SZ target=100 reason=rebalance buy order=02195758a24d49b4a23fc40ee063808f
+    - paragraph: 2026-04-01 09:30:00 - INFO
+    - generic: AUDIT_ORDER 20260401 603256.SH target=200 reason=rebalance buy order=90ed70e5d6ab496eb2fe937f18add5db
+    - paragraph: 2026-04-01 09:00:00 - INFO
+    - generic: "AUDIT_SELECTION signal=20260331 execute=20260401 on=False n=3 equity=100000.0 lot_cap=25000.0 eligible=1429 rejected={'ineligible': 160} picks=['603256.SH', '301377.SZ', '000657.SZ'] top8=[('603256.SH', 8.288707799767172, 70.05), ('301377.SZ', 6.238565678741311, 192.96), ('000657.SZ', 5.791794871794871, 47.71), ('002378.SZ', 5.077844311377246, 31.31), ('301005.SZ', 4.457932319155542, 165.35), ('001203.SZ', 3.8448687350835318, 39.93), ('603929.SH', 3.7146126185027786, 179.9), ('600105.SH', 3.613251155624037, 27.74)]"
+    - paragraph: 2026-04-01 00:00:00 - INFO
+    - generic: V9Q_R4_PLATFORM universe=1589 quarterly=Q next_open stop=max(cost,peak)*0.88; platform raw fills/corporate actions; fixed convenience pool, NOT PIT universe
+    - paragraph: 2026-10-19 22:53:54 - INFO
+    - generic: 回测开始
+    - paragraph: 2026-10-19 22:53:54 - INFO
+    - generic: INFO :回测开始运行

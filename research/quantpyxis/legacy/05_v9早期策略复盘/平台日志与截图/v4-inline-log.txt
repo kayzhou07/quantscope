@@ -1,0 +1,309 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "<":
+      - /url: "#/study-index"
+    - link "新建策略":
+      - /url: "#/study-index"
+    - generic: 股票
+    - generic: 策略编辑
+    - link "回测列表":
+      - /url: "#/backreport-history?strategyId=6ad4b79227352e00b66f40ee"
+    - region "策略代码":
+      - button "编译运行 beta":
+        - text: 编译运行
+        - generic: beta
+      - button "保存" [disabled]
+      - link "API 文档":
+        - /url: /view/help/12#股票回测引擎
+      - button "编辑器设置"
+      - button "全屏"
+      - textbox "Cursor at row 353"
+      - generic: "327"
+      - generic: "328"
+      - generic: "329"
+      - generic: "330"
+      - generic: "331"
+      - generic: "332"
+      - generic: "333"
+      - generic: "334"
+      - generic: "335"
+      - generic: "336"
+      - text: "337"
+      - button [expanded]
+      - text: "338"
+      - button [expanded]
+      - generic: "339"
+      - text: "340"
+      - button [expanded]
+      - generic: "341"
+      - generic: "342"
+      - generic: "343"
+      - generic: "344"
+      - text: "345"
+      - button [expanded]
+      - generic: "346"
+      - generic: "347"
+      - generic: "348"
+      - generic: "349"
+      - generic: "350"
+      - generic: "351"
+      - generic: "352"
+      - generic: "353"
+      - generic: "log.info('CAL threshold={} train={} validation={}'"
+      - generic: .format(threshold, train, valid))
+      - generic: candidates.append((train[0], threshold))
+      - generic: "# Training utility only. Validation never reselects the"
+      - generic: threshold.
+      - generic: "selected = sorted(candidates, key=lambda x: (-x[0], -x[1]"
+      - generic: ))[0][1]
+      - generic: benchmark = proxy_metrics(market, etf, 2.0, '20250101',
+      - generic: "'20260430')"
+      - generic: "log.info('CAL selected={} validation_no_defense={}'.format"
+      - generic: (selected, benchmark))
+      - generic: return selected
+      - generic: "def risk_metrics(closes, market_closes):"
+      - generic: "if len(closes) != 61 or len(market_closes) != 61:"
+      - generic: raise ValueError('Need61 aligned daily closes')
+      - generic: if any(not math.isfinite(float(x)) or float(x) <= 0 for x
+      - generic: "in list(closes)+list(market_closes)):"
+      - generic: raise ValueError('Invalid risk history')
+      - generic: r = pd.Series([closes[i+1]/closes[i]-1.0 for i in range(60
+      - generic: )])
+      - generic: m = pd.Series([market_closes[i+1]/market_closes[i]-1.0 for
+      - generic: i in range(60)])
+      - generic: variance = float(m.var(ddof=1))
+      - generic: "if variance <= 0:"
+      - generic: raise ValueError('Constant market history')
+      - generic: beta = float(r.cov(m)) / variance
+      - generic: residual = r - (float(r.mean()) - beta*float(m.mean())) -
+      - generic: beta*m
+      - generic: downside = math.sqrt(sum(min(float(x),0.0)**2 for x in r
+      - generic: )/60.0)*math.sqrt(252.0)
+      - generic: tail_loss = max(0.0, -sum(sorted(r.tolist())[:3])/3.0)
+      - generic: "return {'beta':beta, 'residual_vol':float(residual.std"
+      - generic: (ddof=1))*math.sqrt(252.0),
+      - generic: "'downside_vol':downside, 'tail_loss':tail_loss}"
+    - complementary "回测报告":
+      - combobox: 2026-05-01
+      - generic: 至
+      - combobox: 2026-10-16
+      - text: ￥
+      - textbox: "100000"
+      - combobox
+      - generic: 每日
+      - generic: python3.8
+      - button "进行回测"
+      - table:
+        - rowgroup:
+          - row "策略收益 基准收益 Alpha Beta Sharpe 最大回撤":
+            - cell "策略收益"
+            - cell "基准收益"
+            - cell "Alpha"
+            - cell "Beta"
+            - cell "Sharpe"
+            - cell "最大回撤"
+        - rowgroup:
+          - row "-1.04% -13.24% -0.03 0.03 -1.39 2.05%":
+            - cell "-1.04%"
+            - cell "-13.24%"
+            - cell "-0.03"
+            - cell "0.03"
+            - cell "-1.39"
+            - cell "2.05%"
+      - button "日志"
+      - button "错误"
+      - button "展开日志区域": ∧
+      - paragraph: 2026-10-19 16:57:17 - INFO
+      - generic: INFO :回测开始运行
+      - paragraph: 2026-10-19 16:57:17 - INFO
+      - generic: 回测开始
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: V4 open proxies only; NOT Barra replica; fundamental/analyst/industry factors unavailable
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.1 train=(-0.07910184457653374, -0.23706063139385436, -0.4464832200625687, 61, 1211) validation=(0.02262510914304192, 0.04420401233661342, -0.08374192605972497, 21, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.2 train=(-0.04099143913549405, -0.08276320890001931, -0.37881361674452274, 39, 1211) validation=(0.REDACTED_ID, 0.REDACTED_ID, -0.08125077905929923, 15, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.3 train=(-0.REDACTED_ID, -0.05475499102879633, -0.3549526816716684, 17, 1211) validation=(0.06662485405655016, 0.10435347887171709, -0.07802510875504087, 6, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.4 train=(-0.REDACTED_ID, -0.REDACTED_ID, -0.3460837611273997, 8, 1211) validation=(0.08637904755583248, 0.132431085195009, -0.07802510875504087, 3, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL threshold=0.5 train=(-0.REDACTED_ID, 0.0019290939360971926, -0.34878942978409044, 1, 1211) validation=(0.09449219661587327, 0.14406042650645978, -0.07450825855607013, 1, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: CAL selected=0.5 validation_no_defense=(0.10228752402942584, 0.15546785043877942, -0.07450825855607013, 0, 319)
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: V4 threshold frozen=0.5 sentiment OFF; MOM80/PV20
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: "量化一 v4: MOM80/PV20; top3; vol20%; past60d; sentiment OFF"
+      - paragraph: 2026-05-06 00:00:00 - INFO
+      - generic: Research only. Platform fees, matching and corporate actions require audit.
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260430 002709.SZ {'beta': 0.9862332260162382, 'residual_vol': 0.5191740059359695, 'downside_vol': 0.2881743708131457, 'tail_loss': 0.05559021115460857}"
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260430 600875.SH {'beta': 2.29889999127275, 'residual_vol': 0.6341037737269546, 'downside_vol': 0.3599998791080936, 'tail_loss': 0.05702993198067837}"
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260430 002916.SZ {'beta': 2.0709434444485604, 'residual_vol': 0.517617232910283, 'downside_vol': 0.3520297672138382, 'tail_loss': 0.06356058318471702}"
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: RISK_CAP 20260430 beta=0.5601114751458355 cap=0.2359953173558469 exposure=0.2359953173558469
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: RISK 20260430 estimated_vol=0.4390992775874138 exposure=0.235995 cash_target=0.764005
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: NORMAL inflation=4.7 release=Apr24-final cap=0.7 exposure=0.235995
+      - paragraph: 2026-05-06 09:00:00 - INFO
+      - generic: Signal=20260430 eligible=271 excluded=10 top=[('002709.SZ', 0.9490774907749078), ('600875.SH', 0.9431734317343173), ('002916.SZ', 0.9416974169741698)]
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 002916.SZ
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: TARGET buy 002709.SZ weight=0.078665 order=f9c55b501c5e428f861d87fca1f37c42
+      - paragraph: 2026-05-06 09:31:00 - INFO
+      - generic: TARGET buy 600875.SH weight=0.078665 order=04be4058336f4ee38e32494c4dff70a5
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260529 300502.SZ {'beta': 2.2847734191311053, 'residual_vol': 0.6258533414155993, 'downside_vol': 0.38794862654634865, 'tail_loss': 0.07342737860884059}"
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260529 300394.SZ {'beta': 2.1067402793854484, 'residual_vol': 0.6960228971726252, 'downside_vol': 0.474193854470493, 'tail_loss': 0.08083720355097919}"
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260529 002463.SZ {'beta': 2.439283219988918, 'residual_vol': 0.450879712802077, 'downside_vol': 0.3353306642177492, 'tail_loss': 0.05680840749673081}"
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: RISK_CAP 20260529 beta=0.4391874089936168 cap=0.1855581259752559 exposure=0.1855581259752559
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: RISK 20260529 estimated_vol=0.6051378735881273 exposure=0.185558 cash_target=0.814442
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.8 release=May22-final cap=0.7 exposure=0.185558
+      - paragraph: 2026-06-01 09:00:00 - INFO
+      - generic: Signal=20260529 eligible=271 excluded=10 top=[('300502.SZ', 0.9763837638376384), ('300394.SZ', 0.9645756457564576), ('002463.SZ', 0.9535055350553506)]
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[0.05277772762868996, 0.REDACTED_ID] risky_sleeve_HHI=0.5190210025566332
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 002463.SZ
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300394.SZ
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300502.SZ
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET sell 002709.SZ weight=0.000000 order=1303abf95032480a8494fd8254d9b600
+      - paragraph: 2026-06-01 09:31:00 - INFO
+      - generic: TARGET sell 600875.SH weight=0.000000 order=f1540c75a2da4dbfbbb77ab47bfe6de0
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260630 002384.SZ {'beta': 2.3572923463015276, 'residual_vol': 0.6380021912014743, 'downside_vol': 0.4091835188379143, 'tail_loss': 0.08026113483304749}"
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260630 301308.SZ {'beta': 2.5249873161182577, 'residual_vol': 0.6667569440330272, 'downside_vol': 0.39582424018218226, 'tail_loss': 0.0783613864684702}"
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260630 300408.SZ {'beta': 2.051959829494911, 'residual_vol': 0.7040703988198034, 'downside_vol': 0.31642107636140443, 'tail_loss': 0.07342030399847672}"
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: RISK_CAP 20260630 beta=0.4326357639504651 cap=0.18688995653004095 exposure=0.18688995653004095
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: RISK 20260630 estimated_vol=0.6180557777232101 exposure=0.186890 cash_target=0.813110
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.6 release=Jun26-final cap=0.7 exposure=0.186890
+      - paragraph: 2026-07-01 09:00:00 - INFO
+      - generic: Signal=20260630 eligible=269 excluded=11 top=[('002384.SZ', 0.9472118959107807), ('301308.SZ', 0.9442379182156134), ('300408.SZ', 0.9330855018587361)]
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 002384.SZ
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300408.SZ
+      - paragraph: 2026-07-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 301308.SZ
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260731 301308.SZ {'beta': 2.7352594015992997, 'residual_vol': 0.7098111235846417, 'downside_vol': 0.7199488975904392, 'tail_loss': 0.1249268344706248}"
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260731 600176.SH {'beta': 2.366763580966402, 'residual_vol': 0.7995944229885138, 'downside_vol': 0.6699824443578174, 'tail_loss': 0.10015139371270816}"
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260731 300408.SZ {'beta': 3.2045536015891454, 'residual_vol': 0.7887822181534836, 'downside_vol': 0.6364645160179241, 'tail_loss': 0.1156272469987721}"
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: RISK_CAP 20260731 beta=0.3611596148674087 cap=0.12007028004481365 exposure=0.12007028004481365
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: RISK 20260731 estimated_vol=0.8829840778502533 exposure=0.120070 cash_target=0.879930
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: NORMAL inflation=4.2 release=Jul31-final cap=0.7 exposure=0.120070
+      - paragraph: 2026-08-03 09:00:00 - INFO
+      - generic: Signal=20260731 eligible=270 excluded=10 top=[('301308.SZ', 0.9785185185185186), ('600176.SH', 0.9614814814814815), ('300408.SZ', 0.9548148148148148)]
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[] risky_sleeve_HHI=0.0
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300408.SZ
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 301308.SZ
+      - paragraph: 2026-08-03 09:31:00 - INFO
+      - generic: TARGET buy 600176.SH weight=0.040023 order=309fc5f96b214659843d1efb39b2b528
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260831 301308.SZ {'beta': 2.757795103131701, 'residual_vol': 0.6309527729424954, 'downside_vol': 0.7034830051860088, 'tail_loss': 0.1249268344706248}"
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260831 600176.SH {'beta': 2.666333700084859, 'residual_vol': 0.7823436048409853, 'downside_vol': 0.6763678938076502, 'tail_loss': 0.10000000000000002}"
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260831 000657.SZ {'beta': 2.310826384445376, 'residual_vol': 0.7535207097301412, 'downside_vol': 0.6265359321438893, 'tail_loss': 0.09648622945171621}"
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: RISK_CAP 20260831 beta=0.3878496936588999 cap=0.12007028004481365 exposure=0.12007028004481365
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: RISK 20260831 estimated_vol=0.8392697070218355 exposure=0.120070 cash_target=0.879930
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: NORMAL inflation=4.0 release=Aug28-final cap=0.7 exposure=0.120070
+      - paragraph: 2026-09-01 09:00:00 - INFO
+      - generic: Signal=20260831 eligible=270 excluded=10 top=[('301308.SZ', 0.982962962962963), ('600176.SH', 0.9562962962962963), ('000657.SZ', 0.9533333333333334)]
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[0.04589705896074925] risky_sleeve_HHI=1.0
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 000657.SZ
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 301308.SZ
+      - paragraph: 2026-09-01 09:31:00 - WARN
+      - generic: 600176.SH 下单股数为0,订单无效.
+      - paragraph: 2026-09-01 09:31:00 - INFO
+      - generic: TARGET sell 600176.SH weight=0.040023 order=None
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260930 000657.SZ {'beta': 2.6816884846548037, 'residual_vol': 0.5884192590201714, 'downside_vol': 0.5759741653627987, 'tail_loss': 0.09146277914940508}"
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260930 002384.SZ {'beta': 2.797247060359199, 'residual_vol': 0.5738027289231322, 'downside_vol': 0.6079778411052956, 'tail_loss': 0.10000370823599214}"
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: "RISK_FACTORS 20260930 300408.SZ {'beta': 3.054977168077532, 'residual_vol': 0.5821903130938139, 'downside_vol': 0.5951033136448556, 'tail_loss': 0.11078388879968715}"
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: RISK_CAP 20260930 beta=0.3515386319100522 cap=0.1353987494257591 exposure=0.1353987494257591
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: RISK 20260930 estimated_vol=0.7208206648769694 exposure=0.135399 cash_target=0.864601
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: NORMAL inflation=4.6 release=Sep11-prelim cap=0.7 exposure=0.135399
+      - paragraph: 2026-10-08 09:00:00 - INFO
+      - generic: Signal=20260930 eligible=271 excluded=9 top=[('000657.SZ', 0.9638376383763838), ('002384.SZ', 0.9608856088560886), ('300408.SZ', 0.9608856088560885)]
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: ACTUAL_CONCENTRATION weights=[0.REDACTED_ID] risky_sleeve_HHI=1.0
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 000657.SZ
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 002384.SZ
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: LOT_REJECT_KEEP_CASH 300408.SZ
+      - paragraph: 2026-10-08 09:31:00 - INFO
+      - generic: TARGET sell 600176.SH weight=0.000000 order=f9073c79ad264b9fa0d9698545280bf2
+      - paragraph: 2026-10-19 16:57:22 - INFO
+      - generic: 回测结束

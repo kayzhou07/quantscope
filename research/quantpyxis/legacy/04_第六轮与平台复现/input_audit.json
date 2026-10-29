@@ -1,0 +1,29 @@
+{
+  "core.py": {
+    "current_sha256": "b7fc9882b22529265e9a274335c7a50f82ad3432167c41e96b367344b0bd7d30",
+    "frozen_sha256": "b7fc9882b22529265e9a274335c7a50f82ad3432167c41e96b367344b0bd7d30",
+    "match": true
+  },
+  "data.py": {
+    "current_sha256": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+    "frozen_sha256": "30d2eae50726114cc6f7bc9d862cc543d9fa0e5cf306f211479133577f259dd3",
+    "match": true
+  },
+  "api.py": {
+    "current_sha256": "aa1a111133fb903232a072756a982bdf22355927d8916faade53a8f45a7cc2cc",
+    "frozen_sha256": "aa1a111133fb903232a072756a982bdf22355927d8916faade53a8f45a7cc2cc",
+    "match": true
+  },
+  "metrics.py": {
+    "current_sha256": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+    "frozen_sha256": "905c376a79ca307a37b7918d9f5132b26c4ab9417ac43294bd887358cdf3aeec",
+    "match": true
+  },
+  "regime.py": {
+    "current_sha256": "83ce69fc4030e94f2f18ada22b5cd946b6f75c359982844e59095e6771ad4acb",
+    "frozen_sha256": "83ce69fc4030e94f2f18ada22b5cd946b6f75c359982844e59095e6771ad4acb",
+    "match": true
+  },
+  "state_csv_sha256": "8990cf75782cd51c5c847380228771c0c0730721b0c7fc374af4f68bd69567d5",
+  "data_manifest_sha256": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db"
+}

@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-10-24",
+  "artifact_pages": 8,
+  "scope": "archival retrieval and arithmetic checks; no fresh strategy run",
+  "A60_nav_rows": 432,
+  "A60_fill_rows": 94,
+  "A60_final_NAV_difference": 0.0,
+  "A60_maxDD_difference": 0.0,
+  "A60_calendar_cagr": -0.04119402552952789,
+  "A60_vol_and_sharpe_recalculation_match": true,
+  "A60_monthly_table_and_NAV_match": true,
+  "A60_summary_month_extremes_inconsistent": true,
+  "A60_corrected_best_month": 0.06658040116599451,
+  "A60_corrected_worst_month": -0.0781578523944001,
+  "frozen_A_nav_rows": 2989,
+  "frozen_A_final_NAV_difference": 0.0,
+  "frozen_A_calendar_cagr": 0.0855711229150764,
+  "personal_live_account_proof": false,
+  "future_function_certified": false
+}

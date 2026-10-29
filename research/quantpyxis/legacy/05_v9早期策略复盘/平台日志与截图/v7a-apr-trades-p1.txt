@@ -1,0 +1,796 @@
+- banner:
+  - link "SuperMind":
+    - /url: /view
+    - img "Smorrebrod"
+  - link "同花顺":
+    - /url: javascript:void(0)
+  - list:
+    - link "首页":
+      - /url: /view
+    - link "我的策略":
+      - /url: "#/study-index"
+    - link "我的研究":
+      - /url: javascript:void(0)
+    - link "实盘交易":
+      - /url: javascript:void(0)
+    - link "社区":
+      - /url: /view/community
+    - link "帮助":
+      - /url: javascript:void(0)
+    - link "数据":
+      - /url: /view/dataplatform
+  - generic: HI！
+  - button "mx_1wgq0yqk1":
+    - generic "mx_1wgq0yqk1"
+  - button "全局搜索"
+  - paragraph: 需要帮助？
+  - paragraph: 试试AI小助手吧
+  - generic: 您有5条消息未读
+- main:
+  - main:
+    - link "< 新建策略":
+      - /url: /view/study-index.html#/study-index
+    - list:
+      - link "返回策略目录":
+        - /url: /view/study-index.html#/study-index
+      - link "返回策略编辑":
+        - /url: /view/study-index.html#/study?strategyId=6ad4b79227352e00b66f40ee
+      - link "返回回测列表":
+        - /url: /view/study-index.html#/backreport-history?strategyId=6ad4b79227352e00b66f40ee
+    - paragraph:
+      - generic: 回测日期：2026-04-01 至 2026-10-16
+      - generic: "|"
+      - generic: 资金：100,000.00
+      - generic: "|"
+      - generic: 频率：每日
+      - generic: "|"
+      - generic: 总运行时长：13秒
+      - generic: （完成）
+    - button "导出结果":
+      - generic: 导出结果
+    - link "绩效分析":
+      - /url: /view/machine.html#/performanceAnalysisResult/backtest/6ad5fd63a2096a00b6d5f065
+    - button "开启模拟交易"
+    - link "分享至社区":
+      - /url: /view/community/article-create?bid=6ad5fd63a2096a00b6d5f065
+    - list:
+      - link "收益概览":
+        - /url: /backtest-result?id=6ad5fd63a2096a00b6d5f065
+      - link "交易明细" [active]:
+        - /url: /backtest-result/transactionDetail?id=6ad5fd63a2096a00b6d5f065
+      - link "历史持仓":
+        - /url: /backtest-result/dailyPosition?id=6ad5fd63a2096a00b6d5f065
+      - link "输出日志":
+        - /url: /backtest-result/outLogs?id=6ad5fd63a2096a00b6d5f065
+      - link "收益":
+        - /url: /backtest-result/profit?id=6ad5fd63a2096a00b6d5f065
+      - link "Alpha":
+        - /url: /backtest-result/alpha?id=6ad5fd63a2096a00b6d5f065
+      - link "Beta":
+        - /url: /backtest-result/beta?id=6ad5fd63a2096a00b6d5f065
+      - link "Sharpe":
+        - /url: /backtest-result/sharpe?id=6ad5fd63a2096a00b6d5f065
+      - link "Sortino":
+        - /url: /backtest-result/sortino?id=6ad5fd63a2096a00b6d5f065
+      - link "Information Ratio":
+        - /url: /backtest-result/informationRatio?id=6ad5fd63a2096a00b6d5f065
+      - link "Volatility":
+        - /url: /backtest-result/volatility?id=6ad5fd63a2096a00b6d5f065
+      - link "最大回撤":
+        - /url: /backtest-result/maximumWithdrawal?id=6ad5fd63a2096a00b6d5f065
+    - table:
+      - rowgroup:
+        - row "日期 时间 代码/名称 买卖操作 成交价 成交数量 成交金额 保证金 费率 平仓盈亏 2026-04-01 至 2026-10-16 查询":
+          - columnheader "日期"
+          - columnheader "时间"
+          - columnheader "代码/名称"
+          - columnheader "买卖操作"
+          - columnheader "成交价"
+          - columnheader "成交数量"
+          - columnheader "成交金额"
+          - columnheader "保证金"
+          - columnheader "费率"
+          - columnheader "平仓盈亏"
+          - columnheader "2026-04-01 至 2026-10-16 查询":
+            - combobox: 2026-04-01
+            - generic: 至
+            - combobox: 2026-10-16
+            - button "查询"
+      - rowgroup:
+        - row "2026-10-12 09:31:00 601998.SH 中信银行 卖出 9.005 -1600 -14,408.79 -- 19.41 -51.43":
+          - cell "2026-10-12":
+            - generic: 2026-10-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601998.SH 中信银行":
+            - paragraph: 601998.SH
+            - paragraph: 中信银行
+          - cell "卖出":
+            - generic: 卖出
+          - cell "9.005":
+            - generic: "9.005"
+          - cell "-1600":
+            - generic: "-1600"
+          - cell "-14,408.79":
+            - generic: "-14,408.79"
+          - cell "--":
+            - generic: "--"
+          - cell "19.41":
+            - generic: "19.41"
+          - cell "-51.43":
+            - generic: "-51.43"
+          - cell
+        - row "2026-10-12 09:31:00 601939.SH 建设银行 卖出 10.995 -500 -5,497.25 -- 10.50 -32.44":
+          - cell "2026-10-12":
+            - generic: 2026-10-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601939.SH 建设银行":
+            - paragraph: 601939.SH
+            - paragraph: 建设银行
+          - cell "卖出":
+            - generic: 卖出
+          - cell "10.995":
+            - generic: "10.995"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-5,497.25":
+            - generic: "-5,497.25"
+          - cell "--":
+            - generic: "--"
+          - cell "10.50":
+            - generic: "10.50"
+          - cell "-32.44":
+            - generic: "-32.44"
+          - cell
+        - row "2026-10-08 09:31:00 601857.SH 中国石油 买入 11.206 1200 13,446.72 -- 5.00 --":
+          - cell "2026-10-08":
+            - generic: 2026-10-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601857.SH 中国石油":
+            - paragraph: 601857.SH
+            - paragraph: 中国石油
+          - cell "买入":
+            - generic: 买入
+          - cell "11.206":
+            - generic: "11.206"
+          - cell "1200":
+            - generic: "1200"
+          - cell "13,446.72":
+            - generic: 13,446.72
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-10-08 09:31:00 601988.SH 中国银行 买入 6.703 2100 14,077.04 -- 5.00 --":
+          - cell "2026-10-08":
+            - generic: 2026-10-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601988.SH 中国银行":
+            - paragraph: 601988.SH
+            - paragraph: 中国银行
+          - cell "买入":
+            - generic: 买入
+          - cell "6.703":
+            - generic: "6.703"
+          - cell "2100":
+            - generic: "2100"
+          - cell "14,077.04":
+            - generic: 14,077.04
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-10-08 09:31:00 601998.SH 中信银行 买入 9.035 1600 14,455.22 -- 5.00 --":
+          - cell "2026-10-08":
+            - generic: 2026-10-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601998.SH 中信银行":
+            - paragraph: 601998.SH
+            - paragraph: 中信银行
+          - cell "买入":
+            - generic: 买入
+          - cell "9.035":
+            - generic: "9.035"
+          - cell "1600":
+            - generic: "1600"
+          - cell "14,455.22":
+            - generic: 14,455.22
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-10-08 09:31:00 601939.SH 建设银行 买入 11.056 1300 14,372.18 -- 5.00 --":
+          - cell "2026-10-08":
+            - generic: 2026-10-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601939.SH 建设银行":
+            - paragraph: 601939.SH
+            - paragraph: 建设银行
+          - cell "买入":
+            - generic: 买入
+          - cell "11.056":
+            - generic: "11.056"
+          - cell "1300":
+            - generic: "1300"
+          - cell "14,372.18":
+            - generic: 14,372.18
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-08 09:31:00 002532.SZ 天山铝业 卖出 13.043 -300 -3,913.04 -- 8.91 -89.96":
+          - cell "2026-09-08":
+            - generic: 2026-09-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002532.SZ 天山铝业":
+            - paragraph: 002532.SZ
+            - paragraph: 天山铝业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.043":
+            - generic: "13.043"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-3,913.04":
+            - generic: "-3,913.04"
+          - cell "--":
+            - generic: "--"
+          - cell "8.91":
+            - generic: "8.91"
+          - cell "-89.96":
+            - generic: "-89.96"
+          - cell
+        - row "2026-09-03 09:31:00 600026.SH 中远海能 卖出 18.891 -200 -3,778.11 -- 8.78 -20.79":
+          - cell "2026-09-03":
+            - generic: 2026-09-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600026.SH 中远海能":
+            - paragraph: 600026.SH
+            - paragraph: 中远海能
+          - cell "卖出":
+            - generic: 卖出
+          - cell "18.891":
+            - generic: "18.891"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-3,778.11":
+            - generic: "-3,778.11"
+          - cell "--":
+            - generic: "--"
+          - cell "8.78":
+            - generic: "8.78"
+          - cell "-20.79":
+            - generic: "-20.79"
+          - cell
+        - row "2026-09-03 09:31:00 000630.SZ 铜陵有色 卖出 6.507 -500 -3,253.37 -- 8.25 -141.89":
+          - cell "2026-09-03":
+            - generic: 2026-09-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000630.SZ 铜陵有色":
+            - paragraph: 000630.SZ
+            - paragraph: 铜陵有色
+          - cell "卖出":
+            - generic: 卖出
+          - cell "6.507":
+            - generic: "6.507"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-3,253.37":
+            - generic: "-3,253.37"
+          - cell "--":
+            - generic: "--"
+          - cell "8.25":
+            - generic: "8.25"
+          - cell "-141.89":
+            - generic: "-141.89"
+          - cell
+        - row "2026-09-02 09:31:00 601872.SH 招商轮船 卖出 18.691 -200 -3,738.13 -- 8.74 17.27":
+          - cell "2026-09-02":
+            - generic: 2026-09-02
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601872.SH 招商轮船":
+            - paragraph: 601872.SH
+            - paragraph: 招商轮船
+          - cell "卖出":
+            - generic: 卖出
+          - cell "18.691":
+            - generic: "18.691"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-3,738.13":
+            - generic: "-3,738.13"
+          - cell "--":
+            - generic: "--"
+          - cell "8.74":
+            - generic: "8.74"
+          - cell "17.27":
+            - generic: "17.27"
+          - cell
+        - row "2026-09-02 09:31:00 000630.SZ 铜陵有色 卖出 6.517 -200 -1,303.35 -- 6.30 -54.76":
+          - cell "2026-09-02":
+            - generic: 2026-09-02
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000630.SZ 铜陵有色":
+            - paragraph: 000630.SZ
+            - paragraph: 铜陵有色
+          - cell "卖出":
+            - generic: 卖出
+          - cell "6.517":
+            - generic: "6.517"
+          - cell "-200":
+            - generic: "-200"
+          - cell "-1,303.35":
+            - generic: "-1,303.35"
+          - cell "--":
+            - generic: "--"
+          - cell "6.30":
+            - generic: "6.30"
+          - cell "-54.76":
+            - generic: "-54.76"
+          - cell
+        - row "2026-09-01 09:31:00 601872.SH 招商轮船 买入 18.579 200 3,715.86 -- 5.00 --":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601872.SH 招商轮船":
+            - paragraph: 601872.SH
+            - paragraph: 招商轮船
+          - cell "买入":
+            - generic: 买入
+          - cell "18.579":
+            - generic: "18.579"
+          - cell "200":
+            - generic: "200"
+          - cell "3,715.86":
+            - generic: 3,715.86
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-01 09:31:00 600026.SH 中远海能 买入 18.969 200 3,793.90 -- 5.00 --":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600026.SH 中远海能":
+            - paragraph: 600026.SH
+            - paragraph: 中远海能
+          - cell "买入":
+            - generic: 买入
+          - cell "18.969":
+            - generic: "18.969"
+          - cell "200":
+            - generic: "200"
+          - cell "3,793.90":
+            - generic: 3,793.90
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-01 09:31:00 002532.SZ 天山铝业 买入 13.327 300 3,998.00 -- 5.00 --":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002532.SZ 天山铝业":
+            - paragraph: 002532.SZ
+            - paragraph: 天山铝业
+          - cell "买入":
+            - generic: 买入
+          - cell "13.327":
+            - generic: "13.327"
+          - cell "300":
+            - generic: "300"
+          - cell "3,998.00":
+            - generic: 3,998.00
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-09-01 09:31:00 000630.SZ 铜陵有色 买入 6.783 700 4,748.37 -- 5.00 --":
+          - cell "2026-09-01":
+            - generic: 2026-09-01
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000630.SZ 铜陵有色":
+            - paragraph: 000630.SZ
+            - paragraph: 铜陵有色
+          - cell "买入":
+            - generic: 买入
+          - cell "6.783":
+            - generic: "6.783"
+          - cell "700":
+            - generic: "700"
+          - cell "4,748.37":
+            - generic: 4,748.37
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-17 09:31:00 002493.SZ 荣盛石化 卖出 12.474 -300 -3,742.13 -- 8.74 28.52":
+          - cell "2026-08-17":
+            - generic: 2026-08-17
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "卖出":
+            - generic: 卖出
+          - cell "12.474":
+            - generic: "12.474"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-3,742.13":
+            - generic: "-3,742.13"
+          - cell "--":
+            - generic: "--"
+          - cell "8.74":
+            - generic: "8.74"
+          - cell "28.52":
+            - generic: "28.52"
+          - cell
+        - row "2026-08-14 09:31:00 002532.SZ 天山铝业 卖出 13.073 -300 -3,922.04 -- 8.92 -1.67":
+          - cell "2026-08-14":
+            - generic: 2026-08-14
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002532.SZ 天山铝业":
+            - paragraph: 002532.SZ
+            - paragraph: 天山铝业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.073":
+            - generic: "13.073"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-3,922.04":
+            - generic: "-3,922.04"
+          - cell "--":
+            - generic: "--"
+          - cell "8.92":
+            - generic: "8.92"
+          - cell "-1.67":
+            - generic: "-1.67"
+          - cell
+        - row "2026-08-12 09:31:00 601872.SH 招商轮船 卖出 16.652 -300 -4,995.50 -- 10.00 -94.04":
+          - cell "2026-08-12":
+            - generic: 2026-08-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601872.SH 招商轮船":
+            - paragraph: 601872.SH
+            - paragraph: 招商轮船
+          - cell "卖出":
+            - generic: 卖出
+          - cell "16.652":
+            - generic: "16.652"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-4,995.50":
+            - generic: "-4,995.50"
+          - cell "--":
+            - generic: "--"
+          - cell "10.00":
+            - generic: "10.00"
+          - cell "-94.04":
+            - generic: "-94.04"
+          - cell
+        - row "2026-08-12 09:31:00 600026.SH 中远海能 卖出 16.332 -300 -4,899.55 -- 9.90 -171.98":
+          - cell "2026-08-12":
+            - generic: 2026-08-12
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600026.SH 中远海能":
+            - paragraph: 600026.SH
+            - paragraph: 中远海能
+          - cell "卖出":
+            - generic: 卖出
+          - cell "16.332":
+            - generic: "16.332"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-4,899.55":
+            - generic: "-4,899.55"
+          - cell "--":
+            - generic: "--"
+          - cell "9.90":
+            - generic: "9.90"
+          - cell "-171.98":
+            - generic: "-171.98"
+          - cell
+        - row "2026-08-05 09:31:00 002493.SZ 荣盛石化 卖出 11.964 -100 -1,196.40 -- 6.20 -41.47":
+          - cell "2026-08-05":
+            - generic: 2026-08-05
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "卖出":
+            - generic: 卖出
+          - cell "11.964":
+            - generic: "11.964"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,196.40":
+            - generic: "-1,196.40"
+          - cell "--":
+            - generic: "--"
+          - cell "6.20":
+            - generic: "6.20"
+          - cell "-41.47":
+            - generic: "-41.47"
+          - cell
+        - row "2026-08-04 09:31:00 002532.SZ 天山铝业 卖出 13.053 -100 -1,305.35 -- 6.31 -2.56":
+          - cell "2026-08-04":
+            - generic: 2026-08-04
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002532.SZ 天山铝业":
+            - paragraph: 002532.SZ
+            - paragraph: 天山铝业
+          - cell "卖出":
+            - generic: 卖出
+          - cell "13.053":
+            - generic: "13.053"
+          - cell "-100":
+            - generic: "-100"
+          - cell "-1,305.35":
+            - generic: "-1,305.35"
+          - cell "--":
+            - generic: "--"
+          - cell "6.31":
+            - generic: "6.31"
+          - cell "-2.56":
+            - generic: "-2.56"
+          - cell
+        - row "2026-08-03 09:31:00 600026.SH 中远海能 买入 16.888 300 5,066.53 -- 5.00 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "600026.SH 中远海能":
+            - paragraph: 600026.SH
+            - paragraph: 中远海能
+          - cell "买入":
+            - generic: 买入
+          - cell "16.888":
+            - generic: "16.888"
+          - cell "300":
+            - generic: "300"
+          - cell "5,066.53":
+            - generic: 5,066.53
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-03 09:31:00 002493.SZ 荣盛石化 买入 12.366 400 4,946.47 -- 5.00 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002493.SZ 荣盛石化":
+            - paragraph: 002493.SZ
+            - paragraph: 荣盛石化
+          - cell "买入":
+            - generic: 买入
+          - cell "12.366":
+            - generic: "12.366"
+          - cell "400":
+            - generic: "400"
+          - cell "4,946.47":
+            - generic: 4,946.47
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-03 09:31:00 002532.SZ 天山铝业 买入 13.067 400 5,226.61 -- 5.00 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002532.SZ 天山铝业":
+            - paragraph: 002532.SZ
+            - paragraph: 天山铝业
+          - cell "买入":
+            - generic: 买入
+          - cell "13.067":
+            - generic: "13.067"
+          - cell "400":
+            - generic: "400"
+          - cell "5,226.61":
+            - generic: 5,226.61
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-08-03 09:31:00 601872.SH 招商轮船 买入 16.948 300 5,084.54 -- 5.00 --":
+          - cell "2026-08-03":
+            - generic: 2026-08-03
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601872.SH 招商轮船":
+            - paragraph: 601872.SH
+            - paragraph: 招商轮船
+          - cell "买入":
+            - generic: 买入
+          - cell "16.948":
+            - generic: "16.948"
+          - cell "300":
+            - generic: "300"
+          - cell "5,084.54":
+            - generic: 5,084.54
+          - cell "--":
+            - generic: "--"
+          - cell "5.00":
+            - generic: "5.00"
+          - cell "--":
+            - generic: "--"
+          - cell
+        - row "2026-07-08 09:31:00 601901.SH 方正证券 卖出 7.076 -500 -3,538.23 -- 8.54 -56.69":
+          - cell "2026-07-08":
+            - generic: 2026-07-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601901.SH 方正证券":
+            - paragraph: 601901.SH
+            - paragraph: 方正证券
+          - cell "卖出":
+            - generic: 卖出
+          - cell "7.076":
+            - generic: "7.076"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-3,538.23":
+            - generic: "-3,538.23"
+          - cell "--":
+            - generic: "--"
+          - cell "8.54":
+            - generic: "8.54"
+          - cell "-56.69":
+            - generic: "-56.69"
+          - cell
+        - row "2026-07-08 09:31:00 000725.SZ 京东方A 卖出 7.686 -500 -3,843.08 -- 8.84 -407.62":
+          - cell "2026-07-08":
+            - generic: 2026-07-08
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000725.SZ 京东方A":
+            - paragraph: 000725.SZ
+            - paragraph: 京东方A
+          - cell "卖出":
+            - generic: 卖出
+          - cell "7.686":
+            - generic: "7.686"
+          - cell "-500":
+            - generic: "-500"
+          - cell "-3,843.08":
+            - generic: "-3,843.08"
+          - cell "--":
+            - generic: "--"
+          - cell "8.84":
+            - generic: "8.84"
+          - cell "-407.62":
+            - generic: "-407.62"
+          - cell
+        - row "2026-07-07 09:31:00 002600.SZ 领益智造 卖出 16.212 -300 -4,863.57 -- 9.86 -346.03":
+          - cell "2026-07-07":
+            - generic: 2026-07-07
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "002600.SZ 领益智造":
+            - paragraph: 002600.SZ
+            - paragraph: 领益智造
+          - cell "卖出":
+            - generic: 卖出
+          - cell "16.212":
+            - generic: "16.212"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-4,863.57":
+            - generic: "-4,863.57"
+          - cell "--":
+            - generic: "--"
+          - cell "9.86":
+            - generic: "9.86"
+          - cell "-346.03":
+            - generic: "-346.03"
+          - cell
+        - row "2026-07-07 09:31:00 601901.SH 方正证券 卖出 7.176 -300 -2,152.92 -- 7.15 -4.03":
+          - cell "2026-07-07":
+            - generic: 2026-07-07
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "601901.SH 方正证券":
+            - paragraph: 601901.SH
+            - paragraph: 方正证券
+          - cell "卖出":
+            - generic: 卖出
+          - cell "7.176":
+            - generic: "7.176"
+          - cell "-300":
+            - generic: "-300"
+          - cell "-2,152.92":
+            - generic: "-2,152.92"
+          - cell "--":
+            - generic: "--"
+          - cell "7.15":
+            - generic: "7.15"
+          - cell "-4.03":
+            - generic: "-4.03"
+          - cell
+        - row "2026-07-07 09:31:00 000100.SZ TCL科技 卖出 5.187 -600 -3,112.44 -- 8.11 -480.35":
+          - cell "2026-07-07":
+            - generic: 2026-07-07
+          - cell "09:31:00":
+            - generic: 09:31:00
+          - cell "000100.SZ TCL科技":
+            - paragraph: 000100.SZ
+            - paragraph: TCL科技
+          - cell "卖出":
+            - generic: 卖出
+          - cell "5.187":
+            - generic: "5.187"
+          - cell "-600":
+            - generic: "-600"
+          - cell "-3,112.44":
+            - generic: "-3,112.44"
+          - cell "--":
+            - generic: "--"
+          - cell "8.11":
+            - generic: "8.11"
+          - cell "-480.35":
+            - generic: "-480.35"
+          - cell
+    - button "上一页" [disabled]: <
+    - generic: "1"
+    - button "2"
+    - button "3"
+    - button "下一页": ">"
+    - textbox: "1"
+    - button "前往"

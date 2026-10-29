@@ -1,0 +1,33 @@
+{
+  "version": "v4",
+  "date": "2026-10-19",
+  "status": "platform_complete",
+  "task_id": "6ad5dbf9693b8e00b5b93f95",
+  "strategy_id": "6ad4b79227352e00b66f40ee",
+  "start": "2026-05-01",
+  "end": "2026-10-16",
+  "return": -0.0104,
+  "drawdown": 0.0205,
+  "benchmark_return": -0.1324,
+  "sharpe": -1.39,
+  "source_sha256": "d6a5708ec5a14261e5cf9b80188bf5b3ead393316db255247c80d62822b1d06c",
+  "rule_tests_passed": 3,
+  "latest_monthly_stock_target": 0.1353987494257591,
+  "latest_monthly_cash_target": 0.8646012505742409,
+  "framework": "FaCS taxonomy registered; open price-volume risk proxies deployed; not Barra official replication",
+  "unavailable": [
+    "point-in-time fundamentals",
+    "analyst revisions",
+    "historical industry/cap data",
+    "full factor covariance/specific risk",
+    "IC/ICIR labels and time-out validation",
+    "convertible bond historical event adapter"
+  ],
+  "limitations": [
+    "same already-seen test period",
+    "many lot rejections increase actual cash",
+    "no isolated ablation per new cap",
+    "industry concentration and correlations not implemented",
+    "fees and corporate actions unaudited"
+  ]
+}

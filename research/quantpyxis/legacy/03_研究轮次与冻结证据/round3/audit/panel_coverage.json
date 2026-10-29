@@ -1,0 +1,895 @@
+{
+  "generated_at": "2026-10-20T21:06:49",
+  "inputs": {
+    "calendar": "qrun_1416/data/meta/calendar.csv",
+    "universe": "qrun_1416/data/meta/universe.csv",
+    "codes": "qrun_1416/data/meta/codes.csv",
+    "qfq_panel": "qrun_1416/data/panel/bars_qfq_{year}.csv.gz (2012-2023, 2026 anchor check)",
+    "raw_panel": "qrun_1416/data/panel/bars_{year}.csv.gz (2012-2026)"
+  },
+  "warmup": {
+    "note": "regime CSV / RUN_TEXT start 2012-08-03; the PRICE PANEL itself starts earlier (manifest date_range 2012-01-01, first bar 2012-01-04) - actual panel start is filled in after the qfq pass",
+    "regime_start_claimed_2012_08_03": "2012-08-03",
+    "window_start": "2014-07-01",
+    "open_trading_days_2012_08_03_to_2014_06_30": 459,
+    "needs_ge_253": true,
+    "pass_using_regime_start": true,
+    "panel_actual_first_bar_date": "2012-01-04",
+    "calendar_open_days_from_panel_start_to_2014_06_30": 600,
+    "calendar_open_days_from_panel_start_through_2014_06_30": 600,
+    "pass": true
+  },
+  "coverage": {
+    "window": {
+      "start": "2014-07-01",
+      "end": "2023-12-29"
+    },
+    "window_open_days": 2315,
+    "window_open_days_first": "2014-07-01",
+    "window_open_days_last": "2023-12-29",
+    "distinct_panel_dates_in_window": 2316,
+    "codes_with_ge1_qfq_bar_in_window": 4681,
+    "codes_with_ge1_qfq_bar_in_window_by_board": {
+      "main": 3322,
+      "chinext": 1359
+    },
+    "universe_codes_active_at_some_point_in_window": 4682,
+    "active_in_window_but_zero_bars": {
+      "n": 1,
+      "examples": [
+        "601268"
+      ],
+      "present_elsewhere_in_panel_2012_2023": [
+        "601268"
+      ],
+      "detail": [
+        {
+          "code": "601268",
+          "last_bar_in_panel": "2014-04-28",
+          "n_bars_in_last_panel_year": 77,
+          "ipo_date": "2010-02-02",
+          "out_date": "2015-05-21",
+          "interpretation": "listed/suspended with no bar in window => suspension-encoded absence"
+        }
+      ]
+    },
+    "panel_codes_2012_2023": 4690,
+    "codes_with_all_bars_positive_close": 4681,
+    "codes_with_min_bars_in_window": 1,
+    "codes_with_median_bars_in_window": 2067,
+    "codes_with_max_bars_in_window": 2315,
+    "window_rows_in_qfq_panel": 7964340,
+    "note_window_rows": "qfq rows in window (all codes), equals sum(daily_bars)"
+  },
+  "checkpoints": {
+    "2014-07-01": {
+      "prior_253_open_days": [
+        "2013-06-19",
+        "2014-07-01"
+      ],
+      "codes_with_any_valid_qfq_bar_in_253d": 2520,
+      "codes_with_ge230_valid_qfq_bars_in_253d": 1966,
+      "codes_with_ge253_valid_qfq_bars_in_253d": 1218,
+      "codes_ge230_and_bar_present_on_checkpoint": 1898,
+      "valid_bar_count_pctiles": {
+        "min": 1,
+        "p10": 191,
+        "median": 252,
+        "p90": 253,
+        "max": 253
+      },
+      "trading_days_in_panel_up_to_checkpoint": 601,
+      "calendar_open_days_up_to_checkpoint": 601,
+      "codes_ge230_and_bar_present_and_raw_close_ge2_at_checkpoint": 1887,
+      "raw_close_available_at_checkpoint_codes": 2307
+    },
+    "2019-01-02": {
+      "prior_253_open_days": [
+        "2017-12-19",
+        "2019-01-02"
+      ],
+      "codes_with_any_valid_qfq_bar_in_253d": 3571,
+      "codes_with_ge230_valid_qfq_bars_in_253d": 3010,
+      "codes_with_ge253_valid_qfq_bars_in_253d": 2469,
+      "codes_ge230_and_bar_present_on_checkpoint": 3007,
+      "valid_bar_count_pctiles": {
+        "min": 1,
+        "p10": 190,
+        "median": 253,
+        "p90": 253,
+        "max": 253
+      },
+      "trading_days_in_panel_up_to_checkpoint": 1702,
+      "calendar_open_days_up_to_checkpoint": 1702,
+      "codes_ge230_and_bar_present_and_raw_close_ge2_at_checkpoint": 2977,
+      "raw_close_available_at_checkpoint_codes": 3554
+    },
+    "2023-12-29": {
+      "prior_253_open_days": [
+        "2022-12-16",
+        "2023-12-29"
+      ],
+      "codes_with_any_valid_qfq_bar_in_253d": 4573,
+      "codes_with_ge230_valid_qfq_bars_in_253d": 4359,
+      "codes_with_ge253_valid_qfq_bars_in_253d": 4114,
+      "codes_ge230_and_bar_present_on_checkpoint": 4353,
+      "valid_bar_count_pctiles": {
+        "min": 1,
+        "p10": 252,
+        "median": 253,
+        "p90": 253,
+        "max": 253
+      },
+      "trading_days_in_panel_up_to_checkpoint": 2915,
+      "calendar_open_days_up_to_checkpoint": 2915,
+      "codes_ge230_and_bar_present_and_raw_close_ge2_at_checkpoint": 4294,
+      "raw_close_available_at_checkpoint_codes": 4524
+    }
+  },
+  "missing_bars": {
+    "window_open_days": 2315,
+    "panel_qfq_distinct_dates_in_window": 2316,
+    "panel_dates_in_window_that_are_not_calendar_open": {
+      "2021-06-27": 7
+    },
+    "daily_bar_counts": {
+      "min": 7,
+      "median": 3574,
+      "max": 4524,
+      "first_day": 2307,
+      "last_day": 4524
+    },
+    "daily_bar_counts_calendar_open_days_only": {
+      "min": 1340,
+      "min_date": "2015-07-09",
+      "median": 3574,
+      "max": 4524,
+      "max_date": "2023-12-27"
+    },
+    "actual_bar_rows_in_window": 7964340,
+    "actual_bar_rows_in_window_calendar_days_only": 7964333,
+    "actual_bar_rows_with_valid_close": 7964340,
+    "rows_with_nonpositive_close": 0,
+    "expected_listed_code_days_outdate_exclusive": 8269198,
+    "expected_listed_code_days_outdate_inclusive": 8269350,
+    "missing_bar_rate_outdate_exclusive": 0.036867,
+    "missing_bar_rate_outdate_inclusive": 0.036884,
+    "per_year": {
+      "2014": {
+        "trading_days": 126,
+        "actual_bars": 291758,
+        "expected_listed_code_days": 321751,
+        "missing_rate": 0.093218
+      },
+      "2015": {
+        "trading_days": 244,
+        "actual_bars": 569943,
+        "expected_listed_code_days": 665666,
+        "missing_rate": 0.1438
+      },
+      "2016": {
+        "trading_days": 244,
+        "actual_bars": 641721,
+        "expected_listed_code_days": 704633,
+        "missing_rate": 0.089283
+      },
+      "2017": {
+        "trading_days": 244,
+        "actual_bars": 743483,
+        "expected_listed_code_days": 799552,
+        "missing_rate": 0.070126
+      },
+      "2018": {
+        "trading_days": 243,
+        "actual_bars": 817231,
+        "expected_listed_code_days": 857283,
+        "missing_rate": 0.04672
+      },
+      "2019": {
+        "trading_days": 244,
+        "actual_bars": 880569,
+        "expected_listed_code_days": 885957,
+        "missing_rate": 0.006082
+      },
+      "2020": {
+        "trading_days": 243,
+        "actual_bars": 913206,
+        "expected_listed_code_days": 919208,
+        "missing_rate": 0.00653
+      },
+      "2021": {
+        "trading_days": 243,
+        "actual_bars": 986444,
+        "expected_listed_code_days": 989912,
+        "missing_rate": 0.003503
+      },
+      "2022": {
+        "trading_days": 242,
+        "actual_bars": 1040394,
+        "expected_listed_code_days": 1043312,
+        "missing_rate": 0.002797
+      },
+      "2023": {
+        "trading_days": 242,
+        "actual_bars": 1079591,
+        "expected_listed_code_days": 1081924,
+        "missing_rate": 0.002156
+      }
+    }
+  },
+  "board_and_prefix": {
+    "universe_rows": 4941,
+    "board_counts": {
+      "main": 3489,
+      "chinext": 1452
+    },
+    "prefix_by_board": [
+      {
+        "board": "chinext",
+        "prefix3": "300",
+        "n": 978
+      },
+      {
+        "board": "chinext",
+        "prefix3": "301",
+        "n": 474
+      },
+      {
+        "board": "main",
+        "prefix3": "000",
+        "n": 506
+      },
+      {
+        "board": "main",
+        "prefix3": "001",
+        "n": 122
+      },
+      {
+        "board": "main",
+        "prefix3": "002",
+        "n": 973
+      },
+      {
+        "board": "main",
+        "prefix3": "003",
+        "n": 42
+      },
+      {
+        "board": "main",
+        "prefix3": "600",
+        "n": 875
+      },
+      {
+        "board": "main",
+        "prefix3": "601",
+        "n": 233
+      },
+      {
+        "board": "main",
+        "prefix3": "603",
+        "n": 625
+      },
+      {
+        "board": "main",
+        "prefix3": "605",
+        "n": 113
+      }
+    ],
+    "unexpected_prefix_for_board": [],
+    "star_688_codes": [],
+    "bse_codes": [],
+    "no_star": true,
+    "no_bse": true,
+    "all_codes_6digit": true,
+    "panel_codes_not_in_universe": [],
+    "n_panel_codes_not_in_universe": 0
+  },
+  "ipo_out_coverage": {
+    "universe_codes": 4941,
+    "ipo_date_nonnull": 4941,
+    "ipo_date_null": 0,
+    "ipo_date_min": "1990-12-10",
+    "ipo_date_max": "2026-10-15",
+    "codes_ipo_inside_window": 2161,
+    "codes_ipo_inside_window_with_bars": 2161,
+    "codes_ipo_inside_window_without_bars": 0,
+    "codes_first_bar_before_ipo_date": 0,
+    "out_date_nonnull": 336,
+    "out_date_null": 4605,
+    "status_0_count": 336,
+    "status_1_count": 4605,
+    "status0_equals_outdate_nonnull": true,
+    "codes_out_inside_window": 152,
+    "codes_out_inside_window_with_bars": 151,
+    "last_bar_vs_out_date": {
+      "equal": 0,
+      "before": 144,
+      "after": 7
+    }
+  },
+  "delisting": {
+    "delisted_codes_in_universe": 336,
+    "delisted_out_date_inside_window": 152,
+    "relation_counts": {
+      "equal": 0,
+      "before": 144,
+      "after": 7,
+      "no_bars_in_window": 1
+    },
+    "before_gap_trading_days": {
+      "n": 144,
+      "median": 4,
+      "p90": 33,
+      "max": 270,
+      "n_gt_20": 24
+    },
+    "bars_after_out_date": [
+      {
+        "code": "300028",
+        "out_date": "2020-08-03",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 217
+      },
+      {
+        "code": "300090",
+        "out_date": "2020-08-25",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 201
+      },
+      {
+        "code": "300104",
+        "out_date": "2020-07-21",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 226
+      },
+      {
+        "code": "300156",
+        "out_date": "2020-08-25",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 201
+      },
+      {
+        "code": "300216",
+        "out_date": "2020-09-16",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 185
+      },
+      {
+        "code": "300372",
+        "out_date": "2017-08-28",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 929
+      },
+      {
+        "code": "300431",
+        "out_date": "2020-11-10",
+        "last_bar": "2021-06-27",
+        "relation": "after",
+        "calendar_trading_days_between": 152
+      }
+    ],
+    "bars_after_out_date_note": "all bars after out_date occur on the single non-calendar date 2021-06-27 (verified in date_anomalies)",
+    "interpretation": "last-bar-before-out_date is consistent with the panel's documented suspension=missing-row convention (codes suspended ahead of delisting); out_date itself is not a trading date for the panel. Cannot be cross-checked against an independent source in this environment -> open residual risk."
+  },
+  "date_anomalies": {
+    "panel_dates_not_in_calendar_open": [
+      "2021-06-27"
+    ],
+    "calendar_open_days_without_panel_rows": [
+      "2026-10-20"
+    ],
+    "extra_date_rows": {
+      "2021-06-27": [
+        {
+          "code": "300028",
+          "close": 0.3,
+          "isst": 0,
+          "tradestatus": 1
+        },
+        {
+          "code": "300090",
+          "close": 0.12,
+          "isst": 0,
+          "tradestatus": 1
+        },
+        {
+          "code": "300104",
+          "close": 0.18,
+          "isst": 0,
+          "tradestatus": 1
+        },
+        {
+          "code": "300156",
+          "close": 0.12,
+          "isst": 0,
+          "tradestatus": 1
+        },
+        {
+          "code": "300216",
+          "close": 0.19,
+          "isst": 0,
+          "tradestatus": 1
+        },
+        {
+          "code": "300372",
+          "close": 1.48,
+          "isst": 0,
+          "tradestatus": 1
+        },
+        {
+          "code": "300431",
+          "close": 0.28,
+          "isst": 0,
+          "tradestatus": 1
+        }
+      ]
+    },
+    "extra_dates_window_count": 1,
+    "missing_calendar_dates_note": "verified list of calendar open days with no panel row; panel ends 2026-10-19 per manifest, so only post-panel-end calendar days (e.g. today 2026-10-20) should appear here"
+  },
+  "manifest": {
+    "manifest_path": "qrun_1416/data/meta/manifest.json",
+    "manifest_sha256_computed": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db",
+    "engine_claimed_manifest_sha256": "9294d2b82b235666871340eb93b51c10fc0a449327be0b1d051c83b89e03b7db",
+    "manifest_sha256_match": true,
+    "dataset_version": "v1_final",
+    "generated_at": "2026-10-20T14:11:19",
+    "date_range": [
+      "2012-01-01",
+      "2026-10-19"
+    ],
+    "date_range_claim": true,
+    "declared_file_count": 53,
+    "n_file_entries": 53,
+    "all_53_entries_verified": true,
+    "verification": {
+      "n_entries": 53,
+      "claimed_files": 53,
+      "claimed_total_bytes": 472628818,
+      "mismatches": [],
+      "missing_on_disk": [],
+      "size_mismatches": [],
+      "actual_total_bytes": 472628818
+    }
+  },
+  "residual_risks": {
+    "isst_distinct_values_all_raw_years": [
+      0
+    ],
+    "isst_always_zero": true,
+    "isst_null_rows": 0,
+    "tradestatus_distinct_values_all_raw_years": [
+      1
+    ],
+    "tradestatus_always_one": true,
+    "tradestatus_null_rows": 0,
+    "raw_total_rows_all_years": 12438891,
+    "raw_vs_qfq_alignment_2013_2023_all_ok": true,
+    "raw_vs_qfq_alignment": {
+      "2013": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 564406,
+        "raw_rows": 564406
+      },
+      "2014": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 570193,
+        "raw_rows": 570193
+      },
+      "2015": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 569943,
+        "raw_rows": 569943
+      },
+      "2016": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 641721,
+        "raw_rows": 641721
+      },
+      "2017": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 743483,
+        "raw_rows": 743483
+      },
+      "2018": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 817231,
+        "raw_rows": 817231
+      },
+      "2019": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 880569,
+        "raw_rows": 880569
+      },
+      "2020": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 913206,
+        "raw_rows": 913206
+      },
+      "2021": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 986444,
+        "raw_rows": 986444
+      },
+      "2022": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 1040394,
+        "raw_rows": 1040394
+      },
+      "2023": {
+        "rows_equal": true,
+        "codes_equal": true,
+        "dates_equal": true,
+        "qfq_rows": 1079591,
+        "raw_rows": 1079591
+      }
+    },
+    "turn_column_status": "unavailable -> NaN by design (manifest units_and_notes)",
+    "turn_nonnull_rows_all_years": 0,
+    "turn_always_null": true,
+    "isst_caveat": "isst constant 0 for every row => real ST/*ST flags are NOT encoded; the platform S0 uses real is_st and excludes ST names, so a local engine cannot reproduce that exclusion from this panel",
+    "tradestatus_caveat": "tradestatus constant 1 for every row => suspension is encoded ONLY by missing rows; an engine must treat a missing bar as suspended",
+    "qfq_anchor": {
+      "panel_last_date_manifest": "2026-10-19",
+      "qfq_last_date": "2026-10-19",
+      "raw_last_date": "2026-10-19",
+      "common_codes_on_last_date": 4595,
+      "qfq_over_raw_ratio_on_last_date": {
+        "min": 0.9296333002973242,
+        "median": 1.0,
+        "max": 1.0,
+        "n_within_1pct_of_1": 4590,
+        "deviating_codes": {
+          "600380": 0.929633,
+          "601598": 0.979681,
+          "603207": 0.98272,
+          "601898": 0.988013,
+          "603699": 0.989119
+        }
+      },
+      "qfq_over_raw_ratio_first_panel_date": {
+        "date": "2012-01-04",
+        "min": 0.REDACTED_ID,
+        "median": 0.47605902859767907,
+        "max": 4.736194539249147,
+        "n_within_1pct_of_1": 150,
+        "n": 2226
+      }
+    }
+  },
+  "sha256_of_files_read": {
+    "data/meta/calendar.csv": "dd422059e3b43aee7a5a03995c658a9a50641ca0148075032dea09bcffd4ec08",
+    "data/meta/universe.csv": "1e3f9b560b1a480baf5bd2d666a7d6950f1feb1b484c29c235780f7a2e09155e",
+    "data/meta/codes.csv": "18e184736d18deba4d39d389b4fb2d661ddb3e089da8788b3f8eda942d063af7",
+    "data/panel/bars_qfq_2012.csv.gz": "93a054b20942abb5f7c6fd72ccf4e19816e4d7fdfbb04a940c291d1b34f31864",
+    "data/panel/bars_qfq_2013.csv.gz": "a6c83e12b5da5e1a2a10c564b44abee2178dd4d64bef3101455f9effef1361cb",
+    "data/panel/bars_qfq_2014.csv.gz": "47c932ad8a5b7036e09f220354406f48caba9b041e4f9185c21de2279b6c7a8e",
+    "data/panel/bars_qfq_2015.csv.gz": "559f3004bdbf1b3e8b7331b9524d024f213bc316b52906d297151e0703289403",
+    "data/panel/bars_qfq_2016.csv.gz": "0e93fc9b15b58ad2104fb8aa7a4b515cb8d8377d9eea435e95083f480030bfec",
+    "data/panel/bars_qfq_2017.csv.gz": "8d2a7ba8cce4d73f990659dbdfbe1bec8a9e678f6b92b55b58df756a6a04bee3",
+    "data/panel/bars_qfq_2018.csv.gz": "43412ddc92fe939e1855cbbe2b053ddc9af8ef7f3db836b761624942f9ad62a8",
+    "data/panel/bars_qfq_2019.csv.gz": "18f87c9ea6a9ede693a3d9ba3d49511dff5c0c0ae13c77f14b21ccd92cc15f00",
+    "data/panel/bars_qfq_2020.csv.gz": "1c333330d58c4ce1bb9d61439eb3796d68787554ae7b95a309d04661919c22b0",
+    "data/panel/bars_qfq_2021.csv.gz": "8fab495be670520ad711211231d752baf941b56e7158ac922f8c06f516c22991",
+    "data/panel/bars_qfq_2022.csv.gz": "a31d184e9a299cc3826b18a527a06c723518422d032a6fade88153ecf9d6fd9f",
+    "data/panel/bars_qfq_2023.csv.gz": "312ca219ebe60a2d2c02076292edd90f57618b31fa4c4eecc117884f0f25df86",
+    "data/panel/bars_2012.csv.gz": "919af847523e5a705be88233b2d71bc5c10f1d466b8e4c9259071025f8abebde",
+    "data/panel/bars_2013.csv.gz": "dfeaae9f7400a817e6296b5d0f32ba8059f30c10d83ce401ba4bdd660792eea6",
+    "data/panel/bars_2014.csv.gz": "8ce68d58dc356702a745ec0cfc16042d3cf63266d5d5d29fc62b772acbd41532",
+    "data/panel/bars_2015.csv.gz": "ce0440b51802ae6c28829ad2a8d0e5851e93396fb11f935ca37b94a0ffcc6c85",
+    "data/panel/bars_2016.csv.gz": "d423c510be19aa73ac8e93a869540ba73c2548f372681288a3fcd20f918770ae",
+    "data/panel/bars_2017.csv.gz": "2a4da9d230db50aeb3bc85928cd5811f51a01645e43fff414e43f4425519850e",
+    "data/panel/bars_2018.csv.gz": "63d6cd99f5911f0d3a4136538930f1ab0a80a5c55c35df405c49e48a98f61b8b",
+    "data/panel/bars_2019.csv.gz": "67061000a15b88832cfd8189e2beb594f00954d9c3d2cb950c79fd5cd2706d5c",
+    "data/panel/bars_2020.csv.gz": "bb5f21d92ed36b238d0e22f4b452fd14c6d7303bf347c5fafd298e2a571aa7b4",
+    "data/panel/bars_2021.csv.gz": "612b4f7b4fcb00ee4c5faede41a982f9acd817c250e3c49c3d636d0791f4034d",
+    "data/panel/bars_2022.csv.gz": "8f661e4f9836d236e9c04280f3853963fc4a59b92eea6518008e74412931d3ac",
+    "data/panel/bars_2023.csv.gz": "201b2c1a92f948e4c08e889c6af056fab2db05f2ba82200d0c5b6bb2b72a9f38",
+    "data/panel/bars_2024.csv.gz": "6eee2e04a5f2361b3a81523b37e7d7fdca1e7337eb5b6d738849434438deb2d0",
+    "data/panel/bars_2025.csv.gz": "bf0f3e7a51b7b2a54077e6d419ea769d541e775ce412af53a8231dc470b9a909",
+    "data/panel/bars_2026.csv.gz": "15d29bdc47015cbdb98666ff9b24ace92eaf7401e5ec348c14952d26a6406f4f",
+    "data/panel/bars_qfq_2026.csv.gz": "5d28c64c585d6da0838f78fd672a81a237484b44a740e7d9fd6278801398bbaf",
+    "meta/calendar.csv": "dd422059e3b43aee7a5a03995c658a9a50641ca0148075032dea09bcffd4ec08",
+    "meta/universe.csv": "1e3f9b560b1a480baf5bd2d666a7d6950f1feb1b484c29c235780f7a2e09155e",
+    "meta/codes.csv": "18e184736d18deba4d39d389b4fb2d661ddb3e089da8788b3f8eda942d063af7",
+    "meta/fetch_log.jsonl": "7f7c199174e7a6a9a085b30b2ed56e87e842e1e4a1bb342615b1802088fcf61c",
+    "panel/index_daily.csv.gz": "16f29ed888fa419c2e256b530d70bcf9b3a5903a5223ec7513ebeba1d82d8f1b",
+    "panel/bars_2012.csv.gz": "919af847523e5a705be88233b2d71bc5c10f1d466b8e4c9259071025f8abebde",
+    "panel/bars_2013.csv.gz": "dfeaae9f7400a817e6296b5d0f32ba8059f30c10d83ce401ba4bdd660792eea6",
+    "panel/bars_2014.csv.gz": "8ce68d58dc356702a745ec0cfc16042d3cf63266d5d5d29fc62b772acbd41532",
+    "panel/bars_2015.csv.gz": "ce0440b51802ae6c28829ad2a8d0e5851e93396fb11f935ca37b94a0ffcc6c85",
+    "panel/bars_2016.csv.gz": "d423c510be19aa73ac8e93a869540ba73c2548f372681288a3fcd20f918770ae",
+    "panel/bars_2017.csv.gz": "2a4da9d230db50aeb3bc85928cd5811f51a01645e43fff414e43f4425519850e",
+    "panel/bars_2018.csv.gz": "63d6cd99f5911f0d3a4136538930f1ab0a80a5c55c35df405c49e48a98f61b8b",
+    "panel/bars_2019.csv.gz": "67061000a15b88832cfd8189e2beb594f00954d9c3d2cb950c79fd5cd2706d5c",
+    "panel/bars_2020.csv.gz": "bb5f21d92ed36b238d0e22f4b452fd14c6d7303bf347c5fafd298e2a571aa7b4",
+    "panel/bars_2021.csv.gz": "612b4f7b4fcb00ee4c5faede41a982f9acd817c250e3c49c3d636d0791f4034d",
+    "panel/bars_2022.csv.gz": "8f661e4f9836d236e9c04280f3853963fc4a59b92eea6518008e74412931d3ac",
+    "panel/bars_2023.csv.gz": "201b2c1a92f948e4c08e889c6af056fab2db05f2ba82200d0c5b6bb2b72a9f38",
+    "panel/bars_2024.csv.gz": "6eee2e04a5f2361b3a81523b37e7d7fdca1e7337eb5b6d738849434438deb2d0",
+    "panel/bars_2025.csv.gz": "bf0f3e7a51b7b2a54077e6d419ea769d541e775ce412af53a8231dc470b9a909",
+    "panel/bars_2026.csv.gz": "15d29bdc47015cbdb98666ff9b24ace92eaf7401e5ec348c14952d26a6406f4f",
+    "panel/bars_qfq_2012.csv.gz": "93a054b20942abb5f7c6fd72ccf4e19816e4d7fdfbb04a940c291d1b34f31864",
+    "panel/bars_qfq_2013.csv.gz": "a6c83e12b5da5e1a2a10c564b44abee2178dd4d64bef3101455f9effef1361cb",
+    "panel/bars_qfq_2014.csv.gz": "47c932ad8a5b7036e09f220354406f48caba9b041e4f9185c21de2279b6c7a8e",
+    "panel/bars_qfq_2015.csv.gz": "559f3004bdbf1b3e8b7331b9524d024f213bc316b52906d297151e0703289403",
+    "panel/bars_qfq_2016.csv.gz": "0e93fc9b15b58ad2104fb8aa7a4b515cb8d8377d9eea435e95083f480030bfec",
+    "panel/bars_qfq_2017.csv.gz": "8d2a7ba8cce4d73f990659dbdfbe1bec8a9e678f6b92b55b58df756a6a04bee3",
+    "panel/bars_qfq_2018.csv.gz": "43412ddc92fe939e1855cbbe2b053ddc9af8ef7f3db836b761624942f9ad62a8",
+    "panel/bars_qfq_2019.csv.gz": "18f87c9ea6a9ede693a3d9ba3d49511dff5c0c0ae13c77f14b21ccd92cc15f00",
+    "panel/bars_qfq_2020.csv.gz": "1c333330d58c4ce1bb9d61439eb3796d68787554ae7b95a309d04661919c22b0",
+    "panel/bars_qfq_2021.csv.gz": "8fab495be670520ad711211231d752baf941b56e7158ac922f8c06f516c22991",
+    "panel/bars_qfq_2022.csv.gz": "a31d184e9a299cc3826b18a527a06c723518422d032a6fade88153ecf9d6fd9f",
+    "panel/bars_qfq_2023.csv.gz": "312ca219ebe60a2d2c02076292edd90f57618b31fa4c4eecc117884f0f25df86",
+    "panel/bars_qfq_2024.csv.gz": "175a2ea79c0328ca0e7bf4dc62e3f8665766dfd05493d3f8259f3388cc392dc5",
+    "panel/bars_qfq_2025.csv.gz": "f59b1f498f0bf5d6c6627cbf6a9e78025b57d69feecf489a2699f8d7dfcd346d",
+    "panel/bars_qfq_2026.csv.gz": "5d28c64c585d6da0838f78fd672a81a237484b44a740e7d9fd6278801398bbaf",
+    "qa/DATA_QA.md": "c85a2cd1d5722d2c9ed1d80a5a2fed7ba186c6d515dba034a514edf36431c30b",
+    "qa/cross_validation_vs_baostock.csv.gz": "55de680bbfb270e05e66b9127dde42d8db84d34a068bbf7dcc291b3707d9d292",
+    "qa/cross_validation_vs_tencent.csv": "9b18589230e8fe79123025ea0975d22903cc62fa4c06f6d6d151e3362698ccc5",
+    "qa/panel_validation.json": "4c0f8cb5425323307ab2130198c379443663ce7256321a3ab07686f52c4844a2",
+    "qa/qfq_jump_classification.json": "95c9afa4e9327fa1cb4f517262da54d66830e6b438581189be5483b044b01031",
+    "qa/qfq_unmatched_jumps.csv": "a43cb4a9b19a230152e6e2536079bcda26f3f3c5b6e6e726cb1ad1655e66d410",
+    "scripts/build_manifest.py": "97fe0d67086454457128f292fa4ee3bfc98c9db8671bf4d15a1bcf902234186e",
+    "scripts/build_qa.py": "01afce4d5b10ee19799fbbabb69aab7f3ae870f837cd1aa5d2026dd136b9f6ea",
+    "scripts/classify_qfq_jumps.py": "e7e1e8cb8e1aad89c08728266ebe839f55dd31e08606896fea06138ecf7a52a2",
+    "scripts/cross_validate_baostock.py": "a5c58318f19a290eac8cc329053526fb1638a98496173d3bd65a541b81753a08",
+    "scripts/factor_worker.py": "25c190d2a7df1c4955f2947f1bbf7114ae1505b97b887520a80078fa3e96d5be",
+    "scripts/fetch_factors_serial.py": "5ec01625b6352e8edeb5ff3c1aaa6dccf35cc5dd8fb443df239ef71061c996d6",
+    "scripts/launch_factors.py": "8ea4a5209bf65674854b1d1e4045cd31fe9751f6be1535162d6caee31453fa23",
+    "scripts/launch_tx.py": "5cfe234ef0e3f0b8bae859b5491996a83848512b162d436276fc0e4c6be2e75b",
+    "scripts/merge_panel.py": "fa53579e9b8acdee45827c154af108efb3e8a34a8eb61dcccf7e22614a4c9573",
+    "scripts/panel_validation.py": "16a211356a22209916b7e7f83fafe0a73474785a7b00a16c8826828069f7ba54",
+    "scripts/sample_validation.py": "3225adb86914692714fc3ddaf53998cca2284b33ce5132f34009428e6fe14674",
+    "scripts/tx_worker.py": "0d2fa51ad427b7af9a95df2dfbeac36780ac2946d8034effd28652e18927c46e"
+  },
+  "raw_year_stats": {
+    "2012": {
+      "rows": 565912,
+      "code_n": 2457,
+      "dates_n": 243,
+      "date_min": "2012-01-04",
+      "date_max": "2012-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2013": {
+      "rows": 564406,
+      "code_n": 2471,
+      "dates_n": 238,
+      "date_min": "2013-01-04",
+      "date_max": "2013-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2014": {
+      "rows": 570193,
+      "code_n": 2593,
+      "dates_n": 245,
+      "date_min": "2014-01-02",
+      "date_max": "2014-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2015": {
+      "rows": 569943,
+      "code_n": 2812,
+      "dates_n": 244,
+      "date_min": "2015-01-05",
+      "date_max": "2015-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2016": {
+      "rows": 641721,
+      "code_n": 3034,
+      "dates_n": 244,
+      "date_min": "2016-01-04",
+      "date_max": "2016-12-30",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2017": {
+      "rows": 743483,
+      "code_n": 3466,
+      "dates_n": 244,
+      "date_min": "2017-01-03",
+      "date_max": "2017-12-29",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2018": {
+      "rows": 817231,
+      "code_n": 3570,
+      "dates_n": 243,
+      "date_min": "2018-01-02",
+      "date_max": "2018-12-28",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2019": {
+      "rows": 880569,
+      "code_n": 3697,
+      "dates_n": 244,
+      "date_min": "2019-01-02",
+      "date_max": "2019-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2020": {
+      "rows": 913206,
+      "code_n": 3939,
+      "dates_n": 243,
+      "date_min": "2020-01-02",
+      "date_max": "2020-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2021": {
+      "rows": 986444,
+      "code_n": 4249,
+      "dates_n": 244,
+      "date_min": "2021-01-04",
+      "date_max": "2021-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2022": {
+      "rows": 1040394,
+      "code_n": 4446,
+      "dates_n": 242,
+      "date_min": "2022-01-04",
+      "date_max": "2022-12-30",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2023": {
+      "rows": 1079591,
+      "code_n": 4573,
+      "dates_n": 242,
+      "date_min": "2023-01-03",
+      "date_max": "2023-12-29",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2024": {
+      "rows": 1094628,
+      "code_n": 4589,
+      "dates_n": 242,
+      "date_min": "2024-01-02",
+      "date_max": "2024-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2025": {
+      "rows": 1105269,
+      "code_n": 4611,
+      "dates_n": 243,
+      "date_min": "2025-01-02",
+      "date_max": "2025-12-31",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    },
+    "2026": {
+      "rows": 865901,
+      "code_n": 4625,
+      "dates_n": 189,
+      "date_min": "2026-01-05",
+      "date_max": "2026-10-19",
+      "isst_null": 0,
+      "tradestatus_null": 0
+    }
+  },
+  "qfq_year_stats": {
+    "2012": {
+      "rows": 565912,
+      "code_n": 2457,
+      "dates_n": 243,
+      "date_min": "2012-01-04",
+      "date_max": "2012-12-31"
+    },
+    "2013": {
+      "rows": 564406,
+      "code_n": 2471,
+      "dates_n": 238,
+      "date_min": "2013-01-04",
+      "date_max": "2013-12-31"
+    },
+    "2014": {
+      "rows": 570193,
+      "code_n": 2593,
+      "dates_n": 245,
+      "date_min": "2014-01-02",
+      "date_max": "2014-12-31"
+    },
+    "2015": {
+      "rows": 569943,
+      "code_n": 2812,
+      "dates_n": 244,
+      "date_min": "2015-01-05",
+      "date_max": "2015-12-31"
+    },
+    "2016": {
+      "rows": 641721,
+      "code_n": 3034,
+      "dates_n": 244,
+      "date_min": "2016-01-04",
+      "date_max": "2016-12-30"
+    },
+    "2017": {
+      "rows": 743483,
+      "code_n": 3466,
+      "dates_n": 244,
+      "date_min": "2017-01-03",
+      "date_max": "2017-12-29"
+    },
+    "2018": {
+      "rows": 817231,
+      "code_n": 3570,
+      "dates_n": 243,
+      "date_min": "2018-01-02",
+      "date_max": "2018-12-28"
+    },
+    "2019": {
+      "rows": 880569,
+      "code_n": 3697,
+      "dates_n": 244,
+      "date_min": "2019-01-02",
+      "date_max": "2019-12-31"
+    },
+    "2020": {
+      "rows": 913206,
+      "code_n": 3939,
+      "dates_n": 243,
+      "date_min": "2020-01-02",
+      "date_max": "2020-12-31"
+    },
+    "2021": {
+      "rows": 986444,
+      "code_n": 4249,
+      "dates_n": 244,
+      "date_min": "2021-01-04",
+      "date_max": "2021-12-31"
+    },
+    "2022": {
+      "rows": 1040394,
+      "code_n": 4446,
+      "dates_n": 242,
+      "date_min": "2022-01-04",
+      "date_max": "2022-12-30"
+    },
+    "2023": {
+      "rows": 1079591,
+      "code_n": 4573,
+      "dates_n": 242,
+      "date_min": "2023-01-03",
+      "date_max": "2023-12-29"
+    }
+  }
+}

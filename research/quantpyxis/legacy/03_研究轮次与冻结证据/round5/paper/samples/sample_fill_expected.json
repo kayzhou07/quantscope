@@ -1,0 +1,15 @@
+{
+ "signal_id": "sig-0000000000000000",
+ "fill_date": "2026-10-21",
+ "expected_orders": {
+  "600000": {"side": "buy", "target_weight": 0.02, "target_value": 2000.0,
+              "fill_price_formula": "open*1.001 = 10.01",
+              "shares": 100, "amount": 1001.0, "commission": 5.0, "stamp": 0.0, "transfer": 0.01001},
+  "000001": {"side": "buy", "target_weight": 0.02, "target_value": 2000.0,
+              "fill_price_formula": "open*1.001 = 12.012",
+              "shares": 100, "amount": 1201.2, "commission": 5.0, "stamp": 0.0, "transfer": 0.012012}
+ },
+ "expected_cash_after": 100000.0 - 1001.0 - 5.0 - 0.01001 - 1201.2 - 5.0 - 0.012012,
+ "expected_n_positions": 2,
+ "note": "lot = 100; commission = max(5, amount*0.00025); stamp only on sells; transfer = amount*0.00001"
+}

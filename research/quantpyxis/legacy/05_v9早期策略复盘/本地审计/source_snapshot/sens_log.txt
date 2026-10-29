@@ -1,0 +1,19 @@
+trail None  n=4 ret   33.48% dd  36.84% vol  45.78% sharpe  1.55 expo  59.9% tr 23
+trail None  n=5 ret   21.69% dd  45.10% vol  53.24% sharpe  1.05 expo  68.7% tr 26
+trail None  n=6 ret   16.46% dd  50.87% vol  59.00% sharpe  0.85 expo  74.3% tr 30
+trail 0.2   n=4 ret   77.27% dd  16.63% vol  37.29% sharpe  3.36 expo  51.4% tr 29
+trail 0.2   n=5 ret   74.59% dd  20.92% vol  40.53% sharpe  3.05 expo  56.1% tr 33
+trail 0.2   n=6 ret   77.99% dd  23.79% vol  42.51% sharpe  3.02 expo  58.3% tr 37
+trail 0.15  n=4 ret   57.25% dd  17.75% vol  35.41% sharpe  2.83 expo  45.2% tr 33
+trail 0.15  n=5 ret   49.78% dd  23.46% vol  39.65% sharpe  2.32 expo  50.3% tr 37
+trail 0.15  n=6 ret   56.54% dd  25.11% vol  41.64% sharpe  2.44 expo  52.7% tr 41
+trail 0.12  n=4 ret   53.33% dd  13.47% vol  31.01% sharpe  3.02 expo  38.1% tr 37
+trail 0.12  n=5 ret   47.74% dd  15.92% vol  33.04% sharpe  2.63 expo  41.5% tr 41
+trail 0.12  n=6 ret   42.75% dd  18.42% vol  34.40% sharpe  2.33 expo  42.6% tr 45
+trail 0.1   n=4 ret   49.27% dd  13.47% vol  30.22% sharpe  2.91 expo  34.9% tr 38
+trail 0.1   n=5 ret   43.54% dd  16.32% vol  32.18% sharpe  2.50 expo  37.9% tr 44
+trail 0.1   n=6 ret   36.70% dd  19.97% vol  34.11% sharpe  2.09 expo  39.2% tr 48
+trail 0.08  n=4 ret   43.57% dd  15.02% vol  29.89% sharpe  2.67 expo  32.1% tr 40
+trail 0.08  n=5 ret   38.82% dd  17.73% vol  31.69% sharpe  2.32 expo  34.7% tr 46
+trail 0.08  n=6 ret   30.44% dd  19.27% vol  30.63% sharpe  1.98 expo  34.6% tr 50
+saved
