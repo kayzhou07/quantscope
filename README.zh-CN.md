@@ -11,17 +11,6 @@
 | quantlibra | 量衡 QuantLibra | ETF双动量轮动及回测检查，前身为QuantBalance |
 | quantpyxis | 量枢 QuantPyxis | A股中期动量选股、市场状态与仓位预算 |
 
-## 贡献者与 AI 工具致谢
-
-| 名称 | 角色 |
-| --- | --- |
-| [@kayzhou07](https://github.com/kayzhou07) | 项目所有者与维护者 |
-| [@Tang666-0427](https://github.com/Tang666-0427) | 贡献者 |
-| [OpenAI — Codex／ChatGPT](https://github.com/openai) | 源码整理、文档编写及开发辅助工具 |
-| [DeepSeek](https://github.com/deepseek-ai) | 项目研究与报告工作流中的 AI 工具致谢 |
-
-AI 工具列名不表示相应官方团队提交过代码、担任维护者或为项目背书。[贡献说明](CONTRIBUTORS.md)。
-
 ## 本地使用
 
 ```bash
